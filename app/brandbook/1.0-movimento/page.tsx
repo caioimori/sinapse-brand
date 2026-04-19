@@ -67,7 +67,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Big Idea · frases-matriz</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 4 frases. <span className="font-medium">Repetir até ressoar.</span>
               </h2>
             </div>
@@ -91,7 +91,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Arquétipo · 3-axis weighted</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 Magician + Sovereign + Creator.
               </h2>
             </div>
@@ -148,7 +148,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[05] / Valores · 4 não-negociáveis</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 Princípios que filtram cada decisão.
               </h2>
             </div>
@@ -172,7 +172,7 @@ export default function Movimento() {
             <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16">
               <div>
                 <MetaLabel>[06] / ICP</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
                   Quem é o cliente.
                 </h2>
               </div>

@@ -55,7 +55,7 @@ export default function Logo() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Primary lockup</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
                 A marca em escala. <span className="font-medium italic">Vanta sobre Bone.</span>
               </h2>
             </div>
@@ -72,7 +72,7 @@ export default function Logo() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Variants × Editions</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Três formas. <span className="font-medium">Duas edições.</span>
               </h2>
             </div>
@@ -110,7 +110,7 @@ export default function Logo() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Sub-marks</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 AI · CLUB. <span className="font-medium">Mesma DNA, novo sufixo.</span>
               </h2>
             </div>
@@ -137,7 +137,7 @@ export default function Logo() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[04] / Clear space</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Respiração. <span className="font-medium">A altura do símbolo em todos os lados.</span>
               </h2>
             </div>
@@ -181,7 +181,7 @@ export default function Logo() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[05] / Usage rules</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Faça. <span className="font-medium italic">Não faça.</span>
               </h2>
             </div>

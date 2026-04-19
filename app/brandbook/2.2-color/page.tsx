@@ -67,7 +67,7 @@ export default function Color() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Primitives · Gray Scale</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
                 13 steps. <span className="font-medium italic">Um espectro.</span>
               </h2>
             </div>
@@ -98,7 +98,7 @@ export default function Color() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[02] / Semantic Aliases · Bone Edition</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
                 Intenção <span className="font-medium italic">sobre valor.</span>
               </h2>
               <p className="mt-5 font-sans text-base opacity-60 max-w-xl leading-relaxed">
@@ -132,7 +132,7 @@ export default function Color() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[03] / Functional · Status Only</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
                 Fora do brand. <span className="font-medium italic">Sempre.</span>
               </h2>
               <p className="mt-5 font-sans text-base opacity-60 max-w-xl leading-relaxed">
@@ -170,7 +170,7 @@ export default function Color() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Color Rules</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12">
             Non-negotiable.
           </h2>
 

@@ -31,7 +31,7 @@ export default function MotionTokens() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Easings · 3 curves</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Três curvas. <span className="font-medium italic">Nunca mais.</span>
               </h2>
             </div>
@@ -46,7 +46,7 @@ export default function MotionTokens() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Durations · 5 steps</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 150 → 800ms. <span className="font-medium">Cada uma com função.</span>
               </h2>
             </div>
@@ -60,7 +60,7 @@ export default function MotionTokens() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Keyframes · trigger live</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Animations nomeadas. <span className="font-medium">Click pra ver.</span>
               </h2>
             </div>

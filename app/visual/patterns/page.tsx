@@ -56,7 +56,7 @@ export default function Patterns() {
       <section className="border-b border-border bg-muted">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>// USAGE</MetaLabel>
-          <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,2.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[36ch] mb-6">
+          <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[36ch] mb-6">
             Como aplicar
           </h2>
           <pre className="bg-background border border-border p-6 font-mono text-[12px] leading-[1.7] overflow-x-auto rounded-lg">

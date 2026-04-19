@@ -79,7 +79,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Font Families</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
+          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
             Três papéis. <span className="font-medium italic">Zero sobreposição.</span>
           </h2>
 
@@ -127,7 +127,7 @@ export default function Typography() {
       <section className="border-b border-border pattern-dots">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[02] / Type Scale</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
+          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
             Nove níveis. <span className="font-medium italic">Hierarquia clara.</span>
           </h2>
 
@@ -163,7 +163,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[03] / Alphabet · Sora</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12">
             Cada letra. <span className="font-medium italic">Cada glifo.</span>
           </h2>
 
@@ -184,7 +184,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Rules</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12">
             Non-negotiable.
           </h2>
 

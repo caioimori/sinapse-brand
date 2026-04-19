@@ -52,7 +52,7 @@ export default function LPSections() {
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
             <div>
               <MetaLabel>// O QUE VOCÊ GANHA</MetaLabel>
-              <h3 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,2.5rem)] leading-[1.1] tracking-[-0.035em] max-w-[20ch]">
+              <h3 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.1] tracking-[-0.035em] max-w-[20ch]">
                 Tudo incluso. Sem add-ons.
               </h3>
             </div>

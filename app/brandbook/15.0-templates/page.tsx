@@ -32,7 +32,7 @@ export default function Templates() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / HTML Pages · 12 templates</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
                 Estrutura na hora. <span className="font-medium">Copy. Adapt. Use.</span>
               </h2>
             </div>
@@ -66,7 +66,7 @@ export default function Templates() {
             <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-center">
               <div>
                 <MetaLabel>// SUB-LIBRARY</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   12 templates de carrossel Instagram.
                 </h2>
                 <p className="mt-4 font-sans text-base opacity-65 max-w-xl">

@@ -96,7 +96,7 @@ export default function PageSections() {
       <section className="border-b border-border bg-foreground text-background">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="font-mono text-[10px] tracking-[0.25em] opacity-60 mb-6">// TESTIMONIAL</div>
-          <blockquote className="font-display font-light text-[clamp(1.5rem,4vw,3rem)] leading-[1.15] tracking-[-0.025em] max-w-4xl">
+          <blockquote className="font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.15] tracking-[-0.025em] max-w-4xl">
             &ldquo;Reduzi 4 vagas operacionais. Os agentes da SINAPSE fazem tudo que essas pessoas faziam — e ainda escalam à noite.&rdquo;
           </blockquote>
           <div className="mt-8 flex items-center gap-3">
