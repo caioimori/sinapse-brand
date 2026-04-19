@@ -13,17 +13,17 @@ export const metadata: Metadata = {
 };
 
 const SECTIONS = [
-  { id: "6.1", t: "Propósito & Valores", d: "Por que existimos · 4 valores não-negociáveis · MVV.", icon: "✦" },
-  { id: "6.2", t: "Arquétipo", d: "Magician 45% + Sovereign 35% + Creator 20% · 3-axis weighted.", icon: "△" },
-  { id: "6.3", t: "Posicionamento", d: "Categoria · audience-of-one · contraste competitivo.", icon: "⌖" },
-  { id: "6.4", t: "BrandScript", d: "StoryBrand framework · hero · problem · plan · CTA.", icon: "▶" },
-  { id: "6.5", t: "Truelines", d: "Frases-matriz · DNA verbal · repetir até ressoar.", icon: "// " },
-  { id: "6.6", t: "Naming", d: "Convenção produtos · sub-marcas · arquitetura nominal.", icon: "[ ]" },
-  { id: "6.7", t: "Vocabulário", d: "Allow words · block words · power words · termos do setor.", icon: "✓✕" },
-  { id: "6.8", t: "Traits da Voz", d: "5 dimensões bipolares · Formal↔Informal · Sério↔Divertido · etc.", icon: "≋" },
-  { id: "6.9", t: "Jornada do Herói", d: "Cliente como herói · 5 fases · depoimentos reais por fase.", icon: "→" },
-  { id: "6.10", t: "Contrato Bilateral", d: "Promessas SINAPSE + exigências do cliente · juramento 1ª pessoa.", icon: "⊕" },
-  { id: "6.11", t: "Os Fundadores", d: "Caio Imori · Matheus Soier · narrativa pessoal e técnica.", icon: "◐" },
+  { id: "6.1", t: "Propósito & Valores", d: "Por que existimos · 4 valores não-negociáveis · MVV.", icon: "✦", body: "SINAPSE existe pra transformar quem opera em quem escala. Valores: restrição como identidade, operação sobre hype, framework sobre tutorial, comunidade sobre audiência passiva. MVV alinhada em maio/2026." },
+  { id: "6.2", t: "Arquétipo", d: "Magician 45% + Sovereign 35% + Creator 20% · 3-axis weighted.", icon: "△", body: "Magician (transformação) lidera — entrega visível do invisível. Sovereign (autoridade) modera — comando sem berrar. Creator (ofício) sustenta — produto é feito, não improvisado." },
+  { id: "6.3", t: "Posicionamento", d: "Categoria · audience-of-one · contraste competitivo.", icon: "⌖", body: "Categoria: operação assistida por IA (não curso, não agência). Audiência: empresário com casca, já rodou, cansou de guru. Contra: substituir processo sem entender operação existente." },
+  { id: "6.4", t: "BrandScript", d: "StoryBrand framework · hero · problem · plan · CTA.", icon: "▶", body: "Herói: empresário que opera todo dia. Problema: IA comoditizou o técnico, mas a operação continua artesanal. Guia: SINAPSE. Plano: diagnóstico → hub → sistema. Ação: aplicar pra cohort ou entrar no forum." },
+  { id: "6.5", t: "Truelines", d: "Frases-matriz · DNA verbal · repetir até ressoar.", icon: "//", body: "\"A IA não é o herói. O sistema é.\" · \"Framework, não tutorial.\" · \"Operação executada, não palco.\" · \"Rick Rubin da operação do cliente.\" — repetir em todo ponto de contato." },
+  { id: "6.6", t: "Naming", d: "Convenção produtos · sub-marcas · arquitetura nominal.", icon: "[]", body: "SINAPSE (master) · SINAPSE-AI (framework técnico) · sinapse.club (forum) · SINAPSE Mentorias (educação) · SINAPSE Hub [nome-cliente] (implementação). Prefixo SINAPSE sempre, sufixo descritivo." },
+  { id: "6.7", t: "Vocabulário", d: "Allow words · block words · power words · termos do setor.", icon: "✓✕", body: "ALLOW: sistema, operação, framework, doutrina, hub, cohort, comunidade. BLOCK: guru, hack, fórmula, copia-e-cola, genialidade. POWER: \"escalar sem escalar time\", \"operação assistida\", \"fonte da verdade\"." },
+  { id: "6.8", t: "Traits da Voz", d: "5 dimensões bipolares · Formal↔Informal · Sério↔Divertido · etc.", icon: "≋", body: "Formal 70/30 · Sério 80/20 · Direto 90/10 · Técnico 60/40 · Pessoal 40/60. Autoridade calma, sem formalismo corporativo. Rick Rubin, não Jordan Belfort." },
+  { id: "6.9", t: "Jornada do Herói", d: "Cliente como herói · 5 fases · depoimentos reais por fase.", icon: "→", body: "1. Reconhece o gargalo · 2. Descobre SINAPSE (forum/mentoria/conteúdo) · 3. Diagnostica com o time · 4. Implementa hub · 5. Opera autonomamente. Depoimento por fase = prova social escalonada." },
+  { id: "6.10", t: "Contrato Bilateral", d: "Promessas SINAPSE + exigências do cliente · juramento 1ª pessoa.", icon: "⊕", body: "SINAPSE promete: diagnóstico honesto, sistema versionado, entrega em cohort. Cliente promete: processos documentados, time aberto, meta clara. Quebra de um lado = encerra o contrato, sem ressentimento." },
+  { id: "6.11", t: "Os Fundadores", d: "Caio Imori · Matheus Soier · narrativa pessoal e técnica.", icon: "◐", body: "Caio Imori (arquiteto estratégico, ex-Módulo) + Matheus Soier (sócio operacional). Construído por quem opera todo dia — não investidor, não acadêmico. Vida real, não pitch deck." },
 ];
 
 export default function Estrategia() {
@@ -93,9 +93,9 @@ export default function Estrategia() {
                 <h3 className="font-display font-light text-[clamp(1.5rem,4vw,2.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   {s.t}
                 </h3>
-                <p className="mt-4 font-sans text-base md:text-lg opacity-75 leading-relaxed">{s.d}</p>
-                <p className="mt-5 font-sans text-sm opacity-50 italic leading-relaxed">
-                  Conteúdo profundo em desenvolvimento — capítulo será iterado conforme a estratégia matura com Soier nas próximas semanas.
+                <p className="mt-4 font-sans text-base md:text-lg opacity-80 leading-relaxed">{s.d}</p>
+                <p className="mt-5 font-sans text-base md:text-lg opacity-65 leading-relaxed">
+                  {s.body}
                 </p>
               </article>
             ))}
