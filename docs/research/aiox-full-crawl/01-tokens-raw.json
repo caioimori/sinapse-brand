@@ -1,0 +1,164 @@
+{
+  "source": "https://brand.aioxsquad.ai/ — computed on :root",
+  "crawl_date": "2026-04-18",
+  "token_count": 53,
+  "critical_findings": {
+    "fonts": {
+      "display": "TASA Orbiter Display (Pangram Pangram)",
+      "display_source": "https://fonts.cdnfonts.com/css/tasa-orbiter-display",
+      "body": "ui-sans-serif system stack (provavelmente Geist ou Inter via Next font optimization)",
+      "font_files": [
+        "_next/static/media/27834908180db20f-s.p.woff2",
+        "_next/static/media/78fec81b34c4a365.p.woff2"
+      ]
+    },
+    "h1_specs": {
+      "font": "TASAOrbiterDisplay",
+      "size": "74.32px",
+      "weight": 700,
+      "letterSpacing": "-3.716px (tight)",
+      "lineHeight": "78.036px"
+    },
+    "background_philosophy": {
+      "background": "oklch(11.49% 0 0) ≈ #1A1A1A (dark cockpit, não preto puro)",
+      "bg_void": "oklch(0% 0 0) ≈ #000 (reservado pra void spaces)",
+      "foreground": "oklch(99.52% .0235 106.82) ≈ cream warm (não branco puro)"
+    },
+    "accent_palette": {
+      "primary_lime": "oklch(93.4% .2264 121.95) ≈ #D1FF00",
+      "primary_foreground": "oklch(11.49% 0 0) — texto em lime é dark",
+      "accent_alpha_10": "#d1ff001a",
+      "accent_alpha_25": "#d1ff0033 (border-strong)",
+      "accent_alpha_50": "#d1ff0080 (ring)",
+      "flare_orange": "oklch(63.1% .2116 36.21)",
+      "blue": "oklch(66.9% .1837 248.81)",
+      "destructive": "oklch(34.35% .1391 27.1)"
+    },
+    "cream_palette": {
+      "cream": "oklch(96.39% .0158 106.69)",
+      "cream_alt": "oklch(96.44% .0172 103.15)"
+    },
+    "gray_scale": {
+      "charcoal": "oklch(36% 0 0)",
+      "dim": "oklch(52.08% 0 0)",
+      "muted": "oklch(68.3% 0 0)",
+      "silver": "oklch(79.84% 0 0)",
+      "light": "oklch(81.41% 0 0)"
+    },
+    "radius_scale": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "12px",
+      "xl": "16px",
+      "2xl": "24px",
+      "full": "9999px",
+      "default": "0.5rem (8px)"
+    },
+    "layer_z_stack": {
+      "base": 0,
+      "elevated": 1,
+      "sticky": 10,
+      "nav": 100,
+      "dropdown": 200,
+      "overlay": 300,
+      "modal": 400,
+      "toast": 500
+    },
+    "glass": {
+      "blur": "10px",
+      "blur_soft": "5px"
+    }
+  },
+  "raw_tokens": {
+    "--accent": "#d1ff001a",
+    "--accent-foreground": "oklch(93.4% .2264 121.95)",
+    "--background": "oklch(11.49% 0 0)",
+    "--bg-void": "oklch(0% 0 0)",
+    "--blue": "oklch(66.9% .1837 248.81)",
+    "--border": "oklch(28.58% .0036 286.17)",
+    "--border-medium": "oklch(32.51% .0703 115.31)",
+    "--border-strong": "#d1ff0033",
+    "--border-subtle": "#d1ff001a",
+    "--card": "oklch(16.93% .0041 285.95)",
+    "--card-foreground": "oklch(99.52% .0235 106.82)",
+    "--card-hover": "oklch(22.17% .0588 283.41)",
+    "--cream": "oklch(96.39% .0158 106.69)",
+    "--cream-alt": "oklch(96.44% .0172 103.15)",
+    "--destructive": "oklch(34.35% .1391 27.1)",
+    "--flare": "oklch(63.1% .2116 36.21)",
+    "--foreground": "oklch(99.52% .0235 106.82)",
+    "--glass-blur": "10px",
+    "--glass-blur-soft": "5px",
+    "--gray-charcoal": "oklch(36% 0 0)",
+    "--gray-dim": "oklch(52.08% 0 0)",
+    "--gray-light": "oklch(81.41% 0 0)",
+    "--gray-muted": "oklch(68.3% 0 0)",
+    "--gray-silver": "oklch(79.84% 0 0)",
+    "--input": "oklch(28.58% .0036 286.17)",
+    "--layer-base": "0",
+    "--layer-dropdown": "200",
+    "--layer-elevated": "1",
+    "--layer-modal": "400",
+    "--layer-nav": "100",
+    "--layer-overlay": "300",
+    "--layer-sticky": "10",
+    "--layer-toast": "500",
+    "--lime-glow": "#d1ff0040",
+    "--lime-glow-soft": "#d1ff001a",
+    "--muted": "oklch(22.77% .0057 285.93)",
+    "--muted-foreground": "oklch(69.27% 0 0)",
+    "--overlay": "#3d3d3d80",
+    "--popover": "oklch(16.93% .0041 285.95)",
+    "--popover-foreground": "oklch(99.52% .0235 106.82)",
+    "--primary": "oklch(93.4% .2264 121.95)",
+    "--primary-foreground": "oklch(11.49% 0 0)",
+    "--radius": ".5rem",
+    "--radius-2xl": "24px",
+    "--radius-full": "9999px",
+    "--radius-lg": "12px",
+    "--radius-md": "8px",
+    "--radius-sm": "4px",
+    "--radius-xl": "16px",
+    "--ring": "#d1ff0080",
+    "--secondary": "oklch(32.51% .0703 115.31)",
+    "--secondary-foreground": "oklch(99.52% .0235 106.82)",
+    "--shadow": "#0003"
+  },
+  "site_architecture_confirmed": {
+    "note": "CORREÇÃO: todas rotas do DESIGN SYSTEM estão sob /brandbook/*, não /design-system/",
+    "brandbook_section": [
+      "/brandbook/guidelines (0.0)",
+      "/brandbook/movimento (1.0 e 6.0 estratégia — mesma URL)",
+      "/brandbook/foundations (2.0)",
+      "/brandbook/logo (3.0)",
+      "/brandbook/icons (4.0)",
+      "/brandbook/moodboard (5.0)"
+    ],
+    "design_system_section": [
+      "/brandbook/components (0.0)",
+      "/brandbook/buttons (1.0)",
+      "/brandbook/cards (2.0)",
+      "/brandbook/forms (3.0)",
+      "/brandbook/feedback (4.0)",
+      "/brandbook/states (5.0)",
+      "/brandbook/tables (6.0)",
+      "/brandbook/lists (7.0)",
+      "/brandbook/charts (8.0)",
+      "/brandbook/sections (9.0)",
+      "/brandbook/advanced (10.0)",
+      "/brandbook/effects (11.0)",
+      "/brandbook/patterns (12.0)",
+      "/brandbook/templates (13.0)",
+      "/brandbook/motion (14.0)",
+      "/brandbook/seo (15.0)",
+      "/brandbook/vfx (16.0)"
+    ],
+    "showcase_section": [
+      "/ (0.0 index)",
+      "/brandbook/editorial (1.0)"
+    ],
+    "4_pilares_declared": ["GUIDELINES", "FOUNDATIONS", "COMPONENTS", "PATTERNS"],
+    "built_with": "AIOX PRO in Florianópolis",
+    "parent_org": "SynkraAI (github.com/SynkraAI/aiox-core)"
+  }
+}

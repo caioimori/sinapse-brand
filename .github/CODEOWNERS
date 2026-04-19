@@ -1,0 +1,12 @@
+# Code Owners — source-of-truth
+# All PRs require approval from an owner before merge.
+
+# Default: all files require maintainer review
+* @caioimori
+
+# Framework and agent configuration
+.sinapse-ai/ @caioimori
+.claude/      @caioimori
+
+# CI/CD and GitHub config
+.github/      @caioimori
