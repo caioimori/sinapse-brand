@@ -62,6 +62,8 @@ export const navigation: NavGroup[] = [
         { label: "Meta", href: "#", category: true },
         { label: "Templates", href: "/brandbook/15.0-templates" },
         { label: "SEO", href: "/visual/seo" },
+        { label: "Accessibility", href: "/accessibility" },
+        { label: "Playground", href: "/playground" },
       ],
       // RIGHT
       [
@@ -90,6 +92,7 @@ export const navigation: NavGroup[] = [
     items: [
       { label: "Index", href: "/brandbook/16.0-showcase" },
       { label: "Editorial", href: "/editorial" },
+      { label: "Social Kit", href: "/social-kit" },
     ],
   },
 ];
@@ -125,6 +128,8 @@ export const footerColumns: FooterColumn[] = [
       { num: "2.0", label: "Effects", href: "/brandbook/11.0-effects" },
       { num: "3.0", label: "Motion", href: "/brandbook/14.0-motion" },
       { num: "4.0", label: "Shaders", href: "/brandbook/13.0-shaders" },
+      { num: "5.0", label: "Accessibility", href: "/accessibility" },
+      { num: "6.0", label: "Playground", href: "/playground" },
     ],
   },
   {
@@ -148,6 +153,7 @@ export const footerColumns: FooterColumn[] = [
       { num: "3.0", label: "Estratégia", href: "/brandbook/6.0-estrategia" },
       { num: "4.0", label: "Editorial", href: "/editorial" },
       { num: "5.0", label: "Token Export", href: "/brandbook/token-export" },
+      { num: "6.0", label: "Social Kit", href: "/social-kit" },
     ],
   },
 ];
