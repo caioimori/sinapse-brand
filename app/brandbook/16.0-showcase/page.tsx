@@ -54,9 +54,9 @@ export default function Showcase() {
                     <span className="font-mono text-[10px] tracking-[0.18em] opacity-50">{c.date}</span>
                   </div>
                   <p className="font-sans text-sm opacity-65 leading-relaxed flex-1">{c.desc}</p>
-                  <a href="#" className="link-cs font-mono text-[10px] tracking-[0.22em] opacity-65 hover:opacity-100 mt-2">
-                    VER CASE →
-                  </a>
+                  <span className="font-mono text-[10px] tracking-[0.22em] opacity-40 mt-2">
+                    CASE · EM BREVE
+                  </span>
                 </div>
               </CornerBrackets>
             ))}

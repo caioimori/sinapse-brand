@@ -14,12 +14,14 @@ export const metadata: Metadata = {
 };
 
 const ASSETS = [
-  { I: Package, label: "Brand Pack", desc: "Logos SVG/PNG/PDF · todas variants · ZIP", size: "12.4 MB", href: "#" },
-  { I: ImageIcon, label: "Logo SVG (Vanta)", desc: "Lockup · Wordmark · Symbol em formato vetorial", size: "84 KB", href: "/brand/logo/vanta/" },
-  { I: ImageIcon, label: "Logo SVG (Bone)", desc: "Variantes claras pra fundo escuro", size: "84 KB", href: "/brand/logo/bone/" },
-  { I: Palette, label: "Tokens JSON", desc: "Design tokens em format Style Dictionary", size: "8 KB", href: "/brandbook/token-export" },
-  { I: FileText, label: "Slides Template", desc: "Apresentação base 16:9 · Keynote / PPTX", size: "3.2 MB", href: "#" },
-  { I: Type, label: "Fonts ZIP", desc: "Sora · Inter · JetBrains Mono — versões offline", size: "5.1 MB", href: "#" },
+  { I: Package, label: "Repo Completo", desc: "Clone o repo inteiro — logos, tokens, componentes, docs", size: "GIT", href: "https://github.com/caioimori/sinapse-brand" },
+  { I: ImageIcon, label: "Logo Vanta · Lockup", desc: "Versão escura — fundo claro · SVG vetorial", size: "SVG", href: "/brand/logo/vanta/sinapse-lockup.svg" },
+  { I: ImageIcon, label: "Logo Bone · Lockup", desc: "Versão clara — fundo escuro · SVG vetorial", size: "SVG", href: "/brand/logo/bone/sinapse-lockup.svg" },
+  { I: ImageIcon, label: "Logo Symbol (ambas)", desc: "Símbolo isolado Vanta + Bone", size: "SVG", href: "/brand/logo/vanta/sinapse-symbol.svg" },
+  { I: Palette, label: "Design Tokens", desc: "CSS vars, JSON, TypeScript export", size: "WEB", href: "/brandbook/token-export" },
+  { I: Type, label: "Fontes · Google Fonts", desc: "Sora · Inter · JetBrains Mono (self-hosted via next/font)", size: "EXT", href: "https://fonts.google.com/?query=sora+inter+jetbrains+mono" },
+  { I: FileText, label: "Pitch Deck", desc: "9 slides 16:9 — ecossistema SINAPSE completo", size: "WEB", href: "/pitch" },
+  { I: Download, label: "Social Kit", desc: "Templates IG · LinkedIn · X · YouTube", size: "WEB", href: "/social-kit" },
 ];
 
 export default function Assets() {
@@ -39,7 +41,13 @@ export default function Assets() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
             {ASSETS.map((a) => (
-              <a key={a.label} href={a.href} className="group/asset block">
+              <a
+                key={a.label}
+                href={a.href}
+                {...(a.href.endsWith(".svg") ? { download: true } : {})}
+                {...(a.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                className="group/asset block"
+              >
                 <CornerBrackets className="bg-background border border-border p-6 md:p-8 flex items-start gap-5 transition-colors duration-base ease-smooth group-hover/asset:bg-foreground group-hover/asset:text-background min-h-[140px]">
                   <div className="shrink-0 w-12 h-12 border border-current rounded-lg flex items-center justify-center">
                     <a.I size={20} strokeWidth={1.6} />

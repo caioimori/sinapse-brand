@@ -60,12 +60,17 @@ export default function Pitch() {
           </div>
 
           <div className="mt-12 flex items-center justify-center gap-4 flex-wrap">
-            <button className="btn-magnetic font-mono text-[11px] tracking-[0.25em] px-6 py-3.5 bg-foreground text-background">
-              ABRIR APRESENTAÇÃO →
-            </button>
-            <a href="#" className="link-cs font-mono text-[11px] tracking-[0.25em] opacity-65 hover:opacity-100">
-              EXPORT PDF
+            <a
+              href="https://github.com/caioimori/sinapse-brand"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-magnetic font-mono text-[11px] tracking-[0.25em] px-6 py-3.5 bg-foreground text-background"
+            >
+              VER NO GITHUB →
             </a>
+            <span className="font-mono text-[11px] tracking-[0.25em] opacity-40">
+              EXPORT PDF · EM BREVE
+            </span>
           </div>
         </Container>
       </section>

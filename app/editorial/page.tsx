@@ -12,11 +12,36 @@ export const metadata: Metadata = {
 };
 
 const CHAPTERS = [
-  { n: "01", t: "O ponto de partida", d: "Onde tudo começou — a insatisfação com o operacional." },
-  { n: "02", t: "A insatisfação", d: "Por que substituir processos é diferente de substituir pessoas." },
-  { n: "03", t: "O movimento", d: "Construindo a alternativa — squads de agentes especializados." },
-  { n: "04", t: "O sistema", d: "Como SINAPSE funciona na prática — stack, integração, onboarding." },
-  { n: "05", t: "O futuro", d: "Roadmap · plataforma · mentorias · expansão regional." },
+  {
+    n: "01",
+    t: "O ponto de partida",
+    d: "IA comoditizou o técnico. Em 2023, qualquer um com GPT-4 conseguia gerar código, copy, imagem. O diferencial deixou de ser saber fazer — virou saber operar.",
+    body: "O empresário que operava bem começou a rodar mais rápido que o técnico que só sabia fazer. E o técnico que só sabia fazer virou commodity. SINAPSE nasceu dessa inversão: não vende IA, vende operação. Não vende ferramenta, vende sistema.",
+  },
+  {
+    n: "02",
+    t: "A insatisfação",
+    d: "Substituir pessoa por IA é preguiça intelectual. Substituir processo ruim por processo bom — com ou sem IA — é o trabalho real.",
+    body: "O mercado virou teatro: cursos de prompt, automações frágeis, agentes genéricos vendidos como milagre. Ninguém fala de operação. Ninguém fala de manter. SINAPSE escolheu o caminho oposto — framework, não tutorial. Doutrina, não hype.",
+  },
+  {
+    n: "03",
+    t: "O movimento",
+    d: "Squads de agentes especializados. Orquestração por domínio. Regras NON-NEGOTIABLE. Tudo versionado, tudo auditável.",
+    body: "Em vez de 1 agente generalista, 20+ orquestradores especializados — brand, copy, design, finance, growth, product. Cada um com persona, rules, dependencies. O sistema emergiu: SINAPSE-AI, o motor que entrega o resto.",
+  },
+  {
+    n: "04",
+    t: "O sistema",
+    d: "3 braços: educação (mentorias + cursos), comunidade (forum sinapse.club), implementação (hubs de IA pra clientes).",
+    body: "A economia fecha: educação entrega contexto, comunidade entrega continuidade, implementação entrega receita. Quem entra por um braço descobre os outros. Compostabilidade em produto, não só em tech.",
+  },
+  {
+    n: "05",
+    t: "O futuro",
+    d: "12 meses: R$ 200k/mês, cohorts cíclicas, forum com 500+ empresários operando em rede, primeiros hubs-cliente com valuation.",
+    body: "SINAPSE não quer ser mais uma startup de IA. Quer ser a infraestrutura invisível por trás de empresários que já operam — a camada que transforma quem faz em quem escala. Rick Rubin da operação.",
+  },
 ];
 
 export default function Editorial() {
@@ -61,9 +86,9 @@ export default function Editorial() {
               <h2 className="font-display font-light text-[clamp(1.75rem,4vw,3rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch]">
                 {c.t}
               </h2>
-              <p className="mt-6 font-sans text-base md:text-lg opacity-75 leading-relaxed">{c.d}</p>
-              <p className="mt-6 font-sans text-base opacity-60 leading-relaxed italic">
-                Conteúdo completo em desenvolvimento — capítulo será iterado conforme manifesto+posicionamento maturarem.
+              <p className="mt-6 font-sans text-base md:text-lg opacity-80 leading-relaxed">{c.d}</p>
+              <p className="mt-6 font-sans text-base md:text-lg opacity-65 leading-relaxed">
+                {c.body}
               </p>
             </article>
           ))}

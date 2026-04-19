@@ -42,7 +42,7 @@ export default function PageSections() {
               <button className="btn-magnetic font-mono text-[11px] tracking-[0.25em] px-6 py-4 bg-foreground text-background border border-foreground">
                 AGENDAR DEMO →
               </button>
-              <Link href="#" className="link-cs font-mono text-[11px] tracking-[0.25em] opacity-65 hover:opacity-100">
+              <Link href="/brandbook/16.0-showcase" className="link-cs font-mono text-[11px] tracking-[0.25em] opacity-65 hover:opacity-100">
                 VER CASES
               </Link>
             </div>
