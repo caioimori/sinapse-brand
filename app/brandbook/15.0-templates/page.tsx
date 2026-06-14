@@ -7,7 +7,7 @@ import { NextSectionAuto } from "@/components/brand/next-section-auto";
 import { PageHeader } from "@/components/brand/page-header";
 import { MetaLabel } from "@/components/brand/meta";
 import { CornerBrackets } from "@/components/brand/corner-brackets";
-import { PAGE_TEMPLATES, PageTemplatePreview } from "./page-templates";
+import { PAGE_TEMPLATES, PageTemplatePreview, FORENSICS_RESOURCES } from "./page-templates";
 
 export const metadata: Metadata = {
   title: "15.0 Templates — SINAPSE Brand",
@@ -81,6 +81,40 @@ export default function Templates() {
               </Link>
             </div>
           </CornerBrackets>
+        </Container>
+      </section>
+
+      {/* BIBLIOTECA FORENSE — adicionado em refactor/brandbook-forensics-integration */}
+      <section className="border-b border-border">
+        <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
+          <div className="mb-8 md:mb-12">
+            <MetaLabel>[02] / Biblioteca Forense · ~30 repos analisados</MetaLabel>
+            <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              Aprendizados reais. <span className="font-medium">8 arquétipos.</span>
+            </h2>
+            <p className="mt-4 font-sans text-base opacity-65 leading-relaxed" style={{ maxWidth: "60ch" }}>
+              Forense de ~30 repos — padrões que funcionam e anti-padrões que causaram retrabalho.
+              Cada arquétipo tem tokens canônicos, starter kit e checklist pré-entrega.
+              Fonte: <span className="font-mono text-[12px]">templates/</span>
+            </p>
+          </div>
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-5">
+            {FORENSICS_RESOURCES.map((r) => (
+              <CornerBrackets key={r.id} className="bg-background border border-border overflow-hidden flex flex-col">
+                <div className="p-4 md:p-5 flex flex-col gap-2 flex-1">
+                  <div className="flex items-center justify-between gap-2">
+                    <MetaLabel>{r.badge}</MetaLabel>
+                    <span className="font-mono text-[9px] tracking-[0.22em] opacity-40">{r.id}</span>
+                  </div>
+                  <h3 className="font-display text-base md:text-lg tracking-tight leading-tight">{r.name}</h3>
+                  <p className="font-sans text-[13px] opacity-55 leading-relaxed flex-1">{r.desc}</p>
+                  <span className="font-mono text-[10px] tracking-[0.18em] opacity-40 mt-auto pt-2 border-t border-border">
+                    {r.path}
+                  </span>
+                </div>
+              </CornerBrackets>
+            ))}
+          </div>
         </Container>
       </section>
 

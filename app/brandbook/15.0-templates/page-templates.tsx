@@ -3,6 +3,96 @@
  * Cada um mostra a estrutura tipo wireframe denso.
  */
 
+/**
+ * Biblioteca Forense — recursos derivados da análise de ~30 repos reais.
+ * Adicionado em: refactor/brandbook-forensics-integration
+ * Fonte: templates/boas-praticas-interfaces.md + templates/catalogo/ + templates/starters/ + templates/biblioteca/
+ */
+export const FORENSICS_RESOURCES = [
+  {
+    id: "F.01",
+    kind: "doc",
+    name: "Boas Práticas de Interfaces",
+    desc: "Doc-mestre: princípios gerais, anti-padrões por arquétipo, checklist pré-entrega. Derivado de ~30 repos reais.",
+    path: "templates/boas-praticas-interfaces.md",
+    badge: "DOC",
+  },
+  {
+    id: "F.02",
+    kind: "tokens",
+    name: "tokens.json Canônico (DTCG)",
+    desc: "Fonte da verdade machine-readable. Paleta B&W bone/vanta, tipografia fluida, motion, radius, identity layer.",
+    path: "tokens.json",
+    badge: "JSON",
+  },
+  {
+    id: "F.03",
+    kind: "archetype",
+    name: "Dashboard / SaaS App",
+    desc: "AppShell 240px + Topbar 56px + MetricCard sem dead-zone + StatusPill data-driven + multi-brand [data-brand].",
+    path: "templates/catalogo/saas-app/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.04",
+    kind: "archetype",
+    name: "Site Institucional",
+    desc: "Atomic design, route-groups, SEO/GEO first-class, SectionTitle clamp(), buttonStyles.ts como fonte única.",
+    path: "templates/catalogo/design-system/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.05",
+    kind: "archetype",
+    name: "Landing Page",
+    desc: "14 blocos lp-* modulares, nav scroll-spy, CtaPill variant, PlanCard invertido, FAQ zero-JS <details>.",
+    path: "templates/catalogo/landing-page/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.06",
+    kind: "archetype",
+    name: "E-commerce (storefront + admin)",
+    desc: "PLP/PDP/cart/busca/conta/admin, tokenização 2 camadas re-skinável, SEO/GEO, swatches por gradiente.",
+    path: "templates/catalogo/ecommerce/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.07",
+    kind: "archetype",
+    name: "Link-bio Mobile",
+    desc: "Coluna única max-w-[430px], banner full-bleed grayscale, LinkButton componente, lead-tracking UTM+n8n.",
+    path: "templates/catalogo/link-bio/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.08",
+    kind: "archetype",
+    name: "Proposta / Deck Interativo",
+    desc: "DS local ~12 tokens, tipografia 100% clamp(), reveal.js disableLayout, kit: pricing-card, flow-canvas, stat/kpi.",
+    path: "templates/catalogo/proposta/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.09",
+    kind: "archetype",
+    name: "Guia / Documentação B&W",
+    desc: "HTML single-file, tokens :root inline, grain SVG inline, crosshair, Sora/Inter/JetBrains, hero assimétrico.",
+    path: "templates/catalogo/guia/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+  {
+    id: "F.10",
+    kind: "archetype",
+    name: "Canvas / Diagrama Interativo",
+    desc: "Render NODES[]/EDGES[], pan translate3d, zoom focal, fitToScreen por bbox real, minimap sincronizado.",
+    path: "templates/catalogo/canvas/tokens.json",
+    badge: "ARQUÉTIPO",
+  },
+] as const;
+
+export type ForensicsResource = typeof FORENSICS_RESOURCES[number];
+
 export const PAGE_TEMPLATES = [
   { id: "15.1", name: "Hero · Centered SaaS", aspect: "16/10", kind: "hero-centered" },
   { id: "15.2", name: "Hero · Split asymmetric", aspect: "16/10", kind: "hero-split" },
