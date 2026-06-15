@@ -1,0 +1,37 @@
+/* GRAIN SVG inline data-uri (feTurbulence) ~5-6% — sempre ativo (rule 03/11) */
+body::before {
+  content: "";
+  position: fixed; inset: 0;
+  z-index: 9999; pointer-events: none;
+  opacity: 0.055;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='200' height='200'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='3'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grainShift 8s steps(10) infinite;
+}
+
+/* CROSSHAIR CSS-only (rule 11) */
+.crosshair { position: relative; }
+.crosshair::before, .crosshair::after {
+  content: ""; position: absolute;
+  background: var(--border-strong);
+}
+.crosshair::before { top: 50%; left: -6px; width: 12px; height: 1px; }
+.crosshair::after  { left: 50%; top: -6px; width: 1px; height: 12px; }
+
+/* FRAME de bordas verticais (chassi de documento) */
+.frame {
+  border-left: 1px solid var(--border);
+  border-right: 1px solid var(--border);
+}
+
+/* PATTERNS — grid/dots/crosshair/plus/rings/circuit */
+.pattern-grid {
+  background-image:
+    linear-gradient(var(--subtle) 1px, transparent 1px),
+    linear-gradient(90deg, var(--subtle) 1px, transparent 1px);
+  background-size: 64px 64px;
+}
+.pattern-dots {
+  background-image: radial-gradient(var(--subtle) 1px, transparent 1px);
+  background-size: 24px 24px;
+}

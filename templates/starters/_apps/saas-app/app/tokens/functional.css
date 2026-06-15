@@ -1,0 +1,11 @@
+/*
+ * TOKENS FUNCIONAIS — isolados, fora do brand B&W.
+ * Fonte da verdade: tokens.json > color.semantic.functional
+ * NUNCA usar como accent decorativo (rule 01).
+ *
+ * Para ativar: consulte tokens.json e adicione manualmente em globals.css:
+ *   --destructive: <valor de color.semantic.functional.destructive>;
+ *   --success:     <valor de color.semantic.functional.success>;
+ *
+ * Uso exclusivo: estados de erro/sucesso em UI funcional (forms, alerts, badges).
+ */

@@ -1,0 +1,15 @@
+{
+  "name": "@sinapse/brand-tokens",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.css",
+    "./tokens": "./src/tokens.css",
+    "./motion": "./src/motion.css",
+    "./identity": "./src/identity.css"
+  },
+  "files": ["src", "doc"],
+  "peerDependencies": {
+    "tailwindcss": "^4.1.0"
+  }
+}

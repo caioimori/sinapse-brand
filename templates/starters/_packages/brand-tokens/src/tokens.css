@@ -1,0 +1,78 @@
+/* ─────────────────────────────────────────────────────────────
+   PRIMITIVOS — grayscale 13-step. Diferenciação por INTENSIDADE,
+   nunca por hue. REGRA 02: preto mínimo #0A0A0A, NUNCA #000 puro.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --gray-0:  #FAFAF7;  /* off-white card */
+  --gray-1:  #F5F5F0;  /* bone — fg sobre dark / bg light */
+  --gray-2:  #EFEFEB;
+  --gray-3:  #EBEBE5;
+  --gray-4:  #D4D4CE;
+  --gray-5:  #999992;
+  --gray-6:  #5C5C58;
+  --gray-7:  #2E2E2B;
+  --gray-8:  #1F1F1F;  /* surface-3 */
+  --gray-9:  #1A1A1A;  /* surface-2 */
+  --gray-10: #141414;  /* card vanta */
+  --gray-11: #0A0A0A;  /* vanta — preto mínimo */
+
+  /*
+   * FUNCIONAIS isolados — NUNCA como accent decorativo (rule 01).
+   * Valores canônicos em tokens.json > color.semantic.functional.
+   * Adicione manualmente em globals.css do projeto quando necessário:
+   *   --destructive: <tokens.json:color.semantic.functional.destructive>;
+   *   --success:     <tokens.json:color.semantic.functional.success>;
+   */
+
+  /* RADIUS canônico */
+  --radius-sm:   6px;
+  --radius-md:   8px;   /* inputs */
+  --radius-lg:   10px;  /* buttons — base */
+  --radius-xl:   16px;  /* cards */
+  --radius-2xl:  20px;  /* modais */
+  --radius-pill: 9999px;
+
+  /* CONTAINER fluido — NUNCA max-w-7xl hardcoded */
+  --container-narrow:  min(92vw, 1024px);
+  --container-default: min(92vw, 1440px);
+  --container-wide:    min(92vw, 1680px);
+  --container-pad: clamp(1.5rem, 4vw, 5rem);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   TEMA BONE (light-first) — default. Para guias/LP/brandbook.
+   ───────────────────────────────────────────────────────────── */
+:root,
+[data-theme="bone"] {
+  --background:     var(--gray-1);   /* #F5F5F0 */
+  --foreground:     var(--gray-11);  /* #0A0A0A */
+  --card:           var(--gray-0);   /* #FAFAF7 */
+  --muted:          var(--gray-2);   /* #EFEFEB */
+  --surface-2:      var(--gray-3);
+
+  --border:         rgba(10, 10, 10, 0.10);
+  --border-strong:  rgba(10, 10, 10, 0.20);
+  --input:          rgba(10, 10, 10, 0.14);
+  --ring:           rgba(10, 10, 10, 0.30);
+  --muted-fg:       rgba(10, 10, 10, 0.55);
+  --subtle:         rgba(10, 10, 10, 0.08);
+}
+
+/* ─────────────────────────────────────────────────────────────
+   TEMA VANTA (dark-first) — default p/ SaaS app/dashboard.
+   MESMO token-set, invertido.
+   ───────────────────────────────────────────────────────────── */
+[data-theme="vanta"] {
+  --background:     var(--gray-11);  /* #0A0A0A */
+  --foreground:     var(--gray-1);   /* #F5F5F0 */
+  --card:           var(--gray-10);  /* #141414 */
+  --muted:          var(--gray-9);   /* #1A1A1A */
+  --surface-2:      var(--gray-8);   /* #1F1F1F */
+
+  --border:         rgba(245, 245, 240, 0.10);
+  --border-strong:  rgba(245, 245, 240, 0.20);
+  --input:          rgba(245, 245, 240, 0.14);
+  --ring:           rgba(245, 245, 240, 0.30);
+  --muted-fg:       rgba(245, 245, 240, 0.55);
+  --subtle:         rgba(245, 245, 240, 0.08);
+}
