@@ -86,7 +86,6 @@ const config: Config = {
         "draw-line": "drawLine 1.2s cubic-bezier(0.4,0,0.2,1) both",
         "marquee-x": "marqueeX 45s linear infinite",
         "marquee-x-reverse": "marqueeXReverse 45s linear infinite",
-        "shimmer": "shimmer 2s linear infinite",
         "scan-y": "scanY 4s linear infinite",
         "ring-pulse": "ringPulse 2.4s cubic-bezier(0.16,1,0.3,1) infinite",
       },
@@ -110,10 +109,6 @@ const config: Config = {
         marqueeXReverse: {
           "0%": { transform: "translateX(-50%)" },
           "100%": { transform: "translateX(0)" },
-        },
-        shimmer: {
-          "0%": { backgroundPosition: "150% center" },
-          "100%": { backgroundPosition: "-50% center" },
         },
         scanY: {
           "0%": { transform: "translateY(-100%)" },

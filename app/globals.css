@@ -97,9 +97,9 @@
     --muted-foreground: rgba(245, 245, 240, 0.45);
     --accent: rgba(245, 245, 240, 0.08);
     --accent-foreground: #F5F5F0;
-    --border: rgba(255, 255, 255, 0.1);
-    --input: rgba(255, 255, 255, 0.14);
-    --ring: rgba(255, 255, 255, 0.3);
+    --border: rgba(245, 245, 240, 0.1);
+    --input: rgba(245, 245, 240, 0.14);
+    --ring: rgba(245, 245, 240, 0.3);
   }
 
   * { border-color: var(--border); }
@@ -723,11 +723,11 @@
   50% { opacity: 0; }
 }
 
-/* Skeleton shimmer (DaisyUI) */
-/* TODO forense: @keyframes shimmer está definido APENAS em tailwind.config.ts (linhas 114-117).
-   Esta classe depende desse keyframe Tailwind — acoplamento oculto CSS×Tailwind.
-   Risco: se o tailwind.config mudar, o skeleton quebra silenciosamente.
-   Fix futuro: extrair @keyframes shimmer para cá (CSS) e remover do tailwind.config. */
+/* Skeleton shimmer (DaisyUI) — keyframe vive aqui, junto da classe (fonte única) */
+@keyframes shimmer {
+  0%   { background-position: 150% center; }
+  100% { background-position: -50% center; }
+}
 .skeleton {
   background: linear-gradient(90deg, var(--muted) 0%, var(--accent) 50%, var(--muted) 100%);
   background-size: 200% 100%;

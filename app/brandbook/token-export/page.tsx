@@ -52,8 +52,8 @@ const BONE_CSS = `/* SINAPSE Brand — Bone Edition (Light) */
 
     /* Motion */
     --ease-spring: cubic-bezier(0.34, 1.56, 0.64, 1);
-    --ease-smooth: cubic-bezier(0.25, 0.1, 0.25, 1);
-    --ease-decel: cubic-bezier(0, 0, 0.2, 1);
+    --ease-smooth: cubic-bezier(0.16, 1, 0.3, 1);
+    --ease-decel: cubic-bezier(0.16, 1, 0.3, 1);
 
     /* Durations */
     --dur-fast: 150ms;
