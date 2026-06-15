@@ -1,0 +1,47 @@
+@import "tailwindcss";
+@import "./tokens.css";
+@import "./motion.css";
+@import "./identity.css";
+
+@theme inline {
+  /* COR — só referencia var(), zero hex */
+  --color-background:    var(--background);
+  --color-foreground:    var(--foreground);
+  --color-card:          var(--card);
+  --color-muted:         var(--muted);
+  --color-muted-fg:      var(--muted-fg);
+  --color-border:        var(--border);
+  --color-ring:          var(--ring);
+  /* --color-destructive e --color-success: adicione ao globals.css do projeto
+     quando ativar os tokens funcionais. Ver tokens.json > color.semantic.functional. */
+
+  /* TIPOGRAFIA — 3 famílias canônicas (rule 04) */
+  --font-display: var(--font-sora), "Sora", system-ui, sans-serif;
+  --font-sans:    var(--font-inter), "Inter", system-ui, sans-serif;
+  --font-mono:    var(--font-jetbrains), "JetBrains Mono", monospace;
+
+  /* ESCALA FLUIDA — PULA a dead-zone 32-48px por construção (rule 05).
+     Modelo colegio-modulo: h2 salta direto pra h1, nunca cai em 32-48px. */
+  --text-eyebrow: 0.6875rem;                          /* 11px */
+  --text-meta:    0.625rem;                            /* 10px */
+  --text-body:    0.9375rem;                           /* 15px */
+  --text-h3:      clamp(1.25rem, 2vw, 1.625rem);       /* 20-26px */
+  --text-h2:      clamp(1.75rem, 4.5vw, 3.25rem);      /* 28-52px (escapa dead-zone no topo) */
+  --text-h1:      clamp(3.25rem, 7vw, 5.5rem);         /* 52-88px */
+  --text-display: clamp(3.75rem, 11vw, 11rem);         /* 60-176px */
+
+  /* RADIUS / MOTION bridge */
+  --radius:        var(--radius-lg);
+  --ease-smooth:   var(--ease-smooth);
+  --ease-apple:    var(--ease-apple);
+}
+
+/* Eyebrow mono assinatura — prefixo // */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: var(--text-eyebrow);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--muted-fg);
+}
+.eyebrow::before { content: "// "; opacity: 0.5; }

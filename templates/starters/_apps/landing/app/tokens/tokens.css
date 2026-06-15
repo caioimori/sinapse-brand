@@ -1,0 +1,73 @@
+/* ─────────────────────────────────────────────────────────────
+   PRIMITIVOS — grayscale 13-step. Diferenciação por INTENSIDADE,
+   nunca por hue. REGRA 02: preto mínimo #0A0A0A, NUNCA #000 puro.
+   ───────────────────────────────────────────────────────────── */
+:root {
+  --gray-0:  #FAFAF7;
+  --gray-1:  #F5F5F0;
+  --gray-2:  #EFEFEB;
+  --gray-3:  #EBEBE5;
+  --gray-4:  #D4D4CE;
+  --gray-5:  #999992;
+  --gray-6:  #5C5C58;
+  --gray-7:  #2E2E2B;
+  --gray-8:  #1F1F1F;
+  --gray-9:  #1A1A1A;
+  --gray-10: #141414;
+  --gray-11: #0A0A0A;
+
+  /*
+   * TOKENS FUNCIONAIS ISOLADOS (rule 01 — NUNCA como accent decorativo)
+   * Valores canônicos definidos em tokens.json > color.semantic.functional
+   * --destructive: #FF3A2D  (erro/perigo)
+   * --success:     #00C853  (confirmação)
+   * Copie as linhas abaixo em globals.css somente se necessário para o projeto:
+   */
+  /* --destructive: #FF3A2D; */
+  /* --success:     #00C853; */
+
+  /* RADIUS canônico */
+  --radius-sm:   6px;
+  --radius-md:   8px;
+  --radius-lg:   10px;
+  --radius-xl:   16px;
+  --radius-2xl:  20px;
+  --radius-pill: 9999px;
+
+  /* CONTAINER fluido — NUNCA max-w-7xl hardcoded */
+  --container-narrow:  min(92vw, 1024px);
+  --container-default: min(92vw, 1440px);
+  --container-wide:    min(92vw, 1680px);
+  --container-pad: clamp(1.5rem, 4vw, 5rem);
+}
+
+:root,
+[data-theme="bone"] {
+  --background:     var(--gray-1);
+  --foreground:     var(--gray-11);
+  --card:           var(--gray-0);
+  --muted:          var(--gray-2);
+  --surface-2:      var(--gray-3);
+
+  --border:         rgba(10, 10, 10, 0.10);
+  --border-strong:  rgba(10, 10, 10, 0.20);
+  --input:          rgba(10, 10, 10, 0.14);
+  --ring:           rgba(10, 10, 10, 0.30);
+  --muted-fg:       rgba(10, 10, 10, 0.55);
+  --subtle:         rgba(10, 10, 10, 0.08);
+}
+
+[data-theme="vanta"] {
+  --background:     var(--gray-11);
+  --foreground:     var(--gray-1);
+  --card:           var(--gray-10);
+  --muted:          var(--gray-9);
+  --surface-2:      var(--gray-8);
+
+  --border:         rgba(245, 245, 240, 0.10);
+  --border-strong:  rgba(245, 245, 240, 0.20);
+  --input:          rgba(245, 245, 240, 0.14);
+  --ring:           rgba(245, 245, 240, 0.30);
+  --muted-fg:       rgba(245, 245, 240, 0.55);
+  --subtle:         rgba(245, 245, 240, 0.08);
+}
