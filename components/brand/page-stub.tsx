@@ -35,12 +35,12 @@ export function PageStub({ number, section, title, subtitle, next, status = "stu
               </span>
             </div>
 
-            <h2 className="font-display font-light text-[clamp(2rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-4xl">
+            <h2 className="font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[22ch] text-balance">
               {title}{" "}
               <span className="opacity-40">— em construção.</span>
             </h2>
 
-            <p className="mt-8 font-sans text-base md:text-lg opacity-65 leading-relaxed max-w-2xl">
+            <p className="mt-8 font-sans text-base md:text-lg opacity-65 leading-relaxed max-w-[60ch]">
               Esta seção faz parte da arquitetura decimal SINAPSE (mirror aiox squad).
               O scaffolding está pronto · navegação ativa · conteúdo visual em iteração futura.
             </p>

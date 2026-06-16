@@ -49,7 +49,7 @@ export default function Movimento() {
       <section className="border-b border-border bg-card">
         <Container size="narrow" className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Manifesto</MetaLabel>
-          <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,5vw,3.5rem)] leading-[1.05] tracking-[-0.04em] max-w-[24ch]">
+          <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.04em] max-w-[24ch]">
             <span className="auto-highlight">SINAPSE existe</span> pra resolver uma dor específica.
           </h2>
           <div className="mt-8 space-y-5 font-sans text-base md:text-lg leading-relaxed opacity-80 max-w-2xl">
@@ -67,7 +67,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Big Idea · frases-matriz</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 4 frases. <span className="font-medium">Repetir até ressoar.</span>
               </h2>
             </div>
@@ -76,7 +76,7 @@ export default function Movimento() {
             {BIG_IDEA_FRASES.map((f, i) => (
               <div key={i} className="bg-background p-8 md:p-10 lg:p-14 min-h-[220px] flex flex-col justify-between gap-4">
                 <MetaLabel>0{i + 1} · {i === 0 ? "Doutrina" : i === 1 ? "Princípio" : i === 2 ? "Modus" : "Promessa"}</MetaLabel>
-                <blockquote className="font-display font-light text-[clamp(1.5rem,3.5vw,2.5rem)] leading-[1.1] tracking-[-0.03em] max-w-[20ch]">
+                <blockquote className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.1] tracking-[-0.03em] max-w-[20ch]">
                   &ldquo;{f}&rdquo;
                 </blockquote>
               </div>
@@ -91,7 +91,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Arquétipo · 3-axis weighted</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 Magician + Sovereign + Creator.
               </h2>
             </div>
@@ -120,7 +120,7 @@ export default function Movimento() {
           <div className="grid md:grid-cols-[1fr,1fr] gap-10 md:gap-16 items-center">
             <div>
               <MetaLabel>[04] / Persona-mentor</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em]">
                 Rick Rubin.
               </h2>
               <p className="mt-5 font-sans text-base md:text-lg opacity-75 leading-relaxed max-w-md">
@@ -148,7 +148,7 @@ export default function Movimento() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[05] / Valores · 4 não-negociáveis</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 Princípios que filtram cada decisão.
               </h2>
             </div>
@@ -172,7 +172,7 @@ export default function Movimento() {
             <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16">
               <div>
                 <MetaLabel>[06] / ICP</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em]">
                   Quem é o cliente.
                 </h2>
               </div>

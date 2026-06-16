@@ -51,13 +51,13 @@ export function SectionHeader({
 }) {
   return (
     <div className="flex items-end justify-between gap-6 flex-wrap">
-      <div className="max-w-3xl">
+      <div className="w-full max-w-[48ch]">
         <MetaLabel>{meta}</MetaLabel>
-        <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1] tracking-[-0.035em] max-w-[22ch]">
+        <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] max-w-[22ch] text-balance">
           {title}{" "}
           {emphasis && <span className="font-medium italic">{emphasis}</span>}
         </h2>
-        {desc && <p className="mt-5 font-sans text-base md:text-lg leading-relaxed opacity-60 max-w-xl">{desc}</p>}
+        {desc && <p className="mt-5 font-sans text-base md:text-lg leading-relaxed opacity-60 max-w-[52ch]">{desc}</p>}
       </div>
       {aside}
     </div>

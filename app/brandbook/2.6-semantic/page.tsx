@@ -73,7 +73,7 @@ export default function Semantic() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Semantic Tokens</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Onze aliases. <span className="font-medium">Auto-switch theme.</span>
               </h2>
             </div>
@@ -93,7 +93,7 @@ export default function Semantic() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / shadcn/ui mapping</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 shadcn → SINAPSE. <span className="font-medium">Drop-in.</span>
               </h2>
             </div>
@@ -130,7 +130,7 @@ export default function Semantic() {
             <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-end">
               <div>
                 <MetaLabel>[03] / Quick start</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   Copia. Cola. <span className="font-medium italic">Acabou.</span>
                 </h2>
                 <p className="mt-5 font-sans text-base opacity-65 max-w-xl leading-relaxed">

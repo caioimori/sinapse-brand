@@ -28,19 +28,19 @@ export function PageHeader({
       <div className="absolute inset-0 pattern-grid opacity-50 z-0" />
       <Container className="relative z-10 py-16 md:py-24 lg:py-28">
         <div className="flex items-start justify-between gap-6 flex-wrap">
-          <div className="max-w-3xl">
+          <div className="w-full max-w-[48ch]">
             <div className="flex items-center gap-3">
               <span className="status-dot" />
               <MetaLabel>
                 [{number}] / {section}
               </MetaLabel>
             </div>
-            <h1 className="mt-5 font-display font-light text-[clamp(2.25rem,6vw,5rem)] leading-[0.92] tracking-[-0.045em] max-w-[16ch]">
+            <h1 className="mt-5 font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[0.92] tracking-[-0.045em] max-w-[16ch] text-balance">
               {title}{" "}
               {emphasis && <span className="font-medium italic">{emphasis}</span>}
             </h1>
             {subtitle && (
-              <p className="mt-6 font-sans text-base md:text-lg leading-relaxed opacity-65 max-w-xl">
+              <p className="mt-6 font-sans text-base md:text-lg leading-relaxed opacity-65 max-w-[52ch]">
                 {subtitle}
               </p>
             )}

@@ -76,10 +76,10 @@ export default function BusinessAnimations() {
             <div className="grid md:grid-cols-[1fr,1fr] gap-10 md:gap-16 items-center">
               <div>
                 <MetaLabel>// FEATURED</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[18ch]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] max-w-[18ch]">
                   O ecossistema <span className="font-medium italic">em movimento.</span>
                 </h2>
-                <p className="mt-5 font-sans text-base md:text-lg opacity-65 leading-relaxed max-w-md">
+                <p className="mt-5 font-sans text-base md:text-lg opacity-65 leading-relaxed max-w-[55ch]">
                   Toda ferramenta que SINAPSE usa orbitando o core. Animation 24s ciclo completo.
                 </p>
               </div>

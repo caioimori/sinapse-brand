@@ -32,14 +32,14 @@ export default function ColorContext() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">
             <div className="bg-[#F5F5F0] text-[#0A0A0A] p-8 md:p-12 min-h-[320px] flex flex-col gap-4">
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// BONE</div>
-              <h3 className="font-display font-light text-3xl md:text-5xl tracking-tight leading-[0.95]">Headline primária 100%</h3>
+              <h3 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
               <p className="font-sans text-base opacity-70">Subtitle 70% — segundo nível de leitura.</p>
               <p className="font-sans text-sm opacity-50">Body 50% — texto de apoio.</p>
               <p className="font-mono text-[11px] opacity-30 mt-auto">Caption 30% — meta info</p>
             </div>
             <div className="bg-[#0A0A0A] text-[#F5F5F0] p-8 md:p-12 min-h-[320px] flex flex-col gap-4">
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// VANTA</div>
-              <h3 className="font-display font-light text-3xl md:text-5xl tracking-tight leading-[0.95]">Headline primária 100%</h3>
+              <h3 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
               <p className="font-sans text-base opacity-70">Subtitle 70% — segundo nível de leitura.</p>
               <p className="font-sans text-sm opacity-50">Body 50% — texto de apoio.</p>
               <p className="font-mono text-[11px] opacity-30 mt-auto">Caption 30% — meta info</p>
@@ -80,7 +80,7 @@ export default function ColorContext() {
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// FORM ON BONE</div>
               <input className="bg-white border border-black/10 px-4 py-3 rounded-lg text-sm" placeholder="Nome" />
               <input className="bg-white border border-black/10 px-4 py-3 rounded-lg text-sm" placeholder="Email" />
-              <button className="bg-black text-white px-6 py-3 rounded-lg font-mono text-[11px] tracking-[0.22em]">ENVIAR →</button>
+              <button className="bg-foreground text-background px-6 py-3 rounded-lg font-mono text-[11px] tracking-[0.22em]">ENVIAR →</button>
             </div>
             <div className="bg-[#0A0A0A] text-[#F5F5F0] p-8 md:p-12 flex flex-col gap-4">
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// FORM ON VANTA</div>
@@ -98,7 +98,7 @@ export default function ColorContext() {
           <SectionHeading n="04" l="CTA emphasis" />
           <CornerBrackets className="bg-foreground text-background p-12 md:p-20 text-center">
             <div className="font-mono text-[10px] tracking-[0.25em] opacity-60">// INVERTED CTA</div>
-            <h2 className="mt-4 font-display font-light text-[clamp(2rem,6vw,4.5rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto">
+            <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,6vw,4.5rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto text-balance">
               Inverter a paleta <span className="font-medium italic">cria emphasis.</span>
             </h2>
           </CornerBrackets>

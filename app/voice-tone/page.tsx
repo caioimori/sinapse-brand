@@ -60,7 +60,7 @@ export default function VoiceTone() {
       <section className="border-b border-border bg-card">
         <Container size="narrow" className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Posicionamento de voz</MetaLabel>
-          <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+          <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch] text-balance">
             <span className="auto-highlight">Pragmatista desencantada</span> com mercado de IA.
           </h2>
           <div className="mt-6 space-y-4 font-sans text-base md:text-lg opacity-80 leading-relaxed">

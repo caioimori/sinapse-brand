@@ -32,7 +32,7 @@ export default function Templates() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / HTML Pages · 12 templates</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Estrutura na hora. <span className="font-medium">Copy. Adapt. Use.</span>
               </h2>
             </div>
@@ -66,10 +66,10 @@ export default function Templates() {
             <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-center">
               <div>
                 <MetaLabel>// SUB-LIBRARY</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   12 templates de carrossel Instagram.
                 </h2>
-                <p className="mt-4 font-sans text-base opacity-65 max-w-xl">
+                <p className="mt-4 font-sans text-base opacity-65 max-w-[52ch]">
                   Cards/grid mostrando 10 slides cada · format 4:5 · cover + desenvolvimento + CTA.
                 </p>
               </div>
@@ -89,7 +89,7 @@ export default function Templates() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="mb-8 md:mb-12">
             <MetaLabel>[02] / Biblioteca Forense · ~30 repos analisados</MetaLabel>
-            <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+            <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
               Aprendizados reais. <span className="font-medium">8 arquétipos.</span>
             </h2>
             <p className="mt-4 font-sans text-base opacity-65 leading-relaxed" style={{ maxWidth: "60ch" }}>

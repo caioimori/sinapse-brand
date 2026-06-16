@@ -87,10 +87,10 @@ export default function Spacing() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Numeric Scale · 14 Steps</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em]">
                 De 0 a 180. <span className="font-medium italic">Sem linear.</span>
               </h2>
-              <p className="mt-5 font-sans text-base opacity-60 max-w-xl leading-relaxed">
+              <p className="mt-5 font-sans text-base opacity-60 max-w-[52ch] leading-relaxed">
                 Escala numérica, não t-shirt sizing. Cada step tem intenção de uso. Base 4px até 16px, depois saltos expressivos.
               </p>
             </div>
@@ -121,7 +121,7 @@ export default function Spacing() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[02] / Named Tokens</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em]">
                 5 atalhos <span className="font-medium italic">semânticos.</span>
               </h2>
             </div>
@@ -145,10 +145,10 @@ export default function Spacing() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[03] / Radius Scale</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em]">
                 Raios restritivos. <span className="font-medium italic">Anti-genérico.</span>
               </h2>
-              <p className="mt-5 font-sans text-base opacity-60 max-w-xl leading-relaxed">
+              <p className="mt-5 font-sans text-base opacity-60 max-w-[52ch] leading-relaxed">
                 Default 4px. SaaS genérico usa 12-16px — SINAPSE evita isso. Raios grandes só em elementos circulares.
               </p>
             </div>
@@ -178,7 +178,7 @@ export default function Spacing() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[04] / Z-Index Stack</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em]">
                 8 camadas. <span className="font-medium italic">Zero colisão.</span>
               </h2>
             </div>
@@ -201,7 +201,7 @@ export default function Spacing() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[05] / Breakpoints</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em]">
                 6 breakpoints. <span className="font-medium italic">Mobile-first.</span>
               </h2>
             </div>

@@ -40,13 +40,13 @@ export default async function ShaderPage({ params }: { params: Promise<{ slug: s
           <MetaLabel>
             <span className="is-dif">[{s.id}] / Shader Wallpaper</span>
           </MetaLabel>
-          <h1 className="is-dif mt-5 font-display font-light text-[clamp(2.5rem,8vw,7rem)] leading-[0.92] tracking-[-0.045em] text-foreground max-w-[14ch]">
+          <h1 className="is-dif mt-5 font-display font-light text-[clamp(3.25rem,8vw,7rem)] leading-[0.92] tracking-[-0.045em] text-foreground max-w-[14ch]">
             {s.name}
           </h1>
         </div>
 
         <div className="flex items-end justify-between gap-6 flex-wrap mt-12">
-          <div className="is-dif font-mono text-[11px] tracking-[0.22em] opacity-80 max-w-md">
+          <div className="is-dif font-mono text-[11px] tracking-[0.22em] opacity-80 max-w-[48ch]">
             //MOUSE · CLICK · INTERAÇÃO LIVE — toda interação dispara mudança no shader. Tente clicar em qualquer lugar.
           </div>
           <div className="flex items-center gap-5">

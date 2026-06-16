@@ -30,7 +30,7 @@ export default function TypographyContext() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <SectionHeading n="01" l="Hero scale (Sora display)" />
           <CornerBrackets className="bg-card border border-border p-8 md:p-16 lg:p-20">
-            <h1 className="font-display font-light text-[clamp(2.5rem,10vw,8rem)] leading-[0.9] tracking-[-0.05em]">
+            <h1 className="font-display font-light text-[clamp(3.25rem,10vw,8rem)] leading-[0.9] tracking-[-0.05em]">
               Construído <span className="font-medium italic">em silêncio.</span>
             </h1>
           </CornerBrackets>
@@ -42,10 +42,10 @@ export default function TypographyContext() {
         <Container size="narrow" className="py-12 sm:py-16 md:py-20 lg:py-24">
           <SectionHeading n="02" l="Long-form reading (Inter sans)" />
           <article className="bg-background border border-border p-8 md:p-12 lg:p-16">
-            <h2 className="font-display font-light text-3xl md:text-4xl leading-tight tracking-tight max-w-[26ch]">
+            <h2 className="font-display font-light text-3xl md:text-6xl leading-tight tracking-tight max-w-[26ch] text-balance">
               O sistema é o herói. <span className="italic font-medium">A pessoa só consome.</span>
             </h2>
-            <div className="mt-8 space-y-5 font-sans text-base md:text-lg leading-relaxed opacity-80 max-w-2xl">
+            <div className="mt-8 space-y-5 font-sans text-base md:text-lg leading-relaxed opacity-80 max-w-[65ch]">
               <p>SINAPSE não substitui pessoas. Substitui processos. A diferença é tudo.</p>
               <p>Quando você automatiza um processo, libera o time pra estratégia. Quando substitui pessoas, perde contexto, cultura e o vínculo que sustenta a operação.</p>
               <p>Por isso construímos squads de agentes que <strong className="font-semibold">amplificam</strong>, não que substituem. Cada agente faz uma camada de operação repetitiva, e o time humano fica livre pra decidir.</p>
@@ -59,7 +59,7 @@ export default function TypographyContext() {
       <section className="border-b border-border bg-foreground text-background">
         <Container className="py-16 md:py-28">
           <SectionHeading n="03" l="Pull quote massivo" inverted />
-          <blockquote className="font-display font-light text-[clamp(2rem,6vw,5rem)] leading-[1.05] tracking-[-0.035em] max-w-5xl">
+          <blockquote className="font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[1.05] tracking-[-0.035em] max-w-[72ch]">
             <span className="opacity-50">&ldquo;</span>Restrição não é limite — é assinatura.<span className="opacity-50">&rdquo;</span>
           </blockquote>
           <cite className="block mt-8 font-mono text-[10px] tracking-[0.25em] opacity-60 uppercase not-italic">— Doutrina SINAPSE</cite>

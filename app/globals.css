@@ -27,6 +27,7 @@
     --input: rgba(10, 10, 10, 0.12);  /* forense: era rgba(0,0,0) — preto mínimo rule 02 */
     --ring: rgba(10, 10, 10, 0.3);    /* forense: era rgba(0,0,0) — preto mínimo rule 02 */
 
+    /* tokens funcionais — fora do brand B&W por design (state/feedback UI) */
     --destructive: #FF3A2D;
     --destructive-foreground: #FFFFFF;
     --success: #00C853;
@@ -443,6 +444,10 @@
 /* ───────────────────────────────────────────────
    Reveal animations — CSS only, SSR safe
 ─────────────────────────────────────────────── */
+/* TODO forense: keyframe duplicado com tailwind.config — NÃO remover aqui.
+   .reveal usa fadeUp e .draw-line usa drawLine (globals.css L474/L484).
+   tailwind.config precisa deles pra animate-fade-up / animate-draw-line.
+   Ambos os lados são necessários — unificar só via CSS @layer com teste. */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(24px); }
   to   { opacity: 1; transform: translateY(0); }
