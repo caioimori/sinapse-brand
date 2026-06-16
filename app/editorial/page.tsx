@@ -83,7 +83,7 @@ export default function Editorial() {
                 <span className="font-mono text-[10px] tracking-[0.25em] opacity-50">CAPÍTULO {c.n}</span>
                 <div className="flex-1 h-px bg-border" />
               </div>
-              <h2 className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch] text-balance">
+              <h2 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch] text-balance">
                 {c.t}
               </h2>
               <p className="mt-6 font-sans text-base md:text-lg opacity-80 leading-relaxed">{c.d}</p>

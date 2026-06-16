@@ -87,7 +87,7 @@ export default function Foundations() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Explore</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Seis camadas. <span className="font-medium">Um sistema.</span>
               </h2>
             </div>
@@ -129,7 +129,7 @@ export default function Foundations() {
           <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16">
             <div className="md:sticky md:top-24 md:self-start">
               <MetaLabel>[02] / Export</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Copie. Cole.<br />
                 <span className="font-medium italic">Use.</span>
               </h2>

@@ -41,7 +41,7 @@ export default function Shaders() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Live Gallery</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 6 wallpapers. <span className="font-medium">Live · auto-loop · responsive.</span>
               </h2>
             </div>
@@ -73,7 +73,7 @@ export default function Shaders() {
             <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16 items-start">
               <div>
                 <MetaLabel>[02] / Architecture</MetaLabel>
-                <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+                <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                   Aplique em <span className="font-medium italic">qualquer page.</span>
                 </h2>
               </div>

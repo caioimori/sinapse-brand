@@ -62,7 +62,7 @@ export default function PageSections() {
               { v: "30d", l: "Onboarding" },
             ].map((s) => (
               <div key={s.l} className="bg-background p-6 md:p-8 flex flex-col gap-3">
-                <div className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-none tracking-[-0.04em]">
+                <div className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-none tracking-[-0.04em]">
                   {s.v}
                 </div>
                 <div className="font-mono text-[10px] tracking-[0.22em] opacity-60 uppercase">{s.l}</div>
@@ -96,7 +96,7 @@ export default function PageSections() {
       <section className="border-b border-border bg-foreground text-background">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="font-mono text-[10px] tracking-[0.25em] opacity-60 mb-6">// TESTIMONIAL</div>
-          <blockquote className="font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.15] tracking-[-0.025em] max-w-[72ch]">
+          <blockquote className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.15] tracking-[-0.025em] max-w-[72ch]">
             &ldquo;Reduzi 4 vagas operacionais. Os agentes da SINAPSE fazem tudo que essas pessoas faziam — e ainda escalam à noite.&rdquo;
           </blockquote>
           <div className="mt-8 flex items-center gap-3">
@@ -124,7 +124,7 @@ export default function PageSections() {
                   <MetaLabel>{p.name}</MetaLabel>
                   {p.featured && <span className="font-mono text-[10px] tracking-[0.22em] uppercase">⌕ POPULAR</span>}
                 </div>
-                <div className="font-display font-light text-[clamp(3.25rem,4vw,3.75rem)] leading-none tracking-[-0.035em]">{p.price}</div>
+                <div className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-none tracking-[-0.035em]">{p.price}</div>
                 <p className="font-sans text-sm opacity-65 leading-relaxed">{p.desc}</p>
                 <button className={`mt-auto btn-magnetic font-mono text-[11px] tracking-[0.25em] px-6 py-3.5 border ${p.featured ? "border-background" : "border-foreground"}`}>
                   COMEÇAR →

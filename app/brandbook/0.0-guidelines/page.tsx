@@ -116,7 +116,7 @@ export default function Guidelines() {
           <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-20">
             <div className="md:sticky md:top-24 md:self-start">
               <MetaLabel>[01] / Filosofia</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] text-balance">
                 B&W radical.<br />
                 <span className="font-medium italic">Minimalismo ativado.</span>
               </h2>
@@ -149,7 +149,7 @@ export default function Guidelines() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[02] / Non-Negotiable</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] text-balance">
                 12 princípios.{" "}
                 <span className="font-medium italic">Zero exceção.</span>
               </h2>
@@ -187,7 +187,7 @@ export default function Guidelines() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="mb-10 md:mb-14">
             <MetaLabel>[03] / Typography Stack</MetaLabel>
-            <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] text-balance">
+            <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] text-balance">
               Três famílias.{" "}
               <span className="font-medium italic">Uma hierarquia.</span>
             </h2>
@@ -222,7 +222,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Scale Extremes</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
             11px ou 180px.{" "}
             <span className="font-medium italic">Nunca o meio.</span>
           </h2>
@@ -270,7 +270,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[05] / Contrast Rule</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
             Logo inverte <span className="font-medium italic">com o fundo.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">
@@ -320,7 +320,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[06] / Functional Isolation</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
             Error e success{" "}
             <span className="font-medium italic">nunca no brand.</span>
           </h2>
@@ -367,7 +367,7 @@ export default function Guidelines() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[07] / Como usar esta página</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[26ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[26ch] text-balance">
             Source of truth.{" "}
             <span className="font-medium italic">Workflow obrigatório.</span>
           </h2>

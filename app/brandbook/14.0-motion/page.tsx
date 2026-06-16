@@ -33,7 +33,7 @@ export default function Motion() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Animation vocabulary</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Live preview. <span className="font-medium italic">Cada uma com função.</span>
               </h2>
             </div>
@@ -50,7 +50,7 @@ export default function Motion() {
             <div className="grid md:grid-cols-[2fr,1fr] gap-8 items-end">
               <div>
                 <MetaLabel>[02] / Reduced motion</MetaLabel>
-                <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+                <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   Acessibilidade primeiro. <span className="font-medium italic">Sempre.</span>
                 </h2>
                 <p className="mt-5 font-sans text-base opacity-65 max-w-xl leading-relaxed">

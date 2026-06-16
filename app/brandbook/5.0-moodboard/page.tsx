@@ -50,7 +50,7 @@ export default function Moodboard() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Texture wall</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 9 moods. <span className="font-medium italic">Mesma palette.</span>
               </h2>
             </div>
@@ -77,7 +77,7 @@ export default function Moodboard() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Vibe references</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 De onde vem o tom.
               </h2>
             </div>

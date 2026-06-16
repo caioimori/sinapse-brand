@@ -48,7 +48,7 @@ export default function SocialKit() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Formatos</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
             Seis plataformas. <span className="font-medium italic">Mesma lei.</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border border border-border">
@@ -76,7 +76,7 @@ export default function SocialKit() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[02] / Preview · Quote Post</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Template ao vivo. <span className="font-medium italic">Feed 1:1.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">
@@ -98,7 +98,7 @@ export default function SocialKit() {
                 />
               </div>
               <div>
-                <p className="font-display font-light text-[clamp(3.25rem,5vw,3.5rem)] leading-[0.95] tracking-[-0.035em]">
+                <p className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.035em]">
                   A IA não é o herói.{" "}
                   <span className="italic font-medium">O sistema é.</span>
                 </p>
@@ -130,7 +130,7 @@ export default function SocialKit() {
                 />
               </div>
               <div>
-                <div className="font-display font-light text-[clamp(3rem,10vw,7rem)] leading-[0.82] tracking-[-0.05em]">
+                <div className="font-display font-light text-[clamp(3.25rem,10vw,7rem)] leading-[0.82] tracking-[-0.05em]">
                   01/12
                 </div>
                 <p className="mt-4 font-display font-medium text-xl md:text-2xl tracking-tight leading-tight italic">
@@ -154,7 +154,7 @@ export default function SocialKit() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[03] / Preview · Story 9:16</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
             Vertical. <span className="font-medium italic">Zona segura.</span>
           </h2>
           <div className="flex gap-px bg-border justify-center border border-border py-8 overflow-x-auto">
@@ -195,7 +195,7 @@ export default function SocialKit() {
       <section className="border-b border-border bg-card pattern-dots">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Presets</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Seis receitas. <span className="font-medium italic">Misturar com formato.</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border border border-border">
@@ -220,7 +220,7 @@ export default function SocialKit() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[05] / Rules</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Regras fixas. <span className="font-medium italic">Zero exceção.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">

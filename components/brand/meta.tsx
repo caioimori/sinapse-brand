@@ -53,7 +53,7 @@ export function SectionHeader({
     <div className="flex items-end justify-between gap-6 flex-wrap">
       <div className="w-full max-w-[48ch]">
         <MetaLabel>{meta}</MetaLabel>
-        <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[22ch] text-balance">
+        <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] max-w-[22ch] text-balance">
           {title}{" "}
           {emphasis && <span className="font-medium italic">{emphasis}</span>}
         </h2>

@@ -47,7 +47,7 @@ export default function Pitch() {
                     <span className="font-mono text-[10px] tracking-[0.25em] opacity-50">/{s.n}</span>
                     <span className="font-mono text-[10px] tracking-[0.22em] opacity-50 uppercase">{s.meta}</span>
                   </div>
-                  <div className="font-display font-light text-[clamp(1.25rem,3vw,2rem)] leading-[1] tracking-[-0.03em]">
+                  <div className="font-display font-light text-[clamp(1.25rem,3vw,1.875rem)] leading-[1] tracking-[-0.03em]">
                     {s.t}
                   </div>
                   <span className="font-mono text-[10px] tracking-[0.25em] opacity-50 self-end">SINAPSE / 0.1.{s.n}</span>

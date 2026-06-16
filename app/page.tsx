@@ -91,7 +91,7 @@ export default function Home() {
       <section id="system" className="border-b border-border">
         <Container className="py-16 md:py-24">
           <MetaLabel>[01] / System Overview</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[20ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] max-w-[20ch] text-balance">
             Um sistema construído pra <span className="font-medium italic">escala.</span>
           </h2>
           <p className="mt-5 max-w-[36rem] font-sans text-base leading-relaxed opacity-60">
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[02] / Explore</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Navegue pelo <span className="font-medium">sistema.</span>
               </h2>
             </div>
@@ -152,7 +152,7 @@ export default function Home() {
           <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16">
             <div className="md:sticky md:top-24 md:self-start">
               <MetaLabel>[03] / FAQ</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Perguntas<br /><span className="font-medium italic">frequentes.</span>
               </h2>
               <p className="mt-5 font-sans text-sm md:text-base opacity-55 max-w-[20rem] leading-relaxed">
@@ -184,7 +184,7 @@ export default function Home() {
         <div className="absolute inset-0 pattern-crosshair opacity-50" />
         <Container className="relative z-10 py-16 md:py-24 flex flex-col items-center text-center">
           <ThemeLogo variant="symbol" alt="SINAPSE" width={48} height={34} className="w-10 h-auto opacity-70 mb-6 auto-float" />
-          <h2 className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[18ch] text-balance">
+          <h2 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] max-w-[18ch] text-balance">
             A marca começa <span className="font-medium italic">no sistema.</span>
           </h2>
           <Link href="/brandbook/0.0-guidelines" className="btn-apple mt-8">

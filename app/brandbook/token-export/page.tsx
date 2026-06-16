@@ -159,7 +159,7 @@ export default function TokenExport() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Instructions</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance mb-12">
             Em <span className="font-medium italic">5 passos.</span>
           </h2>
           <div className="grid md:grid-cols-5 gap-px bg-border border border-border">
@@ -180,7 +180,7 @@ export default function TokenExport() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[02] / Bone Edition · Light · Default</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Bone <span className="font-medium italic">Edition.</span>
               </h2>
             </div>
@@ -205,7 +205,7 @@ export default function TokenExport() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[03] / Vanta Edition · Dark · Opt-in</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Vanta <span className="font-medium italic">Edition.</span>
               </h2>
             </div>
@@ -230,7 +230,7 @@ export default function TokenExport() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[04] / Tailwind Preset</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
+              <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Tailwind <span className="font-medium italic">preset.</span>
               </h2>
               <p className="mt-5 font-sans text-base opacity-60 max-w-[52ch] leading-relaxed">

@@ -36,7 +36,7 @@ export default function Components() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[12.1] / Buttons</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em]">
                 Buttons. <span className="font-medium">6 variants.</span>
               </h2>
             </div>
@@ -50,7 +50,7 @@ export default function Components() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[12.2] / Cards</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em]">
                 Cards. <span className="font-medium">6 patterns.</span>
               </h2>
             </div>
@@ -64,7 +64,7 @@ export default function Components() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[12.3] / Forms</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em]">
                 Forms. <span className="font-medium">Accessible defaults.</span>
               </h2>
             </div>
@@ -78,7 +78,7 @@ export default function Components() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[12.4] / Feedback · States</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[1.05] tracking-[-0.035em]">
                 Toasts · alerts · skeletons · empty.
               </h2>
             </div>

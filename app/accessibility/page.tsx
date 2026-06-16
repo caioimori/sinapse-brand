@@ -57,7 +57,7 @@ export default function Accessibility() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Contrast Matrix</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
             Contraste <span className="font-medium italic">medido.</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-px bg-border border border-border">
@@ -99,7 +99,7 @@ export default function Accessibility() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[02] / Focus States</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
             Foco visível <span className="font-medium italic">em tudo.</span>
           </h2>
           <div className="grid md:grid-cols-3 gap-px bg-border border border-border">
@@ -143,7 +143,7 @@ export default function Accessibility() {
       <section className="border-b border-border pattern-dots">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[03] / Checklist</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             10 checks. <span className="font-medium italic">Antes de push.</span>
           </h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-px bg-border border border-border">
@@ -171,7 +171,7 @@ export default function Accessibility() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Motion Governance</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Motion opcional. <span className="font-medium italic">Sempre.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">
@@ -203,7 +203,7 @@ export default function Accessibility() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[05] / Keyboard Navigation</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Tudo navegável <span className="font-medium italic">sem mouse.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">

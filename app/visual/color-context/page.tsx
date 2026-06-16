@@ -32,14 +32,14 @@ export default function ColorContext() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-px bg-border border border-border">
             <div className="bg-[#F5F5F0] text-[#0A0A0A] p-8 md:p-12 min-h-[320px] flex flex-col gap-4">
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// BONE</div>
-              <h3 className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
+              <h3 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
               <p className="font-sans text-base opacity-70">Subtitle 70% — segundo nível de leitura.</p>
               <p className="font-sans text-sm opacity-50">Body 50% — texto de apoio.</p>
               <p className="font-mono text-[11px] opacity-30 mt-auto">Caption 30% — meta info</p>
             </div>
             <div className="bg-[#0A0A0A] text-[#F5F5F0] p-8 md:p-12 min-h-[320px] flex flex-col gap-4">
               <div className="font-mono text-[10px] tracking-[0.22em] opacity-50">// VANTA</div>
-              <h3 className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
+              <h3 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.25rem)] tracking-tight leading-[0.95] text-balance">Headline primária 100%</h3>
               <p className="font-sans text-base opacity-70">Subtitle 70% — segundo nível de leitura.</p>
               <p className="font-sans text-sm opacity-50">Body 50% — texto de apoio.</p>
               <p className="font-mono text-[11px] opacity-30 mt-auto">Caption 30% — meta info</p>
