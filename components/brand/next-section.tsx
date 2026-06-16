@@ -28,14 +28,14 @@ export function NextSection({ number, label, href, hint }: Props) {
                 //NEXT [{number}]
               </div>
               <div>
-                <div className="font-display font-light text-[clamp(2rem,6vw,4.5rem)] leading-[0.95] tracking-[-0.04em]">
+                <div className="font-display font-light text-[clamp(3.25rem,6vw,4.5rem)] leading-[0.95] tracking-[-0.04em] text-balance">
                   {label}{" "}
                   <span className="inline-block transition-transform duration-deliberate ease-apple group-hover/next:translate-x-3">
                     →
                   </span>
                 </div>
                 {hint && (
-                  <p className="mt-3 font-sans text-base md:text-lg opacity-65 max-w-xl leading-relaxed">
+                  <p className="mt-3 font-sans text-base md:text-lg opacity-65 max-w-[52ch] leading-relaxed">
                     {hint}
                   </p>
                 )}

@@ -42,7 +42,7 @@ export default function Effects() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Patterns</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] text-balance max-w-[24ch]">
                 Texturas SVG. <span className="font-medium">Hairline detail.</span>
               </h2>
             </div>
@@ -67,7 +67,7 @@ export default function Effects() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Corner brackets · HUD frames</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] text-balance max-w-[24ch]">
                 Scope reticle. <span className="font-medium">4 cantos · 1 SVG.</span>
               </h2>
             </div>
@@ -101,7 +101,7 @@ export default function Effects() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Mask fades · 6 directions</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] text-balance max-w-[24ch]">
                 Bordas que dissolvem. <span className="font-medium">CSS mask-image.</span>
               </h2>
             </div>
@@ -125,7 +125,7 @@ export default function Effects() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[04] / Interactive utilities</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] text-balance max-w-[24ch]">
                 Hover. Click. <span className="font-medium italic">Sente.</span>
               </h2>
             </div>
@@ -169,7 +169,7 @@ export default function Effects() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[05] / Decorative atoms</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] text-balance max-w-[24ch]">
                 Detalhes que assinam.
               </h2>
             </div>
@@ -214,7 +214,7 @@ export default function Effects() {
           <div className="absolute inset-0 flex flex-col items-center justify-center text-center pointer-events-none px-4">
             <div className="is-dif text-foreground">
               <MetaLabel>[06] / Shader wallpaper</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(2rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[18ch] mx-auto">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[18ch] mx-auto">
                 Click anywhere. <span className="font-medium italic">Watch the ripple.</span>
               </h2>
             </div>

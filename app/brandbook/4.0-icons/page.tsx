@@ -86,7 +86,7 @@ export default function Icons() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[01] / Sizes</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 4 tamanhos <span className="font-medium italic">canônicos.</span>
               </h2>
             </div>
@@ -113,7 +113,7 @@ export default function Icons() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[02] / Grid · 24px</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Biblioteca <span className="font-medium italic">base.</span>
               </h2>
             </div>
@@ -138,7 +138,7 @@ export default function Icons() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[03] / Rules</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 6 regras.
               </h2>
             </div>

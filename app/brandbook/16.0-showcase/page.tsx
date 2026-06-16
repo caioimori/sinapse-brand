@@ -68,10 +68,10 @@ export default function Showcase() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <CornerBrackets className="bg-background border border-border p-10 md:p-16 text-center">
             <MetaLabel>// SUBMIT YOUR CASE</MetaLabel>
-            <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto">
+            <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto">
               Usou SINAPSE no seu projeto?
             </h2>
-            <p className="mt-4 font-sans text-base opacity-65 max-w-xl mx-auto">
+            <p className="mt-4 font-sans text-base opacity-65 max-w-[52ch] mx-auto">
               Mande pra brand@sinapse.club que adicionamos no showcase.
             </p>
           </CornerBrackets>

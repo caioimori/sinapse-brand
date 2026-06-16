@@ -45,7 +45,7 @@ export default function Estrategia() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Sumário visual</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 11 capítulos. <span className="font-medium italic">Doutrina completa.</span>
               </h2>
             </div>
@@ -90,7 +90,7 @@ export default function Estrategia() {
                   <div className="flex-1 h-px bg-border" />
                   <span className="font-display text-xl opacity-50">{s.icon}</span>
                 </div>
-                <h3 className="font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+                <h3 className="font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                   {s.t}
                 </h3>
                 <p className="mt-4 font-sans text-base md:text-lg opacity-80 leading-relaxed">{s.d}</p>
@@ -108,10 +108,10 @@ export default function Estrategia() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <CornerBrackets className="block border border-background/20 p-8 md:p-16 rounded-xl text-center">
             <MetaLabel>// CONTRATO DA MARCA</MetaLabel>
-            <h2 className="mt-3 font-display font-light text-[clamp(2rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[24ch] mx-auto">
+            <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[24ch] mx-auto">
               Promessas. Exigências. <span className="font-medium italic">Mútuas.</span>
             </h2>
-            <p className="mt-5 font-sans text-base md:text-lg opacity-70 max-w-2xl mx-auto leading-relaxed">
+            <p className="mt-5 font-sans text-base md:text-lg opacity-70 max-w-[65ch] mx-auto leading-relaxed">
               SINAPSE entrega operação executada · cliente entrega processos documentados, time aberto a mudança, e meta clara. Sem isso, não funciona.
             </p>
           </CornerBrackets>

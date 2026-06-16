@@ -52,7 +52,7 @@ export default function LPSections() {
           <div className="grid md:grid-cols-2 gap-12 lg:gap-20">
             <div>
               <MetaLabel>// O QUE VOCÊ GANHA</MetaLabel>
-              <h3 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.1] tracking-[-0.035em] max-w-[20ch]">
+              <h3 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.1] tracking-[-0.035em] max-w-[20ch]">
                 Tudo incluso. Sem add-ons.
               </h3>
             </div>
@@ -79,7 +79,7 @@ export default function LPSections() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <SectionHeading n="03" l="FAQ accordion" />
-          <div className="space-y-3 max-w-3xl">
+          <div className="space-y-3 max-w-[72ch]">
             {[
               { q: "Quanto tempo leva pra ver resultados?", a: "Primeiros 30 dias: setup + integração. Maturação: 60-90 dias." },
               { q: "Substitui meu time?", a: "Não. Substitui processos repetitivos, libera o time pra estratégia." },
@@ -110,7 +110,7 @@ export default function LPSections() {
               { v: "30d", l: "Time-to-value" },
             ].map((s) => (
               <div key={s.l} className="bg-foreground p-6 md:p-10">
-                <div className="font-display font-light text-[clamp(2rem,5vw,4rem)] leading-none tracking-[-0.035em]">
+                <div className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-none tracking-[-0.035em]">
                   {s.v}
                 </div>
                 <div className="mt-3 font-mono text-[10px] tracking-[0.22em] opacity-70 uppercase">{s.l}</div>
@@ -125,10 +125,10 @@ export default function LPSections() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <CornerBrackets className="bg-card border border-border p-12 md:p-20 text-center">
             <MetaLabel>// FINAL CTA</MetaLabel>
-            <h2 className="mt-3 font-display font-light text-[clamp(2rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto">
+            <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,6vw,5rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] mx-auto">
               Vamos conversar?
             </h2>
-            <p className="mt-4 font-sans text-base md:text-lg opacity-65 max-w-xl mx-auto">
+            <p className="mt-4 font-sans text-base md:text-lg opacity-65 max-w-[55ch] mx-auto">
               30 minutos sem custo, sem compromisso. Diagnóstico do seu fluxo atual.
             </p>
             <button className="mt-8 btn-magnetic font-mono text-[11px] tracking-[0.25em] px-8 py-4 bg-foreground text-background">

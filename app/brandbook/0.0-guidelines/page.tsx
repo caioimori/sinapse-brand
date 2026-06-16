@@ -98,7 +98,7 @@ export default function Guidelines() {
                 height={185}
                 className="w-40 md:w-56 h-auto opacity-90"
               />
-              <p className="max-w-sm font-display font-light text-xl md:text-2xl leading-tight tracking-tight md:text-right">
+              <p className="max-w-[36ch] font-display font-light text-xl md:text-2xl leading-tight tracking-tight md:text-right">
                 &ldquo;A IA não é o herói.{" "}
                 <span className="italic">O sistema é.</span>&rdquo;
               </p>
@@ -116,12 +116,12 @@ export default function Guidelines() {
           <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-20">
             <div className="md:sticky md:top-24 md:self-start">
               <MetaLabel>[01] / Filosofia</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] text-balance">
                 B&W radical.<br />
                 <span className="font-medium italic">Minimalismo ativado.</span>
               </h2>
             </div>
-            <div className="space-y-6 text-base md:text-lg opacity-80 leading-relaxed max-w-2xl">
+            <div className="space-y-6 text-base md:text-lg opacity-80 leading-relaxed max-w-[65ch]">
               <p>
                 SINAPSE é preto e branco absoluto. Sem exceção. Nenhuma cor
                 cromática aparece em brand, hero, copy ou CTA.
@@ -149,7 +149,7 @@ export default function Guidelines() {
           <div className="flex items-end justify-between gap-4 mb-10 md:mb-14 flex-wrap">
             <div>
               <MetaLabel>[02] / Non-Negotiable</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] text-balance">
                 12 princípios.{" "}
                 <span className="font-medium italic">Zero exceção.</span>
               </h2>
@@ -187,7 +187,7 @@ export default function Guidelines() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="mb-10 md:mb-14">
             <MetaLabel>[03] / Typography Stack</MetaLabel>
-            <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch]">
+            <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] max-w-[20ch] text-balance">
               Três famílias.{" "}
               <span className="font-medium italic">Uma hierarquia.</span>
             </h2>
@@ -222,7 +222,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Scale Extremes</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch] text-balance">
             11px ou 180px.{" "}
             <span className="font-medium italic">Nunca o meio.</span>
           </h2>
@@ -242,7 +242,7 @@ export default function Guidelines() {
                   COR OPACA · LEITURA LENTA
                 </div>
               </div>
-              <p className="font-sans text-sm opacity-60 max-w-xs leading-relaxed">
+              <p className="font-sans text-sm opacity-60 max-w-[36ch] leading-relaxed">
                 Meta-labels, status, data técnico. Sempre mono, sempre
                 tracking amplo.
               </p>
@@ -254,7 +254,7 @@ export default function Guidelines() {
               <div className="font-display font-light text-[clamp(6rem,18vw,12rem)] leading-[0.82] tracking-[-0.06em]">
                 Aa<span className="font-medium italic">0</span>
               </div>
-              <p className="font-sans text-sm opacity-60 max-w-xs leading-relaxed">
+              <p className="font-sans text-sm opacity-60 max-w-[36ch] leading-relaxed">
                 Hero, anchors, números de seção. Peso leve, itálico como
                 assinatura.
               </p>
@@ -270,7 +270,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[05] / Contrast Rule</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
             Logo inverte <span className="font-medium italic">com o fundo.</span>
           </h2>
           <div className="grid md:grid-cols-2 gap-px bg-border border border-border">
@@ -308,7 +308,7 @@ export default function Guidelines() {
               </div>
             ))}
           </div>
-          <p className="mt-8 font-sans text-sm md:text-base opacity-60 max-w-2xl leading-relaxed">
+          <p className="mt-8 font-sans text-sm md:text-base opacity-60 max-w-[65ch] leading-relaxed">
             Regra vale para tudo: logo, iconografia, patterns, animações. Em
             fundo escuro, aplicar a versão clara. Em fundo claro, aplicar a
             versão escura. Nunca o contrário.
@@ -320,7 +320,7 @@ export default function Guidelines() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[06] / Functional Isolation</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch] text-balance">
             Error e success{" "}
             <span className="font-medium italic">nunca no brand.</span>
           </h2>
@@ -367,7 +367,7 @@ export default function Guidelines() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[07] / Como usar esta página</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[26ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[26ch] text-balance">
             Source of truth.{" "}
             <span className="font-medium italic">Workflow obrigatório.</span>
           </h2>

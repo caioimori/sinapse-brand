@@ -54,11 +54,11 @@ export default function Home() {
             <span className="status-dot" />
             //SINAPSE/BRAND · v0.4 LIVE
           </div>
-          <h1 className="font-display font-light text-[clamp(2rem,7vw,6rem)] leading-[0.95] tracking-[-0.045em] max-w-[14ch] reveal reveal-delay-2">
+          <h1 className="font-display font-light text-[clamp(3.25rem,7vw,6rem)] leading-[0.95] tracking-[-0.045em] max-w-[14ch] text-balance reveal reveal-delay-2">
             Uma marca.<br />
             <span className="font-medium">Uma lei.</span>
           </h1>
-          <p className="mt-8 max-w-xl font-sans text-base md:text-lg leading-relaxed opacity-70 reveal reveal-delay-3">
+          <p className="mt-8 max-w-[36rem] font-sans text-base md:text-lg leading-relaxed opacity-70 reveal reveal-delay-3">
             A fonte da verdade visual, verbal e estrutural da SINAPSE — brandbook, design system, shaders, motion e templates num só lugar. Tudo que se constrói no ecossistema sai daqui.
           </p>
           <div className="mt-10 flex flex-wrap items-center gap-3 reveal reveal-delay-4">
@@ -91,10 +91,10 @@ export default function Home() {
       <section id="system" className="border-b border-border">
         <Container className="py-16 md:py-24">
           <MetaLabel>[01] / System Overview</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[20ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[20ch] text-balance">
             Um sistema construído pra <span className="font-medium italic">escala.</span>
           </h2>
-          <p className="mt-5 max-w-xl font-sans text-base leading-relaxed opacity-60">
+          <p className="mt-5 max-w-[36rem] font-sans text-base leading-relaxed opacity-60">
             Bone Edition. Design tokens, motion, tipografia e cor governados por CSS custom properties.
             Nenhuma decisão solta. Nenhuma cor fora do sistema.
           </p>
@@ -105,7 +105,7 @@ export default function Home() {
                 className="card-apple p-5 md:p-7 breathe"
                 style={{ animationDelay: `${i * 0.4}s` }}
               >
-                <div className="font-display font-light text-3xl md:text-5xl leading-none tracking-[-0.03em]">{s.n}</div>
+                <div className="font-display font-light text-3xl md:text-6xl leading-none tracking-[-0.03em]">{s.n}</div>
                 <div className="mt-3 font-mono text-[10px] tracking-[0.25em] opacity-50 uppercase">{s.label}</div>
               </div>
             ))}
@@ -119,7 +119,7 @@ export default function Home() {
           <div className="flex items-end justify-between gap-4 mb-10 flex-wrap">
             <div>
               <MetaLabel>[02] / Explore</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Navegue pelo <span className="font-medium">sistema.</span>
               </h2>
             </div>
@@ -152,10 +152,10 @@ export default function Home() {
           <div className="grid md:grid-cols-[1fr,2fr] gap-10 md:gap-16">
             <div className="md:sticky md:top-24 md:self-start">
               <MetaLabel>[03] / FAQ</MetaLabel>
-              <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em]">
+              <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance">
                 Perguntas<br /><span className="font-medium italic">frequentes.</span>
               </h2>
-              <p className="mt-5 font-sans text-sm md:text-base opacity-55 max-w-xs leading-relaxed">
+              <p className="mt-5 font-sans text-sm md:text-base opacity-55 max-w-[20rem] leading-relaxed">
                 Dúvidas sobre o brand system, tokens ou contribuição?
               </p>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
                     </div>
                     <span className="font-mono text-lg opacity-40 group-open:rotate-45 transition-transform shrink-0 select-none">+</span>
                   </summary>
-                  <div className="pb-5 md:pb-6 pl-11 pr-6 max-w-2xl">
+                  <div className="pb-5 md:pb-6 pl-11 pr-6 max-w-[42rem]">
                     <p className="font-sans text-sm md:text-[15px] opacity-65 leading-relaxed">{item.a}</p>
                   </div>
                 </details>
@@ -184,7 +184,7 @@ export default function Home() {
         <div className="absolute inset-0 pattern-crosshair opacity-50" />
         <Container className="relative z-10 py-16 md:py-24 flex flex-col items-center text-center">
           <ThemeLogo variant="symbol" alt="SINAPSE" width={48} height={34} className="w-10 h-auto opacity-70 mb-6 auto-float" />
-          <h2 className="font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[18ch]">
+          <h2 className="font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] max-w-[18ch] text-balance">
             A marca começa <span className="font-medium italic">no sistema.</span>
           </h2>
           <Link href="/brandbook/0.0-guidelines" className="btn-apple mt-8">

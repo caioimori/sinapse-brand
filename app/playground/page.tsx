@@ -45,7 +45,7 @@ export default function Playground() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Button Playground</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[22ch]">
             Props ao vivo. <span className="font-medium italic">Preview sincronizado.</span>
           </h2>
 
@@ -153,7 +153,7 @@ export default function Playground() {
       <section className="border-b border-border bg-card">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[02] / Typography Playground</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Escala testável. <span className="font-medium italic">Clique pra mudar.</span>
           </h2>
           <TypePlayground />
@@ -164,7 +164,7 @@ export default function Playground() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[03] / Surface Playground</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[0.95] tracking-[-0.04em] mb-10 md:mb-14 max-w-[24ch]">
             Elevation. <span className="font-medium italic">Borders. Glass.</span>
           </h2>
           <SurfacePlayground />

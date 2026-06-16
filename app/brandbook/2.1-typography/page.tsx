@@ -42,10 +42,10 @@ const FAMILIES = [
 ];
 
 const SCALE = [
-  { label: "DISPLAY", size: "clamp(2.75rem, 9vw, 8rem)", sizePx: "44 → 128px", weight: 300, text: "Uma marca. Uma lei.", line: "0.92", track: "-0.045em" },
-  { label: "H1", size: "clamp(2rem, 5.5vw, 4.5rem)", sizePx: "32 → 72px", weight: 300, text: "Minimalismo como arma.", line: "0.95", track: "-0.04em" },
-  { label: "H2", size: "clamp(1.75rem, 4.5vw, 3.5rem)", sizePx: "28 → 56px", weight: 300, text: "Um sistema construído pra escala.", line: "1", track: "-0.035em" },
-  { label: "H3", size: "clamp(1.5rem, 3.5vw, 2.5rem)", sizePx: "24 → 40px", weight: 400, text: "Arquitetando IA corporativa.", line: "1.1", track: "-0.03em" },
+  { label: "DISPLAY", size: "clamp(3.5rem, 9vw, 8rem)", sizePx: "56 → 128px", weight: 300, text: "Uma marca. Uma lei.", line: "0.92", track: "-0.045em" },
+  { label: "H1", size: "clamp(3.25rem, 5.5vw, 4.5rem)", sizePx: "52 → 72px", weight: 300, text: "Minimalismo como arma.", line: "0.95", track: "-0.04em" },
+  { label: "H2", size: "clamp(3.25rem, 4.5vw, 3.75rem)", sizePx: "52 → 60px", weight: 300, text: "Um sistema construído pra escala.", line: "1", track: "-0.035em" },
+  { label: "H3", size: "clamp(1.5rem, 3.5vw, 1.875rem)", sizePx: "24 → 30px", weight: 400, text: "Arquitetando IA corporativa.", line: "1.1", track: "-0.03em" },
   { label: "H4", size: "1.5rem", sizePx: "24px", weight: 500, text: "Brandbook · Estratégia · Voz", line: "1.2", track: "-0.02em" },
   { label: "BODY LG", size: "1.125rem", sizePx: "18px", weight: 400, text: "A fonte da verdade visual, verbal e estrutural da SINAPSE. Brandbook, design system e showcase — um só lugar, uma só lei.", line: "1.6", track: "-0.005em" },
   { label: "BODY", size: "1rem", sizePx: "16px", weight: 400, text: "Preto e branco absoluto. Tipografia carrega peso. Motion e patterns potencializam o vazio. Nada acidental.", line: "1.6", track: "0" },
@@ -79,7 +79,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[01] / Font Families</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance mb-12 md:mb-16">
             Três papéis. <span className="font-medium italic">Zero sobreposição.</span>
           </h2>
 
@@ -97,7 +97,7 @@ export default function Typography() {
                   <div className="mt-4 font-mono text-[10px] tracking-[0.25em] opacity-50">
                     {f.var}
                   </div>
-                  <p className="mt-5 font-sans text-sm opacity-65 leading-relaxed max-w-md">{f.note}</p>
+                  <p className="mt-5 font-sans text-sm opacity-65 leading-relaxed max-w-[48ch]">{f.note}</p>
                   <div className="mt-5 font-mono text-[10px] tracking-[0.2em] opacity-40 break-all">
                     {f.stack}
                   </div>
@@ -127,7 +127,7 @@ export default function Typography() {
       <section className="border-b border-border pattern-dots">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[02] / Type Scale</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12 md:mb-16">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance mb-12 md:mb-16">
             Nove níveis. <span className="font-medium italic">Hierarquia clara.</span>
           </h2>
 
@@ -163,7 +163,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[03] / Alphabet · Sora</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance mb-12">
             Cada letra. <span className="font-medium italic">Cada glifo.</span>
           </h2>
 
@@ -184,7 +184,7 @@ export default function Typography() {
       <section className="border-b border-border">
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <MetaLabel>[04] / Rules</MetaLabel>
-          <h2 className="mt-4 font-display font-light text-[clamp(2rem,5vw,4rem)] leading-[1] tracking-[-0.035em] mb-12">
+          <h2 className="mt-4 font-display font-light text-[clamp(3.25rem,5vw,4rem)] leading-[1] tracking-[-0.035em] text-balance mb-12">
             Non-negotiable.
           </h2>
 

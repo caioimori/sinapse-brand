@@ -56,7 +56,7 @@ export default function Surfaces() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Elevations</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch]">
                 Quatro camadas. <span className="font-medium">Zero sombra dramática.</span>
               </h2>
             </div>
@@ -83,7 +83,7 @@ export default function Surfaces() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Radii</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] max-w-[20ch]">
                 Sete raios. <span className="font-medium">Sharp first.</span>
               </h2>
             </div>
@@ -110,7 +110,7 @@ export default function Surfaces() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[03] / Borders</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] max-w-[24ch]">
                 Bordas como sintaxe. <span className="font-medium">Não como decoração.</span>
               </h2>
             </div>
@@ -136,7 +136,7 @@ export default function Surfaces() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[04] / Glass / Backdrop</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[22ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] max-w-[22ch]">
                 Glass discreto. <span className="font-medium">Nunca jelly.</span>
               </h2>
             </div>

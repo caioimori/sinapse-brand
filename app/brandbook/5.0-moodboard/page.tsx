@@ -50,7 +50,7 @@ export default function Moodboard() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[01] / Texture wall</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 9 moods. <span className="font-medium italic">Mesma palette.</span>
               </h2>
             </div>
@@ -77,7 +77,7 @@ export default function Moodboard() {
           <div className="flex items-end justify-between gap-4 mb-8 md:mb-12 flex-wrap">
             <div>
               <MetaLabel>[02] / Vibe references</MetaLabel>
-              <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
+              <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[28ch]">
                 De onde vem o tom.
               </h2>
             </div>
@@ -103,7 +103,7 @@ export default function Moodboard() {
             <div className="absolute inset-0 grain-overlay" />
             <div className="relative text-center px-6">
               <div className="font-mono text-[10px] tracking-[0.3em] opacity-60 mb-4">// FRAME 01 · 21:9</div>
-              <h3 className="font-display font-light text-[clamp(2rem,7vw,6rem)] leading-[0.95] tracking-[-0.045em] max-w-[14ch] mx-auto">
+              <h3 className="font-display font-light text-[clamp(3.25rem,7vw,6rem)] leading-[0.95] tracking-[-0.045em] max-w-[14ch] mx-auto">
                 Construído em <span className="italic font-medium">silêncio.</span>
               </h3>
             </div>

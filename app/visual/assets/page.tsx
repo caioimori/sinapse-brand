@@ -71,10 +71,10 @@ export default function Assets() {
         <Container className="py-12 sm:py-16 md:py-20 lg:py-24">
           <div className="bg-background border border-border p-8 md:p-12">
             <MetaLabel>// USAGE LICENSE</MetaLabel>
-            <h2 className="mt-3 font-display font-light text-[clamp(1.75rem,4.5vw,3.5rem)] leading-[1.05] tracking-[-0.035em] max-w-[36ch]">
+            <h2 className="mt-3 font-display font-light text-[clamp(3.25rem,4.5vw,3.75rem)] leading-[1.05] tracking-[-0.035em] max-w-[36ch]">
               Uso interno e parceiros.
             </h2>
-            <p className="mt-4 font-sans text-base opacity-70 max-w-2xl leading-relaxed">
+            <p className="mt-4 font-sans text-base opacity-70 max-w-[65ch] leading-relaxed">
               Logos e assets SINAPSE só podem ser usados em contexto autorizado. Para co-branding com clientes, solicite via brand@sinapse.club.
             </p>
           </div>

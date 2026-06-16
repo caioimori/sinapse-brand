@@ -71,6 +71,7 @@ const config: Config = {
         smooth: "cubic-bezier(0.16, 1, 0.3, 1)",         // ease-out-expo (default luxury)
         back: "cubic-bezier(0.34, 1.56, 0.64, 1)",       // ease-out-back (overshoot)
         swift: "cubic-bezier(0.4, 0, 0.2, 1)",           // Material standard (snappy data)
+        apple: "cubic-bezier(0.32, 0.72, 0, 1)",         // Apple iOS spring
       },
       transitionDuration: {
         "0": "0ms",
