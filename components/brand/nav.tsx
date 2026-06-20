@@ -55,10 +55,9 @@ export function Nav() {
         <Link href="/" className="flex items-center shrink-0 group/logo" aria-label="Home">
           <ThemeLogo
             variant="lockup"
-            width={140}
             height={22}
             priority
-            className="h-[20px] sm:h-[22px] w-auto transition-transform duration-base ease-smooth group-hover/logo:translate-x-0.5"
+            className="transition-transform duration-base ease-smooth group-hover/logo:translate-x-0.5"
           />
         </Link>
 
@@ -140,7 +139,7 @@ export function Nav() {
                 ))}
               </div>
             ) : (
-              <div className="flex flex-col gap-1.5 max-w-md">
+              <div className="flex flex-col gap-1.5 max-w-[clamp(16rem,90vw,28rem)]">
                 {navigation[openIdx].items.map((item) => (
                   <NavCell key={`${item.label}-${item.href}`} item={item} active={pathname === item.href} />
                 ))}
@@ -214,9 +213,9 @@ function NavCell({ item, active }: { item: NavItem; active: boolean }) {
 }
 
 function ThemeToggle() {
-  const [theme, setTheme] = useState<"bone" | "vanta">("bone");
+  const [theme, setTheme] = useState<"bone" | "vanta">("vanta");
   useEffect(() => {
-    const stored = (localStorage.getItem("sinapse-theme") as "bone" | "vanta" | null) ?? "bone";
+    const stored = (localStorage.getItem("sinapse-theme") as "bone" | "vanta" | null) ?? "vanta";
     setTheme(stored);
     document.documentElement.dataset.theme = stored;
   }, []);

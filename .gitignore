@@ -88,3 +88,51 @@ temp/
 *.swp
 *~
 .vercel
+
+# === MIGRACAO NOTEBOOK — seguranca + limpeza (auto-gerado) ===
+# Segredos — NUNCA versionar
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.key
+*.pem
+*.pfx
+*.p12
+.npmrc
+service-account*.json
+*-credentials.json
+*_secret*.json
+
+# Dependencias e caches (regeneraveis)
+node_modules/
+.next/
+.nuxt/
+.turbo/
+.svelte-kit/
+dist/
+build/
+out/
+.output/
+.cache/
+.parcel-cache/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.gradle/
+target/
+
+# Staging de midia pesada (nao cabe no GitHub — limite 100MB/arquivo)
+_video-staging/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log

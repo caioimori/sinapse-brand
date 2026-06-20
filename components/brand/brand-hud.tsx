@@ -15,7 +15,7 @@ import { useEffect, useState } from "react";
  */
 export function BrandHUD() {
   const [time, setTime] = useState("");
-  const [theme, setTheme] = useState<"bone" | "vanta">("bone");
+  const [theme, setTheme] = useState<"bone" | "vanta">("vanta");
 
   useEffect(() => {
     const t = setInterval(() => {

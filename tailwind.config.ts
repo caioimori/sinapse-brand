@@ -36,6 +36,7 @@ const config: Config = {
         display: "var(--font-display)",
         sans: "var(--font-sans)",
         mono: "var(--font-mono)",
+        wordmark: "var(--font-wordmark)",
       },
       borderRadius: {
         none: "0",
