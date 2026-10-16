@@ -32,8 +32,8 @@ const audiowide = Audiowide({
 });
 
 export const metadata: Metadata = {
-  title: "SINAPSE — Brand Source of Truth",
-  description: "Escale sua operação sem aumentar sua folha.",
+  title: "SINAPSE SI — Brand System",
+  description: "O sistema de marca da SINAPSE SI. Estratégia, identidade, movimento e aplicações para School, House e Growth.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

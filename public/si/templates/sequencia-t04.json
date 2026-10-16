@@ -1,0 +1,43 @@
+{
+  "brand": "SINAPSE SI",
+  "status": "proposta",
+  "format": "1080x1920",
+  "frames": [
+    {
+      "eyebrow": "SINAPSE SCHOOL · T04",
+      "title": "A próxima turma começa com o seu próximo passo.",
+      "body": "Aprenda em grupo e leve a inteligência artificial para os seus projetos.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "01 · PENSAR",
+      "title": "Contexto para pensar melhor.",
+      "body": "Organize conhecimento, formule pedidos e avalie as respostas com mais critério.",
+      "kind": "outline"
+    },
+    {
+      "eyebrow": "02 · CONSTRUIR",
+      "title": "Da primeira ideia ao projeto em operação.",
+      "body": "Explore agentes, interfaces, dados e publicação em um fluxo conectado.",
+      "kind": "connection"
+    },
+    {
+      "eyebrow": "03 · CRIAR",
+      "title": "Dê forma ao que você quer comunicar.",
+      "body": "Imagem, vídeo, voz e automações com direção e revisão.",
+      "kind": "light"
+    },
+    {
+      "eyebrow": "04 · APLICAR",
+      "title": "Conecte o aprendizado ao seu trabalho.",
+      "body": "Use o seu contexto para desenvolver ideias, processos e entregas.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "SEU PRÓXIMO PASSO",
+      "title": "Entre na lista da T04.",
+      "body": "Acompanhe os avisos da próxima turma em sinapse.si/school. O cadastro registra interesse.",
+      "kind": "light"
+    }
+  ]
+}

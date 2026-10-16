@@ -1,0 +1,156 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "brand_object": "Ecossistema corporativo com três braços de serviço e educação",
+  "offers": [
+    {
+      "name": "School",
+      "key": "school",
+      "verb": "Aprender.",
+      "descriptor": "Educação em IA aplicada",
+      "promise": "Repertório para transformar conhecimento em prática.",
+      "detail": "Fundamentos, encontros ao vivo, projetos e aulas para revisitar. A School desenvolve autonomia para aplicar inteligência no próprio contexto.",
+      "audience": "Profissionais, criadores e empresários que querem aplicar IA ao trabalho.",
+      "proof": "O percurso público organiza fundamentos, prática orientada e projetos. A T04 tem lista de espera, mentoria em grupo e aulas gravadas.",
+      "cta": "Conheça a School",
+      "url": "https://sinapse.si/school",
+      "rhythm": "Explorar → experimentar → aplicar",
+      "boundary": "A lista de espera registra interesse; matrícula e acesso como Member acontecem no ingresso."
+    },
+    {
+      "name": "House",
+      "key": "house",
+      "verb": "Construir.",
+      "descriptor": "Software e soluções por projeto",
+      "promise": "Da ideia a uma experiência pronta para operar.",
+      "detail": "Sistemas, aplicativos, automações e integrações. A experiência das pessoas orienta o escopo, o desenvolvimento e a validação.",
+      "audience": "Empresas e pessoas com uma necessidade concreta de produto ou processo.",
+      "proof": "A página pública apresenta descoberta, experiência, desenvolvimento, validação e produção. Cada entrega depende do escopo contratado.",
+      "cta": "Conheça a House",
+      "url": "https://sinapse.si/house",
+      "rhythm": "Entender → desenhar → construir → validar",
+      "boundary": "Entrega por projeto. A operação recorrente de crescimento pertence à Growth."
+    },
+    {
+      "name": "Growth",
+      "key": "growth",
+      "verb": "Crescer.",
+      "descriptor": "Estratégia e operação recorrente",
+      "promise": "Estratégia, criação e dados no mesmo movimento.",
+      "detail": "Go to Market, mídia, conteúdo, dados, CRM, automações e crescimento orgânico para e-commerce, vendas diretas e geração de leads.",
+      "audience": "Empresas que precisam de continuidade entre estratégia, aquisição, vendas e relacionamento.",
+      "proof": "A oferta pública apresenta especialistas, operação full time e agentes de automação e monitoramento. Resultados dependem do contexto e do trabalho realizado.",
+      "cta": "Conheça a Growth",
+      "url": "https://sinapse.si/growth",
+      "rhythm": "Planejar → executar → analisar → otimizar",
+      "boundary": "Agentes ativos 24 horas não significam atendimento humano 24 horas nem promessa de retorno financeiro."
+    }
+  ],
+  "buying_roles": [
+    "aluno",
+    "criador",
+    "gestor",
+    "responsável por produto",
+    "responsável por marketing"
+  ],
+  "portfolio": {
+    "entities": [
+      "SINAPSE SI",
+      "Sinapse School",
+      "Sinapse House",
+      "Sinapse Growth"
+    ],
+    "relationships": [
+      "School ensina; House entrega projetos; Growth opera recorrentemente."
+    ],
+    "preserved_recognition": [
+      "símbolo e lettering"
+    ],
+    "decisions": [
+      "marca principal com braços descritores"
+    ]
+  },
+  "claim_evidence": [
+    {
+      "claim": "Repertório para transformar conhecimento em prática.",
+      "offer_id": "school",
+      "source": "https://sinapse.si/school",
+      "context": "Educação em IA aplicada",
+      "limits": "A lista de espera registra interesse; matrícula e acesso como Member acontecem no ingresso.",
+      "status": "public_offer_observed"
+    },
+    {
+      "claim": "Da ideia a uma experiência pronta para operar.",
+      "offer_id": "house",
+      "source": "https://sinapse.si/house",
+      "context": "Software e soluções por projeto",
+      "limits": "Entrega por projeto. A operação recorrente de crescimento pertence à Growth.",
+      "status": "public_offer_observed"
+    },
+    {
+      "claim": "Estratégia, criação e dados no mesmo movimento.",
+      "offer_id": "growth",
+      "source": "https://sinapse.si/growth",
+      "context": "Estratégia e operação recorrente",
+      "limits": "Agentes ativos 24 horas não significam atendimento humano 24 horas nem promessa de retorno financeiro.",
+      "status": "public_offer_observed"
+    }
+  ],
+  "message_examples": {
+    "institutional": [
+      {
+        "context": "Institucional",
+        "before": "Soluções disruptivas que revolucionam o futuro com IA.",
+        "after": "Conectamos tecnologia, aprendizado e operação para ampliar o que você consegue fazer."
+      }
+    ],
+    "commercial": [
+      {
+        "context": "School",
+        "before": "Domine todas as IAs e nunca mais fique para trás.",
+        "after": "Aprenda a dar contexto, testar possibilidades e aplicar IA aos seus projetos."
+      },
+      {
+        "context": "House",
+        "before": "Seu app pronto com um prompt.",
+        "after": "Transformamos uma necessidade em um projeto com escopo, experiência e validação."
+      },
+      {
+        "context": "Growth",
+        "before": "Venda no automático com resultados garantidos.",
+        "after": "Conecte estratégia, conteúdo, mídia e dados em uma operação que aprende a cada ciclo."
+      },
+      {
+        "context": "Lista de espera",
+        "before": "Garanta agora sua vaga na T04.",
+        "after": "Entre na lista da T04 e receba os avisos da próxima turma."
+      }
+    ],
+    "use_or_service": [
+      {
+        "context": "Suporte",
+        "before": "Ocorreu uma falha inesperada. Error 502.",
+        "after": "Não foi possível concluir agora. Seus dados continuam preenchidos; tente novamente em alguns instantes."
+      }
+    ]
+  },
+  "governance": {
+    "system_owner": "Caio Imori / SINAPSE",
+    "offer_owners": [],
+    "source_of_truth": "data/si/brand.ts + brand-system.json + public/si/tokens.json",
+    "exception_rules": [
+      "Proposta visual não autoriza produção ou postagem."
+    ],
+    "review_triggers": [
+      "mudança de oferta",
+      "feedback visual",
+      "novo formato"
+    ]
+  },
+  "transition": [
+    "aprovar proposta",
+    "migrar pontos de contato por lote",
+    "conferir no destino"
+  ],
+  "rollout_status": "not_authorized_by_branding_alone"
+}

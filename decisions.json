@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "decisions": [
+    {
+      "id": "SI-NAME",
+      "status": "user_defined",
+      "decision": "SINAPSE SI / Super Intelligence",
+      "source": "Pedido de Caio em 16/10/2026"
+    },
+    {
+      "id": "SI-COLOR",
+      "status": "user_defined",
+      "decision": "Preto e branco sem accent cromático",
+      "source": "Pedido de Caio em 16/10/2026"
+    },
+    {
+      "id": "SI-MASTER",
+      "status": "preserved",
+      "decision": "Preservar curvas dos mestres existentes"
+    },
+    {
+      "id": "SI-PROPOSAL",
+      "status": "awaiting_review",
+      "decision": "Plataforma verbal, sinais dos braços e aplicações 1.0"
+    },
+    {
+      "id": "SI-RELEASE",
+      "status": "not_authorized",
+      "decision": "Produção, DNS, postagem e fabricação fora do lote"
+    }
+  ]
+}

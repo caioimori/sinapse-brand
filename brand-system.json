@@ -1,0 +1,406 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "version": "1.0-proposal",
+  "stage": "proposed_evolution",
+  "strategy": {
+    "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
+    "promise": "Inteligência para ampliar o que você consegue fazer.",
+    "difference": "School desenvolve repertório, House constrói e Growth mantém a operação aprendendo.",
+    "reasons_to_believe": [
+      {
+        "pillar": "School",
+        "evidence": "O percurso público organiza fundamentos, prática orientada e projetos. A T04 tem lista de espera, mentoria em grupo e aulas gravadas.",
+        "source": "https://sinapse.si/school"
+      },
+      {
+        "pillar": "House",
+        "evidence": "A página pública apresenta descoberta, experiência, desenvolvimento, validação e produção. Cada entrega depende do escopo contratado.",
+        "source": "https://sinapse.si/house"
+      },
+      {
+        "pillar": "Growth",
+        "evidence": "A oferta pública apresenta especialistas, operação full time e agentes de automação e monitoramento. Resultados dependem do contexto e do trabalho realizado.",
+        "source": "https://sinapse.si/growth"
+      }
+    ],
+    "personality": [
+      "precisa",
+      "próxima",
+      "confiante",
+      "responsável"
+    ],
+    "principles": [
+      {
+        "title": "Capacidade ampliada.",
+        "text": "A tecnologia importa quando amplia a capacidade de aprender, criar, decidir e executar. A demonstração deve chegar a uma entrega que as pessoas consigam usar."
+      },
+      {
+        "title": "Clareza radical.",
+        "text": "Um assunto por composição. Hierarquia antes de efeito. A pessoa deve entender o próximo passo sem precisar conhecer o nosso vocabulário técnico."
+      },
+      {
+        "title": "Precisão humana.",
+        "text": "Pessoas definem direção e assumem responsabilidade. Agentes ampliam a execução. A experiência real é o critério para revisar o resultado."
+      },
+      {
+        "title": "Inteligência conectada.",
+        "text": "School desenvolve repertório, House constrói soluções e Growth mantém a operação aprendendo. Os três braços podem se complementar sem confundir a contratação."
+      }
+    ]
+  },
+  "naming": {
+    "display_name": "SINAPSE SI",
+    "pronunciation": "Sinapse, seguido das letras S e I.",
+    "domain": "sinapse.si",
+    "handle": "@sinapse.si",
+    "status": "user_defined",
+    "architecture": {
+      "model": "Marca principal com três braços descritores",
+      "hierarchy": [
+        "SINAPSE SI",
+        "Sinapse School",
+        "Sinapse House",
+        "Sinapse Growth"
+      ],
+      "rationale": "Reconhecimento compartilhado e ofertas distintas."
+    }
+  },
+  "identity": {
+    "masters": [
+      {
+        "id": "sinapse-symbol",
+        "file": "public/brand/logo/bone/sinapse-symbol.svg",
+        "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
+      },
+      {
+        "id": "sinapse-wordmark",
+        "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+        "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+      },
+      {
+        "id": "snps-lockup",
+        "file": "public/brand/logo/bone/snps-lockup.svg",
+        "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+      }
+    ],
+    "variants": [
+      {
+        "id": "growth-bone",
+        "file": "public/si/logos/growth-bone.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "growth-vanta",
+        "file": "public/si/logos/growth-vanta.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "house-bone",
+        "file": "public/si/logos/house-bone.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "house-vanta",
+        "file": "public/si/logos/house-vanta.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "school-bone",
+        "file": "public/si/logos/school-bone.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "school-vanta",
+        "file": "public/si/logos/school-vanta.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-bone",
+        "file": "public/si/logos/sinapse-si-bone.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-vanta",
+        "file": "public/si/logos/sinapse-si-vanta.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-bone",
+        "file": "public/si/logos/snps-bone.svg",
+        "status": "preserved"
+      },
+      {
+        "id": "snps-vanta",
+        "file": "public/si/logos/snps-vanta.svg",
+        "status": "preserved"
+      },
+      {
+        "id": "symbol-bone",
+        "file": "public/si/logos/symbol-bone.svg",
+        "status": "preserved"
+      },
+      {
+        "id": "symbol-vanta",
+        "file": "public/si/logos/symbol-vanta.svg",
+        "status": "preserved"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Vanta",
+        "hex": "#0A0A0A",
+        "use": "Fundo principal e assinatura escura"
+      },
+      {
+        "name": "Carbon",
+        "hex": "#141414",
+        "use": "Superfícies elevadas e campos"
+      },
+      {
+        "name": "Graphite",
+        "hex": "#262626",
+        "use": "Bordas sólidas e separação"
+      },
+      {
+        "name": "Silver",
+        "hex": "#A6A6A6",
+        "use": "Texto de apoio sobre Vanta"
+      },
+      {
+        "name": "Mist",
+        "hex": "#E8E8E5",
+        "use": "Superfícies claras e fundos de estudo"
+      },
+      {
+        "name": "Bone",
+        "hex": "#F5F5F0",
+        "use": "Texto principal e edição clara"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "use": "Reflexos e contraste pontual"
+      }
+    ],
+    "contrast_pairs": [
+      {
+        "id": "dark-primary",
+        "foreground": "#F5F5F0",
+        "background": "#0A0A0A",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "dark-secondary",
+        "foreground": "#A6A6A6",
+        "background": "#0A0A0A",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "light-secondary",
+        "foreground": "#626262",
+        "background": "#F5F5F0",
+        "minimum": 4.5,
+        "surface": "solid"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "Inter",
+        "file": "public/si/fonts/Inter-Regular.ttf",
+        "sha256": "52b04d115521b8665a6c9873706485195d572d7c1776def36d153100bb48b590",
+        "license_file": "public/si/fonts/inter-OFL.txt"
+      },
+      {
+        "family": "JetBrains Mono",
+        "file": "public/si/fonts/JetBrainsMono-Regular.ttf",
+        "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79",
+        "license_file": "public/si/fonts/jetbrainsmono-OFL.txt"
+      },
+      {
+        "family": "Audiowide",
+        "file": "public/si/fonts/Audiowide-Regular.ttf",
+        "sha256": "c7c0f2b0f6fad8c623e31772ce79f94a4edb9321ffce9fce978ea892d20ae730",
+        "license_file": "public/si/fonts/audiowide-OFL.txt"
+      }
+    ],
+    "materials": [
+      "matte",
+      "silver",
+      "optical"
+    ],
+    "composition_rules": [
+      "uma ideia por composição",
+      "hierarquia antes do efeito",
+      "conteúdo em superfície sólida",
+      "margens e área de segurança",
+      "logo preservado em curvas"
+    ],
+    "reduction_sizes_px": [
+      24,
+      32,
+      48,
+      96
+    ],
+    "usage_tests": [
+      "logo claro e escuro",
+      "símbolo",
+      "assinaturas dos braços",
+      "avatares",
+      "PNG e SVG exportados"
+    ]
+  },
+  "voice": {
+    "point_of_view": "Ampliar a capacidade de aprender, criar, decidir e executar.",
+    "traits": [
+      "precisa",
+      "próxima",
+      "confiante"
+    ],
+    "vocabulary": [
+      "aplicar",
+      "conectar",
+      "contexto",
+      "repertório",
+      "construir",
+      "operação"
+    ],
+    "avoid": [
+      "resultado garantido sem prova",
+      "parceria inferida de uso de ferramenta",
+      "matrícula por lista de espera"
+    ],
+    "examples": [
+      {
+        "context": "Institucional",
+        "before": "Soluções disruptivas que revolucionam o futuro com IA.",
+        "after": "Conectamos tecnologia, aprendizado e operação para ampliar o que você consegue fazer."
+      },
+      {
+        "context": "School",
+        "before": "Domine todas as IAs e nunca mais fique para trás.",
+        "after": "Aprenda a dar contexto, testar possibilidades e aplicar IA aos seus projetos."
+      },
+      {
+        "context": "House",
+        "before": "Seu app pronto com um prompt.",
+        "after": "Transformamos uma necessidade em um projeto com escopo, experiência e validação."
+      },
+      {
+        "context": "Growth",
+        "before": "Venda no automático com resultados garantidos.",
+        "after": "Conecte estratégia, conteúdo, mídia e dados em uma operação que aprende a cada ciclo."
+      },
+      {
+        "context": "Lista de espera",
+        "before": "Garanta agora sua vaga na T04.",
+        "after": "Entre na lista da T04 e receba os avisos da próxima turma."
+      },
+      {
+        "context": "Suporte",
+        "before": "Ocorreu uma falha inesperada. Error 502.",
+        "after": "Não foi possível concluir agora. Seus dados continuam preenchidos; tente novamente em alguns instantes."
+      }
+    ],
+    "claim_sources": [
+      "https://sinapse.si/school",
+      "https://sinapse.si/house",
+      "https://sinapse.si/growth"
+    ]
+  },
+  "photography": {
+    "priorities": [
+      "contexto real",
+      "luz lateral ampla",
+      "detalhe do trabalho",
+      "origem identificada"
+    ],
+    "product_invariants": [
+      "curvas do logo",
+      "produto exato",
+      "escala e aplicação verificáveis"
+    ],
+    "reference_roles": [
+      "Acervo recebido orienta o desenho; benchmark orienta mecanismos."
+    ],
+    "casting": [
+      "Sem personagem ou equipe fictícios apresentados como reais."
+    ],
+    "review_criteria": [
+      "anatomia e produto coerentes",
+      "logo preservado",
+      "origem e autorização",
+      "continuidade por sequência"
+    ]
+  },
+  "editorial": {
+    "families": [
+      {
+        "name": "Signal",
+        "label": "Marca e manifesto",
+        "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
+        "ratio": "4:5 · 9:16",
+        "fixed": "Assinatura, grade, contraste e hierarquia.",
+        "variable": "Frase, escala e material do símbolo.",
+        "limit": "Até 12 palavras no título. A assinatura não compete com a mensagem."
+      },
+      {
+        "name": "Field Notes",
+        "label": "Aprendizado e repertório",
+        "use": "Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.",
+        "ratio": "4:5 · 9:16",
+        "fixed": "Número de página, margem, rótulo de seção e fonte de referência.",
+        "variable": "Texto, captura, vídeo, diagrama e exemplo.",
+        "limit": "Uma afirmação principal por tela. Explicar siglas no primeiro uso."
+      },
+      {
+        "name": "Open Class",
+        "label": "Mentorias e turmas",
+        "use": "Abertura, conteúdo, dinâmica, evidência e lista de espera da School.",
+        "ratio": "9:16 · 4:5",
+        "fixed": "Nome School, turma, sequência e destino real do CTA.",
+        "variable": "Tema, convite, conteúdo e condição confirmada.",
+        "limit": "Datas, preço, vagas e bônus somente após validação da oferta vigente."
+      },
+      {
+        "name": "Proof of Work",
+        "label": "Projetos e operação",
+        "use": "Mostrar processo, detalhe e resultado observado de House e Growth.",
+        "ratio": "4:5 · 16:9",
+        "fixed": "Problema, papel da SINAPSE e identificação de conceito ou entrega.",
+        "variable": "Projeto, interface, cenário, evidência e aprendizado.",
+        "limit": "Sem cliente, depoimento, resultado ou parceria inventados."
+      }
+    ],
+    "continuity_rules": [
+      "uma ideia por tela",
+      "condições comerciais verificadas",
+      "assinatura e margens consistentes"
+    ],
+    "text_policy": {
+      "avoid_stranded_function_words": true,
+      "max_headline_lines": 6
+    }
+  },
+  "transition": {
+    "preserved": [
+      "símbolo",
+      "lettering",
+      "ofertas",
+      "acervo"
+    ],
+    "changed": [
+      "assinatura SI",
+      "tipografia consolidada",
+      "sinais e biblioteca de aplicações"
+    ],
+    "rollout": [
+      "aprovar proposta",
+      "migrar pontos de contato por lote",
+      "conferir no destino"
+    ],
+    "recovery": "Mestres e rotas legadas preservados; branch principal não foi alterada por este lote."
+  }
+}

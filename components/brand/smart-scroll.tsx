@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 import Lenis from "lenis";
 
 /**
@@ -13,7 +14,10 @@ import Lenis from "lenis";
  * Mount uma única vez no layout.
  */
 export function SmartScroll() {
+  const pathname = usePathname();
   useEffect(() => {
+    // The SI studio uses native scrolling and owns its interaction state.
+    if (pathname === "/" || pathname.startsWith("/studio")) return;
     const reduce = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
     const lenis = reduce
@@ -53,7 +57,7 @@ export function SmartScroll() {
       lenis?.destroy();
       document.documentElement.classList.remove("lenis");
     };
-  }, []);
+  }, [pathname]);
 
   return null;
 }

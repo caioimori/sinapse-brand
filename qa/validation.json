@@ -1,0 +1,441 @@
+{
+  "phase": "delivery",
+  "errors": [],
+  "pending": [],
+  "unverified": [],
+  "technical_requirements_met": true,
+  "visual_quality": "not_assessed_by_script",
+  "publication_performed": false,
+  "checks": [
+    {
+      "id": "icons-agent.svg",
+      "file": "public/si/icons/agent.svg",
+      "sha256": "74d97b56ffb29f08e9bcc77a47a3d43bf6e5f93496f1e11a71437b2ae2874eb0"
+    },
+    {
+      "id": "icons-code.svg",
+      "file": "public/si/icons/code.svg",
+      "sha256": "781e722fb0b5170e98a93a059a0cd6e701531c8b5281871796dbb3c54be1e168"
+    },
+    {
+      "id": "icons-connect.svg",
+      "file": "public/si/icons/connect.svg",
+      "sha256": "319de6614e815ff341152436337f7f14eef0178cb8b33160468d68efc96f9ddb"
+    },
+    {
+      "id": "icons-context.svg",
+      "file": "public/si/icons/context.svg",
+      "sha256": "d527526d9692c7cf3ba4e485ea6a328b4db58ef2dce10ba56cef7956c7f45268"
+    },
+    {
+      "id": "icons-create.svg",
+      "file": "public/si/icons/create.svg",
+      "sha256": "dda017f3159049b30e6c1ccb727fb8ed1a3245defc28756087621104e1e067d9"
+    },
+    {
+      "id": "icons-data.svg",
+      "file": "public/si/icons/data.svg",
+      "sha256": "1dbd729849d2361369351ea4b95e12a122199e03b0583b60eb9baa20c1b38c44"
+    },
+    {
+      "id": "icons-flow.svg",
+      "file": "public/si/icons/flow.svg",
+      "sha256": "88b6245d997d80db07c40bcc2b4f8ab30da69699c0b8afd93c77cc3bf757ff3a"
+    },
+    {
+      "id": "icons-growth.svg",
+      "file": "public/si/icons/growth.svg",
+      "sha256": "f7e98b568e430c63c4d1e3f5359c6b24e94f4c4c49b23eeb2ab75c4fd7322809"
+    },
+    {
+      "id": "icons-house.svg",
+      "file": "public/si/icons/house.svg",
+      "sha256": "1d79318140087eb62340f79ccbe8e28f69b85308cfbb3811e6ac870f1824c9c9"
+    },
+    {
+      "id": "icons-orbit.svg",
+      "file": "public/si/icons/orbit.svg",
+      "sha256": "957610cca828e6967612c009f80663fe2043b2eb37dcd08b46a3d62f1bd9c509"
+    },
+    {
+      "id": "icons-play.svg",
+      "file": "public/si/icons/play.svg",
+      "sha256": "e8324af830c1c8e12de1bddd61bdb9bb92bb2d87724f28a17ef558b8e0b897d2"
+    },
+    {
+      "id": "icons-school.svg",
+      "file": "public/si/icons/school.svg",
+      "sha256": "39cac1677616992e4c6a4ea078b802669d4d4b5371b5a804625dbb1e5b6e5604"
+    },
+    {
+      "id": "logos-growth-bone.svg",
+      "file": "public/si/logos/growth-bone.svg",
+      "sha256": "868729b1ee5aed15ab0f9acf43444091f4d2838428e4fbaf7893612ed2ed21d6"
+    },
+    {
+      "id": "logos-growth-vanta.svg",
+      "file": "public/si/logos/growth-vanta.svg",
+      "sha256": "88f67c338704066177b8ac61855a299125ed5f91990a4f00e0e9d61541d90aea"
+    },
+    {
+      "id": "logos-house-bone.svg",
+      "file": "public/si/logos/house-bone.svg",
+      "sha256": "44fe8ff168020727b51405a0b3158e3cc33e7705117b758f3db84b1b15e6c965"
+    },
+    {
+      "id": "logos-house-vanta.svg",
+      "file": "public/si/logos/house-vanta.svg",
+      "sha256": "5468bf31fb146089c2d57082d704738dc81afb01ca3cbc3599f8d25c9d594f29"
+    },
+    {
+      "id": "logos-school-bone.svg",
+      "file": "public/si/logos/school-bone.svg",
+      "sha256": "19b2fb5a974751d3597b0def736f6e86a180d2b3f81635ae2b1b336d67ead90a"
+    },
+    {
+      "id": "logos-school-vanta.svg",
+      "file": "public/si/logos/school-vanta.svg",
+      "sha256": "9086e8317b8aed237dc34750757b50ed85ae20af179e4fc0ee1f1880ac9856a0"
+    },
+    {
+      "id": "logos-sinapse-si-bone.svg",
+      "file": "public/si/logos/sinapse-si-bone.svg",
+      "sha256": "b4485a178c9950b88173c0bf8503e15bd04cfd1c7855383c6b71e619eed12062"
+    },
+    {
+      "id": "logos-sinapse-si-vanta.svg",
+      "file": "public/si/logos/sinapse-si-vanta.svg",
+      "sha256": "0f6d3a7582ddedef7d58ff943e4551ccf3b7206ab3c3031328ce8dbac29205f4"
+    },
+    {
+      "id": "logos-snps-bone.svg",
+      "file": "public/si/logos/snps-bone.svg",
+      "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+    },
+    {
+      "id": "logos-snps-vanta.svg",
+      "file": "public/si/logos/snps-vanta.svg",
+      "sha256": "33c9d5cc97af50796b117d44d3a28a87aafb8bd93762f04fac03b54917cd50e8"
+    },
+    {
+      "id": "logos-symbol-bone.svg",
+      "file": "public/si/logos/symbol-bone.svg",
+      "sha256": "e880d5493fb8a7b2f828665320a4f4f626ce0a22150c1d3ce71ac702ed219c33"
+    },
+    {
+      "id": "logos-symbol-vanta.svg",
+      "file": "public/si/logos/symbol-vanta.svg",
+      "sha256": "e7b5b514b33074db01fb3dc6f94e3659ab18f684cecfe98d0a236eae671c86e6"
+    },
+    {
+      "id": "motion-connection.svg",
+      "file": "public/si/motion-connection.svg",
+      "sha256": "7728927a67b7d4b26890b4213012c034bbf62634c2c52f628156cec02f1ebfe3"
+    },
+    {
+      "id": "motion-orbit.svg",
+      "file": "public/si/motion-orbit.svg",
+      "sha256": "599c021f89e73db4670e7d7969d78113e709317fb53221e97aa908618a96fc6f"
+    },
+    {
+      "id": "motion-reveal.svg",
+      "file": "public/si/motion-reveal.svg",
+      "sha256": "3e954f8e3497a6d05f67ee6b63a0ea30ba3f2a4173724e94f7bfe5701a5ec3b4"
+    },
+    {
+      "id": "SINAPSE-SI-Brandbook.pdf",
+      "file": "public/si/SINAPSE-SI-Brandbook.pdf",
+      "sha256": "1be7c32143a36df1e987aa90f111420715e28bf0dc256bf0f7497621844f5c9c"
+    },
+    {
+      "id": "studies-hoodie-essential.webp",
+      "file": "public/si/studies/hoodie-essential.webp",
+      "sha256": "449a8f592b2f0f5ff88bf3604199d0eccaf2567eabd84ac1359b3796e155c457"
+    },
+    {
+      "id": "studies-hoodie-manifesto.webp",
+      "file": "public/si/studies/hoodie-manifesto.webp",
+      "sha256": "d1b97c0c61e6809eba161b828562385f631e2bdff6e021945d72dda8d3590330"
+    },
+    {
+      "id": "studies-tshirt-essential.webp",
+      "file": "public/si/studies/tshirt-essential.webp",
+      "sha256": "8d9bdfc3983435d301eb88b7e5ffeaa68787756b6c6fb72b069dd44815b82c55"
+    },
+    {
+      "id": "studies-tshirt-white.webp",
+      "file": "public/si/studies/tshirt-white.webp",
+      "sha256": "8db371297a0f84f095aca791183382b3fb9885a9c0987981f083d41477f17e75"
+    },
+    {
+      "id": "templates-avatar-dark.svg",
+      "file": "public/si/templates/avatar-dark.svg",
+      "sha256": "ae1738de9f9006742b674c5379fc03b09611601244d1190d17a63654e42934b6"
+    },
+    {
+      "id": "templates-avatar-light.svg",
+      "file": "public/si/templates/avatar-light.svg",
+      "sha256": "2ff28dcfb97e101c2833bf27c5c9c5a1aa53bb9967e6ec95b32651fda6e31c4c"
+    },
+    {
+      "id": "templates-banner-dark.svg",
+      "file": "public/si/templates/banner-dark.svg",
+      "sha256": "da336d7a5b7f5d6918e28ac529e1e9359771fdb414f4881c84d842ed12b48fca"
+    },
+    {
+      "id": "templates-banner-light.svg",
+      "file": "public/si/templates/banner-light.svg",
+      "sha256": "9130832c486a82a6ca9d88fdd164a25fc19d9c3e6b4eeb904ab54c6b0ccbbe15"
+    },
+    {
+      "id": "templates-brand-avatar-dark.svg",
+      "file": "public/si/templates/brand-avatar-dark.svg",
+      "sha256": "8cc3c20791030f5a8861539ffbc7299cb7c5ed7cebdb486079b3ef6ddc1fb63e"
+    },
+    {
+      "id": "templates-brand-avatar-light.svg",
+      "file": "public/si/templates/brand-avatar-light.svg",
+      "sha256": "3567ed5d7115a5932099fde9d232871b4c6caa2a6c24a01716b7a4da5ec9e9f6"
+    },
+    {
+      "id": "templates-carousel-dark.svg",
+      "file": "public/si/templates/carousel-dark.svg",
+      "sha256": "b58d503e7e6811abf9088ee67f8e32ef61628aef6f6e3f6286e6936cf8728e78"
+    },
+    {
+      "id": "templates-carousel-light.svg",
+      "file": "public/si/templates/carousel-light.svg",
+      "sha256": "3acd2162763b3a681b82f319a19aca170686f3dbb28a51eb76232e8838191b22"
+    },
+    {
+      "id": "templates-community-avatar.svg",
+      "file": "public/si/templates/community-avatar.svg",
+      "sha256": "ae1738de9f9006742b674c5379fc03b09611601244d1190d17a63654e42934b6"
+    },
+    {
+      "id": "templates-cover-dark.svg",
+      "file": "public/si/templates/cover-dark.svg",
+      "sha256": "4e22cae8a9d84fd86f1a34d20220f1d6dc72040dafe2f6397832d8c04b9eeef8"
+    },
+    {
+      "id": "templates-cover-light.svg",
+      "file": "public/si/templates/cover-light.svg",
+      "sha256": "17fe239f8f8dedbfa9031a2992bd8c24239c14dea3055e8c301486815d93479f"
+    },
+    {
+      "id": "templates-field-notes-01.svg",
+      "file": "public/si/templates/field-notes-01.svg",
+      "sha256": "795e4431774e9a01e4e44323a846331a36812f4ec1d0269ce3e650641de47698"
+    },
+    {
+      "id": "templates-field-notes-02.svg",
+      "file": "public/si/templates/field-notes-02.svg",
+      "sha256": "f6b3c17c4fe9a5ae1663bb920187cd676557a913489338b851880ad5a2efdfda"
+    },
+    {
+      "id": "templates-field-notes-03.svg",
+      "file": "public/si/templates/field-notes-03.svg",
+      "sha256": "c195167db15814355111c6f8ccd01609d045d4e09394b954ea849fe253b56ba0"
+    },
+    {
+      "id": "templates-field-notes-04.svg",
+      "file": "public/si/templates/field-notes-04.svg",
+      "sha256": "45130cc8afb273fecd4b95c78568e9cd8d8e4a8eaf67d56c2e66e375fa5f8046"
+    },
+    {
+      "id": "templates-field-notes-05.svg",
+      "file": "public/si/templates/field-notes-05.svg",
+      "sha256": "ade957f634eea88d50ecda5fdf965193640cdfd10457f62b6b1bae2a719d5f43"
+    },
+    {
+      "id": "templates-field-notes-06.svg",
+      "file": "public/si/templates/field-notes-06.svg",
+      "sha256": "d1cd1675afcaaba3726d289c3b5bea4578392c1321148f52df86ae8d35c5e901"
+    },
+    {
+      "id": "templates-field-notes-07.svg",
+      "file": "public/si/templates/field-notes-07.svg",
+      "sha256": "a8a6821003978671aeeb0e4107e5b8116020570d271fa45bd4a52738e9372509"
+    },
+    {
+      "id": "templates-field-notes-08.svg",
+      "file": "public/si/templates/field-notes-08.svg",
+      "sha256": "b9fd00476bec9a2b29a166f4af17084265880efdbdf9c1ca9b69b180d23d040e"
+    },
+    {
+      "id": "templates-field-notes-09.svg",
+      "file": "public/si/templates/field-notes-09.svg",
+      "sha256": "14c1ba349d328be109016ff85f3f766e95ba812d06fc5bcfe524e69df5dbe27a"
+    },
+    {
+      "id": "templates-field-notes-10.svg",
+      "file": "public/si/templates/field-notes-10.svg",
+      "sha256": "1764b1f8a7e91ca1c5fd9006ecde9b81bb2c37443162ec2b994bf1d154ffb47e"
+    },
+    {
+      "id": "templates-member-cover.svg",
+      "file": "public/si/templates/member-cover.svg",
+      "sha256": "4e22cae8a9d84fd86f1a34d20220f1d6dc72040dafe2f6397832d8c04b9eeef8"
+    },
+    {
+      "id": "templates-post-dark.svg",
+      "file": "public/si/templates/post-dark.svg",
+      "sha256": "2cb5a88c908fcbe4ae87d3a4aa84ff169829b21cce463ff9696d3bf3e3bc258f"
+    },
+    {
+      "id": "templates-post-light.svg",
+      "file": "public/si/templates/post-light.svg",
+      "sha256": "4aa819525cd6ded6f3b5f74eca083c4054427521fa6f222566af9673fb2db79f"
+    },
+    {
+      "id": "templates-story-dark.svg",
+      "file": "public/si/templates/story-dark.svg",
+      "sha256": "18edd779ab8966c4d27ba6b0b15dca2ba53dfd761f767fe9201a7b66da2deee6"
+    },
+    {
+      "id": "templates-story-light.svg",
+      "file": "public/si/templates/story-light.svg",
+      "sha256": "c89ee64b3c8ac4496745a39db94f6b3bda5069fbdb448581c09e185ea3f5b484"
+    },
+    {
+      "id": "templates-t04-carousel-01.svg",
+      "file": "public/si/templates/t04-carousel-01.svg",
+      "sha256": "b58d503e7e6811abf9088ee67f8e32ef61628aef6f6e3f6286e6936cf8728e78"
+    },
+    {
+      "id": "templates-t04-carousel-02.svg",
+      "file": "public/si/templates/t04-carousel-02.svg",
+      "sha256": "764c16343abee79bef9224de054c8354fede7814670496b525ca3e293670ca8a"
+    },
+    {
+      "id": "templates-t04-carousel-03.svg",
+      "file": "public/si/templates/t04-carousel-03.svg",
+      "sha256": "437408826fe02148e313f65fe86f1f4dd6b7a7990aa4ebc7e8ad98cf836689d7"
+    },
+    {
+      "id": "templates-t04-carousel-04.svg",
+      "file": "public/si/templates/t04-carousel-04.svg",
+      "sha256": "c9c821612d0048835f890132772ddb21cfdd7076a85a67de0db45daddccc8ed2"
+    },
+    {
+      "id": "templates-t04-carousel-05.svg",
+      "file": "public/si/templates/t04-carousel-05.svg",
+      "sha256": "e1c770c5d173e7f7a85ae797ec0a67d49a498320608dee0d7e71c03f8ceebd72"
+    },
+    {
+      "id": "templates-t04-carousel-06.svg",
+      "file": "public/si/templates/t04-carousel-06.svg",
+      "sha256": "ae845c09cb7ab3302c85442d3c92b4d7473ba28ff258fd774a05219e1e9d55ea"
+    },
+    {
+      "id": "templates-t04-story-01.svg",
+      "file": "public/si/templates/t04-story-01.svg",
+      "sha256": "18edd779ab8966c4d27ba6b0b15dca2ba53dfd761f767fe9201a7b66da2deee6"
+    },
+    {
+      "id": "templates-t04-story-02.svg",
+      "file": "public/si/templates/t04-story-02.svg",
+      "sha256": "70214857f84bcc8486a1a6c6eff7488c17f3098b6ac5770bd291fea3fc0ebf74"
+    },
+    {
+      "id": "templates-t04-story-03.svg",
+      "file": "public/si/templates/t04-story-03.svg",
+      "sha256": "3b7533471cb960e01056fcdb166ddd7bba718fb89f0f084f2a4ebf175a36d44a"
+    },
+    {
+      "id": "templates-t04-story-04.svg",
+      "file": "public/si/templates/t04-story-04.svg",
+      "sha256": "fde580b69b53de19fd17d7a14725c716e4f2d4e67013d12fe6f6f2bbc7102b61"
+    },
+    {
+      "id": "templates-t04-story-05.svg",
+      "file": "public/si/templates/t04-story-05.svg",
+      "sha256": "968857200b9f8e8a2217238ff82fb062e4d4adec9d9bc2a71683e579e560e809"
+    },
+    {
+      "id": "templates-t04-story-06.svg",
+      "file": "public/si/templates/t04-story-06.svg",
+      "sha256": "3dff1237237bac0076828e58af19a7710b1844ba14c5ae65d4568459d7122941"
+    },
+    {
+      "id": "master-sinapse-symbol",
+      "file": "public/brand/logo/bone/sinapse-symbol.svg",
+      "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
+    },
+    {
+      "id": "master-sinapse-wordmark",
+      "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+      "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+    },
+    {
+      "id": "master-snps-lockup",
+      "file": "public/brand/logo/bone/snps-lockup.svg",
+      "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+    },
+    {
+      "id": "brandbook-site",
+      "file": "app/page.tsx",
+      "sha256": "0ee9e5441062cd8dfbbd778f8593b893f69fe4b144a2a34c4dc5a9c11645f1b1"
+    },
+    {
+      "id": "mestre/sinapse-symbol",
+      "file": "public/brand/logo/bone/sinapse-symbol.svg",
+      "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
+    },
+    {
+      "id": "mestre/sinapse-wordmark",
+      "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+      "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+    },
+    {
+      "id": "mestre/snps-lockup",
+      "file": "public/brand/logo/bone/snps-lockup.svg",
+      "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+    },
+    {
+      "id": "fonte/Inter",
+      "file": "public/si/fonts/Inter-Regular.ttf",
+      "sha256": "52b04d115521b8665a6c9873706485195d572d7c1776def36d153100bb48b590"
+    },
+    {
+      "id": "licença/Inter",
+      "file": "public/si/fonts/inter-OFL.txt",
+      "sha256": "5dd548d31a85f756e01d63e00d7faf1e324103ed3e9102fcbbabf2cc2db6dd39"
+    },
+    {
+      "id": "fonte/JetBrains Mono",
+      "file": "public/si/fonts/JetBrainsMono-Regular.ttf",
+      "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79"
+    },
+    {
+      "id": "licença/JetBrains Mono",
+      "file": "public/si/fonts/jetbrainsmono-OFL.txt",
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "id": "fonte/Audiowide",
+      "file": "public/si/fonts/Audiowide-Regular.ttf",
+      "sha256": "c7c0f2b0f6fad8c623e31772ce79f94a4edb9321ffce9fce978ea892d20ae730"
+    },
+    {
+      "id": "licença/Audiowide",
+      "file": "public/si/fonts/audiowide-OFL.txt",
+      "sha256": "187ff9f7308f41117a5bfd0a0974bc8503882e488d15ac721dd4b7734904357b"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/pdf-native-check.json",
+      "sha256": "93814369393a7a8ab554ccf3c00b6c1175d6b22fb89c2ef8f905277082f3c733"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/pdf-contact-sheet.jpg",
+      "sha256": "88ab6fa079a5ca023073354bfdd6661bb2e049662b61a4de0f9c94aedc4f7738"
+    },
+    {
+      "id": "evidência visual",
+      "file": "docs/SINAPSE-SI-QA.md",
+      "sha256": "5d8c99b0c2908b1c3be748fe7f452ed62dc402c7b8754c512e34d7a4075aad21"
+    }
+  ]
+}

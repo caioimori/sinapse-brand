@@ -136,3 +136,11 @@ _video-staging/
 Thumbs.db
 desktop.ini
 *.log
+
+# Private briefing and local evidence
+private-research/
+qa-local/
+.next-verify/
+scripts/ingest-brand-sources.py
+scripts/download-drive-research.py
+scripts/research-web.py
