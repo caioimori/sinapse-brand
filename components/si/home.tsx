@@ -7,7 +7,7 @@ import { Sculpture, DivisionMark, Symbol } from './marks';
 export function BrandHome(){return <Shell>
   <section className="si-hero">
     <div className="si-hero-top"><span className="si-kicker"><i className="si-live-dot"/> THE SINAPSE SI BRAND SYSTEM</span><span className="si-kicker si-hero-edition">A NEW CONNECTION / 001</span></div>
-    <div className="si-hero-copy"><h1>Inteligência<br className="si-desktop-break"/> que nos <em>conecta.</em></h1><p>A expressão de uma nova era.<br/>Um sistema para tudo o que vem depois.</p><Link href="/studio/strategy" className="si-button si-button-primary">Explore a marca <ArrowUpRight size={17}/></Link></div>
+    <div className="si-hero-copy"><h1>Inteligência<br className="si-desktop-break"/><span className="si-hero-line">que nos <em>conecta.</em></span></h1><p>A expressão de uma nova era.<br/>Um sistema para tudo o que vem depois.</p><Link href="/studio/strategy" className="si-button si-button-primary">Explore a marca <ArrowUpRight size={17}/></Link></div>
     <div className="si-hero-object"><Sculpture/><div className="si-object-caption"><span>FIG. 001 — THE CONNECTION</span><span>FORM. LIGHT. INTELLIGENCE.</span></div></div>
     <div className="si-hero-bottom"><span>ESTRATÉGIA. IDENTIDADE. EXPRESSÃO.</span><a href="#universo">UM UNIVERSO PARA EXPLORAR <ArrowDown size={13}/></a></div>
   </section>

@@ -20,3 +20,6 @@ Build local impedido pelo gate de RAM. Vínculo antigo da Vercel indisponível n
 O domínio pretendido é `branding.sinapse.si`. Nenhum deploy de produção, alteração de DNS, postagem ou fabricação foi executado. A aprovação deste sistema não se propaga a esses canais.
 
 Para recuperar a identidade anterior: `docs/archive/CANON-2026-06.md`, `public/brand/logo/` e rotas `/brandbook/*`. O CANON.md já alterado no checkout principal permaneceu intacto.
+
+## GitHub
+PR: https://github.com/caioimori/sinapse-brand/pull/11 . A CI atual falha no lint sem configuração e no scanner por histórico Git incompleto. Reparo de CI exige lote próprio conforme AGENTS vigente; não foi contornado.
