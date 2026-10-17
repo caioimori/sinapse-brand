@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import { downloadText } from '@/components/si/widgets';
 import { displaySvg, type BrandMaterial } from '@/lib/si/material';
-const examples=['SINAPSE','SINAPSE SI','SINAPSE SCHOOL','SINAPSE HOUSE','SINAPSE GROWTH','SNPS','SNPS SCHOOL','SNPS HOUSE','SNPS GROWTH','INTELIGÊNCIA','PRÓXIMA DIMENSÃO'];
+const examples=['SINAPSE','SINAPSE SI','SINAPSE SCHOOL','SINAPSE HOUSE','SINAPSE GROWTH','SNPS','SNPS SI','SNPS SCHOOL','SNPS HOUSE','SNPS GROWTH','INTELIGÊNCIA','PRÓXIMA DIMENSÃO'];
 export function FontLab(){
  const [text,setText]=useState('SINAPSE'),[material,setMaterial]=useState<BrandMaterial>('solid'),[theme,setTheme]=useState<'dark'|'light'>('dark');
  const artwork=displaySvg(text||'SINAPSE',material,theme);

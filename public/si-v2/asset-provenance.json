@@ -1,5 +1,5 @@
 {
-  "version": "4.0-proposal",
+  "version": "5.0-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
@@ -40,7 +40,7 @@
     "Figma": "https://static.figma.com/app/icon/1/favicon.svg",
     "Others": "https://cdn.simpleicons.org/"
   },
-  "font": "SNPS Display 1.100, selective terminal/return/shoulder/inner-return roles. Six recovered letters; extensions proposed for review.",
+  "font": "SNPS Display 1.200, selective terminal/return/shoulder/inner-return roles. Six recovered letters; extensions proposed for review.",
   "I_fix": "Original rect x143.1 y33.28 width9.38 height46.9 recovered; source unchanged.",
   "apparel_sources": [
     "https://coinbaseshop.com/products/coin-logo-tee",
@@ -74,5 +74,82 @@
       "sha256": "a3d7e57a6ef53b88bce0c578a32680c7567748c8af6166f2bc34ac91f7f8492a"
     }
   ],
-  "reference_projects": "docs/SINAPSE-SI-V4-BENCHMARK.md; foreign project imagery is not included."
+  "reference_projects": "docs/SINAPSE-SI-V4-BENCHMARK.md; foreign project imagery is not included.",
+  "revision_05": [
+    {
+      "asset": "wear/look-1.webp",
+      "source": "exec-a5b0d4f5-ab93-423e-9453-b939facf65f2.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two T-shirts side by side: LEFT BLACK T-SHIRT BACK VIEW, big white exact SNPS logo centered at upper back, print about 28 cm wide; RIGHT WHITE T-SHIRT FRONT VIEW, small black exact SNPS SI one-line logo on wearer's left chest, about 10 cm wide. Follow supplied logo artwork. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "df72ed7383b990c36ef1e780dd66842029acf28ed3b2e666cf457c58a4e63c71"
+    },
+    {
+      "asset": "wear/look-2.webp",
+      "source": "exec-d864a0ee-c2d8-449b-a9ee-268f59fdd857.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two T-shirts side by side, BOTH BACK VIEWS: LEFT BLACK with white two-line sans typography 'SUPER' above 'INTELLIGENCE', large yet restrained upper-back print, exactly the supplied graphic. RIGHT WHITE with large black original SNPS logo on upper back, nothing else. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "2cbcd7d8ffcc0613695f81cd417cbe2d513ecb7c5cdf8978a1ad3be14fe69ba5"
+    },
+    {
+      "asset": "wear/look-3.webp",
+      "source": "exec-f99d810e-b610-4037-990a-6b79e8a07ba1.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two T-shirts side by side, BOTH FRONT VIEWS: LEFT BLACK with exact white SNPS SCHOOL custom geometric wordmark across chest in ONE HORIZONTAL LINE, about 30 cm wide. RIGHT WHITE with exact black SNPS HOUSE custom geometric wordmark across chest in ONE HORIZONTAL LINE. Match every glyph in supplied artwork, including wide letters and subtle corner returns. Preserve a clear space between SNPS and descriptor. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "a3821621a7f7a705716023491de01aea55695fc8568bf4ecedcbd666db4c6b52"
+    },
+    {
+      "asset": "wear/look-4.webp",
+      "source": "exec-b28c4502-84e4-48fd-b86d-2b8d781df95b.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two T-shirts side by side: LEFT BLACK FRONT VIEW with exact white SNPS GROWTH geometric wordmark on ONE HORIZONTAL LINE across chest about 30 cm wide. RIGHT WHITE BACK VIEW with three bold simple black sans lines 'CREATE' / 'WHAT’S' / 'NEXT.' aligned left on upper back. Use exact supplied artworks. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "55e2e867537127e4b1f86a93f355ea956381a45dbe8f155da749f8b160d78955"
+    },
+    {
+      "asset": "wear/look-5.webp",
+      "source": "exec-48b033e4-1b96-4c84-8f38-841327dff394.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two pullover hoodies side by side, BOTH BACK VIEWS: LEFT BLACK with big white exact original SNPS logo across upper back below hood. RIGHT WHITE with black word 'INTELLIGENCE' on one wide line, and small exact SNPS SI horizontal logo underneath aligned to the right. Copy supplied print artwork. Simple bold prints, no paragraphs. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "8618861f5780186b60744da48bd9a6e88a48be294357564d45adc9ed7e67a555"
+    },
+    {
+      "asset": "wear/look-6.webp",
+      "source": "exec-1ba0ec59-dfae-49fd-a608-d9117975bdec.png",
+      "prompt": "Use case: product-mockup. Create an exceptionally realistic premium apparel e-commerce studio photograph, wide 3:2 composition. Two pullover hoodies side by side: LEFT BLACK FRONT VIEW with exact white SNPS SI logo in ONE HORIZONTAL LINE, medium size 24 cm wide at center chest, simple kangaroo pocket below. RIGHT WHITE BACK VIEW with three simple bold black sans lines 'LEARN.' / 'BUILD.' / 'GROW.' aligned left on upper back under hood. Copy supplied artwork. Image 1 is only the printing artwork reference, including Portuguese labels that MUST NOT appear in the photograph. Image 2 controls garment proportions and textile reference only: reproduce the believable Coinbase Shop essential silhouette with own SINAPSE print. Two separate full garments suspended naturally against seamless warm light gray studio background, exactly 2 garments at equal height and camera scale. Crewneck ribbing and sewn hems on tees; structured hood, cuff and hem ribbing on hoodies. Soft directional light, tactile cotton knit, fine seams, a few natural gravitational folds, print ink thin and conforming to cloth. Clear front/back view as specified. Maintain exact wide logo proportions, letter sequence and corner details. No embellishment, no graphics other than specified prints, no Coinbase logo, no AI shine, no 3D plastic clothing, no people, no hanger, no props, no labels/captions/watermarks or panel borders. Both garments fully visible with margins.",
+      "kind": "generated conceptual apparel photograph",
+      "sha256": "594cb218010e7da5a6710ffcb95c48a82e5efc8abfa5a59d8c282072f08fb4f1"
+    },
+    {
+      "asset": "passage-3d.webp",
+      "source": "exec-6ea358b2-b461-4e46-ae11-66897608861a.png",
+      "prompt": "Use case: stylized-concept. Take the exact two-rail passage graphic in the input and translate it into a physically plausible clear optical glass sculpture. Wide 16:9 image, charcoal studio seamless floor and background. Two long parallel straight thick rectangular-section rails, both shift diagonally up together through a small 35-degree transition at center and then become horizontal again. Preserve the simple recognizable input silhouette. Front-on three-quarter very shallow depth, centered in lower half of frame, generous negative space in upper left for editorial typography. Clear glass with polished cut square ends and precise internal reflections, very subtle silver edge, caustic only immediately below. Luxury Apple material photography feel. Very restrained. No S, no N, no loop, no knot, no pipe, no text, no logo, no orb, no purple or color, no lens flare, no objects. This is a supporting editorial graphic, never a new logo.",
+      "kind": "generated material study",
+      "sha256": "162340d9d7e5521de5fb81217933b2f4be84e118a7b63cd99dd2216d7cc4946c"
+    },
+    {
+      "asset": "ooh-v5.webp",
+      "kind": "generated conceptual installation",
+      "source": "exec-8c714ec8-65db-4f01-b31d-2ed790a77319.png",
+      "input": "authored ooh-triptych.svg, current horizontal signatures and passage graphic",
+      "sha256": "9062b68bdec61cb491c138e697084083299b7838db89e6fea4285121e977c658"
+    }
+  ],
+  "archived_rejected_assets": [
+    {
+      "asset": "tee.webp",
+      "reason": "Replaced after user feedback on 2026-10-17; excluded from current kit."
+    },
+    {
+      "asset": "hoodie.webp",
+      "reason": "Replaced after user feedback on 2026-10-17; excluded from current kit."
+    },
+    {
+      "asset": "signal-sculpture.webp",
+      "reason": "Replaced after user feedback on 2026-10-17; excluded from current kit."
+    },
+    {
+      "asset": "ooh.webp",
+      "reason": "Replaced after user feedback on 2026-10-17; excluded from current kit."
+    }
+  ],
+  "apparel_reference_observed": "2026-10-17 / official Coinbase product page and photographs"
 }

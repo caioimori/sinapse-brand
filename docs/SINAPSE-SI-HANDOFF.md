@@ -1,15 +1,17 @@
-# SINAPSE SI — handoff / edição 04
+# SINAPSE SI — handoff / edição 05
 
 Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Issue #10. Checkout knowledge/sinapse-si-brandbook. Preservar CANON modificado no checkout principal.
 
-Pedido vigente: absorver seis cases abertos por Caio, sobretudo OXA AI e Buff; reconstruir a direção e o livro; entender todos os tipos de canto para ampliar o alfabeto congruentemente. Dois mestres originais permanecem, além de preto e branco, Dark First + Light Mode e estudos aceitos de vidro, prata e sólido.
+Pedido vigente: todas as assinaturas em uma linha, preferindo SNPS SI quando útil; corrigir K, J, F, W e Z; preservar H; trocar o símbolo entre ideia e ação; ampliar roupas com estampas minimalistas de maior presença. Mestres originais e preto/branco preservados.
 
-Sinal contínuo: nova direção editorial, 55 páginas nativas, atlas interativo de 199 imagens examinadas, 12 aplicações vetoriais + três pranchas + tríptico, três novos estudos fotográficos, 49 templates, 12 Signals 04 e 72 assinaturas. Fonte SNPS Display 1.100: terminais retos, retorno 4,69, ombro 9,38 e pequeno interior 2,54.
+Implementado: 80 assinaturas com complemento na mesma altura e baseline, incluindo SNPS SI. Fonte 1.200, 196 glifos; novas proporções e contornos nas cinco letras. H intacto. Nome completo também não quebra no FontLab. Fonte, templates e aplicações regenerados.
 
-Prefixos de assinaturas usam os mestres completos SNPS/SINAPSE. Cabeçalhos do editor incorporam o SINAPSE original; descritores usam a extensão. Tipografia, templates e fontes de leitura corrigidos. Entrelinha display considera acentos e cedilhas. Roupas mantêm referências de produtos específicos Coinbase.
+Passagem: dois trilhos paralelos substituem o símbolo isolado do House, com versão vetorial e estudo em vidro. Novo ambiente de campanha. Collection 02: oito camisetas e quatro moletons em seis pares fotográficos, 12 estampas exatas em curvas/fundo transparente, filtros e ampliação. Renders anteriores rejeitados ficam no acervo, fora do kit atual.
 
-Servidor http://127.0.0.1:3256/ . /book, /studio/typography, /studio/research e /studio/downloads. Reutilizar aba e porta; não encerrar sessões do usuário. Geradores atuais estão no README. PDFs/kit históricos são acervo.
+Brandbook 05 de 60 páginas 1920×1080, PDF nativo, leitor e kit 05 com 297 arquivos. QA: TypeScript, 250 verificações, 27 amostras responsivas e controles reais. PDF sem texto informativo fora da página; 11 recursos HTTP 200 com SHA idêntico; CRC e exclusões do kit verificados. Sem novos erros de console na leitura final. Detalhes em docs/SINAPSE-SI-V5-QA.md.
 
-TypeScript e 209 verificações passaram; 36 amostras responsivas, quatro do editor, acentos em duas larguras e PDF revisados. Detalhes em SINAPSE-SI-V4-QA.md. Build local novo não executado: 2,8 GiB livres para mínimo de 4; não repetir sem mudança de condição. CI anterior tinha lint interativo e scanner sem histórico suficiente; não reparar infraestrutura no lote.
+Servidor http://127.0.0.1:3256/ . /book, /studio/wear, /studio/identity, /studio/typography e /studio/downloads. Reutilizar aba/porta. Pipeline atual no README; utilitários prepare/export v3 e assets v4 são compartilhados. Não rodar books/consolidadores históricos sobre o sistema atual.
 
-Proposta para revisão estética e de palavras críticas. Fabricação exige amostra. Sem produção, DNS, redes, fabricação ou alterações de autenticação/CI. Recuperação: revisão 03 em cfe9c41, revisão 02 em 41c866b; originais em public/brand/logo.
+Build de produção novo não executado: RAM observada abaixo do piso de 4 GiB. Não reduzir limite ou parar processos alheios. Fila de testes inicialmente ocupada liberou; contratos e TypeScript passaram depois. CI anterior: lint interativo e scanner sem histórico Git suficiente; infraestrutura preservada.
+
+Novas letras, grafismo e roupas aguardam revisão estética. Fotografias geradas não comprovam fabricação. Sem produção, DNS, redes, fabricação ou alterações de autenticação/CI. Recuperação: edição 04 em fd288e8, edição 03 em cfe9c41; originais em public/brand/logo.

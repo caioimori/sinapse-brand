@@ -11,7 +11,8 @@ export function displayWidth(value:string,size=100){return Math.max(0,Array.from
 export function displayGeometry(value:string,size=100,x=0,y=0){let at=0;return `<g transform="translate(${x} ${y}) scale(${size/100})">`+Array.from(value).map(ch=>{const p=DISPLAY_PATHS[ch]??DISPLAY_PATHS['?'];const shape=p?`<path d="${p}" transform="translate(${at} 0)"/>`:'';at+=(DISPLAY_METRICS[ch]||DISPLAY_METRICS['?'])*100;return shape;}).join('')+'</g>';}
 export function displaySvg(value:string,material:BrandMaterial='solid',theme:'dark'|'light'='dark'){
  const clean=value.slice(0,80),lines:string[]=[];let line='';
- for(const word of clean.trim().split(/\s+/)){if(line&&displayWidth(line+' '+word)>1400){lines.push(line);line=word;}else line=(line+' '+word).trim();}if(line)lines.push(line);
+ if(/^(?:SINAPSE|SNPS)(?: (?:SI|SCHOOL|HOUSE|GROWTH))?$/i.test(clean.trim()))lines.push(clean.trim());
+ else {for(const word of clean.trim().split(/\s+/)){if(line&&displayWidth(line+' '+word)>1400){lines.push(line);line=word;}else line=(line+' '+word).trim();}if(line)lines.push(line);}
  const w=Math.max(...lines.map(l=>displayWidth(l)),100)+40,h=Math.max(0,lines.length-1)*140+150;
  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}"><title>SNPS Display / ${clean.replace(/[<>&]/g,'')}</title><defs>${materialDefs(theme)}</defs>${materialShape(lines.map((l,i)=>displayGeometry(l,100,20,35+i*140)).join(''),material,theme)}</svg>`;
 }

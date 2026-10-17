@@ -25,7 +25,7 @@ def surface(body,material,theme):
     if material=='solid':return f'<g fill="{fg}">{body}</g>'
     fill=f'url(#si-{material})';edge='url(#si-edge)'
     return f'<g transform="translate(0 1.2)" fill="{fg}" opacity=".22">{body}</g><g fill="{fill}" stroke="{edge}" stroke-width=".75" stroke-linejoin="round" paint-order="stroke fill">{body}</g><g fill="none" stroke="{edge}" stroke-width=".22" opacity=".9">{body}</g>'
-names=['snps','sinapse','sinapse-si','sinapse-school','sinapse-house','sinapse-growth','snps-school','snps-house','snps-growth']
+names=['snps','sinapse','sinapse-si','sinapse-school','sinapse-house','sinapse-growth','snps-si','snps-school','snps-house','snps-growth']
 masters=json.loads((O/'geometry.json').read_text())
 for name in names:
     words=name.upper().split('-');parts=[]
@@ -43,8 +43,9 @@ for name in names:
             parts.append(f'<g transform="scale({70/46.9}) translate(-33.28 -33.28)">{masters["snps"]}</g>')
         else:parts.append(f'<path d="{path}"/>')
         if len(words)>1:
-            second,sw=outline(words[1],100);ratio=min(.74,width/sw)
-            parts.append(f'<path d="{second}" transform="translate(0 110) scale({ratio})"/>');height=110+70*ratio
+            # The descriptor shares the master cap line and baseline.
+            second,sw=outline(words[1],100);gap=33.28*70/46.9
+            parts.append(f'<path d="{second}" transform="translate({width+gap} 0)"/>');width+=gap+sw
         w=width+60;h=height+60;geometry='<g transform="translate(30 30)">'+''.join(parts)+'</g>'
     for theme in ['dark','light']:
         for material in ['solid','silver','glass','frost']:
@@ -77,4 +78,4 @@ for i,line in enumerate(['SINAPSE','SNPS SCHOOL','SNPS HOUSE','SNPS GROWTH','ABC
     d.text((85,70+i*195),line,font=face,fill='white')
 sheet.save(Q/'font-specimen.jpg')
 provenance=json.loads((O/'asset-provenance.json').read_text(encoding='utf8'));provenance['version']='3.0-proposal';provenance['font']='SNPS Display custom. S I N A P E from original vector; alphabet, digits, accents and punctuation extended. Lowercase keys use uppercase designs.';provenance['I_fix']='Original rect x143.1 y33.28 width9.38 height46.9 recovered; source unchanged.';provenance['apparel_sources']=['https://coinbaseshop.com/products/coin-logo-tee','https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode'];provenance['portable_glass']={'file':'materials/snps-glass-transparent.png','kind':'Generated raster with alpha, optical study. Geometry master remains SVG.','sha256':hashlib.sha256((O/'materials/snps-glass-transparent.png').read_bytes()).hexdigest()};provenance['images']=[{'file':n+'.webp','role':'generated conceptual visualization','sha256':hashlib.sha256((O/(n+'.webp')).read_bytes()).hexdigest()} for n in ['hero','glass','metal','tee','hoodie']];(O/'asset-provenance.json').write_text(json.dumps(provenance,ensure_ascii=False,indent=2),encoding='utf8',newline='\n')
-print('Revision 03: 72 SVG signatures; shared material specification; alpha glass; referenced apparel; font specimen.')
+print('80 SVG signatures; descriptors on the same cap line and baseline; both masters intact.')

@@ -148,6 +148,15 @@ glyph['F']=f'M0 {H}V{R}C0 {R*.448} {R*.448} 0 {R} 0H{W}V{T}H{T}V{2*T}H{W-R}C{W-R
 glyph['R']=glyph['P']+corners([(W/2,3*T),(W/2+17,3*T),(W,H),(W-17,H)],[2.54,9.38,0,0])
 glyph['Q']=glyph['O']+corners([(W-28,H-20),(W-20,H-24),(W+2,H),(W-10,H)],[2.54,2.54,0,0])
 glyph['0']=glyph['O'];glyph['8']=glyph['B'];glyph['2']=glyph['Z']
+# Revision 05: optical widths restore identifiable silhouettes. The master
+# stroke, cap height, gap and corner roles remain the construction vocabulary.
+glyph['K']=corners([(0,0),(T,0),(T,18.76),(43,0),(61,0),(24.8,23.45),(61,H),(43,H),(T,28.14),(T,H),(0,H)],[0,0,2.54,0,0,2.54,0,0,2.54,0,0])
+glyph['J']=corners([(0,0),(67,0),(67,H),(0,H),(0,H-2*T),(T,H-2*T),(T,H-T),(67-T,H-T),(67-T,T),(0,T)],[0,0,R,R,0,0,R,R,0,0])
+glyph['F']=corners([(0,H),(0,0),(W,0),(W,T),(T,T),(T,2*T),(W-14,2*T),(W-14,3*T),(T,3*T),(T,H)],[0,R,0,0,0,0,0,0,0,0])
+glyph['W']=corners([(0,0),(10.8,0),(28,34.3),(47,8),(58,8),(77,34.3),(94.2,0),(105,0),(82,H),(72,H),(52.5,21.5),(33,H),(23,H)],[0,0,2.54,2.54,2.54,2.54,0,0,R,R,2.54,R,R])
+glyph['Z']=corners([(0,0),(67,0),(67,T),(18.7,H-T),(67,H-T),(67,H),(0,H),(0,H-T),(48.3,T),(0,T)],[0,R,R,2.54,0,0,R,R,2.54,0])
+glyph['2']=glyph['Z']
+for ch in 'KJFWZ2':widths[ch]=bounds(glyph[ch])[2]
 # Smaller counters in percent use proportionate stroke, independent from primary letter stroke.
 glyph['%']=rect(0,0,20,20,R)+reverse(rect(5,5,10,10,2))+rect(70,27,20,20,R)+reverse(rect(75,32,10,10,2))+poly((20,H),(62,0),(74,0),(32,H))
 from fontTools.pens.areaPen import AreaPen
@@ -194,7 +203,7 @@ def build(ttf):
         parse_path(paths[name],TransformPen(target,(SCALE,0,0,-SCALE,0,700)))
         fontglyphs[name]=pen.glyph() if ttf else pen.getCharString()
     fb.setupHorizontalMetrics(adv);fb.setupHorizontalHeader(ascent=1060,descent=-340,lineGap=0)
-    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.100','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.100','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Selective cut terminals, circular returns and softened diagonal shoulders. Master S I N A P E retained. Portuguese Latin accents included.'})
+    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.200','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.200','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Selective cut terminals, circular returns and softened diagonal shoulders. Master S I N A P E retained. Portuguese Latin accents included.'})
     fb.setupOS2(sTypoAscender=1060,sTypoDescender=-340,sTypoLineGap=0,usWinAscent=1060,usWinDescent=340,sCapHeight=700,sxHeight=700,fsType=0)
     if ttf:fb.setupGlyf(fontglyphs)
     else:fb.setupCFF('SNPSDisplay-Regular',{'FullName':'SNPS Display Regular','FamilyName':'SNPS Display','Weight':'Regular'},fontglyphs,{})
@@ -207,7 +216,7 @@ def outline(value,size=100):
         name=names.get(ch,names.get(ch.upper(),'.notdef'));gs[name].draw(TransformPen(pen,(size/1000,0,0,-size/1000,x,size*.7)));x+=adv[name][0]*size/1000
     return pen.getCommands(),max(0,x-GAP*SCALE*size/1000)
 data={'family':'SNPS Display','version':'1.000','capHeight':700,'unitsPerEm':1000,'stroke':140,'returnRadius':70,'outerShoulderRadius':140,'innerReturnRadius':round(2.54*SCALE,3),'tracking':round(GAP*SCALE,3),'sourceStroke':T,'sourceRadius':R,'sourceGap':GAP,'glyphs':len(order),'coverage':''.join(glyph),'lowercase':'Uppercase forms','masterLetters':'SINAPE','status':'Custom extension for review; master outlines preserved.','metrics':{ch:adv[names[ch]][0]/1000 for ch in glyph},'outlines':{ch:outline(ch,100)[0] for ch in glyph}}
-data.update({'version':'1.100','cornerGrammar':{'terminal':{'radius':0,'source':'I, P lower-left, S open ends, N open ends'},'return':{'radius':R,'source':'S, A, P, E circular turns and counters'},'shoulder':{'radius':T,'source':'N outer vertical-to-diagonal transitions'},'innerKnee':{'radius':2.54,'source':'N inner stem-to-horizontal return'}},'construction':'Selective per-corner radii; square terminals retained. Diagonal extensions are interpretations, not recovered original glyphs.'})
+data.update({'version':'1.200','cornerGrammar':{'terminal':{'radius':0,'source':'I, P lower-left, S open ends, N open ends'},'return':{'radius':R,'source':'S, A, P, E circular turns and counters'},'shoulder':{'radius':T,'source':'N outer vertical-to-diagonal transitions'},'innerKnee':{'radius':2.54,'source':'N inner stem-to-horizontal return'}},'construction':'Selective per-corner radii; square terminals retained. Diagonal extensions are interpretations, not recovered original glyphs.'})
 (F/'SNPSDisplay-spec.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
 (ROOT/'lib/si/display-font.ts').write_text('export const DISPLAY_METRICS:Record<string,number> = '+json.dumps(data['metrics'],ensure_ascii=False)+';\nexport const DISPLAY_PATHS:Record<string,string> = '+json.dumps(data['outlines'],ensure_ascii=False)+';\n',encoding='utf8',newline='\n')
 (F/'SNPSDisplay-LICENSE.txt').write_text('SNPS Display — SINAPSE, 2026.\nCustom lettering extension for SINAPSE brand use, including installation, editable compositions and embedding. Not a redistributed third-party font. Existing logo ownership remains with its respective rights holder.\nUppercase display design, including on lowercase keys. Newly drawn letters are a proposal for review.\n',encoding='utf8')

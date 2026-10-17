@@ -1,0 +1,73 @@
+{
+  "resources": [
+    {
+      "file": "logos/snps-si-solid-dark.svg",
+      "status": 200,
+      "bytes": 3323,
+      "sha256_matches": true
+    },
+    {
+      "file": "logos/snps-school-silver-light.svg",
+      "status": 200,
+      "bytes": 12619,
+      "sha256_matches": true
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.otf",
+      "status": 200,
+      "bytes": 19872,
+      "sha256_matches": true
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.ttf",
+      "status": 200,
+      "bytes": 27436,
+      "sha256_matches": true
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.woff2",
+      "status": 200,
+      "bytes": 4520,
+      "sha256_matches": true
+    },
+    {
+      "file": "wear/print-05.svg",
+      "status": 200,
+      "bytes": 5438,
+      "sha256_matches": true
+    },
+    {
+      "file": "wear/look-3.webp",
+      "status": 200,
+      "bytes": 148596,
+      "sha256_matches": true
+    },
+    {
+      "file": "passage-3d.webp",
+      "status": 200,
+      "bytes": 102734,
+      "sha256_matches": true
+    },
+    {
+      "file": "applications/poster-house.svg",
+      "status": 200,
+      "bytes": 37132,
+      "sha256_matches": true
+    },
+    {
+      "file": "SINAPSE-SI-Brandbook-05.pdf",
+      "status": 200,
+      "bytes": 17902026,
+      "sha256_matches": true
+    },
+    {
+      "file": "SINAPSE-SI-Kit-05.zip",
+      "status": 200,
+      "bytes": 28818493,
+      "sha256_matches": true
+    }
+  ],
+  "kit_crc": "passed",
+  "kit_files": 297,
+  "historical_rejected_assets": "excluded"
+}

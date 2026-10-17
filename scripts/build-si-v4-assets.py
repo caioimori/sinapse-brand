@@ -44,7 +44,11 @@ def image(name,x,y,w,h):
     path=OUT/(name+'.webp');im=Image.open(path).convert('RGB');buf=BytesIO();im.save(buf,'PNG')
     return f'<image x="{x}" y="{y}" width="{w}" height="{h}" preserveAspectRatio="xMidYMid slice" href="data:image/png;base64,{base64.b64encode(buf.getvalue()).decode()}"/>'
 
-svg('poster-house',logo()+txt('Entre ideia',70,360,95,face='bold')+txt('e ação.',70,470,95,face='bold')+signal(320,700,10.5)+footer('HOUSE / INTELIGÊNCIA QUE GANHA FORMA'))
+def bridge(x,y,w=900,fill='url(#metal)'):
+    # A passage, with two quiet rails and square terminals. Graphic, not a logo.
+    return f'<g transform="translate({x} {y}) scale({w/900})" fill="none" stroke="{fill}" stroke-width="36" stroke-linecap="butt" stroke-linejoin="round"><path d="M0 170H310L500 0H900"/><path d="M0 270H350L540 100H900"/></g>'
+svg('passage',bridge(90,250),1080,800)
+svg('poster-house',logo('snps-house')+txt('Entre ideia',70,360,95,face='bold')+txt('e ação.',70,470,95,face='bold')+bridge(70,760,940)+footer('HOUSE / INTELIGÊNCIA QUE GANHA FORMA'))
 svg('poster-school',logo('sinapse-school')+txt('A próxima',70,350,100,face='bold')+txt('versão',70,465,100,face='bold')+txt('é sua.',70,580,100,face='bold')+txt('T04',60,1030,205,'url(#metal)','display',950)+txt('Aprender. Experimentar. Construir.',70,1130,30)+footer('SCHOOL / LISTA DE INTERESSE'))
 body=logo('sinapse-growth',theme='light')+txt('Crescer é',70,355,100,'#171717','bold')+txt('construir',70,470,100,'#171717','bold')+txt('continuidade.',70,585,100,'#171717','bold',940)
 for i in range(9):body+=signal(70+i*52,760+i*24,6,'#171717',.08+i*.07)
@@ -55,7 +59,7 @@ for i,k in enumerate(['figma','supabase','obsidian']):
 svg('poster-repertoire',body+footer('REPERTÓRIO / FERRAMENTAS EM CONTEXTO'))
 sculpture=Path('C:/Users/Caio Imori/.codex/generated_images/01a146da-3df5-7531-97bf-7dda4c126f3a/exec-70b80d5d-cb89-47cf-8fe1-6f0916008e3b.png')
 if sculpture.exists():Image.open(sculpture).save(OUT/'signal-sculpture.webp','WEBP',quality=94)
-svg('poster-manifesto',image('signal-sculpture',0,450,1080,720)+logo('sinapse-si')+txt('O futuro tem',70,350,90,face='bold')+txt('autoria.',70,450,90,face='bold')+footer('SI / SUPER INTELLIGENCE'))
+svg('poster-manifesto',image('passage-3d',0,450,1080,720)+logo('sinapse-si')+txt('O futuro tem',70,350,90,face='bold')+txt('autoria.',70,450,90,face='bold')+footer('SI / SUPER INTELLIGENCE'))
 svg('story-invite',logo('sinapse-school',y=130)+txt('Aprender',70,480,100,face='bold')+txt('muda o que',70,600,100,face='bold')+txt('você cria.',70,720,100,face='bold')+signal(280,1000,8.5)+txt('T04',70,1540,145,'url(#metal)','display')+txt('Conheça a próxima turma.',70,1690,38)+txt('SINAPSE SCHOOL / LISTA DE INTERESSE',70,1800,21,'#aaa','mono'),h=1920)
 svg('cover-foundations',txt('SINAPSE SCHOOL / MEMBER',70,110,22,'#aaa','mono')+txt('Fundamentos',70,325,85,face='bold')+txt('para criar.',70,430,85,face='bold')+txt('01',1150,850,420,'url(#metal)','display',700)+signal(700,100,13,'url(#fade)',.2)+txt('CONTEXTO · REPERTÓRIO · PRÁTICA',70,980,25,'#aaa','mono'),1920,1080)
 svg('cover-build',txt('SINAPSE SCHOOL / MEMBER',70,110,22,'#666','mono')+txt('Da ideia à',70,325,85,'#171717','bold')+txt('primeira versão.',70,430,85,'#171717','bold')+txt('02',1150,850,420,'#171717','display',700)+signal(700,100,13,'#171717',.05)+txt('CONSTRUÇÃO · TESTE · APRENDIZADO',70,980,25,'#666','mono'),1920,1080,'#f5f5f5')
@@ -63,6 +67,8 @@ svg('card-member',txt('SNPS',90,220,105,'url(#metal)','display')+txt('MEMBER',90
 svg('avatar-si',logo('snps',220,430,640)+center('SUPER INTELLIGENCE',745,28,'#aaa','mono'),1080,1080)
 svg('avatar-t04',center('T04',650,170,'url(#metal)','display')+center('SINAPSE SCHOOL',800,30,'#aaa','mono'),1080,1080)
 svg('avatar-client',logo('snps',220,260,640)+center('×',580,60,'#888')+center('CLIENTE',720,95)+center('PROJETO / COASSINATURA',850,24,'#aaa','mono'),1080,1080)
+
+svg('type-review',txt('K · J · F · W · Z',70,115,58,face='bold')+txt('Silhueta, proporção e terminais revistos.',70,180,27,'#aaa')+txt('K J F W Z',70,430,155,face='display',maxw=1600)+txt('WORK FLOW',70,680,125,face='display',maxw=1600)+txt('JAZZ',70,900,125,face='display',maxw=1600)+txt('H preservado. Mestres S I N A P E intactos.',70,1190,30,'#aaa'),1740,1350)
 
 # Exact source anatomy, including square terminals and distinct corner regimes.
 body=txt('O desenho tem regras.',70,115,64,face='bold')+txt('S / P / N — curvas originais ampliadas, sem redesenho',70,175,25,'#aaa')
@@ -83,4 +89,4 @@ svg('type-alphabet',body,1800,1350)
 # OOH layout is the actual printable artwork, also supplied to generated mockups.
 svg('ooh-triptych',''.join(inline(A/(n+'.svg'),i*1080,0,1080,1350) for i,n in enumerate(['poster-school','poster-house','poster-growth'])),3240,1350)
 subprocess.run(['node',str(ROOT/'scripts/render-si-applications.mjs')],cwd=ROOT,check=True)
-print('V4: 16 original application/anatomy SVGs + WebP previews. Foreign references stay private.')
+print('18 original application/anatomy SVGs + WebP previews. Foreign references stay private.')

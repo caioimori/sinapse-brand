@@ -26,7 +26,7 @@ for ch,d in geo['master'].items():
     a,b=render(d),render(p.getCommands());hist=ImageChops.difference(a,b).histogram();mean=sum(i*v for i,v in enumerate(hist))/(a.width*a.height*255)
     check(mean<.001,f'Master {ch} outline raster difference <0.1 percent');curve_errors[ch]=mean
     advance=font['hmtx'][cmap[ord(ch)]][0]/scale;check(abs(advance-geo['widths'][ch]-16.64)<.04,f'Master {ch} spacing <0.04 source unit error')
-for name in ['snps','sinapse','sinapse-si','sinapse-school','sinapse-house','sinapse-growth','snps-school','snps-house','snps-growth']:
+for name in ['snps','sinapse','sinapse-si','sinapse-school','sinapse-house','sinapse-growth','snps-si','snps-school','snps-house','snps-growth']:
     for material in ['solid','glass','silver','frost']:
         for theme in ['dark','light']:
             p=O/'logos'/f'{name}-{material}-{theme}.svg';root=ET.fromstring(p.read_text(encoding='utf8'));check(root.find('{http://www.w3.org/2000/svg}title').text.startswith(name.upper().replace('-',' ')),f'{name}/{material}/{theme}')
@@ -34,5 +34,5 @@ for name in ['snps','sinapse','sinapse-si','sinapse-school','sinapse-house','sin
 check('143.1 33.28h9.38v46.9' in json.loads((O/'geometry.json').read_text())['wordmark'],'Recovered original rectangular I')
 im=Image.open(O/'materials/snps-glass-transparent.png');check(im.mode=='RGBA' and im.getextrema()[3][0]==0,'Portable alpha PNG');check(im.getpixel((0,0))[3]==0,'Transparent exterior')
 report={'passed':len(checks),'glyphs':len(font.getGlyphOrder()),'master_pixel_difference':curve_errors,'checks':checks}
-(R/'qa/v3-font-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8',newline='\n')
+(R/'qa/v5-font-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8',newline='\n')
 print(f'{len(checks)} font, master, spacing, signature and transparency checks passed; {len(font.getGlyphOrder())} glyphs.')

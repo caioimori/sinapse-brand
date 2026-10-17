@@ -9,7 +9,7 @@
       "embedded_fonts": true
     },
     "website": "responsive",
-    "slide_count": 55
+    "slide_count": 60
   },
   "modules": [
     {
@@ -94,228 +94,248 @@
     }
   ],
   "pages": [],
-  "file": "public/si-v2/SINAPSE-SI-Brandbook-04.pdf",
-  "source": "scripts/build-si-v4-book.py",
+  "file": "public/si-v2/SINAPSE-SI-Brandbook-05.pdf",
+  "source": "scripts/build-si-v5-book.py",
   "chapters": [
     {
       "title": "Sinal contínuo",
-      "file": "/si-v2/book-v4/page-01.webp"
+      "file": "/si-v2/book-v5/page-01.webp"
     },
     {
       "title": "Como consultar",
-      "file": "/si-v2/book-v4/page-02.webp"
+      "file": "/si-v2/book-v5/page-02.webp"
     },
     {
       "title": "A ideia",
-      "file": "/si-v2/book-v4/page-03.webp"
+      "file": "/si-v2/book-v5/page-03.webp"
     },
     {
       "title": "Estratégia",
-      "file": "/si-v2/book-v4/page-04.webp"
+      "file": "/si-v2/book-v5/page-04.webp"
     },
     {
       "title": "Arquitetura",
-      "file": "/si-v2/book-v4/page-05.webp"
+      "file": "/si-v2/book-v5/page-05.webp"
     },
     {
       "title": "SCHOOL",
-      "file": "/si-v2/book-v4/page-06.webp"
+      "file": "/si-v2/book-v5/page-06.webp"
     },
     {
       "title": "HOUSE",
-      "file": "/si-v2/book-v4/page-07.webp"
+      "file": "/si-v2/book-v5/page-07.webp"
     },
     {
       "title": "GROWTH",
-      "file": "/si-v2/book-v4/page-08.webp"
+      "file": "/si-v2/book-v5/page-08.webp"
     },
     {
       "title": "Identidade e construção",
-      "file": "/si-v2/book-v4/page-09.webp"
+      "file": "/si-v2/book-v5/page-09.webp"
     },
     {
       "title": "Dois mestres",
-      "file": "/si-v2/book-v4/page-10.webp"
+      "file": "/si-v2/book-v5/page-10.webp"
     },
     {
       "title": "Assinaturas",
-      "file": "/si-v2/book-v4/page-11.webp"
+      "file": "/si-v2/book-v5/page-11.webp"
     },
     {
       "title": "Área livre e redução",
-      "file": "/si-v2/book-v4/page-12.webp"
+      "file": "/si-v2/book-v5/page-12.webp"
     },
     {
       "title": "Integridade",
-      "file": "/si-v2/book-v4/page-13.webp"
+      "file": "/si-v2/book-v5/page-13.webp"
     },
     {
       "title": "Anatomia",
-      "file": "/si-v2/book-v4/page-14.webp"
+      "file": "/si-v2/book-v5/page-14.webp"
     },
     {
       "title": "Cantos e funções",
-      "file": "/si-v2/book-v4/page-15.webp"
+      "file": "/si-v2/book-v5/page-15.webp"
     },
     {
       "title": "Prova de palavras",
-      "file": "/si-v2/book-v4/page-16.webp"
+      "file": "/si-v2/book-v5/page-16.webp"
     },
     {
       "title": "O alfabeto ampliado",
-      "file": "/si-v2/book-v4/page-17.webp"
+      "file": "/si-v2/book-v5/page-17.webp"
+    },
+    {
+      "title": "Cinco letras revistas",
+      "file": "/si-v2/book-v5/page-18.webp"
     },
     {
       "title": "Tipografia de expressão",
-      "file": "/si-v2/book-v4/page-18.webp"
+      "file": "/si-v2/book-v5/page-19.webp"
     },
     {
       "title": "Hierarquia",
-      "file": "/si-v2/book-v4/page-19.webp"
+      "file": "/si-v2/book-v5/page-20.webp"
     },
     {
       "title": "Matéria e expressão",
-      "file": "/si-v2/book-v4/page-20.webp"
+      "file": "/si-v2/book-v5/page-21.webp"
     },
     {
       "title": "Vidro",
-      "file": "/si-v2/book-v4/page-21.webp"
+      "file": "/si-v2/book-v5/page-22.webp"
     },
     {
       "title": "Prata",
-      "file": "/si-v2/book-v4/page-22.webp"
+      "file": "/si-v2/book-v5/page-23.webp"
     },
     {
-      "title": "Matéria em continuidade",
-      "file": "/si-v2/book-v4/page-23.webp"
+      "title": "Passagem",
+      "file": "/si-v2/book-v5/page-24.webp"
     },
     {
       "title": "O material encontra o uso",
-      "file": "/si-v2/book-v4/page-24.webp"
+      "file": "/si-v2/book-v5/page-25.webp"
     },
     {
       "title": "Preto e branco",
-      "file": "/si-v2/book-v4/page-25.webp"
+      "file": "/si-v2/book-v5/page-26.webp"
     },
     {
       "title": "Repertório em contexto",
-      "file": "/si-v2/book-v4/page-26.webp"
+      "file": "/si-v2/book-v5/page-27.webp"
     },
     {
       "title": "Grafismo",
-      "file": "/si-v2/book-v4/page-27.webp"
+      "file": "/si-v2/book-v5/page-28.webp"
     },
     {
       "title": "Signals 04",
-      "file": "/si-v2/book-v4/page-28.webp"
+      "file": "/si-v2/book-v5/page-29.webp"
     },
     {
       "title": "Movimento",
-      "file": "/si-v2/book-v4/page-29.webp"
+      "file": "/si-v2/book-v5/page-30.webp"
     },
     {
       "title": "Voz",
-      "file": "/si-v2/book-v4/page-30.webp"
+      "file": "/si-v2/book-v5/page-31.webp"
     },
     {
       "title": "Aplicações",
-      "file": "/si-v2/book-v4/page-31.webp"
+      "file": "/si-v2/book-v5/page-32.webp"
     },
     {
       "title": "Campanha em contexto",
-      "file": "/si-v2/book-v4/page-32.webp"
+      "file": "/si-v2/book-v5/page-33.webp"
     },
     {
       "title": "Repertório editorial",
-      "file": "/si-v2/book-v4/page-33.webp"
+      "file": "/si-v2/book-v5/page-34.webp"
     },
     {
       "title": "T04 / Story",
-      "file": "/si-v2/book-v4/page-34.webp"
+      "file": "/si-v2/book-v5/page-35.webp"
     },
     {
       "title": "Sequências utilizáveis",
-      "file": "/si-v2/book-v4/page-35.webp"
+      "file": "/si-v2/book-v5/page-36.webp"
     },
     {
       "title": "Comunidade",
-      "file": "/si-v2/book-v4/page-36.webp"
+      "file": "/si-v2/book-v5/page-37.webp"
     },
     {
       "title": "Coassinatura",
-      "file": "/si-v2/book-v4/page-37.webp"
+      "file": "/si-v2/book-v5/page-38.webp"
     },
     {
       "title": "Members",
-      "file": "/si-v2/book-v4/page-38.webp"
+      "file": "/si-v2/book-v5/page-39.webp"
     },
     {
       "title": "Papelaria",
-      "file": "/si-v2/book-v4/page-39.webp"
+      "file": "/si-v2/book-v5/page-40.webp"
     },
     {
       "title": "Member / 04",
-      "file": "/si-v2/book-v4/page-40.webp"
+      "file": "/si-v2/book-v5/page-41.webp"
     },
     {
-      "title": "Collection 01",
-      "file": "/si-v2/book-v4/page-41.webp"
+      "title": "Collection 02",
+      "file": "/si-v2/book-v5/page-42.webp"
     },
     {
-      "title": "SNPS Logo Tee",
-      "file": "/si-v2/book-v4/page-42.webp"
+      "title": "Collection / 01",
+      "file": "/si-v2/book-v5/page-43.webp"
     },
     {
-      "title": "Intelligence Hoodie",
-      "file": "/si-v2/book-v4/page-43.webp"
+      "title": "Collection / 02",
+      "file": "/si-v2/book-v5/page-44.webp"
+    },
+    {
+      "title": "Collection / 03",
+      "file": "/si-v2/book-v5/page-45.webp"
+    },
+    {
+      "title": "Collection / 04",
+      "file": "/si-v2/book-v5/page-46.webp"
+    },
+    {
+      "title": "Collection / 05",
+      "file": "/si-v2/book-v5/page-47.webp"
+    },
+    {
+      "title": "Collection / 06",
+      "file": "/si-v2/book-v5/page-48.webp"
     },
     {
       "title": "Direção de imagem",
-      "file": "/si-v2/book-v4/page-44.webp"
+      "file": "/si-v2/book-v5/page-49.webp"
     },
     {
       "title": "Referências e recursos",
-      "file": "/si-v2/book-v4/page-45.webp"
+      "file": "/si-v2/book-v5/page-50.webp"
     },
     {
       "title": "Referência / OXA AI",
-      "file": "/si-v2/book-v4/page-46.webp"
+      "file": "/si-v2/book-v5/page-51.webp"
     },
     {
       "title": "Referência / Buff",
-      "file": "/si-v2/book-v4/page-47.webp"
+      "file": "/si-v2/book-v5/page-52.webp"
     },
     {
       "title": "Referência / Mozari",
-      "file": "/si-v2/book-v4/page-48.webp"
+      "file": "/si-v2/book-v5/page-53.webp"
     },
     {
       "title": "Referência / Cirdia",
-      "file": "/si-v2/book-v4/page-49.webp"
+      "file": "/si-v2/book-v5/page-54.webp"
     },
     {
       "title": "Referência / Centrysk",
-      "file": "/si-v2/book-v4/page-50.webp"
+      "file": "/si-v2/book-v5/page-55.webp"
     },
     {
       "title": "Referência / Clarity",
-      "file": "/si-v2/book-v4/page-51.webp"
+      "file": "/si-v2/book-v5/page-56.webp"
     },
     {
       "title": "Síntese",
-      "file": "/si-v2/book-v4/page-52.webp"
+      "file": "/si-v2/book-v5/page-57.webp"
     },
     {
       "title": "Fontes e limites",
-      "file": "/si-v2/book-v4/page-53.webp"
+      "file": "/si-v2/book-v5/page-58.webp"
     },
     {
       "title": "Transição",
-      "file": "/si-v2/book-v4/page-54.webp"
+      "file": "/si-v2/book-v5/page-59.webp"
     },
     {
       "title": "Brand resources",
-      "file": "/si-v2/book-v4/page-55.webp"
+      "file": "/si-v2/book-v5/page-60.webp"
     }
   ]
 }
