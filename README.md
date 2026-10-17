@@ -1,39 +1,17 @@
-# SINAPSE SI — Brand System
+# SINAPSE SI — Brand world 02
 
-Proposta de evolução 1.0 para revisão de Caio, preparada em 16/10/2026. Site de marca, sistema editorial, aplicações e arquivos para School, House e Growth.
+Dark First + Light Mode, SNPS preservado, novas assinaturas, ícones, materiais ópticos, ferramentas coloridas e mockups fotográficos de vestuário.
 
-## Abrir e executar
+Prévia: http://127.0.0.1:3256/ . Domínio pretendido: branding.sinapse.si; produção não publicada.
 
-Prévia local desta tarefa: http://127.0.0.1:3256/ . O domínio pretendido é branding.sinapse.si; produção e DNS não foram alterados.
+Executar: npm ci; npm run dev -- --hostname 127.0.0.1 --port 3256.
+Conferir: npm run typecheck; node scripts/test-si-artwork.mjs.
 
-```powershell
-npm ci
-npm run dev -- --hostname 127.0.0.1 --port 3256
-npm run typecheck
-node scripts/test-si-artwork.mjs
-```
+Fontes: CANON.md, brand-system.json, components/si-v2, data/si/brand.ts, lib/si/artwork.ts e public/si-v2.
 
-## O que existe
+Gerar, em ordem: python scripts/prepare-si-v2.py; node scripts/export-si-v2.mjs; python scripts/build-si-v2-book.py; python scripts/consolidate-si-v2.py; python scripts/package-si-v2.py.
 
-Portal com 14 capítulos; pesquisa com fontes; estratégia e arquitetura; logo preservado e variantes em curvas; tipografia, materiais, ícones e movimento; Template Studio com seis formatos e exportação PNG/SVG/JSON; avatares, capas e vestuário; PDF nativo de 47 páginas e kit.
+Documento e kit: public/si-v2/SINAPSE-SI-Brandbook-02.pdf e SINAPSE-SI-Kit-02.zip.
+QA e limites: docs/SINAPSE-SI-V2-QA.md. PR #11 / issue #10.
 
-Comece por [CANON.md](CANON.md). Conteúdo em `data/si/brand.ts`, `brand-system.json` e `public/si/tokens.json`. Interface em `components/si` e `lib/si`; arquivos distribuíveis em `public/si`.
-
-## Gerar arquivos
-
-```powershell
-node scripts/prepare-si.mjs
-python scripts/prepare-si-assets.py
-node scripts/export-si-templates.mjs
-python scripts/build-si-book.py
-python scripts/package-si-kit.py
-python scripts/consolidate-si.py
-```
-
-Os scripts usam as bibliotecas locais existentes, fontes abertas e os arquivos do briefing quando necessários. Não instalam serviços nem publicam.
-
-## Evidência e limites
-
-[QA](docs/SINAPSE-SI-QA.md), [escopo](docs/SINAPSE-SI-ESCOPO.md) e [handoff](docs/SINAPSE-SI-HANDOFF.md). O build local foi impedido pelo gate de RAM; typecheck, lint proporcional e testes do exportador foram executados.
-
-O repositório existente é público. Fontes privadas, transcrições, downloads e evidência temporária permanecem ignorados. O histórico visual está em `docs/archive` e as rotas anteriores continuam disponíveis. Nenhuma identidade ou ativo de outra marca foi reutilizado.
+Build local de produção sem RAM para o gate. CI anterior com lint interativo e scanner sem histórico Git suficiente. Workflow, autenticação e permissões não foram alterados. Sem migração de dados.

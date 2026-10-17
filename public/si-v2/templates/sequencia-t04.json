@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "frames": [
+    {
+      "eyebrow": "SINAPSE SCHOOL · T04",
+      "title": "A próxima versão é sua.",
+      "body": "Aprenda, experimente e construa com inteligência artificial.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "01 · PENSAR",
+      "title": "Contexto muda tudo.",
+      "body": "Organize conhecimento, formule pedidos e avalie as respostas com mais critério.",
+      "kind": "outline"
+    },
+    {
+      "eyebrow": "02 · CONSTRUIR",
+      "title": "Da ideia ao primeiro deploy.",
+      "body": "Explore agentes, interfaces, dados e publicação em um fluxo conectado.",
+      "kind": "connection"
+    },
+    {
+      "eyebrow": "03 · CRIAR",
+      "title": "Crie com repertório.",
+      "body": "Imagem, vídeo, voz e automações com direção e revisão.",
+      "kind": "light"
+    },
+    {
+      "eyebrow": "04 · APLICAR",
+      "title": "Traga o seu projeto.",
+      "body": "Use o seu contexto para desenvolver ideias, processos e entregas.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "SEU PRÓXIMO PASSO",
+      "title": "Entre na lista da T04.",
+      "body": "Acompanhe os avisos da próxima turma em sinapse.si/school. O cadastro registra interesse.",
+      "kind": "light"
+    }
+  ]
+}

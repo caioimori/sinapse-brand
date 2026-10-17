@@ -1,8 +1,10 @@
-import { SYMBOL_PATH } from '@/components/si/marks';
-import { INTER_METRICS } from '@/lib/si/metrics';
+import { MANROPE_METRICS as INTER_METRICS } from '@/lib/si/v2-metrics';
+import { SNPS_PATHS } from '@/lib/si/v2-master';
+import { TOOL_PATHS } from '@/lib/si/tool-assets';
+import { FIGMA_GRAPHIC } from '@/lib/si/figma-graphic';
 
 export type ArtFormat = 'carousel'|'story'|'post'|'avatar'|'cover'|'banner';
-export type ArtOptions = { format:ArtFormat; theme:'dark'|'light'; family:'signal'|'notes'|'class'|'proof'; division:string; title:string; body:string; eyebrow:string; footer:string; page:number; total:number; safe?:boolean; clientLogo?:string; partnerName?:string; clientScale?:number; };
+export type ArtOptions = { format:ArtFormat; theme:'dark'|'light'; family:'signal'|'notes'|'class'|'proof'; division:string; title:string; body:string; eyebrow:string; footer:string; page:number; total:number; safe?:boolean; clientLogo?:string; partnerName?:string; clientScale?:number; tool?:string; };
 export const FORMAT_SIZES:Record<ArtFormat,[number,number]>={carousel:[1080,1350],story:[1080,1920],post:[1080,1080],avatar:[1080,1080],cover:[1080,1620],banner:[1920,1080]};
 export const xml=(s:string)=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&apos;'}[c]||c));
 
@@ -25,61 +27,59 @@ export function wrapPixels(value:string,width:number,size:number,tracking=-.055)
 function fitTitle(value:string,width:number,size:number,budget:number){for(let i=0;i<20;i++){if(wrapPixels(value,width,size).length*size*1.06<=budget||size<=42)break;size=Math.floor(size*.94);}return size;}
 
 export function iconPaths(name:string):string {
-  const map:Record<string,string>={
-    school:'<path d="M10 32c12-26 28-26 38 0s26 26 38 0M10 32c12 26 28 26 38 0s26-26 38 0"/>',
-    house:'<path d="M8 14h25l15 18-15 18H8M88 14H63L48 32l15 18h25M36 32h24"/>',
-    growth:'<path d="M10 52h24V36h24V20h28M68 8h18v24"/>',
-    connect:'<rect x="8" y="20" width="30" height="24" rx="12"/><rect x="58" y="20" width="30" height="24" rx="12"/><path d="M38 32h20"/>',
-    context:'<path d="M10 14h54v36H10zM32 14V6h54v36H64"/>',
-    create:'<path d="M48 6v52M22 32h52M30 14l36 36M66 14L30 50"/>',
-    agent:'<rect x="22" y="12" width="52" height="43" rx="16"/><path d="M48 4v8M34 29v4M62 29v4M36 44h24"/>',
-    data:'<path d="M14 50V34M37 50V20M60 50V8M83 50V27M8 58h80"/>',
-    code:'<path d="M30 14L10 32l20 18M66 14l20 18-20 18M55 7L41 57"/>',
-    play:'<path d="M34 10l34 22-34 22z"/>',
-    flow:'<circle cx="16" cy="32" r="9"/><circle cx="80" cy="32" r="9"/><path d="M25 32h46M48 32V9M48 32v23"/>',
-    orbit:'<ellipse cx="48" cy="32" rx="37" ry="21"/><ellipse cx="48" cy="32" rx="18" ry="29"/><circle cx="48" cy="32" r="5"/>',
-  };return map[name]||map.connect;
+ const ink='fill="currentColor" stroke="none"';
+ const shapes:Record<string,string>={
+ school:`<path d="M20 18h56M20 32h56M20 46h35" stroke-width="6" stroke-linecap="round"/><rect x="66" y="40" width="16" height="16" rx="5" ${ink}/><circle cx="14" cy="18" r="3" ${ink}/><circle cx="14" cy="32" r="3" ${ink}/><circle cx="14" cy="46" r="3" ${ink}/>`,
+ house:`<path d="M20 14h56v38H20z" stroke-width="5" stroke-linejoin="round"/><path d="M37 14v38M37 32h39" stroke-width="5"/><circle cx="28" cy="22" r="3" ${ink}/><rect x="48" y="40" width="19" height="5" rx="2.5" ${ink}/>`,
+ growth:`<rect x="17" y="37" width="15" height="19" rx="5" ${ink}/><rect x="40" y="25" width="15" height="31" rx="5" ${ink}/><rect x="63" y="9" width="15" height="47" rx="5" ${ink}/><path d="m18 24 14-9 14 2 10-8" stroke-width="3" stroke-linecap="round"/>`,
+ connect:`<rect x="13" y="19" width="44" height="27" rx="13.5" stroke-width="6"/><rect x="39" y="19" width="44" height="27" rx="13.5" stroke-width="6"/><path d="M36 32h24" stroke-width="6" stroke-linecap="round"/>`,
+ context:`<path d="M32 13H18v14m46-14h14v14M18 39v14h14m46-14v14H64" stroke-width="5" stroke-linecap="round"/><circle cx="48" cy="33" r="10" ${ink}/>`,
+ create:`<path d="m30 15 36 0 13 17-13 18H30L17 32Z" stroke-width="5" stroke-linejoin="round"/><path d="M36 24h24v16H36z" ${ink}/><path d="M10 8h13M73 56h13" stroke-width="3" stroke-linecap="round"/>`,
+ agent:`<rect x="18" y="14" width="60" height="38" rx="17" stroke-width="5"/><rect x="30" y="25" width="10" height="15" rx="5" ${ink}/><rect x="56" y="25" width="10" height="15" rx="5" ${ink}/><path d="M44 7h8M44 59h8" stroke-width="4" stroke-linecap="round"/>`,
+ data:`<ellipse cx="48" cy="17" rx="28" ry="10" stroke-width="4"/><path d="M20 17v30c0 14 56 14 56 0V17M20 32c0 14 56 14 56 0" stroke-width="4"/><circle cx="67" cy="47" r="3" ${ink}/>`,
+ code:`<path d="m31 17-17 15 17 15m34-30 17 15-17 15M55 10 41 54" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>`,
+ play:`<rect x="17" y="10" width="62" height="44" rx="12" stroke-width="5"/><path d="m41 22 18 10-18 10z" ${ink}/>`,
+ flow:`<rect x="9" y="23" width="21" height="20" rx="6" ${ink}/><rect x="66" y="8" width="21" height="20" rx="6" ${ink}/><rect x="66" y="39" width="21" height="20" rx="6" ${ink}/><path d="M30 33h13c9 0 9-15 23-15M43 33c9 0 9 16 23 16" stroke-width="4"/>`,
+ orbit:`<circle cx="48" cy="32" r="21" stroke-width="5"/><ellipse cx="48" cy="32" rx="37" ry="11" transform="rotate(-27 48 32)" stroke-width="3"/><circle cx="76" cy="17" r="6" ${ink}/>`
+ };return shapes[name]||shapes.context;
 }
 export const ICON_NAMES=['school','house','growth','connect','context','create','agent','data','code','play','flow','orbit'];
-export function iconSvg(name:string,size=96){return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${Math.round(size*2/3)}" viewBox="0 0 96 64" fill="none" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><title>SINAPSE SI / ${xml(name)}</title>${iconPaths(name)}</svg>`;}
+export function iconSvg(name:string,size=96,scale=1){const paths=iconPaths(name).replace(/stroke-width="([\d.]+)"/g,(_m,n)=>`stroke-width="${Number(n)*scale}"`);return `<svg xmlns="http://www.w3.org/2000/svg" width="${size}" height="${Math.round(size*2/3)}" viewBox="0 0 96 64" fill="none" color="#111111" stroke="currentColor" stroke-width="${4*scale}" stroke-linecap="round" stroke-linejoin="round"><title>SINAPSE SI / FORM 02 / ${xml(name)}</title>${paths}</svg>`;}
 
-export function makeArtwork(o:ArtOptions,wordmarkPaths:string,fontCss=''):string {
-  const [w,h]=FORMAT_SIZES[o.format], light=o.theme==='light';
-  const bg=light?'#F5F5F0':'#0A0A0A',fg=light?'#0A0A0A':'#F5F5F0',muted=light?'#626262':'#A6A6A6',line=light?'#CECECB':'#333333';
-  const m=w===1920?115:76, inner=w-m*2, foot=h-(o.format==='story'?270:78),top=o.format==='story'?250:80;
-  const logo=`<svg x="${m}" y="${top-18}" width="${w===1920?270:245}" height="42" viewBox="0 0 734.86 113.46" fill="${fg}">${wordmarkPaths}</svg><text x="${m+(w===1920?294:268)}" y="${top+9}" fill="${fg}" font-family="Inter,Arial,sans-serif" font-size="18">${xml(o.division==='SI'?'SI':o.division)}</text>`;
-  const symbol=(x:number,y:number,width:number,opacity=1)=>`<svg x="${x}" y="${y}" width="${width}" height="${width*.56}" viewBox="28 28 104 58" opacity="${opacity}"><path d="${SYMBOL_PATH}" fill="${fg}"/></svg>`;
-  const label=(text:string,x:number,y:number,color=muted,size=17)=>`<text x="${x}" y="${y}" fill="${color}" font-size="${size}" font-family="JetBrains Mono,monospace" letter-spacing="2">${xml(text)}</text>`;
-  const textBlock=(text:string,x:number,y:number,size:number,_maxChars:number,color=fg,weight=500)=>wrapPixels(text,inner,size).map((s,i)=>`<text x="${x}" y="${y+i*size*1.06}" fill="${color}" font-family="Inter,Arial,sans-serif" font-weight="${weight}" font-size="${size}" letter-spacing="${-size*.055}">${xml(s)}</text>`).join('');
-  let content='';
-  if(o.format==='avatar'){
-    const imageData=o.clientLogo&&/^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/=\r\n]+$/.test(o.clientLogo)?o.clientLogo:undefined;
-    const partner=o.partnerName?.trim()||(imageData?'Cliente':'');
-    const logoSize=240*Math.min(2,Math.max(.6,o.clientScale||1));
-    content=`<circle cx="540" cy="540" r="500" stroke="${line}" fill="none"/>${symbol(partner?205:305,partner?290:255,partner?275:470)}${partner?`<path d="M540 245v350" stroke="${line}" stroke-width="2"/>${imageData?`<defs><clipPath id="client-area"><rect x="575" y="190" width="340" height="380"/></clipPath></defs><image href="${imageData}" x="${730-logoSize/2}" y="${365-logoSize/2}" width="${logoSize}" height="${logoSize}" preserveAspectRatio="xMidYMid meet" clip-path="url(#client-area)"/>`:`<text x="735" y="437" text-anchor="middle" fill="${fg}" font-family="Inter,Arial,sans-serif" font-weight="500" font-size="84">${xml(partner.slice(0,3).toUpperCase())}</text>`}`:''}<text x="540" y="${partner?740:710}" text-anchor="middle" fill="${fg}" font-family="Inter,Arial,sans-serif" font-size="${o.title.length>14?54:90}" font-weight="450" letter-spacing="-4">${xml(o.title.slice(0,22))}</text><text x="540" y="815" text-anchor="middle" fill="${muted}" font-family="JetBrains Mono,monospace" font-size="20" letter-spacing="4">SINAPSE ${xml(o.division.toUpperCase())}</text><circle cx="540" cy="540" r="500" stroke="${line}" fill="none"/>`;
-  }else if(o.format==='cover'){
-    const coverSize=fitTitle(o.title,inner,94,330);
-    const coverBody=wrapPixels(o.body,inner,23,0).slice(0,3).map((s,i)=>`<text x="${m}" y="${1360+i*30}" fill="${muted}" font-family="Inter,Arial,sans-serif" font-size="23">${xml(s)}</text>`).join('');
-    content=`${logo}${label(o.eyebrow.toUpperCase(),m,230)}${symbol(250,410,950,.085)}<text x="${m}" y="520" fill="none" stroke="${fg}" stroke-opacity=".4" stroke-width="1" font-family="Inter,Arial,sans-serif" font-size="230" letter-spacing="-22">${String(o.page).padStart(2,'0')}</text>${textBlock(o.title,m,970,coverSize,18)}${coverBody}<path d="M${m} 1450h${inner}" stroke="${line}"/>${label('SINAPSE SCHOOL / MEMBER',m,1510,muted,17)}`;
-  }else{
-    const isStory=o.format==='story',isBanner=o.format==='banner',isPost=o.format==='post';
-    const titleSize=isBanner?112:isPost?90:96;
-    const size=fitTitle(o.title,inner,titleSize,isBanner?275:isPost?310:isStory?450:350);
-    const titleY=isStory?420:isBanner?360:300;
-    const titleLines=wrapPixels(o.title,inner,size);
-    const bodyY=titleY+(titleLines.length-1)*size*1.06+100;
-    content=`${logo}${label(o.eyebrow.toUpperCase(),m,titleY-100)}${textBlock(o.title,m,titleY,size,isBanner?27:Math.floor(19*titleSize/size))}`;
-    const bodySize=isBanner?30:27;
-    content+=wrapPixels(o.body,inner,bodySize,0).slice(0,5).map((s,i)=>`<text x="${m}" y="${bodyY+i*bodySize*1.45}" fill="${muted}" font-family="Inter,Arial,sans-serif" font-size="${bodySize}" font-weight="400">${xml(s)}</text>`).join('');
-    const artY=Math.max(bodyY+190,h*.57),artH=foot-artY-50;
-    if(artH>60){
-      if(o.family==='class'){content+=`<text x="${m-10}" y="${foot-70}" fill="${fg}" font-family="Inter,Arial,sans-serif" font-size="${Math.min(310,artH+25)}" font-weight="400" letter-spacing="-22">T04</text><path d="M${w-m-110} ${foot-240}h110v110M${w-m-110} ${foot-130}l110-110" fill="none" stroke="${fg}" stroke-width="4"/>`;}
-      else if(o.family==='notes'){content+=`<path d="M${m} ${artY}h${inner}" stroke="${line}"/><text x="${m}" y="${foot-90}" fill="none" stroke="${fg}" stroke-width="1" opacity=".5" font-family="Inter,Arial,sans-serif" font-size="${Math.min(250,artH)}" letter-spacing="-12">${String(o.page).padStart(2,'0')}</text>${label('PENSE. EXPERIMENTE. APLIQUE.',m+200,foot-110,muted,14)}`;}
-      else if(o.family==='proof'){content+=`<rect x="${m}" y="${artY}" width="${inner}" height="${Math.max(80,artH-25)}" rx="10" fill="${light?'#E8E8E5':'#141414'}" stroke="${line}"/><path d="M${m+40} ${artY+48}h${inner-80}" stroke="${line}"/>${label('PROCESSO → ENTREGA → APRENDIZADO',m+40,artY+31,muted,14)}${symbol(m+inner*.32,artY+Math.max(55,(artH-180)/2),inner*.4,.85)}`;}
-      else{content+=symbol(w*.27,artY,inner*.72,.88);}
-    }
-    content+=`<path d="M${m} ${foot-24}h${inner}" stroke="${line}"/>${label(o.footer,m,foot+18,muted,16)}<text x="${w-m}" y="${foot+18}" text-anchor="end" fill="${muted}" font-family="JetBrains Mono,monospace" font-size="16">${String(o.page).padStart(2,'0')} / ${String(o.total).padStart(2,'0')}</text>`;
+export function makeArtwork(o:ArtOptions,_wordmarkPaths:string,fontCss=''):string {
+ const [w,h]=FORMAT_SIZES[o.format],light=o.theme==='light',bg=light?'#f5f5f5':'#0a0a0a',fg=light?'#111111':'#f5f5f5',muted=light?'#666666':'#aaaaaa',line=light?'#cccccc':'#38383c';
+ const m=w===1920?110:76,inner=w-2*m,story=o.format==='story',foot=h-(story?270:78),top=story?250:86;
+ const colors:Record<string,string>={supabase:'#3ecf8e',figma:'#f24e1e',obsidian:'#7c3aed',n8n:'#ea4b71',warp:'#01a4ff',hostinger:'#673de6',docker:'#2496ed',vercel:muted,github:muted};
+ const tool=o.tool&&(o.tool==='figma'||TOOL_PATHS[o.tool])?o.tool:undefined;
+ const toolMark=(x:number,y:number,size:number)=>tool==='figma'?`<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="0 0 16 16">${FIGMA_GRAPHIC}</svg>`:tool?`<svg x="${x}" y="${y}" width="${size}" height="${size}" viewBox="0 0 24 24"><path d="${TOOL_PATHS[tool]}" fill="${colors[tool]||fg}"/></svg>`:'';
+ const snps=(x:number,y:number,width:number,fill=fg)=>`<svg x="${x}" y="${y}" width="${width}" height="${width*.232}" viewBox="0 0 489.2 113.46" fill="${fill}">${SNPS_PATHS}</svg>`;
+ const label=(s:string,x:number,y:number,size=18,color=muted)=>`<text x="${x}" y="${y}" fill="${color}" font-family="Manrope,Inter,Arial,sans-serif" font-size="${size}" letter-spacing="2">${xml(s)}</text>`;
+ const title=(value:string,x:number,y:number,size:number,width=inner)=>wrapPixels(value,width,size,-.035).map((s,i)=>`<text x="${x}" y="${y+i*size*1.08}" fill="${fg}" font-family="Manrope,Inter,Arial,sans-serif" font-size="${size}" font-weight="600" letter-spacing="${-size*.035}">${xml(s)}</text>`).join('');
+ const head=snps(m-18,top-46,230)+label(`SINAPSE ${o.division.toUpperCase()}`,m+230,top+1,17,fg);
+ const defs=`<linearGradient id="ambient" x2=".8" y2="1"><stop stop-color="${light?'#ffffff':'#343438'}"/><stop offset=".55" stop-color="${bg}"/><stop offset="1" stop-color="${light?'#e0e0e5':'#171719'}"/></linearGradient><linearGradient id="silver" x2=".1" y2="1"><stop stop-color="#fafafa"/><stop offset=".2" stop-color="#6e6e73"/><stop offset=".45" stop-color="#fafafa"/><stop offset=".53" stop-color="#8a8a90"/><stop offset="1" stop-color="#d1d1d6"/></linearGradient><linearGradient id="glass" x2="1" y2="1"><stop stop-color="#ffffff" stop-opacity=".8"/><stop offset=".25" stop-color="#aaa" stop-opacity=".1"/><stop offset=".5" stop-color="#fff" stop-opacity=".7"/><stop offset=".57" stop-color="#aaa" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity=".7"/></linearGradient>`;
+ let content='';
+ if(o.format==='avatar'){
+  const imageData=o.clientLogo&&/^data:image\/(?:png|jpeg|webp);base64,[A-Za-z0-9+/=\r\n]+$/.test(o.clientLogo)?o.clientLogo:undefined;
+  const partner=o.partnerName?.trim()||(imageData?'Cliente':'');const logoSize=240*Math.min(1.4,Math.max(.6,o.clientScale||1));
+  content=`<circle cx="540" cy="540" r="500" fill="url(#ambient)" stroke="${line}"/>${snps(partner?145:170,partner?290:275,partner?350:740,'url(#silver)')}${partner?`<path d="M540 245v350" stroke="${line}" stroke-width="2"/>${imageData?`<defs><clipPath id="client-area"><rect x="575" y="160" width="340" height="340"/></clipPath></defs><image href="${imageData}" x="${745-logoSize/2}" y="${330-logoSize/2}" width="${logoSize}" height="${logoSize}" preserveAspectRatio="xMidYMid meet" clip-path="url(#client-area)"/>`:`<text x="745" y="360" text-anchor="middle" fill="${fg}" font-family="Manrope,Arial,sans-serif" font-size="80" font-weight="600">${xml(partner.slice(0,3).toUpperCase())}</text>`}`:''}<text x="540" y="${partner?715:680}" text-anchor="middle" fill="${fg}" font-family="Manrope,Inter,Arial,sans-serif" font-size="${o.title.length>14?52:96}" font-weight="600" letter-spacing="-4">${xml(o.title.slice(0,22))}</text><text x="540" y="810" text-anchor="middle" fill="${muted}" font-family="Manrope,Arial,sans-serif" font-size="21" letter-spacing="3">SINAPSE ${xml(o.division.toUpperCase())}</text><circle cx="540" cy="540" r="500" stroke="${line}" fill="none"/>`;
+ }else{
+  const cover=o.format==='cover',banner=o.format==='banner',post=o.format==='post';const titleY=cover?820:story?440:banner?340:320;
+  const budget=cover?340:post?270:story?440:banner?310:340;let size=fitTitle(o.title,inner,banner?124:cover?105:110,budget);
+  // The fitting metric remains Inter: enlarge the available safety margin for Manrope.
+  size=Math.floor(size*.92);const lines=wrapPixels(o.title,inner,size,-.035);const bodyY=titleY+(lines.length-1)*size*1.08+90;
+  content=head+label(o.eyebrow.toUpperCase(),m,cover?top+150:titleY-108,18)+title(o.title,m,titleY,size);
+  content+=wrapPixels(o.body,inner,30,0).slice(0,4).map((s,i)=>`<text x="${m}" y="${bodyY+i*43}" fill="${muted}" font-family="Manrope,Inter,Arial,sans-serif" font-size="30">${xml(s)}</text>`).join('');
+  if(cover){content+=`<text x="${m-12}" y="570" fill="none" stroke="${muted}" stroke-width="1.5" font-family="Manrope,Arial,sans-serif" font-size="420" letter-spacing="-25">${String(o.page).padStart(2,'0')}</text>${toolMark(w-m-140,440,140)}`;}
+  else{const y=Math.max(bodyY+190,h*.59),room=foot-y-35;
+   if(room>90){
+    if(o.family==='class'){content+=`<text x="${m-10}" y="${foot-80}" fill="${fg}" font-family="Manrope,Inter,Arial,sans-serif" font-size="${Math.min(320,room+40)}" font-weight="600" letter-spacing="-20">T04</text>${toolMark(w-m-135,foot-250,135)}`;}
+    else if(o.family==='notes'){content+=`<path d="M${m} ${y}h${inner}" stroke="${line}"/><text x="${m-8}" y="${foot-80}" fill="none" stroke="${muted}" stroke-width="1.5" font-family="Manrope,Arial,sans-serif" font-size="${Math.min(260,room)}" letter-spacing="-15">${String(o.page).padStart(2,'0')}</text>${toolMark(w-m-125,foot-230,125)}`;}
+    else if(o.family==='proof'){content+=`<rect x="${m}" y="${y}" width="${inner}" height="${room}" rx="36" fill="url(#ambient)" stroke="${line}"/>${snps(m+inner*.08,y+room*.24,inner*.68,'url(#silver)')}${toolMark(w-m-145,y+room*.33,100)}`;}
+    else{content+=snps(m-50,y,inner+100,light?fg:'url(#glass)')+toolMark(w-m-80,foot-130,80);}
+   }
   }
-  const guides=o.safe?`<rect x="${m}" y="${o.format==='story'?250:60}" width="${inner}" height="${h-(o.format==='story'?520:120)}" fill="none" stroke="${muted}" stroke-dasharray="8 8" stroke-opacity=".5"/>`:'';
-  return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${xml(o.title)} — SINAPSE SI</title><desc>Proposta editável. Formato ${o.format}; ${w} por ${h}. ${xml(o.body)}</desc><defs><style>${fontCss}</style></defs><rect width="${w}" height="${h}" fill="${bg}"/>${content}${guides}</svg>`;
+  content+=`<path d="M${m} ${foot-24}h${inner}" stroke="${line}"/>${label(o.footer,m,foot+18,17)}<text x="${w-m}" y="${foot+18}" text-anchor="end" fill="${muted}" font-family="Manrope,Arial,sans-serif" font-size="17">${cover?'MÓDULO '+String(o.page).padStart(2,'0'):String(o.page).padStart(2,'0')+' / '+String(o.total).padStart(2,'0')}</text>`;
+ }
+ const guides=o.safe?`<rect x="${m}" y="${story?250:60}" width="${inner}" height="${h-(story?520:120)}" fill="none" stroke="${muted}" stroke-dasharray="8 8" stroke-opacity=".5"/>`:'';
+ return `<svg xmlns="http://www.w3.org/2000/svg" width="${w}" height="${h}" viewBox="0 0 ${w} ${h}" role="img"><title>${xml(o.title)} — SINAPSE SI / 02</title><desc>Proposta editável. Formato ${o.format}; ${w} por ${h}. ${xml(o.body)}</desc><defs><style>${fontCss}</style>${defs}</defs><rect width="${w}" height="${h}" fill="${bg}"/><rect width="${w}" height="${h}" fill="url(#ambient)" opacity=".32"/>${content}${guides}</svg>`;
 }

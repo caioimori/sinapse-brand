@@ -1,37 +1,36 @@
-# SINAPSE SI — sistema de marca 1.0
+# SINAPSE SI — Brand world 02
 
-Proposta de evolução preparada em 16/10/2026 para revisão de Caio. Nome SINAPSE SI e paleta preto e branco definidos no pedido; demais desdobramentos identificados como propostas.
+Proposta 02 para revisão de Caio. Direção de 16/10/2026: preservar SNPS e preto e branco; substituir integralmente a proposta visual 1.0. Dark First, Light Mode, materiais ópticos, ferramentas em suas cores e mockups fotográficos inspirados na Coinbase Shop.
 
-## Fonte do sistema
-- Conteúdo estratégico/editorial: `data/si/brand.ts` e `brand-system.json`.
-- Tokens: `public/si/tokens.json`.
-- Mestres originais preservados: `public/brand/logo/`.
-- Variantes propostas em curvas: `public/si/logos/`.
-- Componentes e aplicações: `components/si/` e `lib/si/`.
-- Site: `/` e `/studio/*`. `/brandbook` leva à nova essência; rotas históricas ficam disponíveis como acervo.
-- Documento e kit: `public/si/SINAPSE-SI-Brandbook.pdf` e `public/si/SINAPSE-SI-Kit.zip`.
+## Fonte atual
+- Portal: / e /studio/*, em components/si-v2.
+- Estratégia e ofertas: data/si/brand.ts e brand-system.json; fontes públicas citadas.
+- Mestres intactos: public/brand/logo. Novas assinaturas em curvas: public/si-v2/logos.
+- Tipografia: Manrope 600 para display, 400 para informação; JetBrains Mono 400 para metadados. Fontes e licenças no kit.
+- Tema, cor e motion: public/si-v2/tokens.json e components/si-v2/system.css.
+- Editor e exportador: components/si/editor.tsx e lib/si/artwork.ts.
+- Documento: public/si-v2/SINAPSE-SI-Brandbook-02.pdf, 37 páginas 1920 × 1080.
+- Kit: public/si-v2/SINAPSE-SI-Kit-02.zip. Origem dos assets em asset-provenance.json.
 
-## Plataforma
-SINAPSE SI conecta educação, software e crescimento para ampliar a capacidade de aprender, criar, decidir e executar. School desenvolve repertório; House entrega projetos; Growth opera crescimento de forma recorrente, incluindo e-commerce, vendas diretas e geração de leads.
+## Plataforma e identidade
+SINAPSE SI conecta educação, software e crescimento para ampliar a capacidade de aprender, criar, decidir e executar. School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads.
 
-## Identidade
-Vanta `#0A0A0A`, Bone `#F5F5F0`, rampa neutra e zero accent cromático de marca. Inter informa; JetBrains Mono identifica metadados; Audiowide explora palavras curtas sem substituir o logo. Sora permanece como fonte do acervo.
+SI significa Super Intelligence, nome definido por Caio. A referência da Casa Branca é contexto; não comprova capacidade técnica ou vínculo governamental.
 
-Preservar as curvas do lettering e do símbolo. Versão bone é clara para fundo escuro; vanta é escura para fundo claro. O descritor SI e os braços nas novas assinaturas estão convertidos em curvas. Símbolo óptico é expressão de campanha, acompanhado de uma assinatura plana quando necessário.
+Preto e branco são a marca. Vidro, névoa e prata criam materialidade. Cores de ferramentas aparecem nos próprios logos, em conteúdos sobre elas; não viram accent da SINAPSE. Uso não comprova parceria.
 
-## Expressão e produção
-Uma ideia por composição. Títulos balanceados, prosa fluida, margens consistentes e contraste antes de efeitos. Vidro orienta navegação e controles; informações ficam em superfície sólida. Movimento tem função, pausa e alternativa estática.
+O vetor plano controla proporção e reprodução. Fotografias geradas são aplicações conceituais e não substituem o mestre. Impressão e bordado dependem de vetor e prova física.
 
-Signal: marca e manifesto. Field Notes: repertório. Open Class: mentorias e turmas. Proof of Work: projetos e evidência. Formato e duração seguem o assunto, sem cadência automática.
+O portal começa escuro e mantém a preferência de Light Mode. Vidro tem bordas legíveis; movimento tem pausa e alternativa reduzida. Efeitos não escondem instruções nem impedem reconhecer uma assinatura.
 
-Avatares priorizam redução e coassinatura real autorizada. Capas Member distinguem aula e módulo. Vestuário é proposta conceitual até prova física de tecido, técnica e posicionamento.
+## Editorial e produto
+Manifesto, Caderno, Convite e Em produção. Uma ideia por composição, quebras intencionais, ritmo e hierarquia. Templates: carrossel 6/10, story, post, avatar, Member e banner. Ferramenta, tema e edição podem variar por tela.
 
-## Fatos e limites
-A referência da Casa Branca de 29/09/2026 trata de terminologia do Executivo federal dos EUA. Não demonstra capacidade técnica da SINAPSE ou vínculo governamental. Lista da T04 registra interesse; acesso como Member ocorre no ingresso.
+T04: lista de interesse não é matrícula. Datas, vagas, bônus e preço precisam refletir a oferta vigente antes de publicar.
 
-Produzir um arquivo ou aprovar uma identidade não publica um site, rede social ou fabricação. O lote atual entrega proposta, código, arquivos e prévia local. O domínio `branding.sinapse.si` depende de acesso e autorização de publicação.
+Collection 01: Logo Tee discreta no peito e Intelligence Hoodie editorial nas costas. Coinbase orienta a lógica de vestuário; estampas e marcas dela não foram reproduzidas. Modelagem, tecido e impressão aguardam protótipo físico.
 
-## Atualização
-Propagar mudanças entre dados, site, templates, PDF e kit. Geradores em `scripts/prepare-si.mjs`, `prepare-si-assets.py`, `export-si-templates.mjs`, `build-si-book.py` e `consolidate-si.py`. Conferir controles reais, downloads, redução e responsividade antes de distribuir.
+## Estado e recuperação
+Prévia local na porta 3256. Produção, DNS, postagem e fabricação não executados. QA: docs/SINAPSE-SI-V2-QA.md. Retomada: docs/SINAPSE-SI-HANDOFF.md.
 
-O cânone anterior está preservado em `docs/archive/CANON-2026-06.md`. O checkout principal e suas alterações anteriores não foram modificados por esta branch. Esta entrega não promete recarga automática de regras em outras sessões.
+Proposta 1.0 rejeitada e preservada no Git em 29b033b, public/si e docs/archive/*proposal-01.md. Rotas históricas /brandbook/* são acervo e não orientam a proposta 02. O CANON previamente alterado no checkout principal foi preservado.

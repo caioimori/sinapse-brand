@@ -1,0 +1,586 @@
+{
+  "version": "2.0-proposal",
+  "publication": "local_only",
+  "files": [
+    {
+      "file": "asset-provenance.json",
+      "bytes": 1889,
+      "sha256": "5391a7295e01025bf03c8afe418c7fae8d2597f53210ae578bfa8c24f51db93e"
+    },
+    {
+      "file": "brand-data.json",
+      "bytes": 23198,
+      "sha256": "5f73d052b5fb3966f9ddf67e9140b7a3df6f4587e696011f3783583e429d2f7a"
+    },
+    {
+      "file": "fonts/export.css",
+      "bytes": 260314,
+      "sha256": "4df4f2b2bbe8d5e7d7f3c7ac1e0f33934d45cd915d5fea4e1633c0f3b38cc288"
+    },
+    {
+      "file": "fonts/jetbrainsmono-OFL.txt",
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "file": "fonts/JetBrainsMono-Regular.ttf",
+      "bytes": 115152,
+      "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79"
+    },
+    {
+      "file": "fonts/Manrope-Regular.ttf",
+      "bytes": 97500,
+      "sha256": "d669f09e9856b9af7e9109cb1a2b27d53f2c02b829d0d18a184c2da4971e99f2"
+    },
+    {
+      "file": "fonts/Manrope-Semibold.ttf",
+      "bytes": 97616,
+      "sha256": "4da102d8cec8346fde8ee3fef669cc8e808c3e95b393e7d5b382c98b23e1f7ba"
+    },
+    {
+      "file": "fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "file": "geometry.json",
+      "bytes": 3233,
+      "sha256": "8db2b97e939582fc29846c436b7c849469def19b55e2b31b9ce9165138278f01"
+    },
+    {
+      "file": "glass.webp",
+      "bytes": 91258,
+      "sha256": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac"
+    },
+    {
+      "file": "hero.webp",
+      "bytes": 63530,
+      "sha256": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4"
+    },
+    {
+      "file": "hoodie.webp",
+      "bytes": 222536,
+      "sha256": "7a35201d7587273c300b0dd6fab78ec74c29aa7d8c10d29c05780772fbfad9f8"
+    },
+    {
+      "file": "icons/agent.svg",
+      "bytes": 552,
+      "sha256": "c3786756cab6500cc9412a97600d24479c950e777ad1042a62ce047bdc63c5a2"
+    },
+    {
+      "file": "icons/code.svg",
+      "bytes": 369,
+      "sha256": "c7c2135126cb9fed069eb6e8a1fde6b0fa836e663d400c191f3e701a56e34cc9"
+    },
+    {
+      "file": "icons/connect.svg",
+      "bytes": 451,
+      "sha256": "b875987c56f642bad9291861929419dec9bc620202f4bb77376e24d87f3689e4"
+    },
+    {
+      "file": "icons/context.svg",
+      "bytes": 414,
+      "sha256": "412527c5a4a3088417d71fdd4b8a984f067893dffa2c7ae50eb614f4d8703efa"
+    },
+    {
+      "file": "icons/create.svg",
+      "bytes": 464,
+      "sha256": "7a73e02e980a49b916f40c7ed126b87348b5fd2db3e946a546132e5814786411"
+    },
+    {
+      "file": "icons/data.svg",
+      "bytes": 448,
+      "sha256": "75ec17cd3802a4912e6e944064fb22eab1aa774b3ec1c2bd430d0c2745eae5b7"
+    },
+    {
+      "file": "icons/flow.svg",
+      "bytes": 572,
+      "sha256": "b7ab7db1936934bc00a907db68b01f4f77914caab616dd6028ffc40208f0a472"
+    },
+    {
+      "file": "icons/growth.svg",
+      "bytes": 574,
+      "sha256": "73856471543437f021bd6c70412f5492642743899bfa08a9f6be39a18fbff2cd"
+    },
+    {
+      "file": "icons/house.svg",
+      "bytes": 513,
+      "sha256": "8bd1c9f3e71362e4385fcb03a1e1f525176d0f7e95b56304670b27e8284b24c4"
+    },
+    {
+      "file": "icons/orbit.svg",
+      "bytes": 449,
+      "sha256": "07c47e6a90d3639b8008287c49633b6991ccc8102b09c53bcecd53b808236f0e"
+    },
+    {
+      "file": "icons/play.svg",
+      "bytes": 379,
+      "sha256": "e35250a8b03ec3f878fde419bebd1829e4cd8634babedb32c0bc8fd6c3927773"
+    },
+    {
+      "file": "icons/school.svg",
+      "bytes": 606,
+      "sha256": "35d903ae3c233bad05b67d66adce634063ce7e6938543424878ae1fcd369c474"
+    },
+    {
+      "file": "logos/sinapse-growth-frost-dark.svg",
+      "bytes": 10729,
+      "sha256": "ae5fc54d64b299109f27fd22f6fb988009712bcb484c4dfc54dd1232b3f114e4"
+    },
+    {
+      "file": "logos/sinapse-growth-frost-light.svg",
+      "bytes": 10761,
+      "sha256": "ad945b982e5127f43ce36c9ed8f2e679dc38bfaf6fbf9d52059889de0bb6ea3b"
+    },
+    {
+      "file": "logos/sinapse-growth-glass-dark.svg",
+      "bytes": 10765,
+      "sha256": "3fef5a936ffea735569341508943f9bfeb2ca844c93e8c9fe547c5d060c39f2b"
+    },
+    {
+      "file": "logos/sinapse-growth-glass-light.svg",
+      "bytes": 10761,
+      "sha256": "77d4996ddaa6b8a688aa09ae8ef7afddcf8e8b3c4abbbe8d8c0cedb0fb1f9593"
+    },
+    {
+      "file": "logos/sinapse-growth-silver-dark.svg",
+      "bytes": 10730,
+      "sha256": "e52997d5409799b20fe90b9798943cba689a5ec3d555f486bf44f2c7cce28793"
+    },
+    {
+      "file": "logos/sinapse-growth-silver-light.svg",
+      "bytes": 10730,
+      "sha256": "0533eb3dac508fe10e30f59afa9ff68144cdffa598497104709db56687327474"
+    },
+    {
+      "file": "logos/sinapse-growth-solid-dark.svg",
+      "bytes": 10730,
+      "sha256": "788dfc63fb78e3ae0210d63a4d0ff037400a585464c566436fe2b63cc9bf97df"
+    },
+    {
+      "file": "logos/sinapse-growth-solid-light.svg",
+      "bytes": 10730,
+      "sha256": "a5b51dbfe96b796a79c37b24cafa2e20f08f9c66378cf718c267a4c5b8548313"
+    },
+    {
+      "file": "logos/sinapse-house-frost-dark.svg",
+      "bytes": 11201,
+      "sha256": "fc8f8b3d7fc2ec6fe5c9d0874afad8ea90fb69820f027bf3417936db9c80a0fe"
+    },
+    {
+      "file": "logos/sinapse-house-frost-light.svg",
+      "bytes": 11233,
+      "sha256": "d517b05265385e9dd6f29cda92a3329730a53ec15ca7650ffb399c4eb2053d85"
+    },
+    {
+      "file": "logos/sinapse-house-glass-dark.svg",
+      "bytes": 11237,
+      "sha256": "f2910fb254c3ba8fb66b39e91563ed8e8d3148384aecfd26612bf4688d81af1e"
+    },
+    {
+      "file": "logos/sinapse-house-glass-light.svg",
+      "bytes": 11233,
+      "sha256": "46f17424ecb56bcc4e3853a2b3155d988ee49a445f309cca1c2b3f420a9be522"
+    },
+    {
+      "file": "logos/sinapse-house-silver-dark.svg",
+      "bytes": 11202,
+      "sha256": "29e82526c9650444dcd8abad6f1f75a75c0841c0d4016505bb32f68d63fe4193"
+    },
+    {
+      "file": "logos/sinapse-house-silver-light.svg",
+      "bytes": 11202,
+      "sha256": "79e9e9cf0115296cd03b8aea8287392d908bc1bff6ec16b9a7a647089e3b8764"
+    },
+    {
+      "file": "logos/sinapse-house-solid-dark.svg",
+      "bytes": 11202,
+      "sha256": "6bbab8f89ef9b398acadfbf245a3ddac0c237c1167a15d2d820ae9cae8446264"
+    },
+    {
+      "file": "logos/sinapse-house-solid-light.svg",
+      "bytes": 11202,
+      "sha256": "6433927f29d515583ff9479c30f4e5c9cf1df6c6d2adebbe2b55d9220da96e13"
+    },
+    {
+      "file": "logos/sinapse-school-frost-dark.svg",
+      "bytes": 11353,
+      "sha256": "d63c20e6588942533933750c7dd1b8f48dfc361b9bd94cf8bd6ff52f8dd0b1bf"
+    },
+    {
+      "file": "logos/sinapse-school-frost-light.svg",
+      "bytes": 11385,
+      "sha256": "d51e7aa3125914612d23f16f8810fdbd6a2e0694081cd22565025e1349b0eff4"
+    },
+    {
+      "file": "logos/sinapse-school-glass-dark.svg",
+      "bytes": 11389,
+      "sha256": "764f26a0f8fbd9f705b8488b997ddea2a6dcad7d91ab732bab3a1d305bfa2f19"
+    },
+    {
+      "file": "logos/sinapse-school-glass-light.svg",
+      "bytes": 11385,
+      "sha256": "8f1c42847a5aae195d280f5064d6f3cb9e44baf12779f075d19d6a5e803c89d7"
+    },
+    {
+      "file": "logos/sinapse-school-silver-dark.svg",
+      "bytes": 11354,
+      "sha256": "543f7bddaddae555e368a94eeb98f73ac359c05e6305d5dbc8c5379c62ad5aac"
+    },
+    {
+      "file": "logos/sinapse-school-silver-light.svg",
+      "bytes": 11354,
+      "sha256": "00bf820563a92e03b608e169443208063051e658bf6ece43bc4fb3d5251293b8"
+    },
+    {
+      "file": "logos/sinapse-school-solid-dark.svg",
+      "bytes": 11354,
+      "sha256": "e9d207b6dadf4b1e526fe1b40c9e6fe6d21ccc7a07f95825f5f3715f361c92ff"
+    },
+    {
+      "file": "logos/sinapse-school-solid-light.svg",
+      "bytes": 11354,
+      "sha256": "1b8413af363f530394dc4b9ece0021c5f16f656f260cd36ec26e32a35e160ffa"
+    },
+    {
+      "file": "logos/sinapse-si-frost-dark.svg",
+      "bytes": 6073,
+      "sha256": "d722547f2ff8d515cd9e511e28ef5c26f8250b93c60fb4efde640fcdab8ef430"
+    },
+    {
+      "file": "logos/sinapse-si-frost-light.svg",
+      "bytes": 6105,
+      "sha256": "fbbc982f76fdb1a4f9ffad5c765dc0e2273831c2651dc8e5534a6df0b7f200fa"
+    },
+    {
+      "file": "logos/sinapse-si-glass-dark.svg",
+      "bytes": 6109,
+      "sha256": "72cd882068c1e78dfa7775355ad6d8b91748d79708cde74b2d18819edbe13d31"
+    },
+    {
+      "file": "logos/sinapse-si-glass-light.svg",
+      "bytes": 6105,
+      "sha256": "60e9b58bc716cfd9eec9c88fe4fd6c16c71abf7041b20db2929fd2fa04f6f5a8"
+    },
+    {
+      "file": "logos/sinapse-si-silver-dark.svg",
+      "bytes": 6074,
+      "sha256": "df6d67110048f6b2dc491127c7707fcf0d7903e4f84d11972a5495e05231bc0b"
+    },
+    {
+      "file": "logos/sinapse-si-silver-light.svg",
+      "bytes": 6074,
+      "sha256": "e86d84ad44f90abd69074cce92b6d023b735161814ce810e9bf135c91e02fe4a"
+    },
+    {
+      "file": "logos/sinapse-si-solid-dark.svg",
+      "bytes": 6074,
+      "sha256": "cf125683b5e2eec444b5ddb68ac2030a34b0ff1333369ea2dd80989085c4c462"
+    },
+    {
+      "file": "logos/sinapse-si-solid-light.svg",
+      "bytes": 6074,
+      "sha256": "ffa4d6a6058f45c5ec7939090619db0c1d74603c7150f3e81e693fe115596c4c"
+    },
+    {
+      "file": "logos/snps-frost-dark.svg",
+      "bytes": 2235,
+      "sha256": "3d4d4f80753203e29d47e4a2ab8e7ae69a4fb0d22a8e7cc7dfc92b4ee6cd23e6"
+    },
+    {
+      "file": "logos/snps-frost-light.svg",
+      "bytes": 2267,
+      "sha256": "bc3a35ae158a5f4bda31095c011ff17ef2a71f8a9721a7730e427bb6b45983c8"
+    },
+    {
+      "file": "logos/snps-glass-dark.svg",
+      "bytes": 2235,
+      "sha256": "37182ee0bd4920dc73063059545c390e5fb318677851cf2e952bef68b35b781c"
+    },
+    {
+      "file": "logos/snps-glass-light.svg",
+      "bytes": 2267,
+      "sha256": "941d49a16c7d8a58a666d6699f7d5563406035f89619c7645bd66a36394ca143"
+    },
+    {
+      "file": "logos/snps-silver-dark.svg",
+      "bytes": 2236,
+      "sha256": "396de2530d1ebbae7785c48df708ea98b819ed85bf77f2d9601bb591455f34a9"
+    },
+    {
+      "file": "logos/snps-silver-light.svg",
+      "bytes": 2236,
+      "sha256": "eb2e5644c936d63fccf06cc57f574d57973ff70cd357c3904416a2c32cb8784d"
+    },
+    {
+      "file": "logos/snps-solid-dark.svg",
+      "bytes": 2236,
+      "sha256": "821fca9a23ec2e3f0f5a7269a56a6bb7b4632f95296077508f6643f11225dd4d"
+    },
+    {
+      "file": "logos/snps-solid-light.svg",
+      "bytes": 2236,
+      "sha256": "ebfd1f35ca4daded884bfcb035eb5cbfb39414338a2c68a2617e9ea2d114e5f9"
+    },
+    {
+      "file": "manrope-metrics.json",
+      "bytes": 9248,
+      "sha256": "cfd195eaf7505328c9097e83613f05250219cda86b5caa1640f82fba89c8e687"
+    },
+    {
+      "file": "metal.webp",
+      "bytes": 74548,
+      "sha256": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf"
+    },
+    {
+      "file": "SINAPSE-SI-Brandbook-02.pdf",
+      "bytes": 8166672,
+      "sha256": "681087f02a423b77661d57d2c696bc8445b028b7daa455af100963d1d1f8003d"
+    },
+    {
+      "file": "tee.webp",
+      "bytes": 112148,
+      "sha256": "47c8d1ff4546d42920fe5f0b6cfe97ca60e4cb374b9b5ac95be5380bdb22859e"
+    },
+    {
+      "file": "templates/avatar-dark.svg",
+      "bytes": 263264,
+      "sha256": "61c14ae0e7ef143df07cf0363755667ad9164739e11fe06775f97e576c34789e"
+    },
+    {
+      "file": "templates/avatar-light.svg",
+      "bytes": 263264,
+      "sha256": "ecd5b63cad577ab9d6ccef1425aa1b4463ad10e2dff9d4af20cdd09c6bedf94b"
+    },
+    {
+      "file": "templates/banner-dark.svg",
+      "bytes": 264247,
+      "sha256": "61d53433452288cea6bb5d50fbb3798701abd91d0b9663f56d10fd9daa83fe3f"
+    },
+    {
+      "file": "templates/banner-light.svg",
+      "bytes": 264247,
+      "sha256": "a1d9ed5998c43ac66fb6d938727b42ecf77a22cd16bf7579ca7fed9b7426e450"
+    },
+    {
+      "file": "templates/caderno-1.svg",
+      "bytes": 264100,
+      "sha256": "494e7087ae87c930aa0c7c03e4eaf34c9a8fe59f141e311d8ae6eee96248f6db"
+    },
+    {
+      "file": "templates/caderno-10.json",
+      "bytes": 1103,
+      "sha256": "d678c8734ff03fd2e65a53a18a55a81496ded02254d63ab5a48559b332d4b53d"
+    },
+    {
+      "file": "templates/caderno-10.svg",
+      "bytes": 265409,
+      "sha256": "ca0bec863b82da518377023c584dc194bfd42bf02ba56352b1e7fc54b184bf9e"
+    },
+    {
+      "file": "templates/caderno-2.svg",
+      "bytes": 265260,
+      "sha256": "dc9e469f97defd4ce8404239b6b4a1e3ebc017a285e08da7fb48451a9543c8e4"
+    },
+    {
+      "file": "templates/caderno-3.svg",
+      "bytes": 263961,
+      "sha256": "b195c405031db3e7c7769445878ce8510cb5bd7124334f10ae113c8c14e6afc3"
+    },
+    {
+      "file": "templates/caderno-4.svg",
+      "bytes": 265433,
+      "sha256": "cee5e82744571512b32d78a0316c2ecce978be35098175b20f4043921a9cbfa3"
+    },
+    {
+      "file": "templates/caderno-5.svg",
+      "bytes": 264086,
+      "sha256": "f9513afb9607edc1da005f3868d1ff809b7e4c0d6f8b26b5c8414270e89cdf30"
+    },
+    {
+      "file": "templates/caderno-6.svg",
+      "bytes": 265405,
+      "sha256": "cabc151b87cd50365b6d6e9e3adc19294cd508ac4c0d7a9b7cfd967ae875e052"
+    },
+    {
+      "file": "templates/caderno-7.svg",
+      "bytes": 263937,
+      "sha256": "6351180ddeacd3861f6578d89d7355fc77014468cb94ba36c9acf7dce24964d2"
+    },
+    {
+      "file": "templates/caderno-8.svg",
+      "bytes": 265429,
+      "sha256": "c1366e3177a7becae6f168688d37443900dc980b455e6af444af3fa08ae4eb10"
+    },
+    {
+      "file": "templates/caderno-9.svg",
+      "bytes": 264130,
+      "sha256": "f8a81e49fb3245ae3275d9ec65f7740e33583b4764bb74819d47ccf636b6765c"
+    },
+    {
+      "file": "templates/carousel-dark.svg",
+      "bytes": 264408,
+      "sha256": "0be2b30b9441632bd1c9a6270c181b0d9305b3082bcade5f78e3858ce74c43cf"
+    },
+    {
+      "file": "templates/carousel-light.svg",
+      "bytes": 264408,
+      "sha256": "835861722cb3390f1568d4a2049ddeca4862dc40da25da8e139f2af05c7b34c2"
+    },
+    {
+      "file": "templates/cover-dark.svg",
+      "bytes": 264173,
+      "sha256": "458d3749ff6dca536e7858b1825e3bfb792cad37a4d1ab99b02217153b98e524"
+    },
+    {
+      "file": "templates/cover-light.svg",
+      "bytes": 264173,
+      "sha256": "0bb96500cdf321247cde16d30c2e8a75eba57adaea468c4055585037a6a1a12a"
+    },
+    {
+      "file": "templates/post-dark.svg",
+      "bytes": 264416,
+      "sha256": "273d69656e6354e54649bbe3f066a7df79fb0f708ea32adaf7b1476faf29f5bb"
+    },
+    {
+      "file": "templates/post-light.svg",
+      "bytes": 264416,
+      "sha256": "7cbdc3d22007a24d4ea835cffa47445ce6ea53bd5524ebdb4b213908a1cc331a"
+    },
+    {
+      "file": "templates/sequencia-t04.json",
+      "bytes": 1257,
+      "sha256": "cd20d3e53cdf88e91b4cead6c2e95fcdf7a95107c1807efba5dce20c8c527aae"
+    },
+    {
+      "file": "templates/story-dark.svg",
+      "bytes": 264395,
+      "sha256": "dd41bf7999586f98e9e6c6d790680e6a2da6a2eb27850453f777f0201792563d"
+    },
+    {
+      "file": "templates/story-light.svg",
+      "bytes": 264395,
+      "sha256": "1c8fca25a126cd50ebe4aae226dd7383c08eab099005eee0eab5727b48add41e"
+    },
+    {
+      "file": "templates/t04-carousel-1.svg",
+      "bytes": 264409,
+      "sha256": "d6dc566eafe308c2b284e7bb07ae19744c94439dec7d40c0a8182c92e687124e"
+    },
+    {
+      "file": "templates/t04-carousel-2.svg",
+      "bytes": 265547,
+      "sha256": "295ba7fa4e15ffdc34544010c96259aa9b5e111276008cbaa60197dfccb6dcb4"
+    },
+    {
+      "file": "templates/t04-carousel-3.svg",
+      "bytes": 264900,
+      "sha256": "dba8d73b0586fe8e3f2a7f9210cf6687d1ff4280f433131e2b78eb5b26485282"
+    },
+    {
+      "file": "templates/t04-carousel-4.svg",
+      "bytes": 265499,
+      "sha256": "9a3a47970d59098a9bb013b4a327aad68a3419d1da6b061ef62538cfb633640e"
+    },
+    {
+      "file": "templates/t04-carousel-5.svg",
+      "bytes": 264345,
+      "sha256": "5255024a5f67097c03c97c820f44fa8b2cbc58deb95052c5197ecea63a37e5db"
+    },
+    {
+      "file": "templates/t04-carousel-6.svg",
+      "bytes": 264270,
+      "sha256": "8d120a6f160d3954fbaa27917a9dd8ef331c67e115a4c64fcbef1ba8e7e16101"
+    },
+    {
+      "file": "templates/t04-story-1.svg",
+      "bytes": 264396,
+      "sha256": "39fea4e0f1cf2dc26cf434c0ba473eba50621df122d24a2885fd48b43efd8f6d"
+    },
+    {
+      "file": "templates/t04-story-2.svg",
+      "bytes": 265534,
+      "sha256": "15172ec631c662ba11d5feef0a29b4a2f88265639b065bdd707432f3b3cf08fc"
+    },
+    {
+      "file": "templates/t04-story-3.svg",
+      "bytes": 264887,
+      "sha256": "366223d2612f39f2bb2c2ab5e2ec59b5af5642926794416f1f68574fe12c3ed8"
+    },
+    {
+      "file": "templates/t04-story-4.svg",
+      "bytes": 265498,
+      "sha256": "bc4dd183c7013386df7b1f34edd575b6d2cbcd5f5b3748269f622f2a371a16f0"
+    },
+    {
+      "file": "templates/t04-story-5.svg",
+      "bytes": 264344,
+      "sha256": "564b6f78975ab8396c9e5ee44cdb3343c59727d1b0d029bb85a54974b90e315b"
+    },
+    {
+      "file": "templates/t04-story-6.svg",
+      "bytes": 264257,
+      "sha256": "e1d5f163f0f1732728e06eb72c29938acb27eacef99da3d670ad08e58bb0350b"
+    },
+    {
+      "file": "tokens.json",
+      "bytes": 1794,
+      "sha256": "fb4bb28706c30f4629da7b49704235238b1bef85646b83df02347322d7e52914"
+    },
+    {
+      "file": "tools/docker.svg",
+      "bytes": 1780,
+      "sha256": "ba1fb157870b2ec02e054aed42154ac7418e25af91ec321fd328d17cad4023cd"
+    },
+    {
+      "file": "tools/figma.svg",
+      "bytes": 673,
+      "sha256": "7dcb1e43d58713e36796f10dd7a01835a612df9e215731ca5038eb7784b7c3fc"
+    },
+    {
+      "file": "tools/github.svg",
+      "bytes": 837,
+      "sha256": "c093b01c77ae9e1e22e9e2529eb37fd742bcc6181f881228e2e9ed7231213000"
+    },
+    {
+      "file": "tools/hostinger.svg",
+      "bytes": 366,
+      "sha256": "1df018b59333f30ef547197362bae3cf05c8086d181cdb88f440cfee496057b0"
+    },
+    {
+      "file": "tools/n8n.svg",
+      "bytes": 1588,
+      "sha256": "2a415d5d2dea1903450d0df1b2b76866948d12a704e13378e54ed6896830c2e9"
+    },
+    {
+      "file": "tools/obsidian.svg",
+      "bytes": 1336,
+      "sha256": "ed662a9b6d1a5d99aff7fd4d7d4fee915daa5bf714b94172cc016248010c2cb1"
+    },
+    {
+      "file": "tools/supabase.svg",
+      "bytes": 318,
+      "sha256": "b6188fe14c9cf38c387f9064004d83133ea8f73b50e1bc3b68818b3759fd3b02"
+    },
+    {
+      "file": "tools/vercel.svg",
+      "bytes": 147,
+      "sha256": "c8d69e0eabac7fab4ee8415dd9a423f791c4ba7b5fb803045f1dc2e29469734a"
+    },
+    {
+      "file": "tools/warp.svg",
+      "bytes": 323,
+      "sha256": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85"
+    },
+    {
+      "file": "wear.webp",
+      "bytes": 139940,
+      "sha256": "b1193a3b5086e1f0703607f7c3640d5a6a0a0a4c3b9a86da259229f564af565f"
+    }
+  ]
+}

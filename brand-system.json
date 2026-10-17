@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "1.0-proposal",
-  "stage": "proposed_evolution",
+  "version": "2.0-proposal",
+  "stage": "proposed_replacement",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
     "promise": "Inteligência para ampliar o que você consegue fazer.",
@@ -86,144 +86,275 @@
     ],
     "variants": [
       {
-        "id": "growth-bone",
-        "file": "public/si/logos/growth-bone.svg",
+        "id": "sinapse-growth-frost-dark",
+        "file": "public/si-v2/logos/sinapse-growth-frost-dark.svg",
         "status": "proposed"
       },
       {
-        "id": "growth-vanta",
-        "file": "public/si/logos/growth-vanta.svg",
+        "id": "sinapse-growth-frost-light",
+        "file": "public/si-v2/logos/sinapse-growth-frost-light.svg",
         "status": "proposed"
       },
       {
-        "id": "house-bone",
-        "file": "public/si/logos/house-bone.svg",
+        "id": "sinapse-growth-glass-dark",
+        "file": "public/si-v2/logos/sinapse-growth-glass-dark.svg",
         "status": "proposed"
       },
       {
-        "id": "house-vanta",
-        "file": "public/si/logos/house-vanta.svg",
+        "id": "sinapse-growth-glass-light",
+        "file": "public/si-v2/logos/sinapse-growth-glass-light.svg",
         "status": "proposed"
       },
       {
-        "id": "school-bone",
-        "file": "public/si/logos/school-bone.svg",
+        "id": "sinapse-growth-silver-dark",
+        "file": "public/si-v2/logos/sinapse-growth-silver-dark.svg",
         "status": "proposed"
       },
       {
-        "id": "school-vanta",
-        "file": "public/si/logos/school-vanta.svg",
+        "id": "sinapse-growth-silver-light",
+        "file": "public/si-v2/logos/sinapse-growth-silver-light.svg",
         "status": "proposed"
       },
       {
-        "id": "sinapse-si-bone",
-        "file": "public/si/logos/sinapse-si-bone.svg",
+        "id": "sinapse-growth-solid-dark",
+        "file": "public/si-v2/logos/sinapse-growth-solid-dark.svg",
         "status": "proposed"
       },
       {
-        "id": "sinapse-si-vanta",
-        "file": "public/si/logos/sinapse-si-vanta.svg",
+        "id": "sinapse-growth-solid-light",
+        "file": "public/si-v2/logos/sinapse-growth-solid-light.svg",
         "status": "proposed"
       },
       {
-        "id": "snps-bone",
-        "file": "public/si/logos/snps-bone.svg",
-        "status": "preserved"
+        "id": "sinapse-house-frost-dark",
+        "file": "public/si-v2/logos/sinapse-house-frost-dark.svg",
+        "status": "proposed"
       },
       {
-        "id": "snps-vanta",
-        "file": "public/si/logos/snps-vanta.svg",
-        "status": "preserved"
+        "id": "sinapse-house-frost-light",
+        "file": "public/si-v2/logos/sinapse-house-frost-light.svg",
+        "status": "proposed"
       },
       {
-        "id": "symbol-bone",
-        "file": "public/si/logos/symbol-bone.svg",
-        "status": "preserved"
+        "id": "sinapse-house-glass-dark",
+        "file": "public/si-v2/logos/sinapse-house-glass-dark.svg",
+        "status": "proposed"
       },
       {
-        "id": "symbol-vanta",
-        "file": "public/si/logos/symbol-vanta.svg",
-        "status": "preserved"
+        "id": "sinapse-house-glass-light",
+        "file": "public/si-v2/logos/sinapse-house-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-silver-dark",
+        "file": "public/si-v2/logos/sinapse-house-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-silver-light",
+        "file": "public/si-v2/logos/sinapse-house-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-solid-dark",
+        "file": "public/si-v2/logos/sinapse-house-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-solid-light",
+        "file": "public/si-v2/logos/sinapse-house-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-frost-dark",
+        "file": "public/si-v2/logos/sinapse-school-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-frost-light",
+        "file": "public/si-v2/logos/sinapse-school-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-glass-dark",
+        "file": "public/si-v2/logos/sinapse-school-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-glass-light",
+        "file": "public/si-v2/logos/sinapse-school-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-silver-dark",
+        "file": "public/si-v2/logos/sinapse-school-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-silver-light",
+        "file": "public/si-v2/logos/sinapse-school-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-solid-dark",
+        "file": "public/si-v2/logos/sinapse-school-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-solid-light",
+        "file": "public/si-v2/logos/sinapse-school-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-frost-dark",
+        "file": "public/si-v2/logos/sinapse-si-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-frost-light",
+        "file": "public/si-v2/logos/sinapse-si-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-glass-dark",
+        "file": "public/si-v2/logos/sinapse-si-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-glass-light",
+        "file": "public/si-v2/logos/sinapse-si-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-silver-dark",
+        "file": "public/si-v2/logos/sinapse-si-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-silver-light",
+        "file": "public/si-v2/logos/sinapse-si-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-solid-dark",
+        "file": "public/si-v2/logos/sinapse-si-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-solid-light",
+        "file": "public/si-v2/logos/sinapse-si-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-frost-dark",
+        "file": "public/si-v2/logos/snps-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-frost-light",
+        "file": "public/si-v2/logos/snps-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-glass-dark",
+        "file": "public/si-v2/logos/snps-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-glass-light",
+        "file": "public/si-v2/logos/snps-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-silver-dark",
+        "file": "public/si-v2/logos/snps-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-silver-light",
+        "file": "public/si-v2/logos/snps-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-solid-dark",
+        "file": "public/si-v2/logos/snps-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-solid-light",
+        "file": "public/si-v2/logos/snps-solid-light.svg",
+        "status": "proposed"
       }
     ],
     "colors": [
       {
-        "name": "Vanta",
-        "hex": "#0A0A0A",
-        "use": "Fundo principal e assinatura escura"
-      },
-      {
         "name": "Carbon",
-        "hex": "#141414",
-        "use": "Superfícies elevadas e campos"
+        "hex": "#0A0A0A",
+        "use": "Base Dark First"
       },
       {
-        "name": "Graphite",
-        "hex": "#262626",
-        "use": "Bordas sólidas e separação"
-      },
-      {
-        "name": "Silver",
-        "hex": "#A6A6A6",
-        "use": "Texto de apoio sobre Vanta"
+        "name": "Ink",
+        "hex": "#191919",
+        "use": "Superfície elevada"
       },
       {
         "name": "Mist",
-        "hex": "#E8E8E5",
-        "use": "Superfícies claras e fundos de estudo"
+        "hex": "#888888",
+        "use": "Reflexos e matéria"
       },
       {
-        "name": "Bone",
-        "hex": "#F5F5F0",
-        "use": "Texto principal e edição clara"
+        "name": "Paper",
+        "hex": "#F5F5F5",
+        "use": "Texto principal e peças claras"
       },
       {
         "name": "White",
         "hex": "#FFFFFF",
-        "use": "Reflexos e contraste pontual"
+        "use": "Luz e reflexo"
       }
     ],
     "contrast_pairs": [
       {
         "id": "dark-primary",
-        "foreground": "#F5F5F0",
+        "foreground": "#F5F5F5",
         "background": "#0A0A0A",
         "minimum": 4.5,
         "surface": "solid"
       },
       {
-        "id": "dark-secondary",
-        "foreground": "#A6A6A6",
+        "id": "light-primary",
+        "foreground": "#171719",
+        "background": "#F5F5F7",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "dark-muted",
+        "foreground": "#A6A6AA",
         "background": "#0A0A0A",
         "minimum": 4.5,
         "surface": "solid"
       },
       {
-        "id": "light-secondary",
-        "foreground": "#626262",
-        "background": "#F5F5F0",
+        "id": "light-muted",
+        "foreground": "#626267",
+        "background": "#F5F5F7",
         "minimum": 4.5,
         "surface": "solid"
       }
     ],
     "fonts": [
       {
-        "family": "Inter",
-        "file": "public/si/fonts/Inter-Regular.ttf",
-        "sha256": "52b04d115521b8665a6c9873706485195d572d7c1776def36d153100bb48b590",
-        "license_file": "public/si/fonts/inter-OFL.txt"
+        "family": "Manrope",
+        "file": "public/si-v2/fonts/Manrope.ttf",
+        "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+        "license_file": "public/si-v2/fonts/OFL.txt"
       },
       {
         "family": "JetBrains Mono",
-        "file": "public/si/fonts/JetBrainsMono-Regular.ttf",
+        "file": "public/si-v2/fonts/JetBrainsMono-Regular.ttf",
         "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79",
-        "license_file": "public/si/fonts/jetbrainsmono-OFL.txt"
-      },
-      {
-        "family": "Audiowide",
-        "file": "public/si/fonts/Audiowide-Regular.ttf",
-        "sha256": "c7c0f2b0f6fad8c623e31772ce79f94a4edb9321ffce9fce978ea892d20ae730",
-        "license_file": "public/si/fonts/audiowide-OFL.txt"
+        "license_file": "public/si-v2/fonts/jetbrainsmono-OFL.txt"
       }
     ],
     "materials": [
@@ -338,7 +469,7 @@
   "editorial": {
     "families": [
       {
-        "name": "Signal",
+        "name": "Manifesto",
         "label": "Marca e manifesto",
         "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
         "ratio": "4:5 · 9:16",
@@ -347,7 +478,7 @@
         "limit": "Até 12 palavras no título. A assinatura não compete com a mensagem."
       },
       {
-        "name": "Field Notes",
+        "name": "Caderno",
         "label": "Aprendizado e repertório",
         "use": "Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.",
         "ratio": "4:5 · 9:16",
@@ -356,7 +487,7 @@
         "limit": "Uma afirmação principal por tela. Explicar siglas no primeiro uso."
       },
       {
-        "name": "Open Class",
+        "name": "Convite",
         "label": "Mentorias e turmas",
         "use": "Abertura, conteúdo, dinâmica, evidência e lista de espera da School.",
         "ratio": "9:16 · 4:5",
@@ -365,7 +496,7 @@
         "limit": "Datas, preço, vagas e bônus somente após validação da oferta vigente."
       },
       {
-        "name": "Proof of Work",
+        "name": "Em produção",
         "label": "Projetos e operação",
         "use": "Mostrar processo, detalhe e resultado observado de House e Growth.",
         "ratio": "4:5 · 16:9",
@@ -386,21 +517,42 @@
   },
   "transition": {
     "preserved": [
-      "símbolo",
-      "lettering",
-      "ofertas",
-      "acervo"
+      "SNPS original",
+      "ofertas e fontes factuais"
     ],
     "changed": [
-      "assinatura SI",
-      "tipografia consolidada",
-      "sinais e biblioteca de aplicações"
+      "navegação",
+      "tipografia",
+      "assinaturas",
+      "ícones",
+      "materiais",
+      "motion",
+      "editorial",
+      "fotografia de roupas"
     ],
     "rollout": [
-      "aprovar proposta",
-      "migrar pontos de contato por lote",
+      "revisar proposta 02",
+      "aplicar em lote autorizado",
       "conferir no destino"
     ],
-    "recovery": "Mestres e rotas legadas preservados; branch principal não foi alterada por este lote."
+    "recovery": "Git 29b033b preserva a proposta anterior; originais em public/brand/logo."
+  },
+  "creative_direction": {
+    "name": "Uma nova dimensão",
+    "theme": "dark-first",
+    "light_mode": true,
+    "preserved": [
+      "SNPS master",
+      "black and white"
+    ],
+    "materials": [
+      "liquid glass",
+      "optical clear",
+      "polished silver",
+      "frost",
+      "solid"
+    ],
+    "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
+    "supersedes": "Proposal 1.0 rejected by Caio."
   }
 }

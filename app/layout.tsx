@@ -44,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${sora.variable} ${inter.variable} ${jetbrainsMono.variable} ${audiowide.variable}`}
       suppressHydrationWarning
     >
+      <head><script dangerouslySetInnerHTML={{__html:"try{document.documentElement.dataset.siMode=localStorage.getItem('snps-v2-theme')==='light'?'light':'dark'}catch(e){}"}}/></head>
       <body className="grain-overlay" suppressHydrationWarning>
         <SmartScroll />
         {children}

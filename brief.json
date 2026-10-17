@@ -28,7 +28,7 @@
       "Vestuário"
     ]
   },
-  "objective": "Consolidar SINAPSE SI, School, House e Growth em um sistema monocromático utilizável, com site, pesquisa, identidade, aplicações e brand book.",
+  "objective": "Substituir integralmente a proposta visual anterior, preservando SNPS e preto e branco. Dark First, Light Mode, materiais ópticos, logos dos quatro braços, ícones novos, ferramentas coloridas e roupas realistas inspiradas na Coinbase Shop.",
   "audience": {
     "priority": "Profissionais, criadores e empresas que precisam aprender, construir ou operar com inteligência aplicada.",
     "roles": [
@@ -69,15 +69,18 @@
   "existing_brand_audit": "Mestres vetoriais preservados. Acervo anterior mistura fontes, nomenclaturas e propostas cromáticas; site atual distingue projeto, aprendizado e operação. Estudos recebidos são abertos, não aprovações.",
   "constraints": {
     "preserve": [
-      "Nome e curvas dos mestres",
-      "Originais e rotas legadas",
-      "Distinção entre ofertas"
+      "SNPS original",
+      "preto e branco"
     ],
     "change_requested": [
-      "SINAPSE SI",
-      "preto e branco",
-      "expressão óptica",
-      "templates e aplicações"
+      "navegação",
+      "tipografia",
+      "assinaturas",
+      "ícones",
+      "materiais",
+      "motion",
+      "editorial",
+      "fotografia de roupas"
     ],
     "resources": [
       "Repositório existente",

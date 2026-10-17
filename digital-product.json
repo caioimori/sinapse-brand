@@ -34,13 +34,14 @@
   ],
   "semantic_tokens": [
     {
-      "vanta": "#0A0A0A",
-      "carbon": "#141414",
-      "graphite": "#262626",
-      "silver": "#A6A6A6",
-      "mist": "#E8E8E5",
-      "bone": "#F5F5F0",
-      "white": "#FFFFFF"
+      "dark": {
+        "background": "#0A0A0A",
+        "foreground": "#F5F5F5"
+      },
+      "light": {
+        "background": "#F5F5F7",
+        "foreground": "#171719"
+      }
     }
   ],
   "functional_voice_examples": [
@@ -56,5 +57,5 @@
     "PDF",
     "PR e prévia"
   ],
-  "implementation_status": "implemented_local_preview"
+  "implementation_status": "implemented_local_preview_v2"
 }

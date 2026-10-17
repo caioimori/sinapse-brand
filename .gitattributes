@@ -1,5 +1,6 @@
 # Preserve artifact bytes and canonical LF text across Windows/Linux.
 public/si/** text eol=lf
+public/si-v2/** text eol=lf
 public/brand/logo/** text eol=lf
 app/page.tsx text eol=lf
 *.pdf binary

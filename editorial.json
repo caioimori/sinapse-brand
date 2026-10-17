@@ -1,11 +1,11 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "status": "proposed",
+  "status": "proposal_02",
   "preset": "custom",
   "families": [
     {
-      "name": "Signal",
+      "name": "Manifesto",
       "label": "Marca e manifesto",
       "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
       "ratio": "4:5 · 9:16",
@@ -14,7 +14,7 @@
       "limit": "Até 12 palavras no título. A assinatura não compete com a mensagem."
     },
     {
-      "name": "Field Notes",
+      "name": "Caderno",
       "label": "Aprendizado e repertório",
       "use": "Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.",
       "ratio": "4:5 · 9:16",
@@ -23,7 +23,7 @@
       "limit": "Uma afirmação principal por tela. Explicar siglas no primeiro uso."
     },
     {
-      "name": "Open Class",
+      "name": "Convite",
       "label": "Mentorias e turmas",
       "use": "Abertura, conteúdo, dinâmica, evidência e lista de espera da School.",
       "ratio": "9:16 · 4:5",
@@ -32,7 +32,7 @@
       "limit": "Datas, preço, vagas e bônus somente após validação da oferta vigente."
     },
     {
-      "name": "Proof of Work",
+      "name": "Em produção",
       "label": "Projetos e operação",
       "use": "Mostrar processo, detalhe e resultado observado de House e Growth.",
       "ratio": "4:5 · 16:9",
@@ -44,31 +44,31 @@
   "posts": [
     {
       "eyebrow": "SINAPSE SCHOOL · T04",
-      "title": "A próxima turma começa com o seu próximo passo.",
-      "body": "Aprenda em grupo e leve a inteligência artificial para os seus projetos.",
+      "title": "A próxima versão é sua.",
+      "body": "Aprenda, experimente e construa com inteligência artificial.",
       "kind": "signal"
     },
     {
       "eyebrow": "01 · PENSAR",
-      "title": "Contexto para pensar melhor.",
+      "title": "Contexto muda tudo.",
       "body": "Organize conhecimento, formule pedidos e avalie as respostas com mais critério.",
       "kind": "outline"
     },
     {
       "eyebrow": "02 · CONSTRUIR",
-      "title": "Da primeira ideia ao projeto em operação.",
+      "title": "Da ideia ao primeiro deploy.",
       "body": "Explore agentes, interfaces, dados e publicação em um fluxo conectado.",
       "kind": "connection"
     },
     {
       "eyebrow": "03 · CRIAR",
-      "title": "Dê forma ao que você quer comunicar.",
+      "title": "Crie com repertório.",
       "body": "Imagem, vídeo, voz e automações com direção e revisão.",
       "kind": "light"
     },
     {
       "eyebrow": "04 · APLICAR",
-      "title": "Conecte o aprendizado ao seu trabalho.",
+      "title": "Traga o seu projeto.",
       "body": "Use o seu contexto para desenvolver ideias, processos e entregas.",
       "kind": "signal"
     },

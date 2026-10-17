@@ -33,20 +33,18 @@ export const principles = [
 ];
 
 export const palette = [
-  { name: 'Vanta', hex: '#0A0A0A', use: 'Fundo principal e assinatura escura' },
-  { name: 'Carbon', hex: '#141414', use: 'Superfícies elevadas e campos' },
-  { name: 'Graphite', hex: '#262626', use: 'Bordas sólidas e separação' },
-  { name: 'Silver', hex: '#A6A6A6', use: 'Texto de apoio sobre Vanta' },
-  { name: 'Mist', hex: '#E8E8E5', use: 'Superfícies claras e fundos de estudo' },
-  { name: 'Bone', hex: '#F5F5F0', use: 'Texto principal e edição clara' },
-  { name: 'White', hex: '#FFFFFF', use: 'Reflexos e contraste pontual' },
+ {name:'Carbon',hex:'#0A0A0A',use:'Base Dark First'},
+ {name:'Ink',hex:'#191919',use:'Superfície elevada'},
+ {name:'Mist',hex:'#888888',use:'Reflexos e matéria'},
+ {name:'Paper',hex:'#F5F5F5',use:'Texto principal e peças claras'},
+ {name:'White',hex:'#FFFFFF',use:'Luz e reflexo'},
 ] as const;
 
 export const motionRules = [
   { name: 'Resposta', duration: '160 ms', curve: 'cubic-bezier(.2,.8,.2,1)', use: 'Botões, foco, seleção e hover. O retorno acompanha a interação.' },
-  { name: 'Conexão', duration: '420 ms', curve: 'cubic-bezier(.22,1,.36,1)', use: 'Um nó se aproxima do outro e estabelece a ligação. Assinaturas e transições entre os braços.' },
+  { name: 'Foco', duration: '900 ms', curve: 'cubic-bezier(.22,1,.36,1)', use: 'Do difuso ao nítido, com um estado final legível.' },
   { name: 'Revelação', duration: '720 ms', curve: 'cubic-bezier(.16,1,.3,1)', use: 'Luz revela o volume e a composição chega ao estado legível. Entrada de campanha, nunca texto permanentemente oculto.' },
-  { name: 'Órbita', duration: '12 s', curve: 'linear', use: 'Campo ambiental muito lento, com pausa disponível. Não movimentar o texto de leitura.' },
+  { name: 'Reflexo', duration: '8 s', curve: 'ease-in-out', use: 'Luz que percorre o material com pausa disponível. Não movimentar o texto de leitura.' },
 ];
 
 export const benchmarks = [
@@ -73,19 +71,19 @@ export const toolsEcosystem = [
 ];
 
 export const sequenceT04 = [
-  { eyebrow: 'SINAPSE SCHOOL · T04', title: 'A próxima turma começa com o seu próximo passo.', body: 'Aprenda em grupo e leve a inteligência artificial para os seus projetos.', kind: 'signal' },
-  { eyebrow: '01 · PENSAR', title: 'Contexto para pensar melhor.', body: 'Organize conhecimento, formule pedidos e avalie as respostas com mais critério.', kind: 'outline' },
-  { eyebrow: '02 · CONSTRUIR', title: 'Da primeira ideia ao projeto em operação.', body: 'Explore agentes, interfaces, dados e publicação em um fluxo conectado.', kind: 'connection' },
-  { eyebrow: '03 · CRIAR', title: 'Dê forma ao que você quer comunicar.', body: 'Imagem, vídeo, voz e automações com direção e revisão.', kind: 'light' },
-  { eyebrow: '04 · APLICAR', title: 'Conecte o aprendizado ao seu trabalho.', body: 'Use o seu contexto para desenvolver ideias, processos e entregas.', kind: 'signal' },
+  { eyebrow: 'SINAPSE SCHOOL · T04', title: 'A próxima versão é sua.', body: 'Aprenda, experimente e construa com inteligência artificial.', kind: 'signal' },
+  { eyebrow: '01 · PENSAR', title: 'Contexto muda tudo.', body: 'Organize conhecimento, formule pedidos e avalie as respostas com mais critério.', kind: 'outline' },
+  { eyebrow: '02 · CONSTRUIR', title: 'Da ideia ao primeiro deploy.', body: 'Explore agentes, interfaces, dados e publicação em um fluxo conectado.', kind: 'connection' },
+  { eyebrow: '03 · CRIAR', title: 'Crie com repertório.', body: 'Imagem, vídeo, voz e automações com direção e revisão.', kind: 'light' },
+  { eyebrow: '04 · APLICAR', title: 'Traga o seu projeto.', body: 'Use o seu contexto para desenvolver ideias, processos e entregas.', kind: 'signal' },
   { eyebrow: 'SEU PRÓXIMO PASSO', title: 'Entre na lista da T04.', body: 'Acompanhe os avisos da próxima turma em sinapse.si/school. O cadastro registra interesse.', kind: 'light' },
 ];
 
 export const editorialFamilies = [
-  { name: 'Signal', label: 'Marca e manifesto', use: 'Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.', ratio: '4:5 · 9:16', fixed: 'Assinatura, grade, contraste e hierarquia.', variable: 'Frase, escala e material do símbolo.', limit: 'Até 12 palavras no título. A assinatura não compete com a mensagem.' },
-  { name: 'Field Notes', label: 'Aprendizado e repertório', use: 'Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.', ratio: '4:5 · 9:16', fixed: 'Número de página, margem, rótulo de seção e fonte de referência.', variable: 'Texto, captura, vídeo, diagrama e exemplo.', limit: 'Uma afirmação principal por tela. Explicar siglas no primeiro uso.' },
-  { name: 'Open Class', label: 'Mentorias e turmas', use: 'Abertura, conteúdo, dinâmica, evidência e lista de espera da School.', ratio: '9:16 · 4:5', fixed: 'Nome School, turma, sequência e destino real do CTA.', variable: 'Tema, convite, conteúdo e condição confirmada.', limit: 'Datas, preço, vagas e bônus somente após validação da oferta vigente.' },
-  { name: 'Proof of Work', label: 'Projetos e operação', use: 'Mostrar processo, detalhe e resultado observado de House e Growth.', ratio: '4:5 · 16:9', fixed: 'Problema, papel da SINAPSE e identificação de conceito ou entrega.', variable: 'Projeto, interface, cenário, evidência e aprendizado.', limit: 'Sem cliente, depoimento, resultado ou parceria inventados.' },
+  { name: 'Manifesto', label: 'Marca e manifesto', use: 'Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.', ratio: '4:5 · 9:16', fixed: 'Assinatura, grade, contraste e hierarquia.', variable: 'Frase, escala e material do símbolo.', limit: 'Até 12 palavras no título. A assinatura não compete com a mensagem.' },
+  { name: 'Caderno', label: 'Aprendizado e repertório', use: 'Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.', ratio: '4:5 · 9:16', fixed: 'Número de página, margem, rótulo de seção e fonte de referência.', variable: 'Texto, captura, vídeo, diagrama e exemplo.', limit: 'Uma afirmação principal por tela. Explicar siglas no primeiro uso.' },
+  { name: 'Convite', label: 'Mentorias e turmas', use: 'Abertura, conteúdo, dinâmica, evidência e lista de espera da School.', ratio: '9:16 · 4:5', fixed: 'Nome School, turma, sequência e destino real do CTA.', variable: 'Tema, convite, conteúdo e condição confirmada.', limit: 'Datas, preço, vagas e bônus somente após validação da oferta vigente.' },
+  { name: 'Em produção', label: 'Projetos e operação', use: 'Mostrar processo, detalhe e resultado observado de House e Growth.', ratio: '4:5 · 16:9', fixed: 'Problema, papel da SINAPSE e identificação de conceito ou entrega.', variable: 'Projeto, interface, cenário, evidência e aprendizado.', limit: 'Sem cliente, depoimento, resultado ou parceria inventados.' },
 ];
 
 export const voiceExamples = [

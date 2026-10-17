@@ -137,7 +137,7 @@
   "governance": {
     "system_owner": "Caio Imori / SINAPSE",
     "offer_owners": [],
-    "source_of_truth": "data/si/brand.ts + brand-system.json + public/si/tokens.json",
+    "source_of_truth": "CANON.md + brand-system.json + components/si-v2 + public/si-v2",
     "exception_rules": [
       "Proposta visual não autoriza produção ou postagem."
     ],
@@ -148,8 +148,8 @@
     ]
   },
   "transition": [
-    "aprovar proposta",
-    "migrar pontos de contato por lote",
+    "revisar proposta 02",
+    "aplicar em lote autorizado",
     "conferir no destino"
   ],
   "rollout_status": "not_authorized_by_branding_alone"

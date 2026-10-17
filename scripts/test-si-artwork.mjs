@@ -1,14 +1,11 @@
-import fs from 'node:fs';import ts from 'typescript';import vm from 'node:vm';import assert from 'node:assert/strict';
-const compiled=ts.transpileModule(fs.readFileSync('lib/si/artwork.ts','utf8'),{compilerOptions:{module:ts.ModuleKind.CommonJS,target:ts.ScriptTarget.ES2020}}).outputText;
-const symbol=fs.readFileSync('components/si/marks.tsx','utf8').match(/export const SYMBOL_PATH = '([^']+)'/)[1];
-const metrics=JSON.parse(fs.readFileSync('public/si/inter-metrics.json'));const masters=JSON.parse(fs.readFileSync('public/si/masters.json'));
-const sb={exports:{},require:id=>id.includes('metrics')?{INTER_METRICS:metrics}:{SYMBOL_PATH:symbol}};vm.createContext(sb);vm.runInContext(compiled,sb,{timeout:3000});
-const {makeArtwork,wrapPixels,FORMAT_SIZES}=sb.exports;
+import fs from 'node:fs';import assert from 'node:assert/strict';import {loadArtwork} from './si-artwork-runtime.mjs';
+const metrics=JSON.parse(fs.readFileSync('public/si-v2/manrope-metrics.json'));const masters=JSON.parse(fs.readFileSync('public/si/masters.json'));
+const {makeArtwork,wrapPixels,FORMAT_SIZES}=loadArtwork();
 const base={format:'carousel',theme:'dark',family:'class',division:'School',title:'A próxima turma começa com o seu próximo passo.',body:'Texto de apoio em português com acentuação e contexto.',eyebrow:'SINAPSE SCHOOL / T04',footer:'sinapse.si/school',page:1,total:6};
 let checks=0;
 for(const format of Object.keys(FORMAT_SIZES))for(const theme of ['dark','light'])for(const family of ['class','signal','notes','proof']){
  const svg=makeArtwork({...base,format,theme,family,title:format==='avatar'?'T04':base.title},masters.wordmark);const [w,h]=FORMAT_SIZES[format];
- assert(svg.includes(`width="${w}" height="${h}"`));assert(svg.includes('<title>'));assert(!svg.includes('undefined'));assert(svg.includes('fill="'+(theme==='dark'?'#0A0A0A':'#F5F5F0')+'"'));checks++;
+ assert(svg.includes(`width="${w}" height="${h}"`));assert(svg.includes('<title>'));assert(!svg.includes('undefined'));assert(svg.includes('fill="'+(theme==='dark'?'#0a0a0a':'#f5f5f5')+'"'));checks++;
 }
 const hostile=makeArtwork({...base,title:'<script>alert("x")</script> & teste',body:'<img src=x onerror=alert(1)>'},masters.wordmark);
 assert(!hostile.includes('<script>'));assert(!hostile.includes('<img '));assert(hostile.includes('&lt;script&gt;'));checks++;
@@ -18,4 +15,7 @@ for(const value of ['W'.repeat(115),'Inteligência conectada ao contexto real do
 }
 const safe=makeArtwork({...base,safe:true},masters.wordmark);const clean=makeArtwork({...base,safe:false},masters.wordmark);assert(safe.includes('stroke-dasharray="8 8"'));assert(!clean.includes('stroke-dasharray="8 8"'));checks++;
 const upload=makeArtwork({...base,format:'avatar',title:'T04',clientLogo:'data:image/png;base64,ABC'},masters.wordmark);assert(upload.includes('href="data:image/png;base64,ABC"'));checks++;
+const tool=makeArtwork({...base,tool:'supabase'},masters.wordmark);assert(tool.includes('fill="#3ecf8e"'));assert(!makeArtwork({...base,tool:'<script>'},masters.wordmark).includes('<script>'));checks++;
+assert(!makeArtwork({...base,format:'avatar',clientLogo:'data:image/svg+xml;base64,ABC'},masters.wordmark).includes('href="data:image/svg+xml'));checks++;
+for(const clientScale of [.6,1,1.4,2,999]){const s=makeArtwork({...base,format:'avatar',clientLogo:'data:image/png;base64,ABC',clientScale},masters.wordmark);const tag=s.match(/<image [^>]+>/)[0];const n=k=>Number(tag.match(new RegExp(k+'="([\\d.]+)"'))[1]);assert(n('x')>=575&&n('x')+n('width')<=915);assert(n('y')>=160&&n('y')+n('height')<=500);}checks++;
 console.log(`Artwork contracts: ${checks} checks passed; dimensions, theme, XML escaping, long text, guides and co-brand insertion.`);

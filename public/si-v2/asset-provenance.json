@@ -1,0 +1,48 @@
+{
+  "version": "2.0-proposal",
+  "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
+  "generator": "OpenAI image generation, six referenced image studies",
+  "images": [
+    {
+      "file": "wear.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "b1193a3b5086e1f0703607f7c3640d5a6a0a0a4c3b9a86da259229f564af565f"
+    },
+    {
+      "file": "metal.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf"
+    },
+    {
+      "file": "glass.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac"
+    },
+    {
+      "file": "hero.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4"
+    },
+    {
+      "file": "tee.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "47c8d1ff4546d42920fe5f0b6cfe97ca60e4cb374b9b5ac95be5380bdb22859e"
+    },
+    {
+      "file": "hoodie.webp",
+      "role": "generated conceptual visualization",
+      "sha256": "7a35201d7587273c300b0dd6fab78ec74c29aa7d8c10d29c05780772fbfad9f8"
+    }
+  ],
+  "logos": "Native SVG masters in curves. Generated material photographs are expressive studies, not geometry masters.",
+  "tool_assets": "Simple Icons CDN, respective brands; use of a tool does not mean partnership.",
+  "fonts": "Manrope SIL OFL; Google Fonts official source.",
+  "reference": {
+    "file": "public/brand/logo/vanta/snps-lockup.svg",
+    "sha256": "33c9d5cc97af50796b117d44d3a28a87aafb8bd93762f04fac03b54917cd50e8"
+  },
+  "tool_sources": {
+    "Figma": "https://static.figma.com/app/icon/1/favicon.svg",
+    "Others": "https://cdn.simpleicons.org/"
+  }
+}

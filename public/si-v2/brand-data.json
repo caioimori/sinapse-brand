@@ -1,0 +1,535 @@
+{
+  "VERSION": "1.0 · Proposta de evolução",
+  "RESEARCH_DATE": "16 de outubro de 2026",
+  "chapters": [
+    {
+      "slug": "strategy",
+      "n": "01",
+      "title": "Essência",
+      "sub": "O que nos move",
+      "group": "A marca"
+    },
+    {
+      "slug": "architecture",
+      "n": "02",
+      "title": "Ecossistema",
+      "sub": "Três caminhos, uma marca",
+      "group": "A marca"
+    },
+    {
+      "slug": "identity",
+      "n": "03",
+      "title": "Identidade",
+      "sub": "Um sinal que conecta",
+      "group": "A marca"
+    },
+    {
+      "slug": "typography",
+      "n": "04",
+      "title": "Tipografia",
+      "sub": "A voz ganha forma",
+      "group": "O sistema"
+    },
+    {
+      "slug": "surfaces",
+      "n": "05",
+      "title": "Cor e matéria",
+      "sub": "Luz, sombra e vidro",
+      "group": "O sistema"
+    },
+    {
+      "slug": "icons",
+      "n": "06",
+      "title": "Iconografia",
+      "sub": "A família de sinais",
+      "group": "O sistema"
+    },
+    {
+      "slug": "motion",
+      "n": "07",
+      "title": "Movimento",
+      "sub": "Inteligência em movimento",
+      "group": "O sistema"
+    },
+    {
+      "slug": "voice",
+      "n": "08",
+      "title": "Linguagem",
+      "sub": "Clareza que aproxima",
+      "group": "O sistema"
+    },
+    {
+      "slug": "editorial",
+      "n": "09",
+      "title": "Editorial",
+      "sub": "Uma marca, muitas histórias",
+      "group": "Na prática"
+    },
+    {
+      "slug": "studio",
+      "n": "10",
+      "title": "Template Studio",
+      "sub": "Da ideia à próxima peça",
+      "group": "Na prática"
+    },
+    {
+      "slug": "community",
+      "n": "11",
+      "title": "Comunidade",
+      "sub": "Pessoas, clientes e turmas",
+      "group": "Na prática"
+    },
+    {
+      "slug": "wear",
+      "n": "12",
+      "title": "Uniforme do futuro",
+      "sub": "A marca que se veste",
+      "group": "Na prática"
+    },
+    {
+      "slug": "research",
+      "n": "13",
+      "title": "Pesquisa",
+      "sub": "Referências com consequência",
+      "group": "Recursos"
+    },
+    {
+      "slug": "downloads",
+      "n": "14",
+      "title": "Arquivos",
+      "sub": "O sistema nas suas mãos",
+      "group": "Recursos"
+    }
+  ],
+  "pillars": [
+    {
+      "name": "School",
+      "key": "school",
+      "verb": "Aprender.",
+      "descriptor": "Educação em IA aplicada",
+      "promise": "Repertório para transformar conhecimento em prática.",
+      "detail": "Fundamentos, encontros ao vivo, projetos e aulas para revisitar. A School desenvolve autonomia para aplicar inteligência no próprio contexto.",
+      "audience": "Profissionais, criadores e empresários que querem aplicar IA ao trabalho.",
+      "proof": "O percurso público organiza fundamentos, prática orientada e projetos. A T04 tem lista de espera, mentoria em grupo e aulas gravadas.",
+      "cta": "Conheça a School",
+      "url": "https://sinapse.si/school",
+      "rhythm": "Explorar → experimentar → aplicar",
+      "boundary": "A lista de espera registra interesse; matrícula e acesso como Member acontecem no ingresso."
+    },
+    {
+      "name": "House",
+      "key": "house",
+      "verb": "Construir.",
+      "descriptor": "Software e soluções por projeto",
+      "promise": "Da ideia a uma experiência pronta para operar.",
+      "detail": "Sistemas, aplicativos, automações e integrações. A experiência das pessoas orienta o escopo, o desenvolvimento e a validação.",
+      "audience": "Empresas e pessoas com uma necessidade concreta de produto ou processo.",
+      "proof": "A página pública apresenta descoberta, experiência, desenvolvimento, validação e produção. Cada entrega depende do escopo contratado.",
+      "cta": "Conheça a House",
+      "url": "https://sinapse.si/house",
+      "rhythm": "Entender → desenhar → construir → validar",
+      "boundary": "Entrega por projeto. A operação recorrente de crescimento pertence à Growth."
+    },
+    {
+      "name": "Growth",
+      "key": "growth",
+      "verb": "Crescer.",
+      "descriptor": "Estratégia e operação recorrente",
+      "promise": "Estratégia, criação e dados no mesmo movimento.",
+      "detail": "Go to Market, mídia, conteúdo, dados, CRM, automações e crescimento orgânico para e-commerce, vendas diretas e geração de leads.",
+      "audience": "Empresas que precisam de continuidade entre estratégia, aquisição, vendas e relacionamento.",
+      "proof": "A oferta pública apresenta especialistas, operação full time e agentes de automação e monitoramento. Resultados dependem do contexto e do trabalho realizado.",
+      "cta": "Conheça a Growth",
+      "url": "https://sinapse.si/growth",
+      "rhythm": "Planejar → executar → analisar → otimizar",
+      "boundary": "Agentes ativos 24 horas não significam atendimento humano 24 horas nem promessa de retorno financeiro."
+    }
+  ],
+  "principles": [
+    {
+      "title": "Capacidade ampliada.",
+      "text": "A tecnologia importa quando amplia a capacidade de aprender, criar, decidir e executar. A demonstração deve chegar a uma entrega que as pessoas consigam usar."
+    },
+    {
+      "title": "Clareza radical.",
+      "text": "Um assunto por composição. Hierarquia antes de efeito. A pessoa deve entender o próximo passo sem precisar conhecer o nosso vocabulário técnico."
+    },
+    {
+      "title": "Precisão humana.",
+      "text": "Pessoas definem direção e assumem responsabilidade. Agentes ampliam a execução. A experiência real é o critério para revisar o resultado."
+    },
+    {
+      "title": "Inteligência conectada.",
+      "text": "School desenvolve repertório, House constrói soluções e Growth mantém a operação aprendendo. Os três braços podem se complementar sem confundir a contratação."
+    }
+  ],
+  "palette": [
+    {
+      "name": "Carbon",
+      "hex": "#0A0A0A",
+      "use": "Base Dark First"
+    },
+    {
+      "name": "Ink",
+      "hex": "#191919",
+      "use": "Superfície elevada"
+    },
+    {
+      "name": "Mist",
+      "hex": "#888888",
+      "use": "Reflexos e matéria"
+    },
+    {
+      "name": "Paper",
+      "hex": "#F5F5F5",
+      "use": "Texto principal e peças claras"
+    },
+    {
+      "name": "White",
+      "hex": "#FFFFFF",
+      "use": "Luz e reflexo"
+    }
+  ],
+  "motionRules": [
+    {
+      "name": "Resposta",
+      "duration": "160 ms",
+      "curve": "cubic-bezier(.2,.8,.2,1)",
+      "use": "Botões, foco, seleção e hover. O retorno acompanha a interação."
+    },
+    {
+      "name": "Foco",
+      "duration": "900 ms",
+      "curve": "cubic-bezier(.22,1,.36,1)",
+      "use": "Do difuso ao nítido, com um estado final legível."
+    },
+    {
+      "name": "Revelação",
+      "duration": "720 ms",
+      "curve": "cubic-bezier(.16,1,.3,1)",
+      "use": "Luz revela o volume e a composição chega ao estado legível. Entrada de campanha, nunca texto permanentemente oculto."
+    },
+    {
+      "name": "Reflexo",
+      "duration": "8 s",
+      "curve": "ease-in-out",
+      "use": "Luz que percorre o material com pausa disponível. Não movimentar o texto de leitura."
+    }
+  ],
+  "benchmarks": [
+    {
+      "brand": "Apple",
+      "category": "Material e interação",
+      "source": "Meet Liquid Glass · WWDC25",
+      "url": "https://developer.apple.com/videos/play/wwdc2025/219/",
+      "observed": "O material usa refração, reflexos e adaptação ao conteúdo para distinguir a camada de controles. As formas respondem ao contexto e ao movimento.",
+      "lesson": "Vidro tem um papel: orientar a interação e criar profundidade. A tipografia e o conteúdo continuam protagonistas.",
+      "decision": "Navegação flutuante e pequenos controles recebem vidro. Textos longos, tabelas e peças instrucionais usam superfícies sólidas.",
+      "avoid": "Não espalhar blur por todos os cartões nem afirmar que um efeito CSS reproduz o material nativo da Apple.",
+      "evidence": "Documentação e transcrição oficial; interpretação de aplicação à web."
+    },
+    {
+      "brand": "Apple HIG",
+      "category": "Hierarquia e legibilidade",
+      "source": "Materials · Human Interface Guidelines",
+      "url": "https://developer.apple.com/design/human-interface-guidelines/materials",
+      "observed": "A documentação trata os materiais como camadas que ajudam a distinguir áreas funcionais e preservar legibilidade.",
+      "lesson": "O efeito precisa sustentar orientação, contraste e contexto.",
+      "decision": "Camada de conteúdo opaca; camada de navegação translúcida; uma superfície de destaque por composição e alternativa sem transparência.",
+      "avoid": "Não aplicar transparência atrás de parágrafos pequenos nem depender de um fundo específico para ler.",
+      "evidence": "Página oficial acessada; o site usa carregamento dinâmico."
+    },
+    {
+      "brand": "Coinbase Shop",
+      "category": "Vestuário e pertencimento",
+      "source": "Catálogo oficial · página inicial",
+      "url": "https://coinbaseshop.com/",
+      "observed": "O catálogo organiza camisetas, bonés e moletons entre variações Light/Dark e narrativas da própria cultura: World Tour, Whitepaper e In Math We Trust.",
+      "lesson": "O vestuário pode expressar repertório e pertencimento além de carregar um logo.",
+      "decision": "Três famílias: Essential (sinal), Super Intelligence (manifesto) e Connected (sistema). Frente silenciosa, costas com intenção e versões claras/escuras.",
+      "avoid": "Não copiar estampas, slogans, símbolos ou preços. A existência do catálogo não comprova desempenho comercial.",
+      "evidence": "Catálogo acessado pelo índice web; navegação direta local teve falha de DNS."
+    },
+    {
+      "brand": "Vercel",
+      "category": "Sistema utilizável",
+      "source": "Geist · Introduction e Brand",
+      "url": "https://vercel.com/geist/introduction",
+      "observed": "Foundations, cores, materiais, tipografia, componentes, ícones e arquivos de marca aparecem como recursos de um mesmo sistema.",
+      "lesson": "Um brand book é útil quando a decisão visual consegue virar arquivo e componente.",
+      "decision": "Tokens copiados com um clique, SVGs portáteis, biblioteca com nomes claros e editor com exportação real.",
+      "avoid": "Não transformar a marca em uma cópia da grade e do triângulo Vercel.",
+      "evidence": "Páginas oficiais consultadas; aplicação proposta para SINAPSE."
+    },
+    {
+      "brand": "Linear",
+      "category": "Disciplina de identidade",
+      "source": "Brand Guidelines",
+      "url": "https://linear.app/brand",
+      "observed": "A página reúne recursos de marca e orientações para a assinatura. O símbolo e o nome mantêm papéis reconhecíveis.",
+      "lesson": "A identidade precisa sobreviver à redução e ao uso por outras pessoas.",
+      "decision": "Mestre preservado em curvas, variações identificadas, área de proteção, teste em 24/32/48 px e fundos de contraste.",
+      "avoid": "Não reconstruir o wordmark digitando uma fonte parecida.",
+      "evidence": "Guia oficial acessado; não é análise de conversão."
+    },
+    {
+      "brand": "Supabase",
+      "category": "Kit e colaboração",
+      "source": "Branding / Brand assets",
+      "url": "https://supabase.com/brand-assets",
+      "observed": "A marca oferece ativos específicos para aplicações e remete a orientações de uso, separando o recurso gráfico da experiência do produto.",
+      "lesson": "Acesso fácil ao arquivo certo reduz interpretações inconsistentes.",
+      "decision": "Kit com versões claras/escuras, símbolo, assinaturas por braço e manifesto de arquivos. Logos de ferramentas aparecem como referência tecnológica.",
+      "avoid": "Não apresentar ferramentas utilizadas como patrocínio ou parceria comercial.",
+      "evidence": "Página oficial acessada; não foram inferidos direitos de coassinatura."
+    },
+    {
+      "brand": "Warp",
+      "category": "Tecnologia explicada",
+      "source": "Página institucional atual",
+      "url": "https://www.warp.dev/",
+      "observed": "A página separa produtos, situações de uso e recursos, com diagramas e legendas técnicas que conectam a proposta a tarefas.",
+      "lesson": "A complexidade pode aparecer em uma segunda camada sem dominar a primeira leitura.",
+      "decision": "Título pelo resultado; diagrama pelo fluxo; ferramentas na camada de apoio. School comunica o que se aprende antes de enumerar aplicativos.",
+      "avoid": "Não converter uma lista de ferramentas em currículo, compatibilidade ou entrega garantida.",
+      "evidence": "Página oficial acessada em 16/10/2026; ofertas mudam com o tempo."
+    },
+    {
+      "brand": "Obsidian",
+      "category": "Conhecimento como capacidade",
+      "source": "Página institucional",
+      "url": "https://obsidian.md/",
+      "observed": "A proposta associa ferramentas de escrita e conexão de ideias à capacidade de pensar. O produto é apresentado pelo valor para a pessoa.",
+      "lesson": "Um ecossistema ganha sentido pelo que permite fazer.",
+      "decision": "Organizar o mapa SINAPSE em pensar, construir, criar, operar e aprender; nomes de ferramentas ficam subordinados à função.",
+      "avoid": "Não herdar o roxo ou a aparência do cristal como código de marca SINAPSE.",
+      "evidence": "Site oficial consultado; leitura de posicionamento, sem inferência sobre resultados."
+    },
+    {
+      "brand": "SINAPSE atual",
+      "category": "Continuidade",
+      "source": "Visão geral, House, School, Growth, Perguntas e Informações",
+      "url": "https://sinapse.si/",
+      "observed": "O site usa assinatura vetorial, fundo escuro, hierarquia tipográfica e navegação lateral. Distingue projeto, educação e operação recorrente.",
+      "lesson": "A mudança mais valiosa é ampliar expressão e consistência sem apagar o reconhecimento.",
+      "decision": "Preservar símbolo e lettering; consolidar a grafia SI; dar aos três braços uma gramática de sinais e aplicações.",
+      "avoid": "Não reduzir Growth a leads ou prometer matrícula por entrar na lista da T04.",
+      "evidence": "Seis páginas públicas renderizadas e lidas; formulários não enviados; área interna fora da amostra."
+    },
+    {
+      "brand": "Editorial T04",
+      "category": "Campanha e jornada",
+      "source": "Destaque T04 · 7 quadros; perfis SINAPSE, Caio e Soier",
+      "url": "https://www.instagram.com/stories/highlights/17881670208691626/",
+      "observed": "A sequência avança por turma, agentes/contexto, projeto em produção, criação/automação, marketing/dados, benefício aos alunos e lista de espera.",
+      "lesson": "O arco já organiza bem o repertório; pode ganhar legibilidade, assinatura e espaço protegido para os controles do Instagram.",
+      "decision": "Uma ideia por tela, hierarquia consistente, assinatura pequena e zonas de segurança. Ferramentas por função, com CTA único no fechamento.",
+      "avoid": "Não deduzir conversão ou disponibilidade atual de vagas pelos stories. A data 05/11 e o limite de 20 alunos são afirmações dessa amostra.",
+      "evidence": "Sete quadros do destaque SINAPSE observados; sequência também encontrada no destaque de Caio; amostra pontual, não auditoria de todo o Instagram."
+    },
+    {
+      "brand": "Estudos recebidos",
+      "category": "Diagnóstico do acervo",
+      "source": "6 PDFs · 41 páginas; 3 áudios de marca; 23 arquivos no Drive",
+      "url": "",
+      "observed": "Há assinaturas completas/reduzidas, símbolos dos três braços, camiseta sinal, camiseta manifesto, composição editorial, moletom e carrosséis de 10/6 telas e post único.",
+      "lesson": "O acervo já oferece caminhos úteis, mas mistura propostas cromáticas e tipográficas que precisam de decisão.",
+      "decision": "Manter preto e branco conforme Caio; preservar os mestres; identificar variações novas como propostas; sistematizar os três formatos editoriais e as famílias de vestuário.",
+      "avoid": "Não chamar proposta de arquivo aprovado. Conteúdo sobre joias em dois áudios não pertence à marca.",
+      "evidence": "PDFs renderizados; cinco áudios transcritos localmente; 23 arquivos do Drive decodificados, incluindo quadros de vídeo. Originais ficam privados."
+    }
+  ],
+  "toolsEcosystem": [
+    {
+      "group": "Pensar e dirigir",
+      "role": "Contexto, pesquisa, decisão e conhecimento",
+      "tools": [
+        "ChatGPT / GPT",
+        "Claude",
+        "Obsidian",
+        "JEV"
+      ],
+      "source": "Pedido, stories T04 e páginas públicas.",
+      "note": "JEV aparece nos stories como decisões estruturadas; produto, acesso e limites não foram verificados."
+    },
+    {
+      "group": "Construir e revisar",
+      "role": "Agentes, código, design e qualidade",
+      "tools": [
+        "Codex",
+        "Claude Code",
+        "Warp",
+        "Figma",
+        "GitHub",
+        "CodeRabbit",
+        "REA",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "PentAGI"
+      ],
+      "source": "Pedido e quadros 01–03 da T04.",
+      "note": "PentAGI aparece em contexto de testes autorizados. Logos e nomes não indicam parceria."
+    },
+    {
+      "group": "Publicar e operar",
+      "role": "Dados, acesso, hospedagem e infraestrutura",
+      "tools": [
+        "Supabase",
+        "Vercel",
+        "Hostinger",
+        "Docker",
+        "Cloud"
+      ],
+      "source": "Pedido e quadro 03 da T04.",
+      "note": "Cloud é o termo recebido; não foi atribuído a um fornecedor específico. Infraestrutura é subordinada à entrega."
+    },
+    {
+      "group": "Criar e comunicar",
+      "role": "Imagem, vídeo, apresentadores e voz",
+      "tools": [
+        "Higgsfield",
+        "HeyGen",
+        "ElevenLabs",
+        "Figma"
+      ],
+      "source": "Pedido e quadro 04 da T04.",
+      "note": "Distinguir demonstração, geração conceitual e peça aprovada para publicação."
+    },
+    {
+      "group": "Conectar agentes",
+      "role": "Automação, tarefas e fluxos de trabalho",
+      "tools": [
+        "Grok Bot",
+        "OpenClaw",
+        "Hermes",
+        "n8n",
+        "ManyChat",
+        "WhatsApp"
+      ],
+      "source": "Quadros 02 e 04 da T04.",
+      "note": "Um agente não representa autonomia irrestrita. A responsabilidade permanece com quem opera."
+    },
+    {
+      "group": "Distribuir e aprender",
+      "role": "Aquisição, análise, comportamento e vendas",
+      "tools": [
+        "Meta Ads",
+        "Google Ads",
+        "Google Analytics 4",
+        "Microsoft Clarity",
+        "Hypercash"
+      ],
+      "source": "Quadro 05 e abertura da T04.",
+      "note": "Essas são ferramentas mostradas na campanha. Não se inferiu plano contratado, integração ativa ou desempenho."
+    }
+  ],
+  "sequenceT04": [
+    {
+      "eyebrow": "SINAPSE SCHOOL · T04",
+      "title": "A próxima versão é sua.",
+      "body": "Aprenda, experimente e construa com inteligência artificial.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "01 · PENSAR",
+      "title": "Contexto muda tudo.",
+      "body": "Organize conhecimento, formule pedidos e avalie as respostas com mais critério.",
+      "kind": "outline"
+    },
+    {
+      "eyebrow": "02 · CONSTRUIR",
+      "title": "Da ideia ao primeiro deploy.",
+      "body": "Explore agentes, interfaces, dados e publicação em um fluxo conectado.",
+      "kind": "connection"
+    },
+    {
+      "eyebrow": "03 · CRIAR",
+      "title": "Crie com repertório.",
+      "body": "Imagem, vídeo, voz e automações com direção e revisão.",
+      "kind": "light"
+    },
+    {
+      "eyebrow": "04 · APLICAR",
+      "title": "Traga o seu projeto.",
+      "body": "Use o seu contexto para desenvolver ideias, processos e entregas.",
+      "kind": "signal"
+    },
+    {
+      "eyebrow": "SEU PRÓXIMO PASSO",
+      "title": "Entre na lista da T04.",
+      "body": "Acompanhe os avisos da próxima turma em sinapse.si/school. O cadastro registra interesse.",
+      "kind": "light"
+    }
+  ],
+  "editorialFamilies": [
+    {
+      "name": "Manifesto",
+      "label": "Marca e manifesto",
+      "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
+      "ratio": "4:5 · 9:16",
+      "fixed": "Assinatura, grade, contraste e hierarquia.",
+      "variable": "Frase, escala e material do símbolo.",
+      "limit": "Até 12 palavras no título. A assinatura não compete com a mensagem."
+    },
+    {
+      "name": "Caderno",
+      "label": "Aprendizado e repertório",
+      "use": "Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.",
+      "ratio": "4:5 · 9:16",
+      "fixed": "Número de página, margem, rótulo de seção e fonte de referência.",
+      "variable": "Texto, captura, vídeo, diagrama e exemplo.",
+      "limit": "Uma afirmação principal por tela. Explicar siglas no primeiro uso."
+    },
+    {
+      "name": "Convite",
+      "label": "Mentorias e turmas",
+      "use": "Abertura, conteúdo, dinâmica, evidência e lista de espera da School.",
+      "ratio": "9:16 · 4:5",
+      "fixed": "Nome School, turma, sequência e destino real do CTA.",
+      "variable": "Tema, convite, conteúdo e condição confirmada.",
+      "limit": "Datas, preço, vagas e bônus somente após validação da oferta vigente."
+    },
+    {
+      "name": "Em produção",
+      "label": "Projetos e operação",
+      "use": "Mostrar processo, detalhe e resultado observado de House e Growth.",
+      "ratio": "4:5 · 16:9",
+      "fixed": "Problema, papel da SINAPSE e identificação de conceito ou entrega.",
+      "variable": "Projeto, interface, cenário, evidência e aprendizado.",
+      "limit": "Sem cliente, depoimento, resultado ou parceria inventados."
+    }
+  ],
+  "voiceExamples": [
+    {
+      "context": "Institucional",
+      "before": "Soluções disruptivas que revolucionam o futuro com IA.",
+      "after": "Conectamos tecnologia, aprendizado e operação para ampliar o que você consegue fazer."
+    },
+    {
+      "context": "School",
+      "before": "Domine todas as IAs e nunca mais fique para trás.",
+      "after": "Aprenda a dar contexto, testar possibilidades e aplicar IA aos seus projetos."
+    },
+    {
+      "context": "House",
+      "before": "Seu app pronto com um prompt.",
+      "after": "Transformamos uma necessidade em um projeto com escopo, experiência e validação."
+    },
+    {
+      "context": "Growth",
+      "before": "Venda no automático com resultados garantidos.",
+      "after": "Conecte estratégia, conteúdo, mídia e dados em uma operação que aprende a cada ciclo."
+    },
+    {
+      "context": "Lista de espera",
+      "before": "Garanta agora sua vaga na T04.",
+      "after": "Entre na lista da T04 e receba os avisos da próxima turma."
+    },
+    {
+      "context": "Suporte",
+      "before": "Ocorreu uma falha inesperada. Error 502.",
+      "after": "Não foi possível concluir agora. Seus dados continuam preenchidos; tente novamente em alguns instantes."
+    }
+  ]
+}

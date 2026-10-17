@@ -9,7 +9,7 @@
       "embedded_fonts": true
     },
     "website": "responsive",
-    "slide_count": 47
+    "slide_count": 37
   },
   "modules": [
     {
@@ -94,6 +94,6 @@
     }
   ],
   "pages": [],
-  "file": "public/si/SINAPSE-SI-Brandbook.pdf",
-  "source": "scripts/build-si-book.py"
+  "file": "public/si-v2/SINAPSE-SI-Brandbook-02.pdf",
+  "source": "scripts/build-si-v2-book.py"
 }

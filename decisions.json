@@ -20,14 +20,19 @@
       "decision": "Preservar curvas dos mestres existentes"
     },
     {
-      "id": "SI-PROPOSAL",
-      "status": "awaiting_review",
-      "decision": "Plataforma verbal, sinais dos braços e aplicações 1.0"
-    },
-    {
       "id": "SI-RELEASE",
       "status": "not_authorized",
       "decision": "Produção, DNS, postagem e fabricação fora do lote"
+    },
+    {
+      "id": "SI-PROPOSAL",
+      "status": "rejected",
+      "decision": "Proposta visual 1.0 rejeitada por Caio."
+    },
+    {
+      "id": "SI-V2",
+      "status": "awaiting_review",
+      "decision": "Proposta 02: Dark First + Light Mode; materiais ópticos, novas assinaturas e ícones, mockups realistas, cor de ferramentas em contexto."
     }
   ]
 }

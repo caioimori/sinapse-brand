@@ -1,25 +1,20 @@
-# SINAPSE SI — handoff da proposta 1.0
+# SINAPSE SI — handoff vigente / proposta 02
 
-Refs #10. Branch `feat/sinapse-si-brandbook-20261016`. Base original `df2838f`.
+Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Refs #10. Checkout isolado: knowledge/sinapse-si-brandbook.
 
-## Entrega
-Portal `/` + 14 capítulos em `/studio/*`, Template Studio com 6 formatos e exportação PNG/SVG/JSON, avatares e capas Member, vestuário interativo, ícones e movimento, PDF de 47 páginas e kit.
+Caio rejeitou a proposta 1.0. Preservar SNPS e preto e branco; refazer todo o resto. Confirmou Dark First + Light Mode, vidro, metal, gradientes, blur, animações e cores de ferramentas em contexto. Roupas seguem a lógica Coinbase Shop e precisam de mockups fotográficos.
 
-Nome e preto e branco seguem o pedido de Caio. Plataforma verbal, assinaturas SI/braços, ícones e aplicações são propostas para revisão. O lettering e o símbolo originais ficam intactos.
+## Estado
+Portal / e 14 capítulos /studio/* reconstruídos em components/si-v2. Mesmo servidor da tarefa em http://127.0.0.1:3256/ . Reutilizar a aba e a porta; preservar sessões do usuário.
 
-## Retomar
-Prévia local: `http://127.0.0.1:3256/`. Checkout: `knowledge/sinapse-si-brandbook`. Servidor da tarefa iniciado na porta 3256; não confundir com outras prévias.
+40 variantes de assinatura, 12 ícones novos, 34 templates, editor PNG/SVG/JSON com ferramenta e tema por tela, seis imagens geradas, PDF de 37 páginas e kit. Origem e distribuição em public/si-v2.
 
-Comandos: `npm ci`; `npm run dev -- --hostname 127.0.0.1 --port 3256`; `npm run typecheck`; `node scripts/test-si-artwork.mjs`. Geradores: preparar dados, preparar assets, exportar templates, construir PDF, consolidar manifestos e empacotar kit.
+Canon: CANON.md, brand-system.json, public/si-v2/tokens.json, data/si/brand.ts, components/si-v2 e lib/si/artwork.ts. Geradores no README. QA: docs/SINAPSE-SI-V2-QA.md.
 
-Fonte do sistema: `CANON.md`, `data/si/brand.ts`, `brand-system.json`, `public/si/tokens.json`, `components/si/` e `lib/si/`.
+## Pendências
+Revisão estética de Caio. Prova física de roupas antes de fabricar. Condições comerciais T04 antes de publicar.
 
-## Pendências reais
-Build local impedido pelo gate de RAM. Vínculo antigo da Vercel indisponível na conta atual; não criar serviço ou alterar autenticação por inferência. GitHub Project sem escopo de leitura. Ver relatório de QA.
+Build local sem RAM para o gate. CI com falhas de configuração registradas; reparo de infraestrutura exige autorização própria. Vercel inacessível e board sem escopo. Produção, DNS, redes e fabricação fora do lote.
 
-O domínio pretendido é `branding.sinapse.si`. Nenhum deploy de produção, alteração de DNS, postagem ou fabricação foi executado. A aprovação deste sistema não se propaga a esses canais.
-
-Para recuperar a identidade anterior: `docs/archive/CANON-2026-06.md`, `public/brand/logo/` e rotas `/brandbook/*`. O CANON.md já alterado no checkout principal permaneceu intacto.
-
-## GitHub
-PR: https://github.com/caioimori/sinapse-brand/pull/11 . A CI atual falha no lint sem configuração e no scanner por histórico Git incompleto. Reparo de CI exige lote próprio conforme AGENTS vigente; não foi contornado.
+## Recuperação
+Mestres intactos em public/brand/logo. Proposta anterior em 29b033b e public/si, com CANON/README em docs/archive/*proposal-01.md. Rotas históricas são acervo. O CANON alterado no checkout principal permanece intocado.

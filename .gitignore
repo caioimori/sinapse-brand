@@ -144,3 +144,4 @@ qa-local/
 scripts/ingest-brand-sources.py
 scripts/download-drive-research.py
 scripts/research-web.py
+public/si-v2/*.png
