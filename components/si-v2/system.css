@@ -25,3 +25,7 @@ body:has(.v2-root).grain-overlay::after{display:none}.v2-root[data-motion=off] *
 html[data-si-mode=light] .v2-root{--bg:#f5f5f7;--fg:#171719;--muted:#626267;--panel:#e9e9ec;--line:#00000024;--glass:#f9f9fbab;--soft:#00000006;--inverse:#fff;--accent:#111;color-scheme:light}
 html[data-si-mode=light] .v2-root[data-theme=dark] .v2-header-brand img,html[data-si-mode=light] .v2-root[data-theme=dark] .v2-footer-giant img{filter:invert(1)}
 @media(max-width:620px){.v2-hero-image{width:100%;left:0;margin:20px auto 15px}.v2-hero-image>img{height:245px;object-fit:contain}.v2-home-hero{min-height:720px}}
+.v2-hero-image{width:min(1420px,100%);left:0}
+.v2-full-visual img{object-fit:contain;background:#050505}
+[data-theme=light] .v2-hero-image>img{object-fit:contain}
+@media(min-width:621px) and (max-width:1100px){.v2-hero-image>img{height:clamp(320px,52vw,450px)}}
