@@ -1423,6 +1423,91 @@
       "sha256": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0"
     },
     {
+      "id": "symbol-origin-s-original-construction-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-construction-dark.svg",
+      "sha256": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab"
+    },
+    {
+      "id": "symbol-origin-s-original-construction-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-construction-light.svg",
+      "sha256": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e"
+    },
+    {
+      "id": "symbol-origin-s-original-frost-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-frost-dark.svg",
+      "sha256": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64"
+    },
+    {
+      "id": "symbol-origin-s-original-frost-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-frost-light.svg",
+      "sha256": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5"
+    },
+    {
+      "id": "symbol-origin-s-original-glass-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-glass-dark.svg",
+      "sha256": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378"
+    },
+    {
+      "id": "symbol-origin-s-original-glass-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-glass-light.svg",
+      "sha256": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78"
+    },
+    {
+      "id": "symbol-origin-s-original-silver-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-silver-dark.svg",
+      "sha256": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb"
+    },
+    {
+      "id": "symbol-origin-s-original-silver-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-silver-light.svg",
+      "sha256": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991"
+    },
+    {
+      "id": "symbol-origin-s-original-solid-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-solid-dark.svg",
+      "sha256": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b"
+    },
+    {
+      "id": "symbol-origin-s-original-solid-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-solid-light.svg",
+      "sha256": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65"
+    },
+    {
+      "id": "symbol-origin-s-original-tight-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-tight-dark.svg",
+      "sha256": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9"
+    },
+    {
+      "id": "symbol-origin-s-original-tight-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-tight-light.svg",
+      "sha256": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c"
+    },
+    {
+      "id": "symbol-origin-SINAPSE-Origem-do-Traco.pdf",
+      "file": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "sha256": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf"
+    },
+    {
+      "id": "symbol-origin-source-sinapse-wordmark-dark.svg",
+      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-dark.svg",
+      "sha256": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564"
+    },
+    {
+      "id": "symbol-origin-source-sinapse-wordmark-light.svg",
+      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-light.svg",
+      "sha256": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5"
+    },
+    {
+      "id": "symbol-origin-source-snps-lockup-dark.svg",
+      "file": "public/si-v2/symbol-origin/source-snps-lockup-dark.svg",
+      "sha256": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10"
+    },
+    {
+      "id": "symbol-origin-source-snps-lockup-light.svg",
+      "file": "public/si-v2/symbol-origin/source-snps-lockup-light.svg",
+      "sha256": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507"
+    },
+    {
       "id": "mestre/sinapse-symbol",
       "file": "public/brand/logo/bone/sinapse-symbol.svg",
       "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
@@ -1490,7 +1575,7 @@
     {
       "id": "evidência visual",
       "file": "qa/symbol-study-browser.json",
-      "sha256": "35ee01e15328ed4db03d906ccd9e0130de6dfa70867095b4e120900cc764fc51"
+      "sha256": "299ff2a1785076e65301c00e111e27da62c676e3056b6b40bf99ebd0878207f5"
     },
     {
       "id": "evidência visual",
@@ -1505,7 +1590,22 @@
     {
       "id": "evidência visual",
       "file": "docs/SINAPSE-ESTUDO-SIMBOLO-QA.md",
-      "sha256": "a20ea5c7a668ae7a05ce6da516302d19bc00b09bd09dd1e606ba1232fd62d5b6"
+      "sha256": "d36b43371ecd64ee3159e5061bfc21f10bb23b9e85de45e1a48603e8232c18f3"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/symbol-origin-geometry.json",
+      "sha256": "79212efbd116319e3adbf37611d21265fb815f3e3aa25f1751916d607690f047"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/symbol-origin-pdf.json",
+      "sha256": "b95f642494b4736192f34ae2f267e33fb40c62cdef2bc5caf91e5f0343c185f0"
+    },
+    {
+      "id": "evidência visual",
+      "file": "docs/SINAPSE-ORIGEM-TRACO.md",
+      "sha256": "c561cb13fb0e71627befaa15de61d42eadc9d1d996f606cd754356952472c0e5"
     }
   ]
 }
