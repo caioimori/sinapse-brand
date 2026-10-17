@@ -16,7 +16,9 @@ Dez assinaturas em quatro materiais e dois fundos: 80 SVGs. SI, School, House e 
 
 Sinal contínuo: retorno do S e transição do N originam recortes, camadas, foco e material. Texto informativo permanece em plano estável. Os casos inspiram mecanismos; símbolos, paletas, retratos e arquivos de terceiros não integram a identidade SINAPSE.
 
-18 composições de aplicações/anatomia em SVG e WebP. Atlas interativo, pôsteres, stories, capas, perfis e cartão. Passagem: dois trilhos paralelos substituem o símbolo isolado do House. Estudo em vidro e ambiente atualizados. Collection 02 inclui 12 propostas: oito camisetas e quatro moletons, seis pares fotográficos e estampas em curvas. Os renders anteriores rejeitados ficam no acervo. Fotografias de conceito não são prova de fabricação, parceria, cliente ou local real.
+18 composições de aplicações/anatomia em SVG e WebP. Atlas interativo, pôsteres, stories, capas, perfis e cartão. Passagem foi rejeitado por Caio em 17/10 e retirado da direção atual; os arquivos permanecem recuperáveis. Collection 02 inclui 12 propostas: oito camisetas e quatro moletons, seis pares fotográficos e estampas em curvas. Fotografias de conceito não são prova de fabricação, parceria, cliente ou local real.
+
+Estudo de símbolo em /studio/symbol: Nexo, Síntese SN e Pulso. Três desenhos preenchidos e conectados, com referência à essência e ao lettering. Síntese SN é a recomendação de design, ainda sem seleção aprovada. Conceitos são leituras pretendidas, não reconhecimento comprovado. Documento próprio de dez páginas e kit de seis SVGs (claro/escuro). Os mestres SNPS e SINAPSE continuam intactos. Fonte: data/si/symbol-study.json e docs/SINAPSE-ESTUDO-SIMBOLO.md.
 
 Material comum em data/si/materials.json e lib/si/material.ts. Vidro portátil em PNG/WebP com alpha e iluminação própria. Geometria exata continua no SVG; o material web é interpretação, não o recurso nativo Apple.
 
@@ -26,7 +28,7 @@ Signals 04: 12 ícones, formato 96 × 64, terminais retos e retornos controlados
 
 ## Livro e pesquisa
 
-60 páginas 1920 × 1080. Texto nativo com Manrope Regular e Semibold de nomes distintos, JetBrains e SNPS Display incorporadas. Fotografias e pranchas de material são ilustrações raster; mestres, anatomia e ícones mantêm curvas. Leitor /book; PDF e kit 05 em public/si-v2.
+60 páginas 1920 × 1080. Texto nativo com Manrope Regular e Semibold de nomes distintos, JetBrains e SNPS Display incorporadas. Fotografias e pranchas de material são ilustrações raster; mestres, anatomia e ícones mantêm curvas. Leitor /book; PDF e kit 05 preservados como acervo da proposta anterior, com aviso de que Passagem foi retirado. A decisão de símbolo segue o estudo separado.
 
 199 imagens estáticas: OXA AI 25, Buff 42, Mozari 23, Cirdia 52, Centrysk 36 e Clarity 21. Dois vídeos Buff identificados, sem análise temporal. Não afirmar acesso aos editáveis ou PDFs completos dos autores. Dados e decisões em data/si/reference-atlas.json e docs/SINAPSE-SI-V4-BENCHMARK.md.
 

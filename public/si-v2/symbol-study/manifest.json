@@ -1,0 +1,37 @@
+{
+  "status": "exploration_for_review",
+  "files": [
+    {
+      "file": "nexo-dark.svg",
+      "sha256": "d407d6315df8d3021d51397b19480860bcb464b75e17fe6795f0090e0a97e4a7"
+    },
+    {
+      "file": "nexo-light.svg",
+      "sha256": "822c29847f3cb573d925b2a0ffb3346d1e0e2809c3413bc81b95157097522d0c"
+    },
+    {
+      "file": "pulso-dark.svg",
+      "sha256": "8ff5341ba60eb8eac25e727b90ed8a6ef93bf6bbbda053b354a7d4f2848c8447"
+    },
+    {
+      "file": "pulso-light.svg",
+      "sha256": "e063d6554c5f33a4cfb2eb39d0580715a943b4423f1d4fb20750db4602f4f7d0"
+    },
+    {
+      "file": "sintese-dark.svg",
+      "sha256": "fb0d25150faa89dabc0b55e9f42d7dcafbb9aa7399dc1ae9bd2e9020c606db84"
+    },
+    {
+      "file": "sintese-light.svg",
+      "sha256": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0"
+    },
+    {
+      "file": "study.json",
+      "sha256": "1cee7856b3d6b332a8f30fab83f09ea2e70308a497dc2fb1541b66b9d9ecc1c4"
+    },
+    {
+      "file": "SINAPSE-Estudo-de-Simbolo.pdf",
+      "sha256": "144164d72ba9f97477cb4cf2839dbd20ae0bbc8e7e33df4bbf23624932d062fe"
+    }
+  ]
+}

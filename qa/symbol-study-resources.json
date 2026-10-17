@@ -1,0 +1,61 @@
+{
+  "resources": [
+    {
+      "file": "nexo-dark.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "nexo-light.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "pulso-dark.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "pulso-light.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "sintese-dark.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "sintese-light.svg",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "study.json",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "SINAPSE-Estudo-de-Simbolo.pdf",
+      "status": 200,
+      "sha256_match": true
+    },
+    {
+      "file": "SINAPSE-Simbolos-Estudo.zip",
+      "status": 200,
+      "sha256_match": true
+    }
+  ],
+  "zip_crc_valid": true,
+  "zip_files": [
+    "SINAPSE-Simbolos-Estudo/nexo-dark.svg",
+    "SINAPSE-Simbolos-Estudo/nexo-light.svg",
+    "SINAPSE-Simbolos-Estudo/pulso-dark.svg",
+    "SINAPSE-Simbolos-Estudo/pulso-light.svg",
+    "SINAPSE-Simbolos-Estudo/sintese-dark.svg",
+    "SINAPSE-Simbolos-Estudo/sintese-light.svg",
+    "SINAPSE-Simbolos-Estudo/study.json",
+    "SINAPSE-Simbolos-Estudo/SINAPSE-Estudo-de-Simbolo.pdf",
+    "SINAPSE-Simbolos-Estudo/manifest.json"
+  ]
+}

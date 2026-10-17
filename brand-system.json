@@ -590,7 +590,15 @@
     ],
     "display_font_spec": "public/si-v2/fonts/SNPSDisplay-spec.json",
     "icons": "Signals 04 / 12 SVGs",
-    "signature_rule": "One horizontal line; descriptor shares cap line and baseline, never below. Complete original prefix retained; word gap 33.28 source units."
+    "signature_rule": "One horizontal line; descriptor shares cap line and baseline, never below. Complete original prefix retained; word gap 33.28 source units.",
+    "symbol_study": {
+      "status": "exploration_for_review",
+      "selected": null,
+      "recommended": "sintese",
+      "source": "data/si/symbol-study.json",
+      "document": "public/si-v2/symbol-study/SINAPSE-Estudo-de-Simbolo.pdf",
+      "route": "/studio/symbol"
+    }
   },
   "voice": {
     "point_of_view": "Ampliar a capacidade de aprender, criar, decidir e executar.",
@@ -779,6 +787,13 @@
       "9.38 N outer shoulder",
       "2.54 N inner return"
     ],
-    "references": "data/si/reference-atlas.json"
+    "references": "data/si/reference-atlas.json",
+    "rejected_graphics": [
+      {
+        "name": "Passagem",
+        "reason": "User rejected symbol; detached rails do not meet new filled connected mass brief.",
+        "date": "2026-10-17"
+      }
+    ]
   }
 }

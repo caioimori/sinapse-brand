@@ -1,0 +1,96 @@
+{
+  "status": "exploration_for_review",
+  "selected": null,
+  "recommended": "sintese",
+  "rejected": [
+    "Passagem: two detached rails, rejected by Caio on 2026-10-17."
+  ],
+  "brief": {
+    "core": "Conectar repertório humano, inteligência computacional e execução para ampliar capacidades.",
+    "personality": [
+      "precisão",
+      "proximidade",
+      "confiança",
+      "responsabilidade"
+    ],
+    "constraints": [
+      "preto e branco",
+      "forma preenchida",
+      "uma massa positiva conectada",
+      "parentesco com SNPS",
+      "funcionar plana antes de qualquer efeito"
+    ],
+    "meaning_limit": "As leituras são intenções de design, não resultados comprovados de reconhecimento."
+  },
+  "symbols": [
+    {
+      "id": "nexo",
+      "letter": "A",
+      "name": "Nexo",
+      "thesis": "Três capacidades. Um corpo.",
+      "path": "M52 8H76V38C76 46 80 50 87 54L111 68C117 72 120 77 120 84V112H90C83 112 78 109 73 104L64 95L55 104C50 109 45 112 38 112H8V84C8 77 11 72 17 68L41 54C48 50 52 46 52 38Z M106 112C104 98 100 77 87 68C78 61 72 61 65 65C57 70 56 80 62 86C67 91 80 96 84 103L89 112Z",
+      "elements": [
+        {
+          "name": "S em negativo",
+          "meaning": "Uma curva de entrada muda de direção dentro da junção e sugere o percurso em S, sem desenhar uma letra sobre o ícone."
+        },
+        {
+          "name": "Três braços",
+          "meaning": "School, House e Growth ocupam três terminações de uma massa única."
+        },
+        {
+          "name": "Centro comum",
+          "meaning": "A troca entre repertório, tecnologia e execução acontece no mesmo corpo."
+        }
+      ],
+      "tradeoff": "A tríade aparece primeiro. O S exige mais tempo de leitura; a silhueta pode lembrar outros símbolos de três braços.",
+      "origin": "Retornos seletivos, terminais cortados e uma cintura contínua."
+    },
+    {
+      "id": "sintese",
+      "letter": "B",
+      "name": "Síntese SN",
+      "thesis": "A origem já está no nome.",
+      "path": "M24 18H43C50 18 55 22 60 27L85 52C92 59 96 63 100 63V46C100 43 98 42 95 42H84C78 42 75 40 71 36L60 25C55 20 56 18 64 18H104C111 18 116 23 116 30V96C116 103 111 108 104 108H87C80 108 75 104 70 99L44 73C37 66 32 63 28 63V80C28 83 30 84 33 84H44C50 84 53 86 57 90L68 101C73 106 72 108 64 108H24C17 108 12 103 12 96V30C12 23 17 18 24 18Z",
+      "elements": [
+        {
+          "name": "S / percurso",
+          "meaning": "As duas aberturas opostas sugerem uma passagem em S."
+        },
+        {
+          "name": "N / ligação",
+          "meaning": "A diagonal e os ombros aproximam o símbolo do N original."
+        },
+        {
+          "name": "Corpo integrado",
+          "meaning": "Duas entradas pertencem à mesma forma: intenção humana e capacidade computacional ligadas à execução."
+        }
+      ],
+      "tradeoff": "É o caminho mais próximo do lettering. A primeira leitura pode ser N; a leitura de S é intencionalmente secundária.",
+      "origin": "Diagonais a 45°, aberturas opostas, retornos internos controlados e terminais retos."
+    },
+    {
+      "id": "pulso",
+      "letter": "C",
+      "name": "Pulso",
+      "thesis": "Conhecimento em movimento.",
+      "path": "M116 12H30C19 12 12 19 12 30V49C12 56 15 62 22 66L81 96H12V116H98C109 116 116 109 116 98V79C116 72 113 66 106 62L47 32H116Z",
+      "elements": [
+        {
+          "name": "S / reconhecimento",
+          "meaning": "A silhueta mantém uma leitura direta da inicial Sinapse."
+        },
+        {
+          "name": "Transferência",
+          "meaning": "Duas massas opostas se ligam por uma diagonal, em vez de permanecer separadas."
+        },
+        {
+          "name": "Três planos",
+          "meaning": "Topo, cintura e base organizam aprender, construir e crescer como um percurso."
+        }
+      ],
+      "tradeoff": "É o mais imediato e simples. Tem menos singularidade que o monograma e se aproxima de um S geométrico de categoria.",
+      "origin": "Traço de 20 unidades, altura de cinco traços e cortes quadrados, com retornos de meio traço."
+    }
+  ]
+}

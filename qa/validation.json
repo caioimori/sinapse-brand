@@ -70,12 +70,12 @@
     {
       "id": "v5-applications-ooh-triptych.svg",
       "file": "public/si-v2/applications/ooh-triptych.svg",
-      "sha256": "8b29a9fefab9a581a65f8de6dda0790287e931497eee22994e20eaa26d5626e0"
+      "sha256": "d3f9dea5aad6bc7686d9481b93fc55a33c7073a50f359e05149cc4e3c2de9463"
     },
     {
       "id": "v5-applications-ooh-triptych.webp",
       "file": "public/si-v2/applications/ooh-triptych.webp",
-      "sha256": "125172191b690cb84f94937b7f4330e9765a8e24824295dc2e9410c029f5b2df"
+      "sha256": "4f4bb50f5f90110323e13797c495af7b544cd9ccfc31736a75d6dad118e27704"
     },
     {
       "id": "v5-applications-passage.svg",
@@ -100,22 +100,22 @@
     {
       "id": "v5-applications-poster-house.svg",
       "file": "public/si-v2/applications/poster-house.svg",
-      "sha256": "35415ec16d9ad8a0ff2e0295d58c1d41ae7cde9a1ac255192d48fbcf92aad09e"
+      "sha256": "38d2476a29bebcae23b53e1955f3869c90f1e75a338c4d662382db04bbba3627"
     },
     {
       "id": "v5-applications-poster-house.webp",
       "file": "public/si-v2/applications/poster-house.webp",
-      "sha256": "8e2af801c5272fa97cf3d56bf737dade3d626762a9c5def09b43f0a5ba487505"
+      "sha256": "8382e569695db663018eb383adcea9861cc4ea8e10e0eed726c3c3828c45ca5c"
     },
     {
       "id": "v5-applications-poster-manifesto.svg",
       "file": "public/si-v2/applications/poster-manifesto.svg",
-      "sha256": "36bdc35d4f8d286e4efba5297dd6f2668e4033c7073a93845d3dece4e6bbf9b3"
+      "sha256": "79b2f7243c6e439873c224fb301f57007b01e5dbd546594750ad3470b62d0eff"
     },
     {
       "id": "v5-applications-poster-manifesto.webp",
       "file": "public/si-v2/applications/poster-manifesto.webp",
-      "sha256": "da090c01ab5054f94a0b4a60931c4642d794b4b8347e4bec86ad00b628ebb4a4"
+      "sha256": "4c2dd7c81c17dc9ce564b2c06adccdf56d6e7f343a2ae554cb2074898957362f"
     },
     {
       "id": "v5-applications-poster-repertoire.svg",
@@ -1388,6 +1388,41 @@
       "sha256": "a650de4931bcf6ea2ad06e490bb2fbff5f3262ac87a3be1a4b589f767aa4b587"
     },
     {
+      "id": "symbol-study-nexo-dark.svg",
+      "file": "public/si-v2/symbol-study/nexo-dark.svg",
+      "sha256": "d407d6315df8d3021d51397b19480860bcb464b75e17fe6795f0090e0a97e4a7"
+    },
+    {
+      "id": "symbol-study-nexo-light.svg",
+      "file": "public/si-v2/symbol-study/nexo-light.svg",
+      "sha256": "822c29847f3cb573d925b2a0ffb3346d1e0e2809c3413bc81b95157097522d0c"
+    },
+    {
+      "id": "symbol-study-pulso-dark.svg",
+      "file": "public/si-v2/symbol-study/pulso-dark.svg",
+      "sha256": "8ff5341ba60eb8eac25e727b90ed8a6ef93bf6bbbda053b354a7d4f2848c8447"
+    },
+    {
+      "id": "symbol-study-pulso-light.svg",
+      "file": "public/si-v2/symbol-study/pulso-light.svg",
+      "sha256": "e063d6554c5f33a4cfb2eb39d0580715a943b4423f1d4fb20750db4602f4f7d0"
+    },
+    {
+      "id": "symbol-study-SINAPSE-Estudo-de-Simbolo.pdf",
+      "file": "public/si-v2/symbol-study/SINAPSE-Estudo-de-Simbolo.pdf",
+      "sha256": "144164d72ba9f97477cb4cf2839dbd20ae0bbc8e7e33df4bbf23624932d062fe"
+    },
+    {
+      "id": "symbol-study-sintese-dark.svg",
+      "file": "public/si-v2/symbol-study/sintese-dark.svg",
+      "sha256": "fb0d25150faa89dabc0b55e9f42d7dcafbb9aa7399dc1ae9bd2e9020c606db84"
+    },
+    {
+      "id": "symbol-study-sintese-light.svg",
+      "file": "public/si-v2/symbol-study/sintese-light.svg",
+      "sha256": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0"
+    },
+    {
       "id": "mestre/sinapse-symbol",
       "file": "public/brand/logo/bone/sinapse-symbol.svg",
       "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
@@ -1435,7 +1470,7 @@
     {
       "id": "evidência visual",
       "file": "qa/v5-browser-check.json",
-      "sha256": "d60000f0182e4f1db3b5c836f80b76301dc2e9d6489b7a8404e784a0ec787205"
+      "sha256": "544d054831b3d228b56fcdd7a43824ec8902e7433e1568413849ba9bbf31bfe1"
     },
     {
       "id": "evidência visual",
@@ -1450,7 +1485,27 @@
     {
       "id": "evidência visual",
       "file": "docs/SINAPSE-SI-V5-QA.md",
-      "sha256": "3d70c4c96aedc47f81606c99b66dccc12fcfde96d2774e1a36e9b67dccf73796"
+      "sha256": "24023f4d286bfc1e4a5f5de90e45e705da41ee4ebd0a920dabb4ea0b54ab3901"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/symbol-study-browser.json",
+      "sha256": "35ee01e15328ed4db03d906ccd9e0130de6dfa70867095b4e120900cc764fc51"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/symbol-study-pdf.json",
+      "sha256": "96c6913245cdf3405a8f2dbe74fe13a88135b36d9b0ea124b9e929a3b69728b6"
+    },
+    {
+      "id": "evidência visual",
+      "file": "qa/symbol-study-geometry.json",
+      "sha256": "a023dc0274e59e00dd9bfea42dbb31f0b885b6eae960ef8444bfc258c8fdb44e"
+    },
+    {
+      "id": "evidência visual",
+      "file": "docs/SINAPSE-ESTUDO-SIMBOLO-QA.md",
+      "sha256": "a20ea5c7a668ae7a05ce6da516302d19bc00b09bd09dd1e606ba1232fd62d5b6"
     }
   ]
 }

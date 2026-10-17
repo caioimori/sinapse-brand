@@ -1,0 +1,145 @@
+{
+  "widths": [
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 700
+    },
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 1000
+    },
+    {
+      "brokenImages": [],
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "interactionChecks": [
+    {
+      "width": 320,
+      "mode": "construction",
+      "badImages": [],
+      "image": "Proposta B: Síntese SN com grade de construção",
+      "overflow": false,
+      "scaleWidths": [
+        24,
+        32,
+        64,
+        150
+      ],
+      "title": "Síntese SN",
+      "usage": "SNPS SI em linha única"
+    },
+    {
+      "width": 390,
+      "mode": "construction",
+      "badImages": [],
+      "image": "Proposta B: Síntese SN com grade de construção",
+      "overflow": false,
+      "scaleWidths": [
+        24,
+        32,
+        64,
+        150
+      ],
+      "title": "Síntese SN",
+      "usage": "SNPS SI em linha única"
+    },
+    {
+      "width": 768,
+      "mode": "construction",
+      "badImages": [],
+      "image": "Proposta B: Síntese SN com grade de construção",
+      "overflow": false,
+      "scaleWidths": [
+        24,
+        32,
+        64,
+        150
+      ],
+      "title": "Síntese SN",
+      "usage": "SNPS SI em linha única"
+    },
+    {
+      "width": 1440,
+      "mode": "construction",
+      "badImages": [],
+      "image": "Proposta B: Síntese SN com grade de construção",
+      "overflow": false,
+      "scaleWidths": [
+        24,
+        32,
+        64,
+        150
+      ],
+      "title": "Síntese SN",
+      "usage": "SNPS SI em linha única"
+    }
+  ],
+  "light": {
+    "horizontalLockup": true,
+    "loaded": true,
+    "overflow": false,
+    "stage": "s6-stage s6-light s6-usage"
+  },
+  "entries": [
+    {
+      "overflow": false,
+      "route": "/book",
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "route": "/book",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "route": "/book",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "route": "/book",
+      "width": 1440
+    },
+    {
+      "overflow": false,
+      "route": "/studio/identity",
+      "width": 320
+    },
+    {
+      "overflow": false,
+      "route": "/studio/identity",
+      "width": 390
+    },
+    {
+      "overflow": false,
+      "route": "/studio/identity",
+      "width": 768
+    },
+    {
+      "overflow": false,
+      "route": "/studio/identity",
+      "width": 1440
+    }
+  ],
+  "newConsoleErrors": []
+}

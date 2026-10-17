@@ -1,5 +1,13 @@
 # SINAPSE SI — handoff / edição 05
 
+## Atualização vigente — estudo de símbolo / 17/10
+
+Caio rejeitou Passagem e pediu um ícone preenchido, conectado e inovador, fundamentado na essência e nos traços do lettering. O estudo está em /studio/symbol, acessível por /book, identidade, índice e downloads. Nexo, Síntese SN e Pulso são alternativas; recomendação de design: Síntese SN. Nenhuma direção adotada automaticamente.
+
+Seis SVGs nativos claro/escuro, PDF próprio de dez páginas e ZIP em public/si-v2/symbol-study. Forma, construção, aplicações, vidro/prata e redução em pixels reais no laboratório. Mestres intactos. Cirdia combina labirinto, impressão digital e C; Buff deriva do duplo f. Fontes e limites em SINAPSE-ESTUDO-SIMBOLO.md.
+
+Passagem e ambiente que o continha saíram das aplicações web atuais. Livro/kit 05 permanecem como acervo com aviso no leitor; não afirmar que o PDF de 60 páginas já adotou outro símbolo. Novo kit contém apenas o estudo. QA em SINAPSE-ESTUDO-SIMBOLO-QA.md. Build não executado: RAM voltou ao piso, mas gate estava ocupado; sem repetição ou interrupção de outro processo. Abaixo segue o histórico da edição 05, anterior à rejeição.
+
 Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Issue #10. Checkout knowledge/sinapse-si-brandbook. Preservar CANON modificado no checkout principal.
 
 Pedido vigente: todas as assinaturas em uma linha, preferindo SNPS SI quando útil; corrigir K, J, F, W e Z; preservar H; trocar o símbolo entre ideia e ação; ampliar roupas com estampas minimalistas de maior presença. Mestres originais e preto/branco preservados.
