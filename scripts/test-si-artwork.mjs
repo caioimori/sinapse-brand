@@ -19,3 +19,8 @@ const tool=makeArtwork({...base,tool:'supabase'},masters.wordmark);assert(tool.i
 assert(!makeArtwork({...base,format:'avatar',clientLogo:'data:image/svg+xml;base64,ABC'},masters.wordmark).includes('href="data:image/svg+xml'));checks++;
 for(const clientScale of [.6,1,1.4,2,999]){const s=makeArtwork({...base,format:'avatar',clientLogo:'data:image/png;base64,ABC',clientScale},masters.wordmark);const tag=s.match(/<image [^>]+>/)[0];const n=k=>Number(tag.match(new RegExp(k+'="([\\d.]+)"'))[1]);assert(n('x')>=575&&n('x')+n('width')<=915);assert(n('y')>=160&&n('y')+n('height')<=500);}checks++;
 console.log(`Artwork contracts: ${checks} checks passed; dimensions, theme, XML escaping, long text, guides and co-brand insertion.`);
+
+const displaySample=makeArtwork({...base,format:'carousel',title:'NOVA DIMENSÃO',titleFont:'display',material:'crystal'},'');
+assert(displaySample.includes('data-display-line="DIMENSÃO"'),'Keep an ordinary display word whole');
+assert(!displaySample.includes('data-display-line="O"'),'No orphan final character in display titles');
+console.log('Display word integrity: 2 regression checks passed.');

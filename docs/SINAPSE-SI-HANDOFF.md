@@ -1,20 +1,19 @@
-# SINAPSE SI — handoff vigente / proposta 02
+# SINAPSE SI — handoff / revisão 03
 
-Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Refs #10. Checkout isolado: knowledge/sinapse-si-brandbook.
+Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Issue #10. Checkout knowledge/sinapse-si-brandbook. Preservar CANON modificado no checkout principal.
 
-Caio rejeitou a proposta 1.0. Preservar SNPS e preto e branco; refazer todo o resto. Confirmou Dark First + Light Mode, vidro, metal, gradientes, blur, animações e cores de ferramentas em contexto. Roupas seguem a lógica Coinbase Shop e precisam de mockups fotográficos.
+Caio gostou da abertura, gradiente de dimensão, vidro 3D, prata e sólido. Pediu fonte própria, I correto, assinaturas completas, materiais coerentes, ferramentas mais limpas, roupas específicas Coinbase e brandbook paginado.
 
-## Estado
-Portal / e 14 capítulos /studio/* reconstruídos em components/si-v2. Mesmo servidor da tarefa em http://127.0.0.1:3256/ . Reutilizar a aba e a porta; preservar sessões do usuário.
+Servidor da tarefa http://127.0.0.1:3256/ . Reutilizar aba e porta. Fonte /studio/typography; leitor /book; downloads /studio/downloads. Não encerrar sessões do usuário.
 
-40 variantes de assinatura, 12 ícones novos, 34 templates, editor PNG/SVG/JSON com ferramenta e tema por tela, seis imagens geradas, PDF de 37 páginas e kit. Origem e distribuição em public/si-v2.
+SNPS Display OTF/TTF/WOFF2, 196 glifos; nove assinaturas/72 SVGs; 41 templates; PNG/WebP SNPS 3D com alpha; novas fotos Tee/Hoodie; PDF de 41 páginas e kit 03.
 
-Canon: CANON.md, brand-system.json, public/si-v2/tokens.json, data/si/brand.ts, components/si-v2 e lib/si/artwork.ts. Geradores no README. QA: docs/SINAPSE-SI-V2-QA.md.
+I original era rect e foi perdido na extração. Original intacto; seis letras reutilizadas na fonte; alfabeto ampliado. Geradores atuais no README; não rodar v2 sobre a revisão 03. Materiais usam renders locais, com origem registrada.
 
-## Pendências
-Revisão estética de Caio. Prova física de roupas antes de fabricar. Condições comerciais T04 antes de publicar.
+108 verificações de fonte/geometria; 57 contratos e duas regressões de palavra inteira; PDF e 72 combinações de UI conferidos. PNG/SVG exportados; estado do editor preservado entre telas. Detalhes em SINAPSE-SI-V3-QA.md.
 
-Build local sem RAM para o gate. CI com falhas de configuração registradas; reparo de infraestrutura exige autorização própria. Vercel inacessível e board sem escopo. Produção, DNS, redes e fabricação fora do lote.
+Build isolado passou (103 rotas). Após ajuste final do download do lettering, TypeScript e navegador passaram; repetição do build bloqueada pelo gate com 3,5 GiB livres e mínimo de 4. CI remoto anterior tem lint interativo e scanner sem histórico suficiente; reparo de infraestrutura exige autorização própria. Não alterar workflows/hooks no lote.
 
-## Recuperação
-Mestres intactos em public/brand/logo. Proposta anterior em 29b033b e public/si, com CANON/README em docs/archive/*proposal-01.md. Rotas históricas são acervo. O CANON alterado no checkout principal permanece intocado.
+Pendente: revisão estética, protótipo físico e condições T04 antes de publicar. Sem produção, DNS, redes ou fabricação. Vercel e GitHub Project não reconfigurados.
+
+Recuperação: revisão 02 em 41c866b, 1.0 em 29b033b. Mestres em public/brand/logo. Arquivos 02 e rotas históricas são acervo.

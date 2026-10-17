@@ -1,36 +1,37 @@
-# SINAPSE SI — Brand world 02
+# SINAPSE SI — revisão 03
 
-Proposta 02 para revisão de Caio. Direção de 16/10/2026: preservar SNPS e preto e branco; substituir integralmente a proposta visual 1.0. Dark First, Light Mode, materiais ópticos, ferramentas em suas cores e mockups fotográficos inspirados na Coinbase Shop.
+Refinamento solicitado por Caio em 16/10/2026. Preservar SNPS, preto e branco, abertura, gradiente de dimensão e estudos de vidro, prata e sólido. Criar fonte própria, recuperar I, unificar materiais e organizar aplicações.
 
-## Fonte atual
-- Portal: / e /studio/*, em components/si-v2.
-- Estratégia e ofertas: data/si/brand.ts e brand-system.json; fontes públicas citadas.
-- Mestres intactos: public/brand/logo. Novas assinaturas em curvas: public/si-v2/logos.
-- Tipografia: Manrope 600 para display, 400 para informação; JetBrains Mono 400 para metadados. Fontes e licenças no kit.
-- Tema, cor e motion: public/si-v2/tokens.json e components/si-v2/system.css.
-- Editor e exportador: components/si/editor.tsx e lib/si/artwork.ts.
-- Documento: public/si-v2/SINAPSE-SI-Brandbook-02.pdf, 37 páginas 1920 × 1080.
-- Kit: public/si-v2/SINAPSE-SI-Kit-02.zip. Origem dos assets em asset-provenance.json.
+## Identidade
 
-## Plataforma e identidade
-SINAPSE SI conecta educação, software e crescimento para ampliar a capacidade de aprender, criar, decidir e executar. School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads.
+Original intacto em public/brand/logo. O I de SINAPSE era um rect, omitido pela extração path-only. public/si/masters.json, lib/si/master.ts e public/si-v2/geometry.json agora incluem essa geometria.
 
-SI significa Super Intelligence, nome definido por Caio. A referência da Casa Branca é contexto; não comprova capacidade técnica ou vínculo governamental.
+SNPS Display Regular: OTF, TTF e WOFF2; 196 glifos, ASCII imprimível, português e pontuação. S I N A P E preservam as curvas do mestre. Outros desenhos ampliam o alfabeto e são propostas para revisão. Minúsculas usam desenhos maiúsculos.
 
-Preto e branco são a marca. Vidro, névoa e prata criam materialidade. Cores de ferramentas aparecem nos próprios logos, em conteúdos sobre elas; não viram accent da SINAPSE. Uso não comprova parceria.
+Traço 9,38; raio principal 4,69; intervalo 16,64 nas unidades do mestre. OTF preserva cúbicas; TTF aproxima curvas com erro configurado de até 0,25 unidade de fonte. Sem peso sintético, tracking adicional ou deformação horizontal.
 
-O vetor plano controla proporção e reprodução. Fotografias geradas são aplicações conceituais e não substituem o mestre. Impressão e bordado dependem de vetor e prova física.
+Nove assinaturas: SNPS; SINAPSE; SINAPSE SI; SINAPSE SCHOOL; SINAPSE HOUSE; SINAPSE GROWTH; SNPS SCHOOL; SNPS HOUSE; SNPS GROWTH. Quatro materiais e dois fundos: 72 SVGs.
 
-O portal começa escuro e mantém a preferência de Light Mode. Vidro tem bordas legíveis; movimento tem pausa e alternativa reduzida. Efeitos não escondem instruções nem impedem reconhecer uma assinatura.
+SNPS Display é expressão para palavras, chamadas e assinaturas. Manrope 400/600 mantém leitura e interface; JetBrains Mono 400 identifica metadados.
 
-## Editorial e produto
-Manifesto, Caderno, Convite e Em produção. Uma ideia por composição, quebras intencionais, ritmo e hierarquia. Templates: carrossel 6/10, story, post, avatar, Member e banner. Ferramenta, tema e edição podem variar por tela.
+## Materiais e aplicações
 
-T04: lista de interesse não é matrícula. Datas, vagas, bônus e preço precisam refletir a oferta vigente antes de publicar.
+Especificação comum: data/si/materials.json; compositor: lib/si/material.ts. Luz, borda e contraste se repetem em lettering e templates, com variação para fundo claro ou escuro. Referência Apple HIG e WWDC25 Meet Liquid Glass; interpretação web.
 
-Collection 01: Logo Tee discreta no peito e Intelligence Hoodie editorial nas costas. Coinbase orienta a lógica de vestuário; estampas e marcas dela não foram reproduzidas. Modelagem, tecido e impressão aguardam protótipo físico.
+SNPS 3D isolado em PNG/WebP com alpha e reflexos próprios. Raster é aplicação; o SVG plano controla geometria e reprodução. Não substituir o mestre pelo render.
 
-## Estado e recuperação
-Prévia local na porta 3256. Produção, DNS, postagem e fabricação não executados. QA: docs/SINAPSE-SI-V2-QA.md. Retomada: docs/SINAPSE-SI-HANDOFF.md.
+Abertura e gradiente de dimensão preservados. Logos de ferramentas em catálogo editorial, nas suas cores e com papel de uso. Menção não implica parceria.
 
-Proposta 1.0 rejeitada e preservada no Git em 29b033b, public/si e docs/archive/*proposal-01.md. Rotas históricas /brandbook/* são acervo e não orientam a proposta 02. O CANON previamente alterado no checkout principal foi preservado.
+Editor: material e fonte por tela, PNG/SVG/JSON. Lettering próprio em curvas; texto de leitura com fonte incorporada. Palavras normais permanecem inteiras na quebra de títulos.
+
+Collection 01 segue Dark Mode Logo Tee e Whitepaper Hoodie Light Mode da Coinbase Shop como referências específicas de corte e proporção. Mockups gerados; fabricação exige protótipo físico.
+
+## Negócio e estado
+
+School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads. SI significa Super Intelligence; o nome não comprova capacidade técnica de superinteligência.
+
+Manifesto, Caderno, Convite e Em produção. T04: lista de interesse não é matrícula. Datas, vagas, bônus e preço devem refletir a oferta vigente antes de publicar.
+
+Portal / e /studio/*; leitor /book. PDF com 41 páginas 1920 × 1080, texto nativo e SNPS Display incorporada. Kit 03: fontes, 72 SVGs, 41 templates, materiais, ícones e aplicações.
+
+Prévia 3256. QA e handoff em docs/. Sem produção, DNS, postagem ou fabricação. Revisão 02 preservada em 41c866b; 1.0 em 29b033b e rotas históricas. O CANON modificado no checkout principal permanece intocado.

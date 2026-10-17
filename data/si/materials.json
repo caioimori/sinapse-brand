@@ -1,0 +1,15 @@
+{
+  "revision": 3,
+  "edgeWidth": 0.75,
+  "depth": 1.2,
+  "definitions": {
+    "dark": "<linearGradient id=\"si-silver\" x1=\"0\" y1=\"0\" x2=\".18\" y2=\"1\"><stop stop-color=\"#fafafa\"/><stop offset=\".18\" stop-color=\"#77777c\"/><stop offset=\".41\" stop-color=\"#f8f8fa\"/><stop offset=\".49\" stop-color=\"#68686e\"/><stop offset=\".7\" stop-color=\"#dfdfe2\"/><stop offset=\"1\" stop-color=\"#b2b2b8\"/></linearGradient><linearGradient id=\"si-glass\" x1=\"0\" y1=\"0\" x2=\".24\" y2=\"1\"><stop stop-color=\"#ffffff\" stop-opacity=\".92\"/><stop offset=\".16\" stop-color=\"#33333a\" stop-opacity=\".26\"/><stop offset=\".4\" stop-color=\"#ffffff\" stop-opacity=\".12\"/><stop offset=\".49\" stop-color=\"#ffffff\" stop-opacity=\".82\"/><stop offset=\".56\" stop-color=\"#33333a\" stop-opacity=\".1\"/><stop offset=\".82\" stop-color=\"#ffffff\" stop-opacity=\".15\"/><stop offset=\"1\" stop-color=\"#ffffff\" stop-opacity=\".8\"/></linearGradient><linearGradient id=\"si-frost\" x2=\".8\" y2=\"1\"><stop stop-color=\"#ffffff\" stop-opacity=\".85\"/><stop offset=\"1\" stop-color=\"#33333a\" stop-opacity=\".5\"/></linearGradient><linearGradient id=\"si-edge\" x2=\".1\" y2=\"1\"><stop stop-color=\"#ffffff\"/><stop offset=\".28\" stop-color=\"#33333a\"/><stop offset=\".49\" stop-color=\"#ffffff\"/><stop offset=\".63\" stop-color=\"#33333a\"/><stop offset=\"1\" stop-color=\"#ffffff\"/></linearGradient>",
+    "light": "<linearGradient id=\"si-silver\" x1=\"0\" y1=\"0\" x2=\".18\" y2=\"1\"><stop stop-color=\"#fafafa\"/><stop offset=\".18\" stop-color=\"#77777c\"/><stop offset=\".41\" stop-color=\"#f8f8fa\"/><stop offset=\".49\" stop-color=\"#68686e\"/><stop offset=\".7\" stop-color=\"#dfdfe2\"/><stop offset=\"1\" stop-color=\"#b2b2b8\"/></linearGradient><linearGradient id=\"si-glass\" x1=\"0\" y1=\"0\" x2=\".24\" y2=\"1\"><stop stop-color=\"#33333a\" stop-opacity=\".92\"/><stop offset=\".16\" stop-color=\"#b8b8c0\" stop-opacity=\".26\"/><stop offset=\".4\" stop-color=\"#33333a\" stop-opacity=\".12\"/><stop offset=\".49\" stop-color=\"#33333a\" stop-opacity=\".82\"/><stop offset=\".56\" stop-color=\"#b8b8c0\" stop-opacity=\".1\"/><stop offset=\".82\" stop-color=\"#33333a\" stop-opacity=\".15\"/><stop offset=\"1\" stop-color=\"#33333a\" stop-opacity=\".8\"/></linearGradient><linearGradient id=\"si-frost\" x2=\".8\" y2=\"1\"><stop stop-color=\"#33333a\" stop-opacity=\".85\"/><stop offset=\"1\" stop-color=\"#b8b8c0\" stop-opacity=\".5\"/></linearGradient><linearGradient id=\"si-edge\" x2=\".1\" y2=\"1\"><stop stop-color=\"#33333a\"/><stop offset=\".28\" stop-color=\"#b8b8c0\"/><stop offset=\".49\" stop-color=\"#33333a\"/><stop offset=\".63\" stop-color=\"#b8b8c0\"/><stop offset=\"1\" stop-color=\"#33333a\"/></linearGradient>"
+  },
+  "rules": {
+    "content": "Solid text, clear hierarchy.",
+    "glass": "One optical plane, directional highlight, dark/light adaptation.",
+    "noGlassOnGlass": true,
+    "reference": "https://developer.apple.com/videos/play/wwdc2025/219/"
+  }
+}

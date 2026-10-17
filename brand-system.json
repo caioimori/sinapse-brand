@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "2.0-proposal",
-  "stage": "proposed_replacement",
+  "version": "3.0-proposal",
+  "stage": "refinement_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
     "promise": "Inteligência para ampliar o que você consegue fazer.",
@@ -85,6 +85,26 @@
       }
     ],
     "variants": [
+      {
+        "id": "sinapse-frost-dark",
+        "file": "public/si-v2/logos/sinapse-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-frost-light",
+        "file": "public/si-v2/logos/sinapse-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-glass-dark",
+        "file": "public/si-v2/logos/sinapse-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-glass-light",
+        "file": "public/si-v2/logos/sinapse-glass-light.svg",
+        "status": "proposed"
+      },
       {
         "id": "sinapse-growth-frost-dark",
         "file": "public/si-v2/logos/sinapse-growth-frost-dark.svg",
@@ -246,6 +266,26 @@
         "status": "proposed"
       },
       {
+        "id": "sinapse-silver-dark",
+        "file": "public/si-v2/logos/sinapse-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-silver-light",
+        "file": "public/si-v2/logos/sinapse-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-solid-dark",
+        "file": "public/si-v2/logos/sinapse-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-solid-light",
+        "file": "public/si-v2/logos/sinapse-solid-light.svg",
+        "status": "proposed"
+      },
+      {
         "id": "snps-frost-dark",
         "file": "public/si-v2/logos/snps-frost-dark.svg",
         "status": "proposed"
@@ -263,6 +303,126 @@
       {
         "id": "snps-glass-light",
         "file": "public/si-v2/logos/snps-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-frost-dark",
+        "file": "public/si-v2/logos/snps-growth-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-frost-light",
+        "file": "public/si-v2/logos/snps-growth-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-glass-dark",
+        "file": "public/si-v2/logos/snps-growth-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-glass-light",
+        "file": "public/si-v2/logos/snps-growth-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-silver-dark",
+        "file": "public/si-v2/logos/snps-growth-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-silver-light",
+        "file": "public/si-v2/logos/snps-growth-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-solid-dark",
+        "file": "public/si-v2/logos/snps-growth-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-solid-light",
+        "file": "public/si-v2/logos/snps-growth-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-frost-dark",
+        "file": "public/si-v2/logos/snps-house-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-frost-light",
+        "file": "public/si-v2/logos/snps-house-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-glass-dark",
+        "file": "public/si-v2/logos/snps-house-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-glass-light",
+        "file": "public/si-v2/logos/snps-house-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-silver-dark",
+        "file": "public/si-v2/logos/snps-house-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-silver-light",
+        "file": "public/si-v2/logos/snps-house-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-solid-dark",
+        "file": "public/si-v2/logos/snps-house-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-solid-light",
+        "file": "public/si-v2/logos/snps-house-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-frost-dark",
+        "file": "public/si-v2/logos/snps-school-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-frost-light",
+        "file": "public/si-v2/logos/snps-school-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-glass-dark",
+        "file": "public/si-v2/logos/snps-school-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-glass-light",
+        "file": "public/si-v2/logos/snps-school-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-silver-dark",
+        "file": "public/si-v2/logos/snps-school-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-silver-light",
+        "file": "public/si-v2/logos/snps-school-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-solid-dark",
+        "file": "public/si-v2/logos/snps-school-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-solid-light",
+        "file": "public/si-v2/logos/snps-school-solid-light.svg",
         "status": "proposed"
       },
       {
@@ -344,6 +504,12 @@
       }
     ],
     "fonts": [
+      {
+        "family": "SNPS Display",
+        "file": "public/si-v2/fonts/SNPSDisplay-Regular.ttf",
+        "sha256": "e72c0f2a3845643d978bdfb0d1f4027393b0c8b3b640f0031bfe23cb451550e8",
+        "license_file": "public/si-v2/fonts/SNPSDisplay-LICENSE.txt"
+      },
       {
         "family": "Manrope",
         "file": "public/si-v2/fonts/Manrope.ttf",
@@ -531,7 +697,7 @@
       "fotografia de roupas"
     ],
     "rollout": [
-      "revisar proposta 02",
+      "revisar ajuste 03",
       "aplicar em lote autorizado",
       "conferir no destino"
     ],
@@ -543,7 +709,11 @@
     "light_mode": true,
     "preserved": [
       "SNPS master",
-      "black and white"
+      "black and white",
+      "opening animation",
+      "dimension gradient",
+      "glass 3D study",
+      "silver and solid materials"
     ],
     "materials": [
       "liquid glass",
@@ -553,6 +723,7 @@
       "solid"
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
-    "supersedes": "Proposal 1.0 rejected by Caio."
+    "supersedes": "Proposal 1.0 rejected by Caio.",
+    "iteration": "Preserve accepted opening, dimension gradient and glass/metal/solid studies. Add proprietary font, corrected I, complete signature family, shared materials, clean tool catalog, Coinbase product-based apparel and paged book reader."
   }
 }

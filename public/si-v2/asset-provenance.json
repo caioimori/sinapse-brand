@@ -1,17 +1,12 @@
 {
-  "version": "2.0-proposal",
+  "version": "3.0-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
     {
-      "file": "wear.webp",
+      "file": "hero.webp",
       "role": "generated conceptual visualization",
-      "sha256": "b1193a3b5086e1f0703607f7c3640d5a6a0a0a4c3b9a86da259229f564af565f"
-    },
-    {
-      "file": "metal.webp",
-      "role": "generated conceptual visualization",
-      "sha256": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf"
+      "sha256": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4"
     },
     {
       "file": "glass.webp",
@@ -19,19 +14,19 @@
       "sha256": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac"
     },
     {
-      "file": "hero.webp",
+      "file": "metal.webp",
       "role": "generated conceptual visualization",
-      "sha256": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4"
+      "sha256": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf"
     },
     {
       "file": "tee.webp",
       "role": "generated conceptual visualization",
-      "sha256": "47c8d1ff4546d42920fe5f0b6cfe97ca60e4cb374b9b5ac95be5380bdb22859e"
+      "sha256": "b9a3ee01b807cda6af32819099dc0d2905a6a43f20dd28302c0ff1ca8c43d1bb"
     },
     {
       "file": "hoodie.webp",
       "role": "generated conceptual visualization",
-      "sha256": "7a35201d7587273c300b0dd6fab78ec74c29aa7d8c10d29c05780772fbfad9f8"
+      "sha256": "69bafb7f2dd4d4e5c3ef8bd5c52a2d541c32b9465d79522371f845ee9e721cfa"
     }
   ],
   "logos": "Native SVG masters in curves. Generated material photographs are expressive studies, not geometry masters.",
@@ -44,5 +39,16 @@
   "tool_sources": {
     "Figma": "https://static.figma.com/app/icon/1/favicon.svg",
     "Others": "https://cdn.simpleicons.org/"
+  },
+  "font": "SNPS Display custom. S I N A P E from original vector; alphabet, digits, accents and punctuation extended. Lowercase keys use uppercase designs.",
+  "I_fix": "Original rect x143.1 y33.28 width9.38 height46.9 recovered; source unchanged.",
+  "apparel_sources": [
+    "https://coinbaseshop.com/products/coin-logo-tee",
+    "https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode"
+  ],
+  "portable_glass": {
+    "file": "materials/snps-glass-transparent.png",
+    "kind": "Generated raster with alpha, optical study. Geometry master remains SVG.",
+    "sha256": "6c590781a3dbb08305812aa4fa8c721dc95dca19200aa232f6b792004ff73892"
   }
 }

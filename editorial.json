@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "status": "proposal_02",
+  "status": "revision_03",
   "preset": "custom",
   "families": [
     {

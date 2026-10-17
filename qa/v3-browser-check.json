@@ -1,0 +1,31 @@
+{
+  "responsive_checks": 72,
+  "routes": [
+    "/",
+    "/book",
+    "/studio/identity",
+    "/studio/typography",
+    "/studio/surfaces",
+    "/studio/architecture",
+    "/studio/studio",
+    "/studio/wear",
+    "/studio/downloads"
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "themes": [
+    "dark",
+    "light"
+  ],
+  "failures": [],
+  "downloads_http_200": 204,
+  "zip_crc_and_sha256": true,
+  "font_download_matches_source": true,
+  "lettering_download_valid_xml": true,
+  "production_build": "passed 103 routes; final lettering download adjustment checked by TypeScript and browser; repeat gate blocked at 3.5 GiB free versus minimum 4",
+  "visual_review": "Changed regions, full PDF contact sheet and enlarged applications; native controls and actual downloads."
+}
