@@ -19,3 +19,5 @@ Build de produção desta edição não executado: RAM observada abaixo do piso 
 Evidências: qa/v5-browser-check.json, qa/v5-geometry-check.json, qa/v5-pdf-native-check.json, qa/v5-contact-sheet.jpg e qa/v5-resource-check.json. Kit verifica CRC e manifesto SHA-256.
 
 Proposta local para revisão estética. Sem produção, DNS, redes ou fabricação. Recuperação no commit fd288e8 da edição 04.
+
+CI remoto em a0c7458: o lint parou na configuração interativa do ESLint; o scanner falhou por revisão Git ausente no checkout raso, sem achado de credencial. Execução: https://github.com/caioimori/sinapse-brand/actions/runs/39004871179 .

@@ -15,3 +15,5 @@ Servidor http://127.0.0.1:3256/ . /book, /studio/wear, /studio/identity, /studio
 Build de produção novo não executado: RAM observada abaixo do piso de 4 GiB. Não reduzir limite ou parar processos alheios. Fila de testes inicialmente ocupada liberou; contratos e TypeScript passaram depois. CI anterior: lint interativo e scanner sem histórico Git suficiente; infraestrutura preservada.
 
 Novas letras, grafismo e roupas aguardam revisão estética. Fotografias geradas não comprovam fabricação. Sem produção, DNS, redes, fabricação ou alterações de autenticação/CI. Recuperação: edição 04 em fd288e8, edição 03 em cfe9c41; originais em public/brand/logo.
+
+CI desta edição em a0c7458 confirmou os mesmos bloqueios de lint interativo e revisão Git ausente. Execução 39004871179. Não alterar infraestrutura dentro do lote de branding.
