@@ -18,7 +18,7 @@ Sinal contínuo: retorno do S e transição do N originam recortes, camadas, foc
 
 18 composições de aplicações/anatomia em SVG e WebP. Atlas interativo, pôsteres, stories, capas, perfis e cartão. Passagem foi rejeitado por Caio em 17/10 e retirado da direção atual; os arquivos permanecem recuperáveis. Collection 02 inclui 12 propostas: oito camisetas e quatro moletons, seis pares fotográficos e estampas em curvas. Fotografias de conceito não são prova de fabricação, parceria, cliente ou local real.
 
-Estudo de símbolo em /studio/symbol: Nexo, Síntese SN e Pulso. Três desenhos preenchidos e conectados, com referência à essência e ao lettering. Síntese SN é a recomendação de design, ainda sem seleção aprovada. Conceitos são leituras pretendidas, não reconhecimento comprovado. Documento próprio de dez páginas e kit de seis SVGs (claro/escuro). Os mestres SNPS e SINAPSE continuam intactos. Fonte: data/si/symbol-study.json e docs/SINAPSE-ESTUDO-SIMBOLO.md.
+Estudo de origem em /studio/symbol: Nexo, Síntese SN e Pulso foram rejeitados por incongruência com o lettering. Não há símbolo selecionado ou recomendado. O S original foi extraído dos dois mestres com o atributo d intacto; sua proporção 1,987:1 e seu traço permanecem. O uso isolado é um teste construtivo, não um novo ícone aprovado. Documento de cinco páginas e kit próprio em public/si-v2/symbol-origin. Fonte: data/si/symbol-origin.json e docs/SINAPSE-ORIGEM-TRACO.md.
 
 Material comum em data/si/materials.json e lib/si/material.ts. Vidro portátil em PNG/WebP com alpha e iluminação própria. Geometria exata continua no SVG; o material web é interpretação, não o recurso nativo Apple.
 

@@ -1,7 +1,7 @@
 {
-  "status": "exploration_for_review",
+  "status": "rejected_by_user",
   "selected": null,
-  "recommended": "sintese",
+  "recommended": null,
   "rejected": [
     "Passagem: two detached rails, rejected by Caio on 2026-10-17."
   ],
@@ -44,7 +44,8 @@
         }
       ],
       "tradeoff": "A tríade aparece primeiro. O S exige mais tempo de leitura; a silhueta pode lembrar outros símbolos de três braços.",
-      "origin": "Retornos seletivos, terminais cortados e uma cintura contínua."
+      "origin": "Retornos seletivos, terminais cortados e uma cintura contínua.",
+      "status": "rejected_by_user"
     },
     {
       "id": "sintese",
@@ -67,7 +68,8 @@
         }
       ],
       "tradeoff": "É o caminho mais próximo do lettering. A primeira leitura pode ser N; a leitura de S é intencionalmente secundária.",
-      "origin": "Diagonais a 45°, aberturas opostas, retornos internos controlados e terminais retos."
+      "origin": "Diagonais a 45°, aberturas opostas, retornos internos controlados e terminais retos.",
+      "status": "rejected_by_user"
     },
     {
       "id": "pulso",
@@ -90,7 +92,8 @@
         }
       ],
       "tradeoff": "É o mais imediato e simples. Tem menos singularidade que o monograma e se aproxima de um S geométrico de categoria.",
-      "origin": "Traço de 20 unidades, altura de cinco traços e cortes quadrados, com retornos de meio traço."
+      "origin": "Traço de 20 unidades, altura de cinco traços e cortes quadrados, com retornos de meio traço.",
+      "status": "rejected_by_user"
     }
   ]
 }

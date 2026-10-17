@@ -1,0 +1,26 @@
+{
+  "typecheck": {
+    "passed": true,
+    "command": "gate --min-gb 1 --wait-min 0 -- node node_modules/typescript/bin/tsc --noEmit"
+  },
+  "production_build": {
+    "passed": true,
+    "command": "SI_BUILD_DIR=.next-verify; gate --min-gb 4 --wait-min 0 -- node node_modules/next/dist/bin/next build",
+    "pages_generated": 104
+  },
+  "web_visual": {
+    "verified": false,
+    "reason": "Browser security policy denied existing localhost tab; no workaround used."
+  },
+  "native_asset_visual": {
+    "verified": true,
+    "scope": "Full PDF contact sheet, solid/silver/glass vector renders; no responsive UI claim."
+  },
+  "initial_wrapper_attempts": "npm wrapper through gate exited 1 without output; direct Node CLI through same gate succeeded without infrastructure changes.",
+  "local_package": {
+    "hashes_match": 18,
+    "zip_crc_valid": true,
+    "zip_files": 19,
+    "http_not_checked": true
+  }
+}

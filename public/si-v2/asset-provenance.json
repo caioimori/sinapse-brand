@@ -165,14 +165,26 @@
     {
       "asset": "applications/passage.webp",
       "reason": "Passagem rejected by Caio on 2026-10-17. Retained for recovery; not an active direction."
+    },
+    {
+      "asset": "symbol-study/nexo",
+      "reason": "Rejected by Caio as incongruent with logo; retained as historical evidence."
+    },
+    {
+      "asset": "symbol-study/sintese",
+      "reason": "Rejected by Caio as incongruent with logo; retained as historical evidence."
+    },
+    {
+      "asset": "symbol-study/pulso",
+      "reason": "Rejected by Caio as incongruent with logo; retained as historical evidence."
     }
   ],
   "apparel_reference_observed": "2026-10-17 / official Coinbase product page and photographs",
   "symbol_study": {
     "date": "2026-10-17",
-    "status": "exploration_for_review",
+    "status": "rejected_by_user",
     "selected": null,
-    "recommended": "sintese",
+    "recommended": null,
     "generator": "Authored native Bezier paths in scripts/build-symbol-study.py; not a bitmap trace",
     "source": "data/si/symbol-study.json",
     "original_masters": "Unchanged, byte comparison against Git baseline recorded in qa/symbol-study-geometry.json",
@@ -181,5 +193,14 @@
       "role": "Private AI rough exploration; not included in published SVGs or study kit"
     },
     "materials": "Shared web material compositor; solid SVG is geometry master; not native Apple Liquid Glass."
+  },
+  "symbol_origin": {
+    "status": "source_letter_study_for_review",
+    "source": "data/si/symbol-origin.json",
+    "generator": "scripts/build-symbol-origin.py",
+    "basis": "First S path copied verbatim from both original masters; translation only.",
+    "path_sha256": "644f405ed39eb5afc62d334e8e02622b410c1b62974da48bb666d87cdba2312f",
+    "materials": "Existing material definitions clipped inside exact source silhouette. No generated raster.",
+    "visual_limit": "Native vectors/PDF reviewed; current web UI unverified after browser-policy denial."
   }
 }

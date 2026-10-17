@@ -1,3 +1,9 @@
+# Acervo rejeitado
+
+Nexo, Síntese SN e Pulso foram rejeitados por Caio em 17/10/2026 por incongruência com os traços dos logos. A recomendação anterior de Síntese SN deixou de valer. O estudo vigente está em [SINAPSE-ORIGEM-TRACO.md](SINAPSE-ORIGEM-TRACO.md); o conteúdo abaixo registra o histórico, não uma direção aprovada.
+
+---
+
 # SINAPSE — estudo de símbolo
 
 Estudo de 17/10/2026. Estado: propostas para revisão; nenhum símbolo escolhido. Os mestres SNPS e SINAPSE, suas assinaturas horizontais e a fonte 1.200 permanecem. Passagem, com dois trilhos separados, foi rejeitada por Caio.

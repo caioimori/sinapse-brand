@@ -51,8 +51,13 @@
     },
     {
       "id": "SI-SYMBOL-STUDY",
+      "status": "rejected",
+      "decision": "All three proposals rejected by Caio as incongruent with original logo traits. No recommendation remains."
+    },
+    {
+      "id": "SI-SOURCE-LETTER-STUDY",
       "status": "awaiting_review",
-      "decision": "Passagem rejected. Three connected filled-vector proposals with concept and reduction proofs; Sintese SN recommended, no symbol selected. Original lettering and horizontal signatures unchanged."
+      "decision": "Document the verbatim source S: horizontal proportion, constant stroke, selective returns, square terminals. Isolated use is a study; final symbol decision remains open."
     }
   ]
 }

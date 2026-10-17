@@ -1,0 +1,199 @@
+{
+  "checks": [
+    {
+      "check": "master byte identity and exact source S",
+      "file": "public/brand/logo/bone/snps-lockup.svg",
+      "passed": true
+    },
+    {
+      "check": "master byte identity and exact source S",
+      "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-construction-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-construction-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-frost-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-frost-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-glass-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-glass-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-silver-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-silver-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-solid-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-solid-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-tight-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "s-original-tight-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "source-sinapse-wordmark-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "source-sinapse-wordmark-light.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "source-snps-lockup-dark.svg",
+      "passed": true
+    },
+    {
+      "check": "source path and undeformed viewport",
+      "file": "source-snps-lockup-light.svg",
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "dark",
+      "size": 24,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "dark",
+      "size": 32,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "dark",
+      "size": 64,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "dark",
+      "size": 150,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "dark",
+      "size": 512,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "dark",
+      "material": "silver",
+      "outside_pixels": 0,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "dark",
+      "material": "glass",
+      "outside_pixels": 0,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "dark",
+      "material": "frost",
+      "outside_pixels": 0,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "light",
+      "size": 24,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "light",
+      "size": 32,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "light",
+      "size": 64,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "light",
+      "size": 150,
+      "passed": true
+    },
+    {
+      "check": "one positive connected component",
+      "theme": "light",
+      "size": 512,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "light",
+      "material": "silver",
+      "outside_pixels": 0,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "light",
+      "material": "glass",
+      "outside_pixels": 0,
+      "passed": true
+    },
+    {
+      "check": "illumination clipped inside source silhouette",
+      "theme": "light",
+      "material": "frost",
+      "outside_pixels": 0,
+      "passed": true
+    }
+  ],
+  "passed": 34,
+  "source_path_sha256": "644f405ed39eb5afc62d334e8e02622b410c1b62974da48bb666d87cdba2312f",
+  "scope": "Geometry and file integrity; not independent-icon approval or responsive browser QA."
+}

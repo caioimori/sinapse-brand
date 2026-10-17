@@ -2219,64 +2219,224 @@
       "id": "symbol-study-nexo-dark.svg",
       "file": "public/si-v2/symbol-study/nexo-dark.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "d407d6315df8d3021d51397b19480860bcb464b75e17fe6795f0090e0a97e4a7",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-nexo-light.svg",
       "file": "public/si-v2/symbol-study/nexo-light.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "822c29847f3cb573d925b2a0ffb3346d1e0e2809c3413bc81b95157097522d0c",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-pulso-dark.svg",
       "file": "public/si-v2/symbol-study/pulso-dark.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "8ff5341ba60eb8eac25e727b90ed8a6ef93bf6bbbda053b354a7d4f2848c8447",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-pulso-light.svg",
       "file": "public/si-v2/symbol-study/pulso-light.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "e063d6554c5f33a4cfb2eb39d0580715a943b4423f1d4fb20750db4602f4f7d0",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-SINAPSE-Estudo-de-Simbolo.pdf",
       "file": "public/si-v2/symbol-study/SINAPSE-Estudo-de-Simbolo.pdf",
       "kind": "pdf",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "144164d72ba9f97477cb4cf2839dbd20ae0bbc8e7e33df4bbf23624932d062fe",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-sintese-dark.svg",
       "file": "public/si-v2/symbol-study/sintese-dark.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "fb0d25150faa89dabc0b55e9f42d7dcafbb9aa7399dc1ae9bd2e9020c606db84",
-      "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
     },
     {
       "id": "symbol-study-sintese-light.svg",
       "file": "public/si-v2/symbol-study/sintese-light.svg",
       "kind": "image",
-      "role": "symbol-exploration",
+      "role": "archived-rejected-symbol-study",
       "sha256": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0",
+      "status": "rejected",
+      "scope": "Three alternatives for review; no symbol adopted.",
+      "reason": "All three proposals rejected as incongruent."
+    },
+    {
+      "id": "symbol-origin-s-original-construction-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-construction-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
       "status": "proposed",
-      "scope": "Three alternatives for review; no symbol adopted."
+      "sha256": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-construction-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-construction-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-frost-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-frost-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-frost-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-frost-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-glass-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-glass-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-glass-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-glass-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-silver-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-silver-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-silver-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-silver-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-solid-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-solid-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-solid-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-solid-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-tight-dark.svg",
+      "file": "public/si-v2/symbol-origin/s-original-tight-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-s-original-tight-light.svg",
+      "file": "public/si-v2/symbol-origin/s-original-tight-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-SINAPSE-Origem-do-Traco.pdf",
+      "file": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "kind": "pdf",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-source-sinapse-wordmark-dark.svg",
+      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-source-sinapse-wordmark-light.svg",
+      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-source-snps-lockup-dark.svg",
+      "file": "public/si-v2/symbol-origin/source-snps-lockup-dark.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
+    },
+    {
+      "id": "symbol-origin-source-snps-lockup-light.svg",
+      "file": "public/si-v2/symbol-origin/source-snps-lockup-light.svg",
+      "kind": "image",
+      "role": "source-letter-study",
+      "status": "proposed",
+      "sha256": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507",
+      "scope": "Verbatim source S; isolated use unapproved. Web visual QA pending browser access."
     }
   ],
   "sequences": [
@@ -2328,7 +2488,10 @@
       "qa/symbol-study-browser.json",
       "qa/symbol-study-pdf.json",
       "qa/symbol-study-geometry.json",
-      "docs/SINAPSE-ESTUDO-SIMBOLO-QA.md"
+      "docs/SINAPSE-ESTUDO-SIMBOLO-QA.md",
+      "qa/symbol-origin-geometry.json",
+      "qa/symbol-origin-pdf.json",
+      "docs/SINAPSE-ORIGEM-TRACO.md"
     ],
     "asset_hashes": {
       "v5-applications-avatar-client.svg": "e0e3d4ac38d833c6531b79e24b9c7eed77fe72e69399945b8aef38dbb41520ed",
@@ -2612,8 +2775,31 @@
       "symbol-study-pulso-light.svg": "e063d6554c5f33a4cfb2eb39d0580715a943b4423f1d4fb20750db4602f4f7d0",
       "symbol-study-SINAPSE-Estudo-de-Simbolo.pdf": "144164d72ba9f97477cb4cf2839dbd20ae0bbc8e7e33df4bbf23624932d062fe",
       "symbol-study-sintese-dark.svg": "fb0d25150faa89dabc0b55e9f42d7dcafbb9aa7399dc1ae9bd2e9020c606db84",
-      "symbol-study-sintese-light.svg": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0"
+      "symbol-study-sintese-light.svg": "ac2659f7462298c6f81ffcddccc1ce0966afe58b3eb3d1d4ac60a52105c007b0",
+      "symbol-origin-s-original-construction-dark.svg": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab",
+      "symbol-origin-s-original-construction-light.svg": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e",
+      "symbol-origin-s-original-frost-dark.svg": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64",
+      "symbol-origin-s-original-frost-light.svg": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5",
+      "symbol-origin-s-original-glass-dark.svg": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378",
+      "symbol-origin-s-original-glass-light.svg": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78",
+      "symbol-origin-s-original-silver-dark.svg": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb",
+      "symbol-origin-s-original-silver-light.svg": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991",
+      "symbol-origin-s-original-solid-dark.svg": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b",
+      "symbol-origin-s-original-solid-light.svg": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65",
+      "symbol-origin-s-original-tight-dark.svg": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9",
+      "symbol-origin-s-original-tight-light.svg": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c",
+      "symbol-origin-SINAPSE-Origem-do-Traco.pdf": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf",
+      "symbol-origin-source-sinapse-wordmark-dark.svg": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564",
+      "symbol-origin-source-sinapse-wordmark-light.svg": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5",
+      "symbol-origin-source-snps-lockup-dark.svg": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10",
+      "symbol-origin-source-snps-lockup-light.svg": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507"
     },
-    "scope": "Responsive review of identity, font revision, collection filter and print dialog, book and changed application regions. Native PDF bounds and photographic concepts inspected. No fabrication or publication approval. Symbol study: responsive hero and controls, light/dark, native PDF, 30 connected-component reduction samples. Proposed directions remain unapproved."
+    "scope": "Responsive review of identity, font revision, collection filter and print dialog, book and changed application regions. Native PDF bounds and photographic concepts inspected. No fabrication or publication approval. Symbol study: responsive hero and controls, light/dark, native PDF, 30 connected-component reduction samples. Proposed directions remain unapproved. Current origin revision: native assets and PDF inspected; responsive browser and controls unverified due browser-policy denial. Earlier browser evidence is historical.",
+    "current_revision": {
+      "id": "source-letter-origin",
+      "native_assets": "reviewed",
+      "web_visual": "unverified",
+      "reason": "Browser security policy denied existing localhost tab; no alternate browser or indirect page observation used."
+    }
   }
 }

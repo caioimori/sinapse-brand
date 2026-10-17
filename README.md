@@ -6,7 +6,7 @@ Sinal contínuo: os dois logos originais permanecem. Assinaturas sempre em uma l
 
 60 páginas 1920 × 1080; texto nativo e fontes incorporadas. 80 assinaturas, 49 templates, 18 composições de aplicação/anatomia, 12 ícones Signals 04, fonte OTF/TTF/WOFF2 e estudos fotográficos identificados. Collection 02: 12 propostas de roupas com estampas em curvas. Passagem foi rejeitado; livro/kit 05 permanecem como acervo, com aviso no leitor.
 
-Novo recorte: três propostas preenchidas e conectadas (Nexo, Síntese SN, Pulso), sem adoção automática. Síntese SN é a recomendação. Estudo próprio de dez páginas, seis SVGs e laboratório de comparação/redução/materiais. Gerar com python scripts/build-symbol-study.py e python scripts/build-symbol-study-pdf.py. Verificação: python scripts/test-symbol-study.py. Pesquisa e limites em docs/SINAPSE-ESTUDO-SIMBOLO.md; QA em docs/SINAPSE-ESTUDO-SIMBOLO-QA.md.
+Recorte vigente: as três propostas anteriores foram rejeitadas. /studio/symbol agora documenta o S original, extraído sem redesenho dos dois mestres. Uso isolado em avaliação, sem ícone novo aprovado. Cinco páginas de PDF, 16 SVGs e kit próprio. Gerar: python scripts/build-symbol-origin.py. Verificar pelo gate: python scripts/test-symbol-origin.py. Origem e limites: docs/SINAPSE-ORIGEM-TRACO.md. TypeScript, build isolado e 34 provas passaram; revisão visual web permanece pendente por bloqueio da política do navegador.
 
 Fonte vigente: CANON.md, brand-system.json, components/si-v2, data/si, lib/si e public/si-v2. O endereço si-v2 permanece para preservar os links. A revisão corrente é 05.
 

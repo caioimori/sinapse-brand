@@ -592,12 +592,13 @@
     "icons": "Signals 04 / 12 SVGs",
     "signature_rule": "One horizontal line; descriptor shares cap line and baseline, never below. Complete original prefix retained; word gap 33.28 source units.",
     "symbol_study": {
-      "status": "exploration_for_review",
+      "status": "source_letter_study_for_review",
       "selected": null,
-      "recommended": "sintese",
-      "source": "data/si/symbol-study.json",
-      "document": "public/si-v2/symbol-study/SINAPSE-Estudo-de-Simbolo.pdf",
-      "route": "/studio/symbol"
+      "recommended": null,
+      "source": "data/si/symbol-origin.json",
+      "document": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "route": "/studio/symbol",
+      "note": "All three prior proposals rejected. Verbatim source S isolated as a construction study; no approved new icon."
     }
   },
   "voice": {
@@ -792,6 +793,21 @@
       {
         "name": "Passagem",
         "reason": "User rejected symbol; detached rails do not meet new filled connected mass brief.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Nexo",
+        "reason": "Caio rejected as incongruent with existing lettering.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Síntese SN",
+        "reason": "Caio rejected as incongruent with existing lettering.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Pulso",
+        "reason": "Caio rejected as incongruent with existing lettering.",
         "date": "2026-10-17"
       }
     ]

@@ -1,5 +1,15 @@
 # SINAPSE SI — handoff / edição 05
 
+## Atualização vigente — rejeição das três opções
+
+Caio rejeitou Nexo, Síntese SN e Pulso por incongruência com o lettering. Não recomendar ou reapresentar essas opções como vigentes. Passagem continua rejeitado. Nenhum novo símbolo foi aprovado.
+
+Novo recorte em /studio/symbol: origem do traço e teste do S original em uso isolado. O atributo d foi copiado inteiro do primeiro path dos dois mestres, sem redesenho. Proporção 1,987:1, traço 9,38, retorno 4,69 e terminais retos. S isolado é base de construção, não decisão final de ícone.
+
+Dados data/si/symbol-origin.json; gerador scripts/build-symbol-origin.py; PDF de cinco páginas e kit de 16 SVGs em public/si-v2/symbol-origin. Materiais recortados por dentro do contorno. Originais e assinaturas horizontais preservados.
+
+TypeScript, build isolado e 34 provas de fidelidade passaram pelo gate. PDF e vetores inspecionados. Navegador bloqueou acesso à aba por política: inspeção visual responsiva e controles desta revisão NÃO verificados; não usar os antigos relatórios como prova atual. Detalhes em SINAPSE-ORIGEM-TRACO.md. Nenhuma produção autorizada. As atualizações abaixo são históricas e foram superadas quanto ao símbolo.
+
 ## Atualização vigente — estudo de símbolo / 17/10
 
 Caio rejeitou Passagem e pediu um ícone preenchido, conectado e inovador, fundamentado na essência e nos traços do lettering. O estudo está em /studio/symbol, acessível por /book, identidade, índice e downloads. Nexo, Síntese SN e Pulso são alternativas; recomendação de design: Síntese SN. Nenhuma direção adotada automaticamente.
