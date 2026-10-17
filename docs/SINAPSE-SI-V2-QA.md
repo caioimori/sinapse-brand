@@ -25,3 +25,7 @@ Vínculo Vercel antigo inacessível na conta autenticada. Nenhum projeto novo, d
 Validação técnica não representa aprovação estética de Caio. Assinaturas, ícones, materiais e roupas são a proposta 02 para revisão.
 
 Downloads: 118 URLs locais conferidas com resposta 200; SVG XML válido e JSON com ferramenta por tela lidos após exportação.
+
+## Readback remoto
+
+A CI do commit 269c5fa repetiu as falhas: next lint solicitou configuração interativa e o scanner não encontrou o intervalo Git no checkout raso. Run: https://github.com/caioimori/sinapse-brand/actions/runs/38986322414 . Não houve reparo ou contorno de workflow.
