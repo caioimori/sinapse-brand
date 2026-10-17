@@ -1,37 +1,37 @@
-# SINAPSE SI — revisão 03
+# SINAPSE SI — edição 04 / Sinal contínuo
 
-Refinamento solicitado por Caio em 16/10/2026. Preservar SNPS, preto e branco, abertura, gradiente de dimensão e estudos de vidro, prata e sólido. Criar fonte própria, recuperar I, unificar materiais e organizar aplicações.
+Pedido vigente: reestruturar a expressão e o brandbook com leitura profunda dos seis cases abertos por Caio, sobretudo OXA AI e Buff. Preservar SNPS e SINAPSE completos. Preto e branco, Dark First e Light Mode continuam definidos.
 
-## Identidade
+## Identidade e fonte
 
-Original intacto em public/brand/logo. O I de SINAPSE era um rect, omitido pela extração path-only. public/si/masters.json, lib/si/master.ts e public/si-v2/geometry.json agora incluem essa geometria.
+Originais em public/brand/logo, intactos. O mestre SINAPSE completo também é incorporado diretamente nas novas assinaturas, incluindo o segundo S e o I original. Não substituir os mestres por texto digitado.
 
-SNPS Display Regular: OTF, TTF e WOFF2; 196 glifos, ASCII imprimível, português e pontuação. S I N A P E preservam as curvas do mestre. Outros desenhos ampliam o alfabeto e são propostas para revisão. Minúsculas usam desenhos maiúsculos.
+SNPS Display Regular 1.100: OTF, TTF e WOFF2; 196 glifos. S, I, N, A, P e E são curvas recuperadas. Demais letras são extensões propostas; teclas minúsculas usam formas maiúsculas. Manrope 400/600 mantém a leitura e JetBrains Mono identifica registros.
 
-Traço 9,38; raio principal 4,69; intervalo 16,64 nas unidades do mestre. OTF preserva cúbicas; TTF aproxima curvas com erro configurado de até 0,25 unidade de fonte. Sem peso sintético, tracking adicional ou deformação horizontal.
+Traço 9,38; altura 46,90; intervalo 16,64 no mestre. A gramática não possui um radius único: terminal aberto reto; retorno circular 4,69; ombro externo do N 9,38; retorno interno pequeno 2,54. Diagonais novas têm transições suaves e terminais cortados. OTF conserva cúbicas; TTF usa aproximação de até 0,25 unidade de fonte.
 
-Nove assinaturas: SNPS; SINAPSE; SINAPSE SI; SINAPSE SCHOOL; SINAPSE HOUSE; SINAPSE GROWTH; SNPS SCHOOL; SNPS HOUSE; SNPS GROWTH. Quatro materiais e dois fundos: 72 SVGs.
+Nove assinaturas em quatro materiais e dois fundos: 72 SVGs. Não deformar proporção, traço, sequência de letras ou avanço. Conferir palavras críticas e reprodução física antes de adotar extensões como arte final de fabricação.
 
-SNPS Display é expressão para palavras, chamadas e assinaturas. Manrope 400/600 mantém leitura e interface; JetBrains Mono 400 identifica metadados.
+## Expressão
 
-## Materiais e aplicações
+Sinal contínuo: retorno do S e transição do N originam recortes, camadas, foco e material. Texto informativo permanece em plano estável. Os casos inspiram mecanismos; símbolos, paletas, retratos e arquivos de terceiros não integram a identidade SINAPSE.
 
-Especificação comum: data/si/materials.json; compositor: lib/si/material.ts. Luz, borda e contraste se repetem em lettering e templates, com variação para fundo claro ou escuro. Referência Apple HIG e WWDC25 Meet Liquid Glass; interpretação web.
+16 composições de aplicações/anatomia em SVG e WebP. Atlas interativo, pôsteres, stories, capas, perfis e cartão. Três novos estudos gerados: faixa óptica, papelaria e campanha em ambiente. Fotografias de conceito não são prova de fabricação, parceria, cliente ou local real.
 
-SNPS 3D isolado em PNG/WebP com alpha e reflexos próprios. Raster é aplicação; o SVG plano controla geometria e reprodução. Não substituir o mestre pelo render.
+Material comum em data/si/materials.json e lib/si/material.ts. Vidro portátil em PNG/WebP com alpha e iluminação própria. Geometria exata continua no SVG; o material web é interpretação, não o recurso nativo Apple.
 
-Abertura e gradiente de dimensão preservados. Logos de ferramentas em catálogo editorial, nas suas cores e com papel de uso. Menção não implica parceria.
+Logos de ferramentas mantêm suas cores no conteúdo pertinente, com escala e legenda. Collection mantém referências específicas Dark Mode Logo Tee e Whitepaper Hoodie Light Mode da Coinbase Shop; protótipo físico continua necessário.
 
-Editor: material e fonte por tela, PNG/SVG/JSON. Lettering próprio em curvas; texto de leitura com fonte incorporada. Palavras normais permanecem inteiras na quebra de títulos.
+Signals 04: 12 ícones, formato 96 × 64, terminais retos e retornos controlados. Conferir redução com rótulo. Editor com 49 templates exportados, cinco famílias (Manifesto, Fluxo, Caderno, Convite, Em produção), material/fonte por quadro e PNG/SVG/JSON.
 
-Collection 01 segue Dark Mode Logo Tee e Whitepaper Hoodie Light Mode da Coinbase Shop como referências específicas de corte e proporção. Mockups gerados; fabricação exige protótipo físico.
+## Livro e pesquisa
 
-## Negócio e estado
+55 páginas 1920 × 1080. Texto nativo com Manrope Regular e Semibold de nomes distintos, JetBrains e SNPS Display incorporadas. Fotografias e pranchas de material são ilustrações raster; mestres, anatomia e ícones mantêm curvas. Leitor /book; PDF e kit 04 em public/si-v2.
 
-School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads. SI significa Super Intelligence; o nome não comprova capacidade técnica de superinteligência.
+199 imagens estáticas: OXA AI 25, Buff 42, Mozari 23, Cirdia 52, Centrysk 36 e Clarity 21. Dois vídeos Buff identificados, sem análise temporal. Não afirmar acesso aos editáveis ou PDFs completos dos autores. Dados e decisões em data/si/reference-atlas.json e docs/SINAPSE-SI-V4-BENCHMARK.md.
 
-Manifesto, Caderno, Convite e Em produção. T04: lista de interesse não é matrícula. Datas, vagas, bônus e preço devem refletir a oferta vigente antes de publicar.
+## Negócio e entrega
 
-Portal / e /studio/*; leitor /book. PDF com 41 páginas 1920 × 1080, texto nativo e SNPS Display incorporada. Kit 03: fontes, 72 SVGs, 41 templates, materiais, ícones e aplicações.
+School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads. SI significa Super Intelligence, sem alegação de capacidade técnica de superinteligência. Lista T04 não equivale a matrícula; condições comerciais precisam refletir a oferta vigente.
 
-Prévia 3256. QA e handoff em docs/. Sem produção, DNS, postagem ou fabricação. Revisão 02 preservada em 41c866b; 1.0 em 29b033b e rotas históricas. O CANON modificado no checkout principal permanece intocado.
+Prévia 3256, branch feat/sinapse-si-brandbook-20261016, PR #11, issue #10. Sem produção, DNS, postagem ou fabricação. Revisão 03 recuperável em cfe9c41; anteriores no Git. CANON modificado no checkout principal permanece intocado.

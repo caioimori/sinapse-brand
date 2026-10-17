@@ -13,4 +13,5 @@ for(const n of ICON_NAMES)write(`icons/${n}.svg`,iconSvg(n));
 for(const theme of ['dark','light'])write(`templates/display-${theme}.svg`,makeArtwork({...base,title:'NOVA DIMENSÃO',body:'Inteligência para aprender, construir e crescer.',titleFont:'display',material:'glass',theme},'',font));
 for(const format of ['carousel','story','post','avatar','banner'])write(`templates/crystal-${format}.svg`,makeArtwork({...base,format,material:'crystal',...(format==='avatar'?{title:'T04',body:'',tool:undefined,total:1}:{})},'',font));
 
-console.log('V3: 41 templates, 2 editable sequences, 12 icons.');
+for(const format of ['carousel','story','post','banner'])for(const theme of ['dark','light'])write(`templates/flow-${format}-${theme}.svg`,makeArtwork({...base,format,theme,family:'flow',title:'O futuro tem autoria.',body:'O mesmo sinal. Outras possibilidades.',tool:undefined},'',font));
+console.log('Shared export: 49 templates, 2 editable sequences, 12 Signals 04 icons.');

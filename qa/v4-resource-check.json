@@ -1,0 +1,38 @@
+[
+  {
+    "file": "fonts/SNPSDisplay-Regular.otf",
+    "status": 200,
+    "bytes": 19848,
+    "sha_matches": true
+  },
+  {
+    "file": "fonts/SNPSDisplay-Regular.ttf",
+    "status": 200,
+    "bytes": 27488,
+    "sha_matches": true
+  },
+  {
+    "file": "fonts/SNPSDisplay-Regular.woff2",
+    "status": 200,
+    "bytes": 4328,
+    "sha_matches": true
+  },
+  {
+    "file": "applications/poster-house.svg",
+    "status": 200,
+    "bytes": 39074,
+    "sha_matches": true
+  },
+  {
+    "file": "materials/snps-glass-transparent.png",
+    "status": 200,
+    "bytes": 847683,
+    "sha_matches": true
+  },
+  {
+    "file": "SINAPSE-SI-Brandbook-04.pdf",
+    "status": 200,
+    "bytes": 13576580,
+    "sha_matches": true
+  }
+]

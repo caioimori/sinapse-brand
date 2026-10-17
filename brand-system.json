@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "3.0-proposal",
-  "stage": "refinement_for_review",
+  "version": "4.0-proposal",
+  "stage": "art_direction_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
     "promise": "Inteligência para ampliar o que você consegue fazer.",
@@ -507,7 +507,7 @@
       {
         "family": "SNPS Display",
         "file": "public/si-v2/fonts/SNPSDisplay-Regular.ttf",
-        "sha256": "e72c0f2a3845643d978bdfb0d1f4027393b0c8b3b640f0031bfe23cb451550e8",
+        "sha256": "ed80e12d71e66b7980d9128706fca528e3e2dfe99edb80f89369936c68eb6211",
         "license_file": "public/si-v2/fonts/SNPSDisplay-LICENSE.txt"
       },
       {
@@ -547,7 +547,9 @@
       "assinaturas dos braços",
       "avatares",
       "PNG e SVG exportados"
-    ]
+    ],
+    "display_font_spec": "public/si-v2/fonts/SNPSDisplay-spec.json",
+    "icons": "Signals 04 / 12 SVGs"
   },
   "voice": {
     "point_of_view": "Ampliar a capacidade de aprender, criar, decidir e executar.",
@@ -635,6 +637,15 @@
   "editorial": {
     "families": [
       {
+        "name": "Fluxo",
+        "label": "Sinal contínuo e camadas",
+        "use": "Recortes e sobreposições do S original em campanhas e conteúdos de continuidade.",
+        "ratio": "4:5 · 9:16 · 16:9",
+        "fixed": "Área de texto protegida, assinatura e intervalo entre planos.",
+        "variable": "Densidade, recorte, material e direção.",
+        "limit": "O recorte é um grafismo de apoio. Preservar a assinatura completa e a leitura."
+      },
+      {
         "name": "Manifesto",
         "label": "Marca e manifesto",
         "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
@@ -687,33 +698,31 @@
       "ofertas e fontes factuais"
     ],
     "changed": [
-      "navegação",
-      "tipografia",
-      "assinaturas",
-      "ícones",
-      "materiais",
-      "motion",
-      "editorial",
-      "fotografia de roupas"
+      "editorial direction",
+      "font extension corner roles",
+      "original master embedding",
+      "Signals 04 icons",
+      "application atlas",
+      "55-page book",
+      "photographic application studies"
     ],
     "rollout": [
-      "revisar ajuste 03",
-      "aplicar em lote autorizado",
-      "conferir no destino"
+      "revisar edição 04",
+      "validar palavras críticas e protótipos",
+      "aplicar por canal autorizado"
     ],
-    "recovery": "Git 29b033b preserva a proposta anterior; originais em public/brand/logo."
+    "recovery": "cfe9c41 preserves revision 03; original logos are unchanged."
   },
   "creative_direction": {
-    "name": "Uma nova dimensão",
+    "name": "Sinal contínuo",
     "theme": "dark-first",
     "light_mode": true,
     "preserved": [
-      "SNPS master",
+      "SNPS original master",
+      "complete SINAPSE original master",
       "black and white",
-      "opening animation",
-      "dimension gradient",
-      "glass 3D study",
-      "silver and solid materials"
+      "accepted opening and dimension gradient",
+      "accepted glass/silver/solid studies"
     ],
     "materials": [
       "liquid glass",
@@ -724,6 +733,13 @@
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
     "supersedes": "Proposal 1.0 rejected by Caio.",
-    "iteration": "Preserve accepted opening, dimension gradient and glass/metal/solid studies. Add proprietary font, corrected I, complete signature family, shared materials, clean tool catalog, Coinbase product-based apparel and paged book reader."
+    "iteration": "199 published reference boards; selective corner grammar; editorial book rhythm; original application atlas and photographic concepts.",
+    "grammar": [
+      "square open terminals",
+      "4.69 circular returns",
+      "9.38 N outer shoulder",
+      "2.54 N inner return"
+    ],
+    "references": "data/si/reference-atlas.json"
   }
 }

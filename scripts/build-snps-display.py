@@ -1,9 +1,9 @@
 """Build the proprietary display face from the approved SNPS vector, not a substitute font.
 Original cubics are preserved in OTF; TTF conversion has <=0.25 font-unit error.
-New alphabet extensions follow the measured 9.38 stroke / 4.69 radius / 16.64 gap.
+New capitals use selective corner roles: 0 / 4.69 / 9.38 / 2.54, with the measured stroke and gap.
 """
 from pathlib import Path
-import json, re, base64, unicodedata, xml.etree.ElementTree as ET
+import json, re, base64, math, unicodedata, xml.etree.ElementTree as ET
 from fontTools.fontBuilder import FontBuilder
 from fontTools.pens.t2CharStringPen import T2CharStringPen
 from fontTools.pens.ttGlyphPen import TTGlyphPen
@@ -21,6 +21,31 @@ def rect(x,y,w,h,r=0):
     k=.55228475;d=r*k
     return f'M{x+r} {y}H{x+w-r}C{x+w-r+d} {y} {x+w} {y+r-d} {x+w} {y+r}V{y+h-r}C{x+w} {y+h-r+d} {x+w-r+d} {y+h} {x+w-r} {y+h}H{x+r}C{x+r-d} {y+h} {x} {y+h-r+d} {x} {y+h-r}V{y+r}C{x} {y+r-d} {x+r-d} {y} {x+r} {y}Z'
 def poly(*points):return 'M'+'L'.join(f'{x} {y}' for x,y in points)+'Z'
+def corners(points,radii):
+    """Selective circular fillets. A zero radius is an intentional cut terminal.
+    Diagonal shoulders use the N's 9.38 outer / 2.54 inner vocabulary.
+    Radii are clamped only when two adjacent tangencies would share an edge.
+    """
+    nodes=[]
+    for i,(x,y) in enumerate(points):
+        prev=points[i-1];nxt=points[(i+1)%len(points)]
+        a=(prev[0]-x,prev[1]-y);b=(nxt[0]-x,nxt[1]-y)
+        la=math.hypot(*a);lb=math.hypot(*b);a=tuple(v/la for v in a);b=tuple(v/lb for v in b)
+        interior=math.acos(max(-1,min(1,sum(u*v for u,v in zip(a,b)))))
+        distance=min(radii[i]/max(math.tan(interior/2),1e-9),la*.5,lb*.5)
+        effective=distance*math.tan(interior/2);handle=4/3*math.tan((math.pi-interior)/4)*effective
+        entry=(x+a[0]*distance,y+a[1]*distance);leave=(x+b[0]*distance,y+b[1]*distance)
+        c1=(entry[0]-a[0]*handle,entry[1]-a[1]*handle);c2=(leave[0]-b[0]*handle,leave[1]-b[1]*handle)
+        nodes.append((entry,c1,c2,leave,distance))
+    f=lambda p:f'{p[0]:.6f} {p[1]:.6f}'
+    d='M'+f(nodes[0][0])
+    for i,node in enumerate(nodes):
+        en,c1,c2,le,dist=node
+        if i:d+='L'+f(en)
+        if dist:d+='C'+f(c1)+' '+f(c2)+' '+f(le)
+    return d+'Z'
+def box(x,y,w,h,radii):return corners([(x,y),(x+w,y),(x+w,y+h),(x,y+h)],radii)
+def bowl_counter(y,h):return reverse(box(T,y,W-2*T,h,[0,R,R,0]))
 def reverse(d):
     from fontTools.pens.reverseContourPen import ReverseContourPen
     p=SVGPathPen(None);parse_path(d,ReverseContourPen(p));return p.getCommands()
@@ -94,12 +119,43 @@ glyph.update({'0':ring(),'1':rect(0,0,T,H),'2':glyph['Z'],'3':rect(0,0,W,H,R)+re
 glyph['3']=f'M0 0H{W-R}Q{W} 0 {W} {R}V{H-R}Q{W} {H} {W-R} {H}H0V{H-T}H{W-T}V{3*T}H{T}V{2*T}H{W-T}V{T}H0Z'
 glyph['6']=f'M{W} 0H{R}Q0 0 0 {R}V{H-R}Q0 {H} {R} {H}H{W-R}Q{W} {H} {W} {H-R}V{2*T}H{T}V{T}H{W}Z'+rect(T,3*T,W-2*T,T,R)
 glyph['9']=transform(glyph['6'],(-1,0,0,-1,W,H))
+# Revision 04: rebuild every new capital from terminal, return and shoulder roles.
+# The six master letters above are not altered. Closed bowls inherit A; open
+# terminals inherit S/E; left-square bowls inherit P; diagonals inherit N.
+glyph.update({
+'B':box(0,0,W,H,[0,R,R,0])+bowl_counter(T,T)+bowl_counter(3*T,T),
+'C':corners([(W,0),(R,0),(0,R),(0,H-R),(R,H),(W,H),(W,H-T),(T,H-T),(T,T),(W,T)],[0,0,0,0,0,0,0,R,R,0]),
+'D':box(0,0,W,H,[0,R,R,0])+bowl_counter(T,H-2*T),
+'F':corners([(0,H),(0,0),(W,0),(W,T),(T,T),(T,2*T),(W-R,2*T),(W,2*T+R),(W-R,3*T),(T,3*T),(T,H)],[0,R,0,0,0,0,0,0,0,0,0]),
+'G':corners([(W,0),(0,0),(0,H),(W,H),(W,2*T),(W/2,2*T),(W/2,3*T),(W-T,3*T),(W-T,H-T),(T,H-T),(T,T),(W,T)],[0,R,R,R,0,0,0,0,R,R,R,0]),
+'H':corners([(0,0),(T,0),(T,2*T),(W-T,2*T),(W-T,0),(W,0),(W,H),(W-T,H),(W-T,3*T),(T,3*T),(T,H),(0,H)],[0,0,R,R,0,0,0,0,R,R,0,0]),
+'J':corners([(W-T,0),(W,0),(W,H),(0,H),(0,H-2*T),(T,H-2*T),(T,H-T),(W-T,H-T)],[0,0,R,R,0,0,R,R]),
+'K':corners([(0,0),(T,0),(T,H/2-T/2),(W-18,0),(W,0),(W/2,H/2),(W,H),(W-18,H),(T,H/2+T/2),(T,H),(0,H)],[0,0,2.54,0,0,2.54,0,0,2.54,0,0]),
+'L':corners([(0,0),(T,0),(T,H-T),(W,H-T),(W,H),(0,H)],[0,0,R,0,0,R]),
+'M':corners([(0,H),(0,0),(T+3,0),(W/2,H-14),(W-T-3,0),(W,0),(W,H),(W-T,H),(W-T,16),(W/2+4,H),(W/2-4,H),(T,16),(T,H)],[0,9.38,9.38,2.54,9.38,9.38,0,0,2.54,R,R,2.54,0]),
+'O':box(0,0,W,H,[R,R,R,R])+reverse(box(T,T,W-2*T,H-2*T,[R,R,R,R])),
+'T':corners([(0,0),(W,0),(W,T),(W/2+T/2,T),(W/2+T/2,H),(W/2-T/2,H),(W/2-T/2,T),(0,T)],[0,0,0,R,0,0,R,0]),
+'U':corners([(0,0),(T,0),(T,H-T),(W-T,H-T),(W-T,0),(W,0),(W,H),(0,H)],[0,0,R,R,0,0,R,R]),
+'V':corners([(0,0),(13.26,0),(W/2,H-T),(W-13.26,0),(W,0),(W/2+T/2,H),(W/2-T/2,H)],[0,0,2.54,0,0,R,R]),
+'W':corners([(0,0),(T,0),(T,H-16),(W/2-4,0),(W/2+4,0),(W-T,H-16),(W-T,0),(W,0),(W,H),(W-T-3,H),(W/2,14),(T+3,H),(0,H)],[0,0,2.54,R,R,2.54,0,0,9.38,9.38,2.54,9.38,9.38]),
+'X':corners([(0,0),(18,0),(W/2,H/2-7),(W-18,0),(W,0),(W/2+10,H/2),(W,H),(W-18,H),(W/2,H/2+7),(18,H),(0,H),(W/2-10,H/2)],[0,0,2.54,0,0,2.54,0,0,2.54,0,0,2.54]),
+'Y':corners([(0,0),(16,0),(W/2,H/2-5),(W-16,0),(W,0),(W/2+T/2,H/2+4),(W/2+T/2,H),(W/2-T/2,H),(W/2-T/2,H/2+4)],[0,0,2.54,0,0,9.38,0,0,9.38]),
+'Z':corners([(0,0),(W,0),(W,T),(17,H-T),(W,H-T),(W,H),(0,H),(0,H-T),(W-17,T),(0,T)],[0,R,R,2.54,0,0,R,R,2.54,0]),
+})
+# C and F use actual master circular returns rather than chamfered approximations.
+glyph['C']=f'M{W} 0H{R}C{R*.448} 0 0 {R*.448} 0 {R}V{H-R}C0 {H-R*.448} {R*.448} {H} {R} {H}H{W}V{H-T}H{T+R}C{T+R*.448} {H-T} {T} {H-T-R*.448} {T} {H-T-R}V{T+R}C{T} {T+R*.448} {T+R*.448} {T} {T+R} {T}H{W}Z'
+glyph['F']=f'M0 {H}V{R}C0 {R*.448} {R*.448} 0 {R} 0H{W}V{T}H{T}V{2*T}H{W-R}C{W-R*.448} {2*T} {W} {2*T+R*.448} {W} {2*T+R}C{W} {3*T-R*.448} {W-R*.448} {3*T} {W-R} {3*T}H{T}V{H}Z'
+glyph['R']=glyph['P']+corners([(W/2,3*T),(W/2+17,3*T),(W,H),(W-17,H)],[2.54,9.38,0,0])
+glyph['Q']=glyph['O']+corners([(W-28,H-20),(W-20,H-24),(W+2,H),(W-10,H)],[2.54,2.54,0,0])
+glyph['0']=glyph['O'];glyph['8']=glyph['B'];glyph['2']=glyph['Z']
 # Smaller counters in percent use proportionate stroke, independent from primary letter stroke.
 glyph['%']=rect(0,0,20,20,R)+reverse(rect(5,5,10,10,2))+rect(70,27,20,20,R)+reverse(rect(75,32,10,10,2))+poly((20,H),(62,0),(74,0),(32,H))
 from fontTools.pens.areaPen import AreaPen
 def same_direction(d,reference):
     a=AreaPen(None);parse_path(d,a);b=AreaPen(None);parse_path(reference,b)
     return reverse(d) if a.value*b.value<0 else d
+
+glyph['R']=glyph['P']+same_direction(corners([(W/2,3*T),(W/2+17,3*T),(W,H),(W-17,H)],[2.54,9.38,0,0]),glyph['P'])
 glyph.update({'$':glyph['S']+same_direction(rect(W/2-3,-6,6,H+12),glyph['S']),
 '€':glyph['C']+same_direction(rect(-4,17,60,5)+rect(-4,27,60,5),glyph['C']),
 '<':poly((38,0),(50,0),(12,H/2),(50,H),(38,H),(0,H/2)),
@@ -138,7 +194,7 @@ def build(ttf):
         parse_path(paths[name],TransformPen(target,(SCALE,0,0,-SCALE,0,700)))
         fontglyphs[name]=pen.glyph() if ttf else pen.getCharString()
     fb.setupHorizontalMetrics(adv);fb.setupHorizontalHeader(ascent=1060,descent=-340,lineGap=0)
-    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.000','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.000','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Lowercase keys use the uppercase design. Master S I N A P E retained. Portuguese Latin accents included.'})
+    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.100','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.100','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Selective cut terminals, circular returns and softened diagonal shoulders. Master S I N A P E retained. Portuguese Latin accents included.'})
     fb.setupOS2(sTypoAscender=1060,sTypoDescender=-340,sTypoLineGap=0,usWinAscent=1060,usWinDescent=340,sCapHeight=700,sxHeight=700,fsType=0)
     if ttf:fb.setupGlyf(fontglyphs)
     else:fb.setupCFF('SNPSDisplay-Regular',{'FullName':'SNPS Display Regular','FamilyName':'SNPS Display','Weight':'Regular'},fontglyphs,{})
@@ -150,7 +206,8 @@ def outline(value,size=100):
     for ch in value:
         name=names.get(ch,names.get(ch.upper(),'.notdef'));gs[name].draw(TransformPen(pen,(size/1000,0,0,-size/1000,x,size*.7)));x+=adv[name][0]*size/1000
     return pen.getCommands(),max(0,x-GAP*SCALE*size/1000)
-data={'family':'SNPS Display','version':'1.000','capHeight':700,'unitsPerEm':1000,'stroke':140,'outerRadius':70,'tracking':round(GAP*SCALE,3),'sourceStroke':T,'sourceRadius':R,'sourceGap':GAP,'glyphs':len(order),'coverage':''.join(glyph),'lowercase':'Uppercase forms','masterLetters':'SINAPE','status':'Custom extension for review; master outlines preserved.','metrics':{ch:adv[names[ch]][0]/1000 for ch in glyph},'outlines':{ch:outline(ch,100)[0] for ch in glyph}}
+data={'family':'SNPS Display','version':'1.000','capHeight':700,'unitsPerEm':1000,'stroke':140,'returnRadius':70,'outerShoulderRadius':140,'innerReturnRadius':round(2.54*SCALE,3),'tracking':round(GAP*SCALE,3),'sourceStroke':T,'sourceRadius':R,'sourceGap':GAP,'glyphs':len(order),'coverage':''.join(glyph),'lowercase':'Uppercase forms','masterLetters':'SINAPE','status':'Custom extension for review; master outlines preserved.','metrics':{ch:adv[names[ch]][0]/1000 for ch in glyph},'outlines':{ch:outline(ch,100)[0] for ch in glyph}}
+data.update({'version':'1.100','cornerGrammar':{'terminal':{'radius':0,'source':'I, P lower-left, S open ends, N open ends'},'return':{'radius':R,'source':'S, A, P, E circular turns and counters'},'shoulder':{'radius':T,'source':'N outer vertical-to-diagonal transitions'},'innerKnee':{'radius':2.54,'source':'N inner stem-to-horizontal return'}},'construction':'Selective per-corner radii; square terminals retained. Diagonal extensions are interpretations, not recovered original glyphs.'})
 (F/'SNPSDisplay-spec.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
 (ROOT/'lib/si/display-font.ts').write_text('export const DISPLAY_METRICS:Record<string,number> = '+json.dumps(data['metrics'],ensure_ascii=False)+';\nexport const DISPLAY_PATHS:Record<string,string> = '+json.dumps(data['outlines'],ensure_ascii=False)+';\n',encoding='utf8',newline='\n')
 (F/'SNPSDisplay-LICENSE.txt').write_text('SNPS Display — SINAPSE, 2026.\nCustom lettering extension for SINAPSE brand use, including installation, editable compositions and embedding. Not a redistributed third-party font. Existing logo ownership remains with its respective rights holder.\nUppercase display design, including on lowercase keys. Newly drawn letters are a proposal for review.\n',encoding='utf8')

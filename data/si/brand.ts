@@ -80,6 +80,7 @@ export const sequenceT04 = [
 ];
 
 export const editorialFamilies = [
+  { name: 'Fluxo', label: 'Sinal contínuo e camadas', use: 'Recortes e sobreposições do S original em campanhas e conteúdos de continuidade.', ratio: '4:5 · 9:16 · 16:9', fixed: 'Área de texto protegida, assinatura e intervalo entre planos.', variable: 'Densidade, recorte, material e direção.', limit: 'O recorte é um grafismo de apoio. Preservar a assinatura completa e a leitura.' },
   { name: 'Manifesto', label: 'Marca e manifesto', use: 'Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.', ratio: '4:5 · 9:16', fixed: 'Assinatura, grade, contraste e hierarquia.', variable: 'Frase, escala e material do símbolo.', limit: 'Até 12 palavras no título. A assinatura não compete com a mensagem.' },
   { name: 'Caderno', label: 'Aprendizado e repertório', use: 'Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.', ratio: '4:5 · 9:16', fixed: 'Número de página, margem, rótulo de seção e fonte de referência.', variable: 'Texto, captura, vídeo, diagrama e exemplo.', limit: 'Uma afirmação principal por tela. Explicar siglas no primeiro uso.' },
   { name: 'Convite', label: 'Mentorias e turmas', use: 'Abertura, conteúdo, dinâmica, evidência e lista de espera da School.', ratio: '9:16 · 4:5', fixed: 'Nome School, turma, sequência e destino real do CTA.', variable: 'Tema, convite, conteúdo e condição confirmada.', limit: 'Datas, preço, vagas e bônus somente após validação da oferta vigente.' },

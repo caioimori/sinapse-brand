@@ -148,9 +148,9 @@
     ]
   },
   "transition": [
-    "revisar ajuste 03",
-    "aplicar em lote autorizado",
-    "conferir no destino"
+    "revisar edição 04",
+    "validar palavras críticas e protótipos",
+    "aplicar por canal autorizado"
   ],
   "rollout_status": "not_authorized_by_branding_alone"
 }

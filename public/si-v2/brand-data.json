@@ -464,6 +464,15 @@
   ],
   "editorialFamilies": [
     {
+      "name": "Fluxo",
+      "label": "Sinal contínuo e camadas",
+      "use": "Recortes e sobreposições do S original em campanhas e conteúdos de continuidade.",
+      "ratio": "4:5 · 9:16 · 16:9",
+      "fixed": "Área de texto protegida, assinatura e intervalo entre planos.",
+      "variable": "Densidade, recorte, material e direção.",
+      "limit": "O recorte é um grafismo de apoio. Preservar a assinatura completa e a leitura."
+    },
+    {
       "name": "Manifesto",
       "label": "Marca e manifesto",
       "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",

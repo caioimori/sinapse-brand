@@ -1,5 +1,5 @@
 {
-  "version": "3.0-proposal",
+  "version": "4.0-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
@@ -40,7 +40,7 @@
     "Figma": "https://static.figma.com/app/icon/1/favicon.svg",
     "Others": "https://cdn.simpleicons.org/"
   },
-  "font": "SNPS Display custom. S I N A P E from original vector; alphabet, digits, accents and punctuation extended. Lowercase keys use uppercase designs.",
+  "font": "SNPS Display 1.100, selective terminal/return/shoulder/inner-return roles. Six recovered letters; extensions proposed for review.",
   "I_fix": "Original rect x143.1 y33.28 width9.38 height46.9 recovered; source unchanged.",
   "apparel_sources": [
     "https://coinbaseshop.com/products/coin-logo-tee",
@@ -50,5 +50,29 @@
     "file": "materials/snps-glass-transparent.png",
     "kind": "Generated raster with alpha, optical study. Geometry master remains SVG.",
     "sha256": "6c590781a3dbb08305812aa4fa8c721dc95dca19200aa232f6b792004ff73892"
-  }
+  },
+  "revision_04": [
+    {
+      "asset": "signal-sculpture.webp",
+      "kind": "generated-concept",
+      "reference": "Original monochrome ribbon study; wide returns inspired by SINAPSE geometry.",
+      "source_file": "exec-70b80d5d-cb89-47cf-8fe1-6f0916008e3b.png",
+      "sha256": "8b51047f8f934cf036a8ee4730af146e143908cb7cf0e4bcea80f9f903ca9e21"
+    },
+    {
+      "asset": "stationery.webp",
+      "kind": "generated-concept",
+      "reference": "SNPS master used as input; notebook, sleeve and aluminum card.",
+      "source_file": "exec-c327642f-0e10-498e-8fc3-b7f8f517b8ad.png",
+      "sha256": "50eca3db5825aef7e8b183b733e785f31fdf4d9bbdd67209b6c9c6a93378c9f1"
+    },
+    {
+      "asset": "ooh.webp",
+      "kind": "generated-concept",
+      "reference": "Original poster-school, poster-house and poster-growth artwork used as input.",
+      "source_file": "exec-c2ee5434-b8ab-44ff-88d7-40a30957b763.png",
+      "sha256": "a3d7e57a6ef53b88bce0c578a32680c7567748c8af6166f2bc34ac91f7f8492a"
+    }
+  ],
+  "reference_projects": "docs/SINAPSE-SI-V4-BENCHMARK.md; foreign project imagery is not included."
 }
