@@ -1,0 +1,50 @@
+[
+  {
+    "role": "Grotesk",
+    "family": "bricolagegrotesque",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/BricolageGrotesque%5Bopsz%2Cwdth%2Cwght%5D.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/bricolagegrotesque/OFL.txt",
+    "file": "Grotesk.ttf",
+    "axes": {
+      "wght": 750,
+      "opsz": 36,
+      "wdth": 100
+    },
+    "sha256": "1175d19c72b887064556347b8ad2dd3b9d5fcfecddcd7bcea6146119776eb0ca",
+    "license_sha256": "46ba5f18ee20ea529f21d96c0ef8637a8314c1a5cfb2aa84018bc8157cbeff41"
+  },
+  {
+    "role": "Mono",
+    "family": "spacemono",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/SpaceMono-Bold.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/OFL.txt",
+    "file": "Mono.ttf",
+    "axes": {},
+    "sha256": "187782fad7ec4048d552b4f4fd1694ae4f61cfe430f01c9242e46fce40c3b6d2",
+    "license_sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
+  },
+  {
+    "role": "MonoItalic",
+    "family": "spacemono",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/SpaceMono-BoldItalic.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/spacemono/OFL.txt",
+    "file": "MonoItalic.ttf",
+    "axes": {},
+    "sha256": "bcee8a56b0f7d8cc7bf1831efd7559f90c26d19f69649ce8a2caa0c1e71b7ea4",
+    "license_sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
+  },
+  {
+    "role": "Hand",
+    "family": "caveat",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/OFL.txt",
+    "file": "Hand.ttf",
+    "axes": {
+      "wght": 700
+    },
+    "sha256": "0eb5d5dc1a318b8bd439e40f44163f3efcf4e6ee8f057dcd4f2362c37a53fc75",
+    "license_sha256": "163a2b400e16916ad3196296c946c526d0efce6baf22a2164269ffc62fb9f671",
+    "license_note": "SIL OFL; text whitespace normalized, legal wording preserved.",
+    "status": "user_approved_for_apparel"
+  }
+]

@@ -1,5 +1,5 @@
 {
-  "version": "6.0-proposal",
+  "version": "6.1-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
@@ -204,9 +204,9 @@
     "visual_limit": "Native vectors/PDF reviewed; current web UI unverified after browser-policy denial."
   },
   "revision_06": {
-    "apparel": "wear-v6/provenance.json",
-    "font_licenses": "wear-v6/fonts/sources.json",
-    "vector_generator": "scripts/build-si-v6-wear.py",
+    "apparel": "wear-v7/provenance.json",
+    "font_licenses": "wear-v7/fonts/sources.json",
+    "vector_generator": "scripts/build-si-v7-wear.py",
     "signatures": "scripts/build-si-v6-signatures.py",
     "descriptor_spacing": "46.90 source units; original logo paths unchanged",
     "removed_from_current": "Passagem, old OOH with rejected graphic, Collection 02 and old PDFs",

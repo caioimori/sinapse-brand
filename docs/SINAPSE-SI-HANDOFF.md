@@ -1,5 +1,17 @@
 # SINAPSE SI — handoff / edição 06
 
+## Refinamento vigente — roupas / 19/10/2026
+
+Caio pediu camisetas de corte normal, aprovou somente a fonte gestual de Born Curious e Still Human e rejeitou a microassinatura Superintelligence / Sinapse. A assinatura das roupas agora é somente SNPS SI, horizontal, com os vetores atuais intactos.
+
+Implementado em wear-v7: oito camisetas regulares e quatro moletons, seis novos pares fotográficos gerados, 12 estampas em curvas. Caveat e os contornos das duas frases aprovadas foram preservados byte a byte. Bricolage Grotesque e Space Mono são testes para revisão, não fontes aprovadas. Site, livro 06 e kit 06 sincronizados.
+
+TypeScript e 78 verificações de fidelidade passaram. PDF com 60 páginas, 21.124 caracteres nativos e zero erros de limites. Roupas inspecionadas em 320/390/768/1440 px, Dark/Light, filtros 8/4 e consulta da estampa. Documentação: SINAPSE-SI-WEAR-REFINEMENT-QA.md. Build de produção não executado por RAM abaixo de 4 GiB.
+
+Gerador atual: scripts/build-si-v7-wear.py. Demais geradores ativos continuam build-si-v6-book.py, consolidate-si-v6.py e package-si-v6.py, agora apontando para wear-v7. Roupas anteriores ficam recuperáveis no Git e fora do kit atual. Reutilizar a aba /studio/wear na porta 3256; sem produção ou fabricação.
+
+## Histórico anterior — aplicar o refinamento acima quando houver conflito
+
 ## Estado vigente — 19/10/2026
 
 Pedido: retirar urgentemente o grafismo entre ideia e ação, abrir o espaço entre logo e SI/School/House/Growth, criar roupas com referências Nude Project e Coinbase Shop e frases de IA. Original SNPS/SINAPSE, preto/branco e assinaturas em uma linha preservados.

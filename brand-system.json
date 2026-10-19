@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "6.0-proposal",
+  "version": "6.1-proposal",
   "stage": "art_direction_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
@@ -755,17 +755,18 @@
       "ofertas e fontes factuais"
     ],
     "changed": [
-      "descriptor spacing 46.90 source units",
-      "rejected graphic removed from current book and applications",
-      "12 new apparel prints and six photographic concepts",
-      "current 60-page book and curated kit 06"
+      "regular-fit tees",
+      "approved Caveat handwriting preserved",
+      "Bricolage Grotesque and Space Mono trials",
+      "SNPS SI apparel signature without micro tagline",
+      "updated six photographic concepts, book and kit"
     ],
     "rollout": [
       "revisar edição 06",
       "validar protótipos físicos",
       "aplicar por canal autorizado"
     ],
-    "recovery": "05ddeea preserves the previous revision; original logo masters unchanged."
+    "recovery": "e91ce04 preserves the previous apparel revision; original logo masters unchanged."
   },
   "creative_direction": {
     "name": "Sinal contínuo",
@@ -787,7 +788,7 @@
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
     "supersedes": "Proposal 1.0 rejected by Caio.",
-    "iteration": "Remove rejected graphic from current book and applications; open descriptor spacing by 41%; Collection 03 with editorial, handwritten, condensed and expressive serif prints.",
+    "iteration": "Regular-fit tees; approved Caveat handwriting preserved; Bricolage Grotesque and Space Mono trials; SNPS SI as the only apparel signature.",
     "grammar": [
       "square open terminals",
       "4.69 circular returns",
@@ -822,14 +823,21 @@
       "pieces": 12,
       "tees": 8,
       "hoodies": 4,
-      "data": "data/si/wear-v6.json",
-      "fonts": "public/si-v2/wear-v6/fonts/sources.json",
+      "data": "data/si/wear-v7.json",
+      "fonts": "public/si-v2/wear-v7/fonts/sources.json",
       "reference_urls": [
         "https://nude-project.com/collections/t-shirts",
         "https://nude-project.com/collections/hoodies",
         "https://coinbaseshop.com/"
       ],
-      "exact_artwork": "SVG outlines; generated photographs are concept visualizations"
+      "exact_artwork": "SVG outlines; generated photographs are concept visualizations",
+      "tee_fit": "regular",
+      "signature": "SNPS SI only; no micro tagline",
+      "approved_type": "Caveat",
+      "new_type_trials": [
+        "Bricolage Grotesque",
+        "Space Mono"
+      ]
     }
   }
 }

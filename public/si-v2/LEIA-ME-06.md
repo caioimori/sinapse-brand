@@ -6,10 +6,10 @@ Os mestres SNPS e SINAPSE foram preservados. SI, School, House e Growth ficam à
 
 O grafismo Passagem foi retirado do livro e das aplicações atuais. Nenhum novo ícone de marca foi aprovado. A pasta symbol-origin documenta somente um estudo do S original.
 
-Collection 03: oito camisetas e quatro moletons. As 12 estampas em curvas estão em wear-v6/print-01.svg a print-12.svg; seis fotos conceituais, em wear-v6/look-1.webp a look-6.webp. O SVG é a referência exata da arte. Fotografia gerada não substitui prova de impressão, tecido e modelagem.
+Collection 03: oito camisetas e quatro moletons. As 12 estampas em curvas estão em wear-v7/print-01.svg a print-12.svg; seis fotos conceituais, em wear-v7/look-1.webp a look-6.webp. O SVG é a referência exata da arte. Fotografia gerada não substitui prova de impressão, tecido e modelagem.
 
-As fontes de expressão das roupas são Cormorant Garamond Italic, Caveat, Anton e Fraunces Italic, com licenças OFL na pasta wear-v6/fonts. Manrope e SNPS Display continuam sendo as fontes do sistema corporativo.
+Camisetas usam corte regular. A assinatura das roupas é somente SNPS SI, sem a linha Superintelligence / Sinapse. As fontes de expressão das roupas são Caveat (aprovada), Bricolage Grotesque e Space Mono (em teste), com licenças OFL na pasta wear-v7/fonts. Manrope e SNPS Display continuam sendo as fontes do sistema corporativo.
 
-Referências de roupa: Nude Project para proporção ampla e linguagem tipográfica; Coinbase Shop para cultura de tecnologia. Nenhuma arte ou foto de terceiros integra os produtos propostos.
+Referências de roupa: Nude Project para atitude editorial e linguagem tipográfica, sem adotar modelagem oversize; Coinbase Shop para cultura de tecnologia. Nenhuma arte ou foto de terceiros integra os produtos propostos.
 
 Esta edição é uma proposta em prévia. Produção, postagem, fabricação e DNS não foram realizados.

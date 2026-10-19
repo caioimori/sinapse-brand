@@ -1,0 +1,201 @@
+{
+  "responsive": [
+    {
+      "broken": [],
+      "images": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-1.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-2.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-3.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-4.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-5.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-6.webp"
+        }
+      ],
+      "labels": [
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Caveat / aprovada",
+        "Space Mono Itálica / teste"
+      ],
+      "pieces": 12,
+      "scroll": 305,
+      "width": 320
+    },
+    {
+      "broken": [],
+      "images": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-1.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-2.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-3.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-4.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-5.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-6.webp"
+        }
+      ],
+      "labels": [
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Caveat / aprovada",
+        "Space Mono Itálica / teste"
+      ],
+      "pieces": 12,
+      "scroll": 375,
+      "width": 390
+    },
+    {
+      "broken": [],
+      "images": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-1.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-2.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-3.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-4.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-5.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-6.webp"
+        }
+      ],
+      "labels": [
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Caveat / aprovada",
+        "Space Mono Itálica / teste"
+      ],
+      "pieces": 12,
+      "scroll": 753,
+      "width": 768
+    },
+    {
+      "broken": [],
+      "images": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-1.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-2.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-3.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-4.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-5.webp"
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v7/look-6.webp"
+        }
+      ],
+      "labels": [
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Space Mono / teste",
+        "Caveat / aprovada",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Bricolage Grotesque / teste",
+        "Caveat / aprovada",
+        "Space Mono Itálica / teste"
+      ],
+      "pieces": 12,
+      "scroll": 1425,
+      "width": 1440
+    }
+  ],
+  "controls": {
+    "bornPrint": "/si-v2/wear-v7/print-04.svg",
+    "tees": 8,
+    "hoodies": 4
+  },
+  "darkAndLight": "visually inspected",
+  "screenshots": "qa-local/v7",
+  "scope": "Only changed garment photos, typography labels, filter states and print inspection.",
+  "book": {
+    "overflow": false,
+    "pdf": "/si-v2/SINAPSE-SI-Brandbook-06.pdf",
+    "src": "/si-v2/book-v6/page-44.webp"
+  }
+}

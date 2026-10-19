@@ -4,7 +4,7 @@ import hashlib,json,zipfile
 R=Path(__file__).resolve().parents[1];O=R/'public/si-v2'
 
 def current_files():
-    roots=['logos','fonts','materials','icons','tools','templates','applications','book-v6','wear-v6','symbol-origin']
+    roots=['logos','fonts','materials','icons','tools','templates','applications','book-v6','wear-v7','symbol-origin']
     excluded={'applications/passage.svg','applications/passage.webp'}
     files=[]
     for folder in roots:
@@ -15,7 +15,7 @@ def current_files():
 def package():
     entries=[(p,p.relative_to(O).as_posix()) for p in current_files()]
     entries += [(R/f'public/brand/logo/bone/{name}.svg',f'masters/{name}.svg') for name in ['snps-lockup','sinapse-wordmark']]
-    manifest={'version':'6.0-proposal','publication':'local_only','files':[{'file':name,'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p,name in entries]}
+    manifest={'version':'6.1-proposal','publication':'local_only','files':[{'file':name,'bytes':p.stat().st_size,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p,name in entries]}
     m=O/'kit-manifest-06.json';m.write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8',newline='\n')
     target=O/'SINAPSE-SI-Kit-06.zip'
     with zipfile.ZipFile(target,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=5) as z:

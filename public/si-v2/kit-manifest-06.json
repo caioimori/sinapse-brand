@@ -1,5 +1,5 @@
 {
-  "version": "6.0-proposal",
+  "version": "6.1-proposal",
   "publication": "local_only",
   "files": [
     {
@@ -175,7 +175,7 @@
     {
       "file": "asset-provenance.json",
       "bytes": 18828,
-      "sha256": "55b500d13e7652da0039c8682a29f563335a3c2818d9ccee0cdad66fe348b1b4"
+      "sha256": "ade9c26d242734405c00336e290f29ffbbb1e1b470ecbd9d4f09fee392e225b9"
     },
     {
       "file": "book-v6/page-01.webp",
@@ -384,38 +384,38 @@
     },
     {
       "file": "book-v6/page-42.webp",
-      "bytes": 40220,
-      "sha256": "12bb16263bc1a347c904ba1b688332de0f2c2cc7f58c0aedd78808564c54be1f"
+      "bytes": 38998,
+      "sha256": "914eac176eba448cb2a12b9a3a01a3c92c912493929d9f80c6faa1f5572ec67f"
     },
     {
       "file": "book-v6/page-43.webp",
-      "bytes": 39144,
-      "sha256": "2352bece221479e9ba367cf1c730bd61c74c8886c332526caaca85da75ae9d2b"
+      "bytes": 38138,
+      "sha256": "06ce8a3e76f5acad2da968c791c52b7a6475ff17dd6de76fe1c4dff780a3742c"
     },
     {
       "file": "book-v6/page-44.webp",
-      "bytes": 37386,
-      "sha256": "af49fa10ac3c603401e3091d0b193f3a13f668576aef71730d14c710b3affd06"
+      "bytes": 38964,
+      "sha256": "137da1c5acb484879c10f2ab6cd902ad27c55b9a03475eb354754c7ef4cf551d"
     },
     {
       "file": "book-v6/page-45.webp",
-      "bytes": 37732,
-      "sha256": "11421a4797b4a6bf56a97e16347108c8be055e369936f5628ec6b20ba8f0996c"
+      "bytes": 39476,
+      "sha256": "ab764f61a823b710e5a927109287060d258cc8f2ecac56afbf5f6c2cb889f29a"
     },
     {
       "file": "book-v6/page-46.webp",
-      "bytes": 37930,
-      "sha256": "ee3001582871bd0cfc4a552b98a55fa973e4787a648482ebfb4aad4d51c36fcd"
+      "bytes": 36468,
+      "sha256": "e94f633696ae65187954af87795a75418f2c131416b2f354ecafc6d95717ca61"
     },
     {
       "file": "book-v6/page-47.webp",
-      "bytes": 42210,
-      "sha256": "c922c12b2643cb217de1c291bd45ce1af32c59be8fad54af3a4208938892cafd"
+      "bytes": 41166,
+      "sha256": "3003d2553cfefbca688451da53f92b2abcac4d1b6ae6e67ba9a7adbbb67ee52f"
     },
     {
       "file": "book-v6/page-48.webp",
-      "bytes": 37908,
-      "sha256": "1a09210c617ac6d2a4d1f2ad4a4df434fe9f2dad19a0d9a4392f313c76ce5bc4"
+      "bytes": 38632,
+      "sha256": "c8a0348f0a4345ab587b959c1add2a283e75c3a6695e6e632d5e32ccb4877f3e"
     },
     {
       "file": "book-v6/page-49.webp",
@@ -619,8 +619,8 @@
     },
     {
       "file": "LEIA-ME-06.md",
-      "bytes": 1329,
-      "sha256": "c1fccbe5c3dc9d1aa018f3358f6f2e199de1453d01995cade305f6f46ea197ef"
+      "bytes": 1479,
+      "sha256": "f1494946d01d5b8c64b6a772f2a2393c20a3deb30bd092b83dfdf2d244951827"
     },
     {
       "file": "logos/sinapse-frost-dark.svg",
@@ -1054,8 +1054,8 @@
     },
     {
       "file": "SINAPSE-SI-Brandbook-06.pdf",
-      "bytes": 15583551,
-      "sha256": "9507592cc40db013c5d46f32b09d8f6a82907b1cd9c1e5505d4b2c5a0e1c628e"
+      "bytes": 14701834,
+      "sha256": "aa380a5ded8c1dcd8052b4526baaed6820ebf8d904630aa3c0f3a3c30907c3c3"
     },
     {
       "file": "stationery.webp",
@@ -1463,149 +1463,149 @@
       "sha256": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85"
     },
     {
-      "file": "wear-v6/collection.json",
-      "bytes": 4860,
-      "sha256": "ed68403686de3a29d51394c0ae65d367a7e89da3f1f4eb7e4c57b2ff896f8ec2"
+      "file": "wear-v7/collection.json",
+      "bytes": 5458,
+      "sha256": "7135557c745b69fc3d58330a0645c7d666f7e93b89e5479ee1ff07a87dedc9b3"
     },
     {
-      "file": "wear-v6/fonts/Club-OFL.txt",
-      "bytes": 4390,
-      "sha256": "6732d6cc72c5d09292ff754dc1f39d9ea14918f74e87a17afa3f00a5120c3d48"
+      "file": "wear-v7/fonts/Grotesk-OFL.txt",
+      "bytes": 4402,
+      "sha256": "46ba5f18ee20ea529f21d96c0ef8637a8314c1a5cfb2aa84018bc8157cbeff41"
     },
     {
-      "file": "wear-v6/fonts/Club.ttf",
-      "bytes": 88804,
-      "sha256": "2fd14e5dd1a8a128b0bc44cd1f658e67576cef28bbd93360eeb82821a9306e6a"
+      "file": "wear-v7/fonts/Grotesk.ttf",
+      "bytes": 90916,
+      "sha256": "1175d19c72b887064556347b8ad2dd3b9d5fcfecddcd7bcea6146119776eb0ca"
     },
     {
-      "file": "wear-v6/fonts/Condensed-OFL.txt",
-      "bytes": 4390,
-      "sha256": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a"
-    },
-    {
-      "file": "wear-v6/fonts/Condensed.ttf",
-      "bytes": 170812,
-      "sha256": "c454fdabd15b40ca481174591dbee81f159c1d915cdaaa8d4013d5918843c1aa"
-    },
-    {
-      "file": "wear-v6/fonts/Editorial-OFL.txt",
-      "bytes": 4386,
-      "sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31"
-    },
-    {
-      "file": "wear-v6/fonts/Editorial.ttf",
-      "bytes": 454472,
-      "sha256": "6db4749498f1c306fe23ea58bfe3429b89a9dc42b2100a504129c1037a82da2e"
-    },
-    {
-      "file": "wear-v6/fonts/Hand-OFL.txt",
+      "file": "wear-v7/fonts/Hand-OFL.txt",
       "bytes": 4384,
       "sha256": "163a2b400e16916ad3196296c946c526d0efce6baf22a2164269ffc62fb9f671"
     },
     {
-      "file": "wear-v6/fonts/Hand.ttf",
+      "file": "wear-v7/fonts/Hand.ttf",
       "bytes": 266468,
       "sha256": "0eb5d5dc1a318b8bd439e40f44163f3efcf4e6ee8f057dcd4f2362c37a53fc75"
     },
     {
-      "file": "wear-v6/fonts/sources.json",
-      "bytes": 2431,
-      "sha256": "d77b2154556bf6b390c40b43e12ce83174038660806e3d2c4df8f781d73c1e74"
+      "file": "wear-v7/fonts/Mono-OFL.txt",
+      "bytes": 4391,
+      "sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
     },
     {
-      "file": "wear-v6/look-1.webp",
-      "bytes": 188462,
-      "sha256": "3f515f11043b9bb1c9b2e882188778fef3e24b22d0dc12ab8d7e912f1592247a"
+      "file": "wear-v7/fonts/Mono.ttf",
+      "bytes": 98232,
+      "sha256": "187782fad7ec4048d552b4f4fd1694ae4f61cfe430f01c9242e46fce40c3b6d2"
     },
     {
-      "file": "wear-v6/look-2.webp",
-      "bytes": 156612,
-      "sha256": "c6d78b5dbc7c1ad88be4e0e174acd7ce21ca39d116189a16b585604bd00f41a2"
+      "file": "wear-v7/fonts/MonoItalic-OFL.txt",
+      "bytes": 4391,
+      "sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
     },
     {
-      "file": "wear-v6/look-3.webp",
-      "bytes": 157062,
-      "sha256": "5435582eaeb6cb1b5d08588ed2dca75e68a432fc633bd953222dd772d15a9546"
+      "file": "wear-v7/fonts/MonoItalic.ttf",
+      "bytes": 111904,
+      "sha256": "bcee8a56b0f7d8cc7bf1831efd7559f90c26d19f69649ce8a2caa0c1e71b7ea4"
     },
     {
-      "file": "wear-v6/look-4.webp",
-      "bytes": 182540,
-      "sha256": "b6bf288f23969843cc9baa674654a3e1f23f3e1ab94215f715d89f1451a90c8c"
+      "file": "wear-v7/fonts/sources.json",
+      "bytes": 2178,
+      "sha256": "ea8abccf7165bcc1cef70719509329056203824bea546e290e83347fcfcd1f9c"
     },
     {
-      "file": "wear-v6/look-5.webp",
-      "bytes": 208762,
-      "sha256": "a75e9a0a9639d2e4167a7c759300b66a7b3661671410bf4f21cd036d535ce0e4"
+      "file": "wear-v7/look-1.webp",
+      "bytes": 138648,
+      "sha256": "f133fe56b8cbb76e20ee8994ac6a26fa14c2bfd78e21a00c7eeae3df01e8a337"
     },
     {
-      "file": "wear-v6/look-6.webp",
-      "bytes": 189072,
-      "sha256": "a042c413547b36f9b500470a92a030e4f91aa6b88df033f6ab6ad8060e19781b"
+      "file": "wear-v7/look-2.webp",
+      "bytes": 136296,
+      "sha256": "849052476a642ba6686f6381c12b6651ecbba4a043ceb30e28b1bc712d36ccc1"
     },
     {
-      "file": "wear-v6/print-01.svg",
-      "bytes": 57273,
-      "sha256": "0288413965976d0df4209b99749b58d84e96fbef86793fd66471edfee2c1500d"
+      "file": "wear-v7/look-3.webp",
+      "bytes": 139962,
+      "sha256": "4c66b2b4f7cae7de62be5c361e2b5204616bb5f36a5ca5f0feb9dba6d8f820c1"
     },
     {
-      "file": "wear-v6/print-02.svg",
-      "bytes": 42221,
-      "sha256": "0056a59c6846025ee73497ca374460d30e5368d93bf6ad032a64e10e8a51a76d"
+      "file": "wear-v7/look-4.webp",
+      "bytes": 137168,
+      "sha256": "c20e4be01b61b91137d6614a33c7663f57dfc7c555f5ea69d28044e7dd1d86fb"
     },
     {
-      "file": "wear-v6/print-03.svg",
-      "bytes": 27027,
-      "sha256": "0334c97edd54f3698fcb927a116788de42b4a7a3466357c70c9386e0cb88d559"
+      "file": "wear-v7/look-5.webp",
+      "bytes": 154364,
+      "sha256": "9137e22f52abd3e739d40bfa021b4da4776eac3a28006004fead4c3a972253b2"
     },
     {
-      "file": "wear-v6/print-04.svg",
-      "bytes": 104751,
-      "sha256": "1a89342d1d6f67bc311d03b0c59f5691912384979f6499d5bf9e431e5d4cf1b3"
+      "file": "wear-v7/look-6.webp",
+      "bytes": 194710,
+      "sha256": "58a814e5b2018dfb8ad358a56cf577aa925377613e78b3df56fafcdab612e238"
     },
     {
-      "file": "wear-v6/print-05.svg",
-      "bytes": 74613,
-      "sha256": "ed114a9ff822ad5ff361a2928b876367b161ac850d5db9d7ac6850e9343bfd99"
+      "file": "wear-v7/print-01.svg",
+      "bytes": 37318,
+      "sha256": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4"
     },
     {
-      "file": "wear-v6/print-06.svg",
-      "bytes": 68949,
-      "sha256": "6dbb1b90dee777771c10804faef1f36eec2f37afc4a6f2432c5765808309559a"
+      "file": "wear-v7/print-02.svg",
+      "bytes": 18317,
+      "sha256": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1"
     },
     {
-      "file": "wear-v6/print-07.svg",
-      "bytes": 30221,
-      "sha256": "2a03725945d954bb80e8b9de155647fea37848fe73fe6a60f3a262829901251e"
+      "file": "wear-v7/print-03.svg",
+      "bytes": 10840,
+      "sha256": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6"
     },
     {
-      "file": "wear-v6/print-08.svg",
-      "bytes": 60336,
-      "sha256": "cef39538d71069de3ac0dd745ecb933ba8c24372680a8452a1cbc65d30ed8608"
+      "file": "wear-v7/print-04.svg",
+      "bytes": 90267,
+      "sha256": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e"
     },
     {
-      "file": "wear-v6/print-09.svg",
-      "bytes": 61491,
-      "sha256": "3130ea6f9dcb0ac24e00bd913faf6a96eb93ed5a6b84e5024bc204ca1bb369e3"
+      "file": "wear-v7/print-05.svg",
+      "bytes": 52203,
+      "sha256": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7"
     },
     {
-      "file": "wear-v6/print-10.svg",
-      "bytes": 50995,
-      "sha256": "773972f28e265bff8890bdb89f9a44e4b856af8b94731db506fd7135d6c9d63f"
+      "file": "wear-v7/print-06.svg",
+      "bytes": 54467,
+      "sha256": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2"
     },
     {
-      "file": "wear-v6/print-11.svg",
-      "bytes": 41163,
-      "sha256": "104af7599d271861701f757f80562f1a0405bf3004c8280e8e0de71bea16ff22"
+      "file": "wear-v7/print-07.svg",
+      "bytes": 20910,
+      "sha256": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a"
     },
     {
-      "file": "wear-v6/print-12.svg",
-      "bytes": 64042,
-      "sha256": "48b182355002d40c3a03ae27ef9cde466dec75fdaec837d1361001a9c5d9c9bb"
+      "file": "wear-v7/print-08.svg",
+      "bytes": 22891,
+      "sha256": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999"
     },
     {
-      "file": "wear-v6/provenance.json",
-      "bytes": 14922,
-      "sha256": "79aafc495a121d3b545ca9ac8000b2c28976c00cb83e5e2893cfb6e4c8afcf88"
+      "file": "wear-v7/print-09.svg",
+      "bytes": 29169,
+      "sha256": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed"
+    },
+    {
+      "file": "wear-v7/print-10.svg",
+      "bytes": 31337,
+      "sha256": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78"
+    },
+    {
+      "file": "wear-v7/print-11.svg",
+      "bytes": 26679,
+      "sha256": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726"
+    },
+    {
+      "file": "wear-v7/print-12.svg",
+      "bytes": 30358,
+      "sha256": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0"
+    },
+    {
+      "file": "wear-v7/provenance.json",
+      "bytes": 20689,
+      "sha256": "fcc7d1cd333d71eb2e56c51a03e56f0c148fd8a70f882d9e835c4aa987fd814e"
     },
     {
       "file": "masters/snps-lockup.svg",

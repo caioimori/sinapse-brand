@@ -2,7 +2,7 @@
   "files": 324,
   "crc": "passed",
   "sha256_readback": "passed",
-  "archive_bytes": 27361135,
+  "archive_bytes": 26263231,
   "excluded": [
     "Passagem",
     "rejected symbol proposals",

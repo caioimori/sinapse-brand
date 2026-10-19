@@ -163,12 +163,12 @@ start('Coassinatura',light=True);art('avatar-client',90,125,800,800);para('Um pr
 start('Members','Cada aula faz parte da série.');art('cover-foundations',90,360,830,470);art('cover-build',1000,190,830,470);text('CONTRASTE, NÚMERO E UMA CHAMADA CURTA',90,155,20,muted,'JetBrains')
 start('Papelaria');photo('stationery',0,110,1920,850);text('MEMBER KIT / ESTUDO CONCEITUAL GERADO',90,145,20,'#aaaaaa','JetBrains')
 start('Member / 04',light=True);art('card-member',95,355,1730,570);para('A assinatura fica pequena. O material faz o restante.',95,245,1640,45,font='Manrope-Semibold');para('Alumínio, gravação e acabamento são intenções de projeto. Confirmar com amostra física antes de fabricar.',95,150,1640,27,muted)
-start('Collection 03');photo('wear-v6/look-1',80,160,1760,700,True);text('Cultura de IA. Fora da tela.',90,925,72,font='Manrope-Semibold');text('OITO CAMISETAS / QUATRO MOLETONS / 12 PROPOSTAS',90,125,23,muted,'JetBrains')
-wear=json.loads((out/'wear-v6/collection.json').read_text(encoding='utf8'))
+start('Collection 03');photo('wear-v7/look-1',80,160,1760,700,True);text('Cultura de IA. Fora da tela.',90,925,72,font='Manrope-Semibold');text('OITO CAMISETAS REGULARES / QUATRO MOLETONS / 12 PROPOSTAS',90,125,23,muted,'JetBrains')
+wear=json.loads((out/'wear-v7/collection.json').read_text(encoding='utf8'))
 for group in range(1,7):
-    pair=[p for p in wear if p['group']==group];start('Collection / '+str(group).zfill(2),light=True);photo('wear-v6/look-'+str(group),90,240,1740,700,True)
+    pair=[p for p in wear if p['group']==group];start('Collection / '+str(group).zfill(2),light=True);photo('wear-v7/look-'+str(group),90,240,1740,700,True)
     for i,item in enumerate(pair):
-        x=95+i*890;text(item['id']+' / '+item['name'],x,210,34,font='Manrope-Semibold');text(item['piece']+' / '+item['side'],x,160,22,muted);para(item['note'],x,120,790,19,muted)
+        x=95+i*890;text(item['id']+' / '+item['name'],x,210,34,font='Manrope-Semibold');text(item['piece']+(' / regular' if item['fit']=='regular' else '')+' / '+item['side'],x,160,22,muted);para(item['note'],x,120,790,19,muted)
 start('Direção de imagem','O acabamento precisa aparecer.');columns([('Fotografia','Textura, costura, peso, luz e sombra plausíveis. Corpos e produtos precisam manter coerência.'),('Material','Reflexos e refração têm direção. Não aplicar o mesmo blur indiscriminadamente sobre texto e imagem.'),('Vetor','A geometria original é a referência de forma. Render gerado é aplicação conceitual, não novo mestre.')]);text('Trabalho e pessoas reais devem substituir estudos conceituais nas provas comerciais.',90,160,28,muted)
 section('Referências e recursos','05',['Olhar com','intenção.'],True)
 refs=json.loads((root/'data/si/reference-atlas.json').read_text(encoding='utf8'))

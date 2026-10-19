@@ -385,37 +385,37 @@
     {
       "id": "v6-book-v6-page-42.webp",
       "file": "public/si-v2/book-v6/page-42.webp",
-      "sha256": "12bb16263bc1a347c904ba1b688332de0f2c2cc7f58c0aedd78808564c54be1f"
+      "sha256": "914eac176eba448cb2a12b9a3a01a3c92c912493929d9f80c6faa1f5572ec67f"
     },
     {
       "id": "v6-book-v6-page-43.webp",
       "file": "public/si-v2/book-v6/page-43.webp",
-      "sha256": "2352bece221479e9ba367cf1c730bd61c74c8886c332526caaca85da75ae9d2b"
+      "sha256": "06ce8a3e76f5acad2da968c791c52b7a6475ff17dd6de76fe1c4dff780a3742c"
     },
     {
       "id": "v6-book-v6-page-44.webp",
       "file": "public/si-v2/book-v6/page-44.webp",
-      "sha256": "af49fa10ac3c603401e3091d0b193f3a13f668576aef71730d14c710b3affd06"
+      "sha256": "137da1c5acb484879c10f2ab6cd902ad27c55b9a03475eb354754c7ef4cf551d"
     },
     {
       "id": "v6-book-v6-page-45.webp",
       "file": "public/si-v2/book-v6/page-45.webp",
-      "sha256": "11421a4797b4a6bf56a97e16347108c8be055e369936f5628ec6b20ba8f0996c"
+      "sha256": "ab764f61a823b710e5a927109287060d258cc8f2ecac56afbf5f6c2cb889f29a"
     },
     {
       "id": "v6-book-v6-page-46.webp",
       "file": "public/si-v2/book-v6/page-46.webp",
-      "sha256": "ee3001582871bd0cfc4a552b98a55fa973e4787a648482ebfb4aad4d51c36fcd"
+      "sha256": "e94f633696ae65187954af87795a75418f2c131416b2f354ecafc6d95717ca61"
     },
     {
       "id": "v6-book-v6-page-47.webp",
       "file": "public/si-v2/book-v6/page-47.webp",
-      "sha256": "c922c12b2643cb217de1c291bd45ce1af32c59be8fad54af3a4208938892cafd"
+      "sha256": "3003d2553cfefbca688451da53f92b2abcac4d1b6ae6e67ba9a7adbbb67ee52f"
     },
     {
       "id": "v6-book-v6-page-48.webp",
       "file": "public/si-v2/book-v6/page-48.webp",
-      "sha256": "1a09210c617ac6d2a4d1f2ad4a4df434fe9f2dad19a0d9a4392f313c76ce5bc4"
+      "sha256": "c8a0348f0a4345ab587b959c1add2a283e75c3a6695e6e632d5e32ccb4877f3e"
     },
     {
       "id": "v6-book-v6-page-49.webp",
@@ -965,7 +965,7 @@
     {
       "id": "v6-SINAPSE-SI-Brandbook-06.pdf",
       "file": "public/si-v2/SINAPSE-SI-Brandbook-06.pdf",
-      "sha256": "9507592cc40db013c5d46f32b09d8f6a82907b1cd9c1e5505d4b2c5a0e1c628e"
+      "sha256": "aa380a5ded8c1dcd8052b4526baaed6820ebf8d904630aa3c0f3a3c30907c3c3"
     },
     {
       "id": "v6-stationery.webp",
@@ -1348,94 +1348,94 @@
       "sha256": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85"
     },
     {
-      "id": "v6-wear-v6-look-1.webp",
-      "file": "public/si-v2/wear-v6/look-1.webp",
-      "sha256": "3f515f11043b9bb1c9b2e882188778fef3e24b22d0dc12ab8d7e912f1592247a"
+      "id": "v6-wear-v7-look-1.webp",
+      "file": "public/si-v2/wear-v7/look-1.webp",
+      "sha256": "f133fe56b8cbb76e20ee8994ac6a26fa14c2bfd78e21a00c7eeae3df01e8a337"
     },
     {
-      "id": "v6-wear-v6-look-2.webp",
-      "file": "public/si-v2/wear-v6/look-2.webp",
-      "sha256": "c6d78b5dbc7c1ad88be4e0e174acd7ce21ca39d116189a16b585604bd00f41a2"
+      "id": "v6-wear-v7-look-2.webp",
+      "file": "public/si-v2/wear-v7/look-2.webp",
+      "sha256": "849052476a642ba6686f6381c12b6651ecbba4a043ceb30e28b1bc712d36ccc1"
     },
     {
-      "id": "v6-wear-v6-look-3.webp",
-      "file": "public/si-v2/wear-v6/look-3.webp",
-      "sha256": "5435582eaeb6cb1b5d08588ed2dca75e68a432fc633bd953222dd772d15a9546"
+      "id": "v6-wear-v7-look-3.webp",
+      "file": "public/si-v2/wear-v7/look-3.webp",
+      "sha256": "4c66b2b4f7cae7de62be5c361e2b5204616bb5f36a5ca5f0feb9dba6d8f820c1"
     },
     {
-      "id": "v6-wear-v6-look-4.webp",
-      "file": "public/si-v2/wear-v6/look-4.webp",
-      "sha256": "b6bf288f23969843cc9baa674654a3e1f23f3e1ab94215f715d89f1451a90c8c"
+      "id": "v6-wear-v7-look-4.webp",
+      "file": "public/si-v2/wear-v7/look-4.webp",
+      "sha256": "c20e4be01b61b91137d6614a33c7663f57dfc7c555f5ea69d28044e7dd1d86fb"
     },
     {
-      "id": "v6-wear-v6-look-5.webp",
-      "file": "public/si-v2/wear-v6/look-5.webp",
-      "sha256": "a75e9a0a9639d2e4167a7c759300b66a7b3661671410bf4f21cd036d535ce0e4"
+      "id": "v6-wear-v7-look-5.webp",
+      "file": "public/si-v2/wear-v7/look-5.webp",
+      "sha256": "9137e22f52abd3e739d40bfa021b4da4776eac3a28006004fead4c3a972253b2"
     },
     {
-      "id": "v6-wear-v6-look-6.webp",
-      "file": "public/si-v2/wear-v6/look-6.webp",
-      "sha256": "a042c413547b36f9b500470a92a030e4f91aa6b88df033f6ab6ad8060e19781b"
+      "id": "v6-wear-v7-look-6.webp",
+      "file": "public/si-v2/wear-v7/look-6.webp",
+      "sha256": "58a814e5b2018dfb8ad358a56cf577aa925377613e78b3df56fafcdab612e238"
     },
     {
-      "id": "v6-wear-v6-print-01.svg",
-      "file": "public/si-v2/wear-v6/print-01.svg",
-      "sha256": "0288413965976d0df4209b99749b58d84e96fbef86793fd66471edfee2c1500d"
+      "id": "v6-wear-v7-print-01.svg",
+      "file": "public/si-v2/wear-v7/print-01.svg",
+      "sha256": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4"
     },
     {
-      "id": "v6-wear-v6-print-02.svg",
-      "file": "public/si-v2/wear-v6/print-02.svg",
-      "sha256": "0056a59c6846025ee73497ca374460d30e5368d93bf6ad032a64e10e8a51a76d"
+      "id": "v6-wear-v7-print-02.svg",
+      "file": "public/si-v2/wear-v7/print-02.svg",
+      "sha256": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1"
     },
     {
-      "id": "v6-wear-v6-print-03.svg",
-      "file": "public/si-v2/wear-v6/print-03.svg",
-      "sha256": "0334c97edd54f3698fcb927a116788de42b4a7a3466357c70c9386e0cb88d559"
+      "id": "v6-wear-v7-print-03.svg",
+      "file": "public/si-v2/wear-v7/print-03.svg",
+      "sha256": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6"
     },
     {
-      "id": "v6-wear-v6-print-04.svg",
-      "file": "public/si-v2/wear-v6/print-04.svg",
-      "sha256": "1a89342d1d6f67bc311d03b0c59f5691912384979f6499d5bf9e431e5d4cf1b3"
+      "id": "v6-wear-v7-print-04.svg",
+      "file": "public/si-v2/wear-v7/print-04.svg",
+      "sha256": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e"
     },
     {
-      "id": "v6-wear-v6-print-05.svg",
-      "file": "public/si-v2/wear-v6/print-05.svg",
-      "sha256": "ed114a9ff822ad5ff361a2928b876367b161ac850d5db9d7ac6850e9343bfd99"
+      "id": "v6-wear-v7-print-05.svg",
+      "file": "public/si-v2/wear-v7/print-05.svg",
+      "sha256": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7"
     },
     {
-      "id": "v6-wear-v6-print-06.svg",
-      "file": "public/si-v2/wear-v6/print-06.svg",
-      "sha256": "6dbb1b90dee777771c10804faef1f36eec2f37afc4a6f2432c5765808309559a"
+      "id": "v6-wear-v7-print-06.svg",
+      "file": "public/si-v2/wear-v7/print-06.svg",
+      "sha256": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2"
     },
     {
-      "id": "v6-wear-v6-print-07.svg",
-      "file": "public/si-v2/wear-v6/print-07.svg",
-      "sha256": "2a03725945d954bb80e8b9de155647fea37848fe73fe6a60f3a262829901251e"
+      "id": "v6-wear-v7-print-07.svg",
+      "file": "public/si-v2/wear-v7/print-07.svg",
+      "sha256": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a"
     },
     {
-      "id": "v6-wear-v6-print-08.svg",
-      "file": "public/si-v2/wear-v6/print-08.svg",
-      "sha256": "cef39538d71069de3ac0dd745ecb933ba8c24372680a8452a1cbc65d30ed8608"
+      "id": "v6-wear-v7-print-08.svg",
+      "file": "public/si-v2/wear-v7/print-08.svg",
+      "sha256": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999"
     },
     {
-      "id": "v6-wear-v6-print-09.svg",
-      "file": "public/si-v2/wear-v6/print-09.svg",
-      "sha256": "3130ea6f9dcb0ac24e00bd913faf6a96eb93ed5a6b84e5024bc204ca1bb369e3"
+      "id": "v6-wear-v7-print-09.svg",
+      "file": "public/si-v2/wear-v7/print-09.svg",
+      "sha256": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed"
     },
     {
-      "id": "v6-wear-v6-print-10.svg",
-      "file": "public/si-v2/wear-v6/print-10.svg",
-      "sha256": "773972f28e265bff8890bdb89f9a44e4b856af8b94731db506fd7135d6c9d63f"
+      "id": "v6-wear-v7-print-10.svg",
+      "file": "public/si-v2/wear-v7/print-10.svg",
+      "sha256": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78"
     },
     {
-      "id": "v6-wear-v6-print-11.svg",
-      "file": "public/si-v2/wear-v6/print-11.svg",
-      "sha256": "104af7599d271861701f757f80562f1a0405bf3004c8280e8e0de71bea16ff22"
+      "id": "v6-wear-v7-print-11.svg",
+      "file": "public/si-v2/wear-v7/print-11.svg",
+      "sha256": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726"
     },
     {
-      "id": "v6-wear-v6-print-12.svg",
-      "file": "public/si-v2/wear-v6/print-12.svg",
-      "sha256": "48b182355002d40c3a03ae27ef9cde466dec75fdaec837d1361001a9c5d9c9bb"
+      "id": "v6-wear-v7-print-12.svg",
+      "file": "public/si-v2/wear-v7/print-12.svg",
+      "sha256": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0"
     },
     {
       "id": "snps-lockup-master",
@@ -1499,23 +1499,23 @@
     },
     {
       "id": "evidência visual",
-      "file": "qa/v6-browser-check.json",
-      "sha256": "083d62b440657eb8a6a60ab61f2fc4ee3acc17f4a553d0588633f59091139e8a"
+      "file": "qa/v7-browser-check.json",
+      "sha256": "39116d5ff3be9543951bd4248adf469b303ae0cbf1d16ed1281e239d9efbc3d4"
     },
     {
       "id": "evidência visual",
       "file": "qa/v6-pdf-native-check.json",
-      "sha256": "d30e14a2bba358bac383cfcddaff3e8660a15d7278ea33e89549484724ac93b0"
+      "sha256": "d49c06328e7ca38893ecc9c25129ee5c974f254b658d77c666873e103452dd7f"
     },
     {
       "id": "evidência visual",
       "file": "qa/v6-contact-sheet.jpg",
-      "sha256": "f6963427ff44f49bf30ce7e98b9981c37412a4369774d355f53f4943fd1a4fa0"
+      "sha256": "6ad0bb13cedfde7aa3f9bd261a65a19a073e13307d042e7ee28cd8afb3dcb3a6"
     },
     {
       "id": "evidência visual",
-      "file": "docs/SINAPSE-SI-V6-QA.md",
-      "sha256": "a14bc59424b3d1e54bcb47c4af94a42e081549dff52df16a58eabdeca8295114"
+      "file": "docs/SINAPSE-SI-WEAR-REFINEMENT-QA.md",
+      "sha256": "a937855bf7170ec51a24c015b12b5218a36f2fbc5735ca142fdf1e53bab067c5"
     }
   ]
 }

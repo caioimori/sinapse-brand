@@ -6,21 +6,21 @@ Mestres SNPS e SINAPSE intactos. Todas as assinaturas permanecem horizontais; es
 
 Passagem e a imagem de campanha que o continha saíram do livro e das aplicações atuais. PDF 06: 60 páginas 1920 × 1080, texto nativo e fontes incorporadas. Nenhum novo ícone foi escolhido.
 
-Collection 03: oito camisetas e quatro moletons, 12 estampas originais em curvas e seis pares fotográficos conceituais. Fontes de expressão licenciadas por OFL. Nude Project orienta modelagem e linguagem tipográfica; Coinbase Shop orienta cultura de tecnologia.
+Collection 03: oito camisetas e quatro moletons, 12 estampas originais em curvas e seis pares fotográficos conceituais. Fontes de expressão licenciadas por OFL. Camisetas com corte regular, sem modelagem oversize. Caveat aprovada por Caio; Bricolage Grotesque e Space Mono em teste. A assinatura agora é somente SNPS SI. Nude Project orienta atitude editorial; Coinbase Shop orienta cultura de tecnologia.
 
 Geradores atuais, nesta ordem:
 
 ```powershell
 python scripts/build-si-v6-signatures.py
 python scripts/build-si-v4-assets.py
-python scripts/build-si-v6-wear.py
+python scripts/build-si-v7-wear.py
 python scripts/build-si-v6-book.py
 python scripts/consolidate-si-v6.py
 python scripts/package-si-v6.py
 ```
 
-O gerador de roupas cria as estampas e pranchas; os seis mockups foram gerados e revisados separadamente. Origem e prompts: public/si-v2/wear-v6/provenance.json. Não executar consolidadores ou livros históricos sobre a edição atual.
+O gerador de roupas cria as estampas e pranchas; os seis mockups foram gerados e revisados separadamente. Origem e prompts: public/si-v2/wear-v7/provenance.json. Não executar consolidadores ou livros históricos sobre a edição atual.
 
-Testes proporcionais pelo gate: scripts/test-si-v6.py e node node_modules/typescript/bin/tsc --noEmit. 101 verificações e TypeScript passaram. Livro sem texto fora da página; kit com CRC e SHA conferidos. Evidências em docs/SINAPSE-SI-V6-QA.md e qa/v6-*.json.
+Testes proporcionais pelo gate: scripts/test-si-wear-refinement.py e node node_modules/typescript/bin/tsc --noEmit. 78 verificações de fidelidade da Caveat e assinatura SNPS SI passaram, assim como TypeScript. Livro sem texto fora da página; kit com CRC e SHA conferidos. Evidências em docs/SINAPSE-SI-WEAR-REFINEMENT-QA.md e qa/v7-*.json.
 
 Build de produção deste lote não executado: RAM observada abaixo do piso de 4 GiB. Prévia local revisada, sem produção, DNS, postagem ou fabricação. PR #11 / issue #10; branch feat/sinapse-si-brandbook-20261016.

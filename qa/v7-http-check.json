@@ -1,0 +1,53 @@
+[
+  {
+    "path": "/studio/wear",
+    "status": 200,
+    "bytes": 33558
+  },
+  {
+    "path": "/book",
+    "status": 200,
+    "bytes": 31117
+  },
+  {
+    "path": "/studio/downloads",
+    "status": 200,
+    "bytes": 87307
+  },
+  {
+    "path": "/si-v2/SINAPSE-SI-Brandbook-06.pdf",
+    "status": 200,
+    "bytes": 14701834,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/SINAPSE-SI-Kit-06.zip",
+    "status": 200,
+    "bytes": 26263231,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v7/print-04.svg",
+    "status": 200,
+    "bytes": 90267,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v7/print-11.svg",
+    "status": 200,
+    "bytes": 26679,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v7/look-2.webp",
+    "status": 200,
+    "bytes": 136296,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v7/look-6.webp",
+    "status": 200,
+    "bytes": 194710,
+    "sha256_matches_local": true
+  }
+]
