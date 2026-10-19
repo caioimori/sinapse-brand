@@ -1,0 +1,75 @@
+{
+  "scope": "Server HTTP HEAD only; does not prove browser UI access or responsive behavior.",
+  "resources": [
+    {
+      "path": "/book",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/studio/wear",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/studio/symbol",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/studio/downloads",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "path": "/si-v2/SINAPSE-SI-Brandbook-07.pdf",
+      "status": 200,
+      "content_type": "application/pdf"
+    },
+    {
+      "path": "/si-v2/SINAPSE-SI-Kit-07.zip",
+      "status": 200,
+      "content_type": "application/zip"
+    },
+    {
+      "path": "/si-v2/symbol-circle/solid-dark.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "path": "/si-v2/visual-v8/circle-glass.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-1.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-2.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-3.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-4.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-5.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "path": "/si-v2/wear-v8/sheet-6.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    }
+  ]
+}

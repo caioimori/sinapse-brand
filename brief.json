@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "brand": {
+    "id": "sinapse-si",
+    "name": "SINAPSE SI",
+    "object": "Ecossistema corporativo com três braços de serviço e educação"
+  },
+  "mode": "rebrand",
+  "locale": "pt-BR",
+  "business": {
+    "contexts": [
+      "corporate",
+      "digital-product"
+    ],
+    "category": "Tecnologia, educação em IA aplicada e operação de crescimento",
+    "stage": "Marca existente em evolução",
+    "offer": "School, House e Growth; condições comerciais dependem da oferta vigente.",
+    "price_context": null,
+    "markets": [
+      "Brasil"
+    ],
+    "channels": [
+      "Site",
+      "Instagram",
+      "WhatsApp",
+      "Área de membros",
+      "Apresentações",
+      "Vestuário"
+    ]
+  },
+  "objective": "Corrigir a perna do R, criar o mesmo S sem círculo e aprimorar a formatação do brandbook com apresentação visual de perfil, feed, destaques e posts. Preservar preto/branco, mestres e decisões de roupa; preparar arquivos para revisão e futura publicação.",
+  "audience": {
+    "priority": "Profissionais, criadores e empresas que precisam aprender, construir ou operar com inteligência aplicada.",
+    "roles": [
+      "aluno",
+      "criador",
+      "gestor",
+      "responsável por produto",
+      "responsável por marketing"
+    ],
+    "needs": [
+      "repertório",
+      "projeto utilizável",
+      "operação recorrente"
+    ],
+    "buying_contexts": [],
+    "barriers": [],
+    "evidence": [
+      "sinapse.si/school",
+      "sinapse.si/house",
+      "sinapse.si/growth"
+    ]
+  },
+  "facts": {
+    "confirmed": [
+      "Nome SINAPSE SI e preto e branco definidos por Caio em 16/10/2026.",
+      "Três braços: School, House e Growth.",
+      "Seis páginas públicas atuais e campanha T04 consultadas."
+    ],
+    "hypotheses": [
+      "Plataforma verbal, sinais dos braços, famílias editoriais e aplicações da proposta 1.0."
+    ],
+    "unknown": [
+      "Aprovação final da proposta visual.",
+      "Condições comerciais vigentes da próxima turma.",
+      "Tecido, modelagem, fornecedor e viabilidade física do vestuário."
+    ]
+  },
+  "existing_brand_audit": "Mestres vetoriais preservados. Acervo anterior mistura fontes, nomenclaturas e propostas cromáticas; site atual distingue projeto, aprendizado e operação. Estudos recebidos são abertos, não aprovações.",
+  "constraints": {
+    "preserve": [
+      "SNPS original",
+      "SINAPSE original completo",
+      "preto e branco",
+      "Dark First + Light Mode"
+    ],
+    "change_requested": [
+      "navegação",
+      "tipografia",
+      "assinaturas",
+      "ícones",
+      "materiais",
+      "motion",
+      "editorial",
+      "fotografia de roupas"
+    ],
+    "resources": [
+      "Repositório existente",
+      "Fontes abertas",
+      "PDFs e arquivos recebidos"
+    ],
+    "rights": [
+      "Ativos próprios recebidos para este projeto",
+      "Fontes SIL OFL",
+      "Briefings privados fora da distribuição"
+    ]
+  },
+  "scope": {
+    "required_deliverables": [
+      "strategic-platform",
+      "identity-master",
+      "brandbook-site",
+      "brandbook-pdf"
+    ],
+    "out_of_scope": [
+      "Produção e DNS",
+      "Publicação social",
+      "Fabricação e contratação",
+      "Alterações de dados e operação de clientes"
+    ]
+  },
+  "approval": {
+    "identity": "pending",
+    "website_publication": "not_authorized",
+    "social_publication": "not_authorized",
+    "automation": "not_requested"
+  },
+  "created_at": "2026-10-16T22:48:27.779529+00:00"
+}

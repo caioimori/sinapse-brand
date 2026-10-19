@@ -1,0 +1,101 @@
+# SINAPSE SI / edição 08 / vigente em 19.10.2026
+
+Pedido atual: corrigir a origem da perna do R, disponibilizar o mesmo S sem círculo e refinar a formatação visual do brandbook com perfil, feed, destaques e posts. Mestres SNPS/SINAPSE e decisões anteriores preservados. Preto e branco, Dark First + Light, descritores em uma linha e espaço de uma altura de letra.
+
+SNPS Display 1.300: somente R/r e formas acentuadas de R mudam. A diagonal começa na borda superior da barra do bojo, sobreposta ao traço, sem raiz arredondada. Demais curvas e avanços intactos. S sem círculo usa exatamente o contorno interno de symbol-circle/source.json como preenchimento positivo; original raster da página 8, não Bézier original. O círculo segue disponível.
+
+Collection 04 tem 12 peças com frente/costas, duas versões de símbolo e 12 folhas fotográficas. Fonte/data atual: data/si/wear-v9.json. Costas nativas e Caveat preservadas. Seis edições fotográficas novas em wear-v9 mudam apenas os dois símbolos de frente por folha; todos os mockups são conceituais. Conferir amostra física antes de fabricar.
+
+Edição 08: 53 páginas, 7.252 caracteres informativos nativos, zero texto fora dos limites. Navegação por capítulos, galeria de aplicações em colunas com arte completa, perfil com dois avatares, nove posts, três carrosséis de cinco telas e cinco destaques de quatro Stories. Arquivos sociais em public/si-v2/social-v9; conteúdo/captions em data/si/social-v9.json. Sem aplicação ao Instagram.
+
+A conexão da prévia foi restaurada. QA atual em docs/SINAPSE-SI-V9-QA.md e qa/v9-*.json substitui a limitação de conexão anterior. TypeScript, build de produção e 311 provas de fidelidade passaram. Não herdar inspeção de edições antigas como prova desta edição. Dev em 127.0.0.1:3256, checkout knowledge/sinapse-si-brandbook, branch feat/sinapse-si-brandbook-20261016, PR #11. Build isolado em .next-verify; preservar o servidor dev.
+
+Geradores vigentes: build-si-v9-symbol.py; build-snps-display.py; build-si-v6-signatures.py; build-si-v9-delivery.py; consolidate-si-v9.py; package-si-v9.py; test-si-v9.py. Não executar consolidadores antigos. PDF, kit completo e kit social 08 são atuais. Recuperação anterior: bbc6e6c. Produção, DNS, Instagram e fabricação não foram autorizados nem executados.
+
+---
+
+## Histórico anterior / superado quando conflitar com a edição 08
+
+# SINAPSE SI / edição 07 / vigente em 19.10.2026
+
+Caio pediu menos texto, apresentação mais artística e todas as roupas com frente e costas. /book agora é uma galeria navegável com materiais, tipografia, aplicações e referências; o leitor completo fica recolhido. PDF visual com 40 páginas 1920 × 1080 e 5,639 caracteres nativos, contra 21.124 na edição 06. Fontes incorporadas e zero texto fora dos limites.
+
+Símbolo vigente: o S circular fino existente no Idv_SNPS.pdf, página 8, escolhido por Caio. O PDF traz raster 7680 × 4321, sem Bézier. Contorno extraído e suavizado; origem explicitada em symbol-circle/source.json. Sobreposição binária: 99,478% na silhueta e 98,580% na abertura S. Os dois mestres e a fonte corporativa permanecem byte a byte. /studio/symbol e downloads mostram a seleção atual; as propostas rejeitadas continuam só no histórico.
+
+Collection 04 em wear-v8: oito camisetas regulares, quatro moletons, 24 vistas em seis folhas. Frente: só S circular no peito; costas: frase + SNPS SI. Estampas de wear-v7 e Caveat preservadas byte a byte. Bricolage Grotesque e Space Mono continuam propostas. Vidro/prata/papel em visual-v8. Fotografias conceituais geradas, conferidas como arquivos locais; fabricação não autorizada.
+
+Verificação vigente: TypeScript, 112 provas de fidelidade, PDF e kit CRC/SHA. Limitação: navegador bloqueou observação da aba no documento data: de erro; Caio confirmou conexão recusada após recarregar e digitar /book. Servidor Ready, escutando 127.0.0.1:3256 e HTTP 200 local. Responsividade, Dark/Light, pausa, seleção, filtros e diálogos desta revisão NÃO verificados. Não herdar aprovação visual web de edições anteriores. Não declarar prévia pronta. Build de produção não executado por RAM abaixo de 4 GiB.
+
+Fontes atuais: scripts/build-si-v8-circle.py, build-si-v8-wear.py, build-si-v8-book.py, consolidate-si-v8.py, package-si-v8.py e test-si-v8.py. Leitor data/si/book-v8.json, PDF/kit 07. O gerador PDF reutiliza só os helpers de texto/vetor da edição 06. Preservar o acervo antigo; não executar consolidadores históricos. Próximo passo: restaurar acesso da prévia e conferir 320/390/768/1440 px, breakpoints e controles. Sem produção, DNS, postagem ou fabricação.
+
+Checkout knowledge/sinapse-si-brandbook; branch feat/sinapse-si-brandbook-20261016; PR #11. Recuperação anterior: bb713a2. O checkout source-of-truth não foi alterado.
+
+---
+
+## Histórico anterior / superado quando conflitar com a edição 07
+
+# SINAPSE SI — handoff / edição 06
+
+## Refinamento vigente — roupas / 19/10/2026
+
+Caio pediu camisetas de corte normal, aprovou somente a fonte gestual de Born Curious e Still Human e rejeitou a microassinatura Superintelligence / Sinapse. A assinatura das roupas agora é somente SNPS SI, horizontal, com os vetores atuais intactos.
+
+Implementado em wear-v7: oito camisetas regulares e quatro moletons, seis novos pares fotográficos gerados, 12 estampas em curvas. Caveat e os contornos das duas frases aprovadas foram preservados byte a byte. Bricolage Grotesque e Space Mono são testes para revisão, não fontes aprovadas. Site, livro 06 e kit 06 sincronizados.
+
+TypeScript e 78 verificações de fidelidade passaram. PDF com 60 páginas, 21.124 caracteres nativos e zero erros de limites. Roupas inspecionadas em 320/390/768/1440 px, Dark/Light, filtros 8/4 e consulta da estampa. Documentação: SINAPSE-SI-WEAR-REFINEMENT-QA.md. Build de produção não executado por RAM abaixo de 4 GiB.
+
+Gerador atual: scripts/build-si-v7-wear.py. Demais geradores ativos continuam build-si-v6-book.py, consolidate-si-v6.py e package-si-v6.py, agora apontando para wear-v7. Roupas anteriores ficam recuperáveis no Git e fora do kit atual. Reutilizar a aba /studio/wear na porta 3256; sem produção ou fabricação.
+
+## Histórico anterior — aplicar o refinamento acima quando houver conflito
+
+## Estado vigente — 19/10/2026
+
+Pedido: retirar urgentemente o grafismo entre ideia e ação, abrir o espaço entre logo e SI/School/House/Growth, criar roupas com referências Nude Project e Coinbase Shop e frases de IA. Original SNPS/SINAPSE, preto/branco e assinaturas em uma linha preservados.
+
+Implementado: 64 assinaturas de descritores atualizadas; espaço real de uma altura de letra, 46,90 unidades (+41%). Sem mudança na fonte corporativa ou nos mestres. House agora tem apenas frase e assinatura normal. Livro/leitor/kit 06 excluem o grafismo rejeitado e o OOH antigo; nenhuma opção nova de símbolo adotada.
+
+Collection 03: oito camisetas, quatro moletons, 12 SVGs nativos e seis novos pares fotográficos gerados. Frase sugerida por Caio em camiseta e moletom; Superintelligence, humor de IA e humanidade. Cormorant Garamond Italic, Caveat, Anton e Fraunces Italic com OFL; fontes de estampa, sem substituir a tipografia corporativa.
+
+TypeScript e 101 verificações geométricas passaram. PDF: 60 páginas, 21.034 caracteres nativos e zero erros de limites. Prévia inspecionada em 320/390/768/1440 px e breakpoints 700/1000; filtros 8/4, consulta de SVG, Dark/Light e páginas afetadas do leitor. Kit conferido por CRC/SHA. Build de produção não executado por RAM abaixo de 4 GiB. Evidência: SINAPSE-SI-V6-QA.md e qa/v6-*.json.
+
+Reutilizar http://127.0.0.1:3256/studio/wear . Checkout knowledge/sinapse-si-brandbook; branch feat/sinapse-si-brandbook-20261016, PR #11. Preservar CANON do checkout principal. Geradores correntes no README; consolidadores históricos reintroduzem decisões superadas. Sem produção, DNS, redes ou fabricação.
+
+## Histórico abaixo — decisões superadas quando conflitantes
+
+# SINAPSE SI — handoff / edição 05
+
+## Atualização vigente — rejeição das três opções
+
+Caio rejeitou Nexo, Síntese SN e Pulso por incongruência com o lettering. Não recomendar ou reapresentar essas opções como vigentes. Passagem continua rejeitado. Nenhum novo símbolo foi aprovado.
+
+Novo recorte em /studio/symbol: origem do traço e teste do S original em uso isolado. O atributo d foi copiado inteiro do primeiro path dos dois mestres, sem redesenho. Proporção 1,987:1, traço 9,38, retorno 4,69 e terminais retos. S isolado é base de construção, não decisão final de ícone.
+
+Dados data/si/symbol-origin.json; gerador scripts/build-symbol-origin.py; PDF de cinco páginas e kit de 16 SVGs em public/si-v2/symbol-origin. Materiais recortados por dentro do contorno. Originais e assinaturas horizontais preservados.
+
+TypeScript, build isolado e 34 provas de fidelidade passaram pelo gate. PDF e vetores inspecionados. Navegador bloqueou acesso à aba por política: inspeção visual responsiva e controles desta revisão NÃO verificados; não usar os antigos relatórios como prova atual. Detalhes em SINAPSE-ORIGEM-TRACO.md. Nenhuma produção autorizada. As atualizações abaixo são históricas e foram superadas quanto ao símbolo.
+
+## Atualização vigente — estudo de símbolo / 17/10
+
+Caio rejeitou Passagem e pediu um ícone preenchido, conectado e inovador, fundamentado na essência e nos traços do lettering. O estudo está em /studio/symbol, acessível por /book, identidade, índice e downloads. Nexo, Síntese SN e Pulso são alternativas; recomendação de design: Síntese SN. Nenhuma direção adotada automaticamente.
+
+Seis SVGs nativos claro/escuro, PDF próprio de dez páginas e ZIP em public/si-v2/symbol-study. Forma, construção, aplicações, vidro/prata e redução em pixels reais no laboratório. Mestres intactos. Cirdia combina labirinto, impressão digital e C; Buff deriva do duplo f. Fontes e limites em SINAPSE-ESTUDO-SIMBOLO.md.
+
+Passagem e ambiente que o continha saíram das aplicações web atuais. Livro/kit 05 permanecem como acervo com aviso no leitor; não afirmar que o PDF de 60 páginas já adotou outro símbolo. Novo kit contém apenas o estudo. QA em SINAPSE-ESTUDO-SIMBOLO-QA.md. Build não executado: RAM voltou ao piso, mas gate estava ocupado; sem repetição ou interrupção de outro processo. Abaixo segue o histórico da edição 05, anterior à rejeição.
+
+Branch feat/sinapse-si-brandbook-20261016. PR https://github.com/caioimori/sinapse-brand/pull/11 . Issue #10. Checkout knowledge/sinapse-si-brandbook. Preservar CANON modificado no checkout principal.
+
+Pedido vigente: todas as assinaturas em uma linha, preferindo SNPS SI quando útil; corrigir K, J, F, W e Z; preservar H; trocar o símbolo entre ideia e ação; ampliar roupas com estampas minimalistas de maior presença. Mestres originais e preto/branco preservados.
+
+Implementado: 80 assinaturas com complemento na mesma altura e baseline, incluindo SNPS SI. Fonte 1.200, 196 glifos; novas proporções e contornos nas cinco letras. H intacto. Nome completo também não quebra no FontLab. Fonte, templates e aplicações regenerados.
+
+Passagem: dois trilhos paralelos substituem o símbolo isolado do House, com versão vetorial e estudo em vidro. Novo ambiente de campanha. Collection 02: oito camisetas e quatro moletons em seis pares fotográficos, 12 estampas exatas em curvas/fundo transparente, filtros e ampliação. Renders anteriores rejeitados ficam no acervo, fora do kit atual.
+
+Brandbook 05 de 60 páginas 1920×1080, PDF nativo, leitor e kit 05 com 297 arquivos. QA: TypeScript, 250 verificações, 27 amostras responsivas e controles reais. PDF sem texto informativo fora da página; 11 recursos HTTP 200 com SHA idêntico; CRC e exclusões do kit verificados. Sem novos erros de console na leitura final. Detalhes em docs/SINAPSE-SI-V5-QA.md.
+
+Servidor http://127.0.0.1:3256/ . /book, /studio/wear, /studio/identity, /studio/typography e /studio/downloads. Reutilizar aba/porta. Pipeline atual no README; utilitários prepare/export v3 e assets v4 são compartilhados. Não rodar books/consolidadores históricos sobre o sistema atual.
+
+Build de produção novo não executado: RAM observada abaixo do piso de 4 GiB. Não reduzir limite ou parar processos alheios. Fila de testes inicialmente ocupada liberou; contratos e TypeScript passaram depois. CI anterior: lint interativo e scanner sem histórico Git suficiente; infraestrutura preservada.
+
+Novas letras, grafismo e roupas aguardam revisão estética. Fotografias geradas não comprovam fabricação. Sem produção, DNS, redes, fabricação ou alterações de autenticação/CI. Recuperação: edição 04 em fd288e8, edição 03 em cfe9c41; originais em public/brand/logo.
+
+CI desta edição em a0c7458 confirmou os mesmos bloqueios de lint interativo e revisão Git ausente. Execução 39004871179. Não alterar infraestrutura dentro do lote de branding.

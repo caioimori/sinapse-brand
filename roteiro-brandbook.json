@@ -1,0 +1,313 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "format": {
+    "presentation": {
+      "width": 1920,
+      "height": 1080,
+      "native_information_text": true,
+      "embedded_fonts": true
+    },
+    "website": "responsive",
+    "slide_count": 60
+  },
+  "modules": [
+    {
+      "id": "contexto",
+      "when": "projeto completo ou rebranding",
+      "purpose": "Problema, diagnóstico, evidências, escopo e decisão"
+    },
+    {
+      "id": "publico",
+      "when": "estratégia em escopo",
+      "purpose": "Públicos, situações, necessidades, barreiras e jornada"
+    },
+    {
+      "id": "plataforma",
+      "when": "estratégia em escopo",
+      "purpose": "Posicionamento, promessa, diferenciação e provas"
+    },
+    {
+      "id": "arquitetura",
+      "when": "múltiplas ofertas, produtos, empresas ou públicos; ou mudança de relação entre eles, mesmo preservando nomes",
+      "purpose": "Hierarquia, marca única, endosso, autonomia, sinais compartilhados e transição"
+    },
+    {
+      "id": "naming",
+      "when": "criar, mudar ou documentar nomes e grafias",
+      "purpose": "Lógica, grafia, pronúncia, disponibilidade e uso digital"
+    },
+    {
+      "id": "voz",
+      "when": "comunicação em escopo",
+      "purpose": "Narrativa factual, manifesto, voz e exemplos por contexto"
+    },
+    {
+      "id": "direcao",
+      "when": "identidade em escopo",
+      "purpose": "Moodboard, racional e direção escolhida"
+    },
+    {
+      "id": "assinatura",
+      "when": "identidade em escopo",
+      "purpose": "Mestres, versões, respiro, redução e usos inadequados"
+    },
+    {
+      "id": "sistema",
+      "when": "identidade em escopo",
+      "purpose": "Cor, tipografia, grafismos, composição e materiais pertinentes"
+    },
+    {
+      "id": "fotografia",
+      "when": "imagem em escopo",
+      "purpose": "Produto, pessoas, luz, cenas, referências e continuidade"
+    },
+    {
+      "id": "aplicacoes",
+      "when": "pontos de contato selecionados",
+      "purpose": "Marca em contextos reais da categoria"
+    },
+    {
+      "id": "produto-digital",
+      "when": "marca de aplicativo, SaaS ou produto digital em escopo",
+      "purpose": "Objeto da marca, primeiro valor, ícone/plataformas e passagem para tokens, estados e voz funcional"
+    },
+    {
+      "id": "corporativa",
+      "when": "marca corporativa, serviços B2B ou portfólio em escopo",
+      "purpose": "Papéis de compra, ofertas, provas, linguagem institucional/comercial e governança"
+    },
+    {
+      "id": "editorial",
+      "when": "conteúdo em escopo",
+      "purpose": "Famílias, templates, sequências, perfis, bio e exemplos"
+    },
+    {
+      "id": "transicao",
+      "when": "rebranding",
+      "purpose": "Preservação, mudanças, prioridades, dependências e recuperação"
+    },
+    {
+      "id": "producao",
+      "when": "entrega de sistema",
+      "purpose": "Fontes, licenças, exportações, critérios, versões e responsáveis"
+    }
+  ],
+  "pages": [],
+  "file": "public/si-v2/SINAPSE-SI-Brandbook-08.pdf",
+  "source": "scripts/build-si-v9-book.py",
+  "chapters": [
+    {
+      "title": "Inteligência em forma",
+      "file": "/si-v2/book-v9/page-01.webp"
+    },
+    {
+      "title": "O sinal",
+      "file": "/si-v2/book-v9/page-02.webp"
+    },
+    {
+      "title": "Contraste",
+      "file": "/si-v2/book-v9/page-03.webp"
+    },
+    {
+      "title": "O S sem círculo",
+      "file": "/si-v2/book-v9/page-04.webp"
+    },
+    {
+      "title": "Dois originais",
+      "file": "/si-v2/book-v9/page-05.webp"
+    },
+    {
+      "title": "Uma família",
+      "file": "/si-v2/book-v9/page-06.webp"
+    },
+    {
+      "title": "Espaço",
+      "file": "/si-v2/book-v9/page-07.webp"
+    },
+    {
+      "title": "Ritmo",
+      "file": "/si-v2/book-v9/page-08.webp"
+    },
+    {
+      "title": "Vidro",
+      "file": "/si-v2/book-v9/page-09.webp"
+    },
+    {
+      "title": "Prata",
+      "file": "/si-v2/book-v9/page-10.webp"
+    },
+    {
+      "title": "Papel",
+      "file": "/si-v2/book-v9/page-11.webp"
+    },
+    {
+      "title": "Lettering e vidro",
+      "file": "/si-v2/book-v9/page-12.webp"
+    },
+    {
+      "title": "Lettering e prata",
+      "file": "/si-v2/book-v9/page-13.webp"
+    },
+    {
+      "title": "Expressão",
+      "file": "/si-v2/book-v9/page-14.webp"
+    },
+    {
+      "title": "Alfabeto",
+      "file": "/si-v2/book-v9/page-15.webp"
+    },
+    {
+      "title": "R / continuidade",
+      "file": "/si-v2/book-v9/page-16.webp"
+    },
+    {
+      "title": "As palavras",
+      "file": "/si-v2/book-v9/page-17.webp"
+    },
+    {
+      "title": "Campanha",
+      "file": "/si-v2/book-v9/page-18.webp"
+    },
+    {
+      "title": "Feed",
+      "file": "/si-v2/book-v9/page-19.webp"
+    },
+    {
+      "title": "Stories",
+      "file": "/si-v2/book-v9/page-20.webp"
+    },
+    {
+      "title": "Members",
+      "file": "/si-v2/book-v9/page-21.webp"
+    },
+    {
+      "title": "Comunidade",
+      "file": "/si-v2/book-v9/page-22.webp"
+    },
+    {
+      "title": "Papelaria",
+      "file": "/si-v2/book-v9/page-23.webp"
+    },
+    {
+      "title": "Member 04",
+      "file": "/si-v2/book-v9/page-24.webp"
+    },
+    {
+      "title": "Ferramentas",
+      "file": "/si-v2/book-v9/page-25.webp"
+    },
+    {
+      "title": "Movimento",
+      "file": "/si-v2/book-v9/page-26.webp"
+    },
+    {
+      "title": "01 / In Public",
+      "file": "/si-v2/book-v9/page-27.webp"
+    },
+    {
+      "title": "02 / Superintelligence",
+      "file": "/si-v2/book-v9/page-28.webp"
+    },
+    {
+      "title": "03 / Human by Nature",
+      "file": "/si-v2/book-v9/page-29.webp"
+    },
+    {
+      "title": "04 / Born Curious",
+      "file": "/si-v2/book-v9/page-30.webp"
+    },
+    {
+      "title": "05 / Real Imagination",
+      "file": "/si-v2/book-v9/page-31.webp"
+    },
+    {
+      "title": "06 / Offline",
+      "file": "/si-v2/book-v9/page-32.webp"
+    },
+    {
+      "title": "07 / Do Not Disturb",
+      "file": "/si-v2/book-v9/page-33.webp"
+    },
+    {
+      "title": "08 / Practice",
+      "file": "/si-v2/book-v9/page-34.webp"
+    },
+    {
+      "title": "09 / Superintelligence Club",
+      "file": "/si-v2/book-v9/page-35.webp"
+    },
+    {
+      "title": "10 / In Public Hoodie",
+      "file": "/si-v2/book-v9/page-36.webp"
+    },
+    {
+      "title": "11 / Still Human",
+      "file": "/si-v2/book-v9/page-37.webp"
+    },
+    {
+      "title": "12 / More Capable",
+      "file": "/si-v2/book-v9/page-38.webp"
+    },
+    {
+      "title": "Duas aplicações",
+      "file": "/si-v2/book-v9/page-39.webp"
+    },
+    {
+      "title": "Perfil / apresentação",
+      "file": "/si-v2/book-v9/page-40.webp"
+    },
+    {
+      "title": "Posts / uma ideia por peça",
+      "file": "/si-v2/book-v9/page-41.webp"
+    },
+    {
+      "title": "Carrossel / O futuro tem autoria",
+      "file": "/si-v2/book-v9/page-42.webp"
+    },
+    {
+      "title": "Carrossel / Aprender para criar",
+      "file": "/si-v2/book-v9/page-43.webp"
+    },
+    {
+      "title": "Carrossel / Contexto antes do prompt",
+      "file": "/si-v2/book-v9/page-44.webp"
+    },
+    {
+      "title": "Destaque / Comece",
+      "file": "/si-v2/book-v9/page-45.webp"
+    },
+    {
+      "title": "Destaque / School",
+      "file": "/si-v2/book-v9/page-46.webp"
+    },
+    {
+      "title": "Destaque / House",
+      "file": "/si-v2/book-v9/page-47.webp"
+    },
+    {
+      "title": "Destaque / Growth",
+      "file": "/si-v2/book-v9/page-48.webp"
+    },
+    {
+      "title": "Destaque / Repertório",
+      "file": "/si-v2/book-v9/page-49.webp"
+    },
+    {
+      "title": "Olhares",
+      "file": "/si-v2/book-v9/page-50.webp"
+    },
+    {
+      "title": "Preto e branco",
+      "file": "/si-v2/book-v9/page-51.webp"
+    },
+    {
+      "title": "Origem e reprodução",
+      "file": "/si-v2/book-v9/page-52.webp"
+    },
+    {
+      "title": "Continue a criar",
+      "file": "/si-v2/book-v9/page-53.webp"
+    }
+  ]
+}

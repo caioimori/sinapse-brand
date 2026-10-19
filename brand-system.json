@@ -1,0 +1,877 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "version": "8.0-proposal",
+  "stage": "art_direction_for_review",
+  "strategy": {
+    "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
+    "promise": "Inteligência para ampliar o que você consegue fazer.",
+    "difference": "School desenvolve repertório, House constrói e Growth mantém a operação aprendendo.",
+    "reasons_to_believe": [
+      {
+        "pillar": "School",
+        "evidence": "O percurso público organiza fundamentos, prática orientada e projetos. A T04 tem lista de espera, mentoria em grupo e aulas gravadas.",
+        "source": "https://sinapse.si/school"
+      },
+      {
+        "pillar": "House",
+        "evidence": "A página pública apresenta descoberta, experiência, desenvolvimento, validação e produção. Cada entrega depende do escopo contratado.",
+        "source": "https://sinapse.si/house"
+      },
+      {
+        "pillar": "Growth",
+        "evidence": "A oferta pública apresenta especialistas, operação full time e agentes de automação e monitoramento. Resultados dependem do contexto e do trabalho realizado.",
+        "source": "https://sinapse.si/growth"
+      }
+    ],
+    "personality": [
+      "precisa",
+      "próxima",
+      "confiante",
+      "responsável"
+    ],
+    "principles": [
+      {
+        "title": "Capacidade ampliada.",
+        "text": "A tecnologia importa quando amplia a capacidade de aprender, criar, decidir e executar. A demonstração deve chegar a uma entrega que as pessoas consigam usar."
+      },
+      {
+        "title": "Clareza radical.",
+        "text": "Um assunto por composição. Hierarquia antes de efeito. A pessoa deve entender o próximo passo sem precisar conhecer o nosso vocabulário técnico."
+      },
+      {
+        "title": "Precisão humana.",
+        "text": "Pessoas definem direção e assumem responsabilidade. Agentes ampliam a execução. A experiência real é o critério para revisar o resultado."
+      },
+      {
+        "title": "Inteligência conectada.",
+        "text": "School desenvolve repertório, House constrói soluções e Growth mantém a operação aprendendo. Os três braços podem se complementar sem confundir a contratação."
+      }
+    ]
+  },
+  "naming": {
+    "display_name": "SINAPSE SI",
+    "pronunciation": "Sinapse, seguido das letras S e I.",
+    "domain": "sinapse.si",
+    "handle": "@sinapse.si",
+    "status": "user_defined",
+    "architecture": {
+      "model": "Marca principal com três braços descritores",
+      "hierarchy": [
+        "SINAPSE SI",
+        "Sinapse School",
+        "Sinapse House",
+        "Sinapse Growth"
+      ],
+      "rationale": "Reconhecimento compartilhado e ofertas distintas."
+    }
+  },
+  "identity": {
+    "masters": [
+      {
+        "id": "sinapse-symbol",
+        "file": "public/brand/logo/bone/sinapse-symbol.svg",
+        "sha256": "aff535baf925666485f67bd0662514ffe09184913c9cf245abe97f20ae479f76"
+      },
+      {
+        "id": "sinapse-wordmark",
+        "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+        "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+      },
+      {
+        "id": "snps-lockup",
+        "file": "public/brand/logo/bone/snps-lockup.svg",
+        "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+      }
+    ],
+    "variants": [
+      {
+        "id": "sinapse-frost-dark",
+        "file": "public/si-v2/logos/sinapse-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-frost-light",
+        "file": "public/si-v2/logos/sinapse-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-glass-dark",
+        "file": "public/si-v2/logos/sinapse-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-glass-light",
+        "file": "public/si-v2/logos/sinapse-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-frost-dark",
+        "file": "public/si-v2/logos/sinapse-growth-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-frost-light",
+        "file": "public/si-v2/logos/sinapse-growth-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-glass-dark",
+        "file": "public/si-v2/logos/sinapse-growth-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-glass-light",
+        "file": "public/si-v2/logos/sinapse-growth-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-silver-dark",
+        "file": "public/si-v2/logos/sinapse-growth-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-silver-light",
+        "file": "public/si-v2/logos/sinapse-growth-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-solid-dark",
+        "file": "public/si-v2/logos/sinapse-growth-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-growth-solid-light",
+        "file": "public/si-v2/logos/sinapse-growth-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-frost-dark",
+        "file": "public/si-v2/logos/sinapse-house-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-frost-light",
+        "file": "public/si-v2/logos/sinapse-house-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-glass-dark",
+        "file": "public/si-v2/logos/sinapse-house-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-glass-light",
+        "file": "public/si-v2/logos/sinapse-house-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-silver-dark",
+        "file": "public/si-v2/logos/sinapse-house-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-silver-light",
+        "file": "public/si-v2/logos/sinapse-house-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-solid-dark",
+        "file": "public/si-v2/logos/sinapse-house-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-house-solid-light",
+        "file": "public/si-v2/logos/sinapse-house-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-frost-dark",
+        "file": "public/si-v2/logos/sinapse-school-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-frost-light",
+        "file": "public/si-v2/logos/sinapse-school-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-glass-dark",
+        "file": "public/si-v2/logos/sinapse-school-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-glass-light",
+        "file": "public/si-v2/logos/sinapse-school-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-silver-dark",
+        "file": "public/si-v2/logos/sinapse-school-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-silver-light",
+        "file": "public/si-v2/logos/sinapse-school-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-solid-dark",
+        "file": "public/si-v2/logos/sinapse-school-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-school-solid-light",
+        "file": "public/si-v2/logos/sinapse-school-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-frost-dark",
+        "file": "public/si-v2/logos/sinapse-si-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-frost-light",
+        "file": "public/si-v2/logos/sinapse-si-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-glass-dark",
+        "file": "public/si-v2/logos/sinapse-si-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-glass-light",
+        "file": "public/si-v2/logos/sinapse-si-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-silver-dark",
+        "file": "public/si-v2/logos/sinapse-si-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-silver-light",
+        "file": "public/si-v2/logos/sinapse-si-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-solid-dark",
+        "file": "public/si-v2/logos/sinapse-si-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-si-solid-light",
+        "file": "public/si-v2/logos/sinapse-si-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-silver-dark",
+        "file": "public/si-v2/logos/sinapse-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-silver-light",
+        "file": "public/si-v2/logos/sinapse-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-solid-dark",
+        "file": "public/si-v2/logos/sinapse-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "sinapse-solid-light",
+        "file": "public/si-v2/logos/sinapse-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-frost-dark",
+        "file": "public/si-v2/logos/snps-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-frost-light",
+        "file": "public/si-v2/logos/snps-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-glass-dark",
+        "file": "public/si-v2/logos/snps-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-glass-light",
+        "file": "public/si-v2/logos/snps-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-frost-dark",
+        "file": "public/si-v2/logos/snps-growth-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-frost-light",
+        "file": "public/si-v2/logos/snps-growth-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-glass-dark",
+        "file": "public/si-v2/logos/snps-growth-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-glass-light",
+        "file": "public/si-v2/logos/snps-growth-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-silver-dark",
+        "file": "public/si-v2/logos/snps-growth-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-silver-light",
+        "file": "public/si-v2/logos/snps-growth-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-solid-dark",
+        "file": "public/si-v2/logos/snps-growth-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-growth-solid-light",
+        "file": "public/si-v2/logos/snps-growth-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-frost-dark",
+        "file": "public/si-v2/logos/snps-house-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-frost-light",
+        "file": "public/si-v2/logos/snps-house-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-glass-dark",
+        "file": "public/si-v2/logos/snps-house-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-glass-light",
+        "file": "public/si-v2/logos/snps-house-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-silver-dark",
+        "file": "public/si-v2/logos/snps-house-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-silver-light",
+        "file": "public/si-v2/logos/snps-house-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-solid-dark",
+        "file": "public/si-v2/logos/snps-house-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-house-solid-light",
+        "file": "public/si-v2/logos/snps-house-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-frost-dark",
+        "file": "public/si-v2/logos/snps-school-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-frost-light",
+        "file": "public/si-v2/logos/snps-school-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-glass-dark",
+        "file": "public/si-v2/logos/snps-school-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-glass-light",
+        "file": "public/si-v2/logos/snps-school-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-silver-dark",
+        "file": "public/si-v2/logos/snps-school-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-silver-light",
+        "file": "public/si-v2/logos/snps-school-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-solid-dark",
+        "file": "public/si-v2/logos/snps-school-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-school-solid-light",
+        "file": "public/si-v2/logos/snps-school-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-frost-dark",
+        "file": "public/si-v2/logos/snps-si-frost-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-frost-light",
+        "file": "public/si-v2/logos/snps-si-frost-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-glass-dark",
+        "file": "public/si-v2/logos/snps-si-glass-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-glass-light",
+        "file": "public/si-v2/logos/snps-si-glass-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-silver-dark",
+        "file": "public/si-v2/logos/snps-si-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-silver-light",
+        "file": "public/si-v2/logos/snps-si-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-solid-dark",
+        "file": "public/si-v2/logos/snps-si-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-si-solid-light",
+        "file": "public/si-v2/logos/snps-si-solid-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-silver-dark",
+        "file": "public/si-v2/logos/snps-silver-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-silver-light",
+        "file": "public/si-v2/logos/snps-silver-light.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-solid-dark",
+        "file": "public/si-v2/logos/snps-solid-dark.svg",
+        "status": "proposed"
+      },
+      {
+        "id": "snps-solid-light",
+        "file": "public/si-v2/logos/snps-solid-light.svg",
+        "status": "proposed"
+      }
+    ],
+    "colors": [
+      {
+        "name": "Carbon",
+        "hex": "#0A0A0A",
+        "use": "Base Dark First"
+      },
+      {
+        "name": "Ink",
+        "hex": "#191919",
+        "use": "Superfície elevada"
+      },
+      {
+        "name": "Mist",
+        "hex": "#888888",
+        "use": "Reflexos e matéria"
+      },
+      {
+        "name": "Paper",
+        "hex": "#F5F5F5",
+        "use": "Texto principal e peças claras"
+      },
+      {
+        "name": "White",
+        "hex": "#FFFFFF",
+        "use": "Luz e reflexo"
+      }
+    ],
+    "contrast_pairs": [
+      {
+        "id": "dark-primary",
+        "foreground": "#F5F5F5",
+        "background": "#0A0A0A",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "light-primary",
+        "foreground": "#171719",
+        "background": "#F5F5F7",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "dark-muted",
+        "foreground": "#A6A6AA",
+        "background": "#0A0A0A",
+        "minimum": 4.5,
+        "surface": "solid"
+      },
+      {
+        "id": "light-muted",
+        "foreground": "#626267",
+        "background": "#F5F5F7",
+        "minimum": 4.5,
+        "surface": "solid"
+      }
+    ],
+    "fonts": [
+      {
+        "family": "SNPS Display",
+        "file": "public/si-v2/fonts/SNPSDisplay-Regular.ttf",
+        "sha256": "9b97636883da3bf4d8e7a8f0f265797e884dde9447cbdc274fbde411c5c36df3",
+        "license_file": "public/si-v2/fonts/SNPSDisplay-LICENSE.txt"
+      },
+      {
+        "family": "Manrope",
+        "file": "public/si-v2/fonts/Manrope.ttf",
+        "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6",
+        "license_file": "public/si-v2/fonts/OFL.txt"
+      },
+      {
+        "family": "JetBrains Mono",
+        "file": "public/si-v2/fonts/JetBrainsMono-Regular.ttf",
+        "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79",
+        "license_file": "public/si-v2/fonts/jetbrainsmono-OFL.txt"
+      }
+    ],
+    "materials": [
+      "matte",
+      "silver",
+      "optical"
+    ],
+    "composition_rules": [
+      "uma ideia por composição",
+      "hierarquia antes do efeito",
+      "conteúdo em superfície sólida",
+      "margens e área de segurança",
+      "logo preservado em curvas"
+    ],
+    "reduction_sizes_px": [
+      24,
+      32,
+      48,
+      96
+    ],
+    "usage_tests": [
+      "logo claro e escuro",
+      "símbolo",
+      "assinaturas dos braços",
+      "avatares",
+      "PNG e SVG exportados"
+    ],
+    "display_font_spec": "public/si-v2/fonts/SNPSDisplay-spec.json",
+    "icons": "Signals 04 / 12 SVGs",
+    "signature_rule": "One horizontal line and shared cap line/baseline. Original prefix curves retained; descriptor gap 46.90 source units, equal to one cap height (previously 33.28).",
+    "symbol_study": {
+      "status": "source_letter_study_for_review",
+      "selected": null,
+      "recommended": null,
+      "source": "data/si/symbol-origin.json",
+      "document": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "route": "/studio/symbol",
+      "note": "All three prior proposals rejected. Verbatim source S isolated as a construction study; no approved new icon."
+    },
+    "signature_spacing": {
+      "revision": 6,
+      "sourceCapHeight": 46.9,
+      "descriptorGap": 46.9,
+      "previousDescriptorGap": 33.28,
+      "rule": "One source cap height between immutable logo and descriptor; one horizontal baseline."
+    },
+    "symbol": {
+      "name": "S circular fino",
+      "source": "Idv_SNPS.pdf / page 8",
+      "contour": "public/si-v2/symbol-circle/source.json",
+      "status": "user-selected existing symbol",
+      "limit": "Raster contour recovery; original Bezier unavailable",
+      "variants": [
+        "circle",
+        "free"
+      ],
+      "standalone_contour": "public/si-v2/symbol-free/source.json",
+      "standalone_rule": "Exact inner S contour from selected circle symbol, positive fill; no redraw."
+    },
+    "display_font_revision": {
+      "version": "1.300",
+      "changed": "R/r and accented R only; diagonal starts at upper edge of bowl beam, square connected root. Original master letters and advances unchanged."
+    }
+  },
+  "voice": {
+    "point_of_view": "Ampliar a capacidade de aprender, criar, decidir e executar.",
+    "traits": [
+      "precisa",
+      "próxima",
+      "confiante"
+    ],
+    "vocabulary": [
+      "aplicar",
+      "conectar",
+      "contexto",
+      "repertório",
+      "construir",
+      "operação"
+    ],
+    "avoid": [
+      "resultado garantido sem prova",
+      "parceria inferida de uso de ferramenta",
+      "matrícula por lista de espera"
+    ],
+    "examples": [
+      {
+        "context": "Institucional",
+        "before": "Soluções disruptivas que revolucionam o futuro com IA.",
+        "after": "Conectamos tecnologia, aprendizado e operação para ampliar o que você consegue fazer."
+      },
+      {
+        "context": "School",
+        "before": "Domine todas as IAs e nunca mais fique para trás.",
+        "after": "Aprenda a dar contexto, testar possibilidades e aplicar IA aos seus projetos."
+      },
+      {
+        "context": "House",
+        "before": "Seu app pronto com um prompt.",
+        "after": "Transformamos uma necessidade em um projeto com escopo, experiência e validação."
+      },
+      {
+        "context": "Growth",
+        "before": "Venda no automático com resultados garantidos.",
+        "after": "Conecte estratégia, conteúdo, mídia e dados em uma operação que aprende a cada ciclo."
+      },
+      {
+        "context": "Lista de espera",
+        "before": "Garanta agora sua vaga na T04.",
+        "after": "Entre na lista da T04 e receba os avisos da próxima turma."
+      },
+      {
+        "context": "Suporte",
+        "before": "Ocorreu uma falha inesperada. Error 502.",
+        "after": "Não foi possível concluir agora. Seus dados continuam preenchidos; tente novamente em alguns instantes."
+      }
+    ],
+    "claim_sources": [
+      "https://sinapse.si/school",
+      "https://sinapse.si/house",
+      "https://sinapse.si/growth"
+    ]
+  },
+  "photography": {
+    "priorities": [
+      "contexto real",
+      "luz lateral ampla",
+      "detalhe do trabalho",
+      "origem identificada"
+    ],
+    "product_invariants": [
+      "curvas do logo",
+      "produto exato",
+      "escala e aplicação verificáveis"
+    ],
+    "reference_roles": [
+      "Acervo recebido orienta o desenho; benchmark orienta mecanismos."
+    ],
+    "casting": [
+      "Sem personagem ou equipe fictícios apresentados como reais."
+    ],
+    "review_criteria": [
+      "anatomia e produto coerentes",
+      "logo preservado",
+      "origem e autorização",
+      "continuidade por sequência"
+    ]
+  },
+  "editorial": {
+    "families": [
+      {
+        "name": "Fluxo",
+        "label": "Sinal contínuo e camadas",
+        "use": "Recortes e sobreposições do S original em campanhas e conteúdos de continuidade.",
+        "ratio": "4:5 · 9:16 · 16:9",
+        "fixed": "Área de texto protegida, assinatura e intervalo entre planos.",
+        "variable": "Densidade, recorte, material e direção.",
+        "limit": "O recorte é um grafismo de apoio. Preservar a assinatura completa e a leitura."
+      },
+      {
+        "name": "Manifesto",
+        "label": "Marca e manifesto",
+        "use": "Uma ideia forte, símbolo ou palavra de marca. Abre a campanha e constrói reconhecimento.",
+        "ratio": "4:5 · 9:16",
+        "fixed": "Assinatura, grade, contraste e hierarquia.",
+        "variable": "Frase, escala e material do símbolo.",
+        "limit": "Até 12 palavras no título. A assinatura não compete com a mensagem."
+      },
+      {
+        "name": "Caderno",
+        "label": "Aprendizado e repertório",
+        "use": "Carrosséis de 6 ou 10 telas com contexto, demonstração e próximo passo.",
+        "ratio": "4:5 · 9:16",
+        "fixed": "Número de página, margem, rótulo de seção e fonte de referência.",
+        "variable": "Texto, captura, vídeo, diagrama e exemplo.",
+        "limit": "Uma afirmação principal por tela. Explicar siglas no primeiro uso."
+      },
+      {
+        "name": "Convite",
+        "label": "Mentorias e turmas",
+        "use": "Abertura, conteúdo, dinâmica, evidência e lista de espera da School.",
+        "ratio": "9:16 · 4:5",
+        "fixed": "Nome School, turma, sequência e destino real do CTA.",
+        "variable": "Tema, convite, conteúdo e condição confirmada.",
+        "limit": "Datas, preço, vagas e bônus somente após validação da oferta vigente."
+      },
+      {
+        "name": "Em produção",
+        "label": "Projetos e operação",
+        "use": "Mostrar processo, detalhe e resultado observado de House e Growth.",
+        "ratio": "4:5 · 16:9",
+        "fixed": "Problema, papel da SINAPSE e identificação de conceito ou entrega.",
+        "variable": "Projeto, interface, cenário, evidência e aprendizado.",
+        "limit": "Sem cliente, depoimento, resultado ou parceria inventados."
+      }
+    ],
+    "continuity_rules": [
+      "uma ideia por tela",
+      "condições comerciais verificadas",
+      "assinatura e margens consistentes"
+    ],
+    "text_policy": {
+      "avoid_stranded_function_words": true,
+      "max_headline_lines": 6
+    }
+  },
+  "transition": {
+    "preserved": [
+      "SNPS original",
+      "ofertas e fontes factuais"
+    ],
+    "changed": [
+      "R continuity / SNPS Display 1.300",
+      "Exact standalone S from selected circle mark",
+      "Two front-mark variants for all 12 garments",
+      "Profile, 9 posts, 5 highlights, 2 avatars",
+      "53-page visual book / responsive layout and interactive sequences"
+    ],
+    "rollout": [
+      "review new editorial and applications",
+      "authorize production publication separately",
+      "validate physical garment samples"
+    ],
+    "recovery": "bbc6e6c preserves edition 07; original SNPS/SINAPSE masters unchanged."
+  },
+  "creative_direction": {
+    "name": "Sinal contínuo",
+    "theme": "dark-first",
+    "light_mode": true,
+    "preserved": [
+      "SNPS original master",
+      "complete SINAPSE original master",
+      "black and white",
+      "accepted opening and dimension gradient",
+      "accepted glass/silver/solid studies"
+    ],
+    "materials": [
+      "liquid glass",
+      "optical clear",
+      "polished silver",
+      "frost",
+      "solid"
+    ],
+    "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
+    "supersedes": "Proposal 1.0 rejected by Caio.",
+    "iteration": "Visual edition 08; connected R; circle and standalone S; profile, feed, highlights and individual post sequences.",
+    "grammar": [
+      "square open terminals",
+      "4.69 circular returns",
+      "9.38 N outer shoulder",
+      "2.54 N inner return"
+    ],
+    "references": "data/si/reference-atlas.json",
+    "rejected_graphics": [
+      {
+        "name": "Passagem",
+        "reason": "User rejected symbol; detached rails do not meet new filled connected mass brief.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Nexo",
+        "reason": "Caio rejected as incongruent with existing lettering.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Síntese SN",
+        "reason": "Caio rejected as incongruent with existing lettering.",
+        "date": "2026-10-17"
+      },
+      {
+        "name": "Pulso",
+        "reason": "Caio rejected as incongruent with existing lettering.",
+        "date": "2026-10-17"
+      }
+    ],
+    "apparel": {
+      "collection": "04",
+      "pieces": 12,
+      "tees": 8,
+      "hoodies": 4,
+      "data": "data/si/wear-v9.json",
+      "fonts": "public/si-v2/wear-v8/fonts/sources.json",
+      "reference_urls": [
+        "https://nude-project.com/collections/t-shirts",
+        "https://nude-project.com/collections/hoodies",
+        "https://coinbaseshop.com/"
+      ],
+      "exact_artwork": "SVG outlines; generated photographs are concept visualizations",
+      "tee_fit": "regular",
+      "signature": "SNPS SI only; no micro tagline",
+      "approved_type": "Caveat",
+      "new_type_trials": [
+        "Bricolage Grotesque",
+        "Space Mono"
+      ],
+      "front": "Small existing S, circle or standalone",
+      "back": "Phrase and SNPS SI",
+      "photos": "six circle sheets plus six standalone sheets / 48 garment views; generated concepts",
+      "provenance": [
+        "public/si-v2/wear-v8/provenance.json",
+        "public/si-v2/wear-v9/provenance.json"
+      ]
+    },
+    "social": {
+      "data": "data/si/social-v9.json",
+      "posts": 9,
+      "carousels": 3,
+      "carousel_frames": 5,
+      "highlights": 5,
+      "highlight_frames": 4,
+      "avatars": 2,
+      "status": "editorial proposal, not applied to Instagram"
+    }
+  }
+}

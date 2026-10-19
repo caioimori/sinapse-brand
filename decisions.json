@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "decisions": [
+    {
+      "id": "SI-NAME",
+      "status": "user_defined",
+      "decision": "SINAPSE SI / Super Intelligence",
+      "source": "Pedido de Caio em 16/10/2026"
+    },
+    {
+      "id": "SI-COLOR",
+      "status": "user_defined",
+      "decision": "Preto e branco sem accent cromático",
+      "source": "Pedido de Caio em 16/10/2026"
+    },
+    {
+      "id": "SI-MASTER",
+      "status": "preserved",
+      "decision": "Preservar curvas dos mestres existentes"
+    },
+    {
+      "id": "SI-RELEASE",
+      "status": "not_authorized",
+      "decision": "Produção, DNS, postagem e fabricação fora do lote"
+    },
+    {
+      "id": "SI-PROPOSAL",
+      "status": "rejected",
+      "decision": "Proposta visual 1.0 rejeitada por Caio."
+    },
+    {
+      "id": "SI-V2",
+      "status": "awaiting_review",
+      "decision": "Proposta 02: Dark First + Light Mode; materiais ópticos, novas assinaturas e ícones, mockups realistas, cor de ferramentas em contexto."
+    },
+    {
+      "id": "SI-V3",
+      "status": "awaiting_review",
+      "decision": "Opening, dimension gradient, glass 3D, silver and solid preserved per Caio. Custom SNPS Display with recovered I; 9 signatures; common material system; actual garment references; 41-page reader."
+    },
+    {
+      "id": "SI-V4",
+      "status": "awaiting_review",
+      "decision": "Sinal contínuo: both original masters preserved, font 1.100 with selective corner grammar, six-case atlas, 55-page book, 16 application/anatomy compositions, 49 templates and 12 Signals 04 icons."
+    },
+    {
+      "id": "SI-V5",
+      "status": "awaiting_review",
+      "decision": "User requires a single horizontal line for every descriptor. SNPS SI added. K J F W Z redrawn; H unchanged. Passage replaces house symbol. Collection 02 contains 8 tees and 4 hoodies with exact SVG print masters and generated photographic concepts."
+    },
+    {
+      "id": "SI-SYMBOL-STUDY",
+      "status": "rejected",
+      "decision": "All three proposals rejected by Caio as incongruent with original logo traits. No recommendation remains."
+    },
+    {
+      "id": "SI-SOURCE-LETTER-STUDY",
+      "status": "superseded",
+      "decision": "Document the verbatim source S: horizontal proportion, constant stroke, selective returns, square terminals. Isolated use is a study; final symbol decision remains open. Superseded by the user-selected thin circle S from the original document."
+    },
+    {
+      "id": "SI-WEAR-REGULAR",
+      "status": "awaiting_review",
+      "decision": "User approved Caveat from Born Curious and Still Human, rejected the other apparel fonts and the SUPER INTELLIGENCE / SINAPSE micro tagline. Current tees must be regular fit; new Bricolage Grotesque and Space Mono trials; exact horizontal SNPS SI signature only. New fonts and mockups remain proposals."
+    },
+    {
+      "id": "SI-V6",
+      "status": "awaiting_review",
+      "decision": "Caio rejected the graphic between idea and action again. Removed from current PDF, reader and House poster. Horizontal descriptors now have one-cap-height gap. Collection 03 replaces 02 with 8 tees and 4 hoodies, varied typography and six realistic generated photographic concepts. No new symbol adopted."
+    },
+    {
+      "id": "SI-V8",
+      "status": "user_direction_implemented_pending_review",
+      "decision": "Keep existing thin S in a circle from Idv_SNPS.pdf page 8. Visual edition 07 replaces text-heavy presentation; 40 pages. Every apparel piece shows front and back: front simple circle mark, back phrase and SNPS SI. Regular tees and approved Caveat retained. Source PDF is raster-only; contour recovered, not native Bezier. Browser inspection remains pending due URL policy / user-reported connection refusal."
+    },
+    {
+      "id": "SI-V9",
+      "status": "user_direction_implemented_pending_review",
+      "decision": "R originates in upper edge of bowl beam; other glyphs preserved. Existing S circular remains and exact inner contour is also available standalone. All 12 garments have both versions, front/back, with back SVGs preserved. Edition 08: 53 visual pages; 9 posts with 3 five-frame carousels; 5 four-frame highlights and 2 avatars. Proposed editorial, no Instagram or production publication. Current browser evidence in docs/SINAPSE-SI-V9-QA.md supersedes the prior connection limitation."
+    }
+  ]
+}

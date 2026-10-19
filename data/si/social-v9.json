@@ -1,0 +1,496 @@
+{
+  "version": 9,
+  "date": "2026-10-19",
+  "profile": {
+    "handle": "sinapse.si",
+    "name": "Sinapse SI · Super Intelligence",
+    "bio": [
+      "Educação, tecnologia e crescimento.",
+      "Aprenda. Construa. Cresça.",
+      "Conheça School, House e Growth."
+    ],
+    "url": "https://sinapse.si/",
+    "status": "proposed_not_published",
+    "stats": "Not supplied; no followers, likes or social proof fabricated."
+  },
+  "avatars": {
+    "circle": {
+      "svg": "/si-v2/social-v9/avatar-circle.svg",
+      "png": "/si-v2/social-v9/avatar-circle.png",
+      "preview": "/si-v2/social-v9/avatar-circle.webp"
+    },
+    "free": {
+      "svg": "/si-v2/social-v9/avatar-free.svg",
+      "png": "/si-v2/social-v9/avatar-free.png",
+      "preview": "/si-v2/social-v9/avatar-free.webp"
+    }
+  },
+  "posts": [
+    {
+      "id": "autoria",
+      "name": "O futuro tem autoria",
+      "category": "Marca",
+      "layout": "glass",
+      "title": "O futuro tem autoria.",
+      "caption": "Ferramentas ampliam possibilidades. A direção continua sendo uma escolha humana.\n\nNa SINAPSE, aprender, construir e crescer fazem parte da mesma conversa. Conheça School, House e Growth em sinapse.si.",
+      "frames": [
+        {
+          "title": "O futuro tem autoria.",
+          "body": "Uma inteligência para aprender, construir e crescer.",
+          "svg": "/si-v2/social-v9/post-autoria-1.svg",
+          "png": "/si-v2/social-v9/post-autoria-1.png",
+          "preview": "/si-v2/social-v9/post-autoria-1.webp"
+        },
+        {
+          "title": "Começa em uma pergunta.",
+          "body": "O que você quer conseguir fazer? O problema orienta o caminho.",
+          "svg": "/si-v2/social-v9/post-autoria-2.svg",
+          "png": "/si-v2/social-v9/post-autoria-2.png",
+          "preview": "/si-v2/social-v9/post-autoria-2.webp"
+        },
+        {
+          "title": "Ganha forma na prática.",
+          "body": "Uma aula, um projeto ou uma operação. Cada contexto pede uma construção.",
+          "svg": "/si-v2/social-v9/post-autoria-3.svg",
+          "png": "/si-v2/social-v9/post-autoria-3.png",
+          "preview": "/si-v2/social-v9/post-autoria-3.webp"
+        },
+        {
+          "title": "Melhora quando é revisado.",
+          "body": "Criar também é conferir, escolher e refazer o que importa.",
+          "svg": "/si-v2/social-v9/post-autoria-4.svg",
+          "png": "/si-v2/social-v9/post-autoria-4.png",
+          "preview": "/si-v2/social-v9/post-autoria-4.webp"
+        },
+        {
+          "title": "Qual é a sua próxima ideia?",
+          "body": "Conheça School, House e Growth em sinapse.si.",
+          "svg": "/si-v2/social-v9/post-autoria-5.svg",
+          "png": "/si-v2/social-v9/post-autoria-5.png",
+          "preview": "/si-v2/social-v9/post-autoria-5.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-autoria-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "school",
+      "name": "Aprender para criar",
+      "category": "School",
+      "layout": "paper",
+      "title": "Aprender muda o que você cria.",
+      "caption": "Repertório, contexto e prática. Aprender IA faz mais sentido quando você consegue aplicar o que estudou.\n\nConheça o percurso da SINAPSE School em sinapse.si/school.",
+      "frames": [
+        {
+          "title": "Aprender muda o que você cria.",
+          "body": "SINAPSE School / IA aplicada",
+          "svg": "/si-v2/social-v9/post-school-1.svg",
+          "png": "/si-v2/social-v9/post-school-1.png",
+          "preview": "/si-v2/social-v9/post-school-1.webp"
+        },
+        {
+          "title": "Construa repertório.",
+          "body": "Entenda as possibilidades e os limites antes de escolher uma ferramenta.",
+          "svg": "/si-v2/social-v9/post-school-2.svg",
+          "png": "/si-v2/social-v9/post-school-2.png",
+          "preview": "/si-v2/social-v9/post-school-2.webp"
+        },
+        {
+          "title": "Traga um problema seu.",
+          "body": "Uma necessidade real dá direção ao que você vai experimentar.",
+          "svg": "/si-v2/social-v9/post-school-3.svg",
+          "png": "/si-v2/social-v9/post-school-3.png",
+          "preview": "/si-v2/social-v9/post-school-3.webp"
+        },
+        {
+          "title": "Faça uma primeira versão.",
+          "body": "Construa, confira o uso e volte ao que precisa melhorar.",
+          "svg": "/si-v2/social-v9/post-school-4.svg",
+          "png": "/si-v2/social-v9/post-school-4.png",
+          "preview": "/si-v2/social-v9/post-school-4.webp"
+        },
+        {
+          "title": "Continue a aprender.",
+          "body": "Conheça a School em sinapse.si/school.",
+          "svg": "/si-v2/social-v9/post-school-5.svg",
+          "png": "/si-v2/social-v9/post-school-5.png",
+          "preview": "/si-v2/social-v9/post-school-5.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-school-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "contexto",
+      "name": "Contexto antes do prompt",
+      "category": "Repertório",
+      "layout": "tools",
+      "title": "Contexto antes do prompt.",
+      "caption": "Uma ferramenta não conhece, por conta própria, tudo o que importa no seu trabalho.\n\nAntes do prompt, organize objetivo, fontes e limites. Depois, confira a resposta no contexto em que ela será usada.",
+      "frames": [
+        {
+          "title": "Contexto antes do prompt.",
+          "body": "O repertório encontra a prática.",
+          "svg": "/si-v2/social-v9/post-contexto-1.svg",
+          "png": "/si-v2/social-v9/post-contexto-1.png",
+          "preview": "/si-v2/social-v9/post-contexto-1.webp"
+        },
+        {
+          "title": "1. Diga o que precisa entregar.",
+          "body": "Descreva o resultado e quem vai usar. Uma tarefa concreta ajuda a orientar a resposta.",
+          "svg": "/si-v2/social-v9/post-contexto-2.svg",
+          "png": "/si-v2/social-v9/post-contexto-2.png",
+          "preview": "/si-v2/social-v9/post-contexto-2.webp"
+        },
+        {
+          "title": "2. Reúna as fontes certas.",
+          "body": "Ofereça os documentos e exemplos que mudam a decisão. Preserve dados que não podem ser compartilhados.",
+          "svg": "/si-v2/social-v9/post-contexto-3.svg",
+          "png": "/si-v2/social-v9/post-contexto-3.png",
+          "preview": "/si-v2/social-v9/post-contexto-3.webp"
+        },
+        {
+          "title": "3. Defina o que precisa ser conferido.",
+          "body": "Formato, origem dos dados, restrições e critérios de qualidade devem estar explícitos.",
+          "svg": "/si-v2/social-v9/post-contexto-4.svg",
+          "png": "/si-v2/social-v9/post-contexto-4.png",
+          "preview": "/si-v2/social-v9/post-contexto-4.webp"
+        },
+        {
+          "title": "A resposta é um começo.",
+          "body": "Revise informação, contexto e uso antes de colocar o resultado para trabalhar.",
+          "svg": "/si-v2/social-v9/post-contexto-5.svg",
+          "png": "/si-v2/social-v9/post-contexto-5.png",
+          "preview": "/si-v2/social-v9/post-contexto-5.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-contexto-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "house",
+      "name": "Da ideia à primeira versão",
+      "category": "House",
+      "layout": "silver",
+      "title": "Da ideia à primeira versão.",
+      "caption": "Uma ideia ganha valor quando encontra uma experiência que alguém consegue usar.\n\nDescoberta, design, desenvolvimento e validação: conheça a SINAPSE House em sinapse.si/house.",
+      "frames": [
+        {
+          "title": "Da ideia à primeira versão.",
+          "body": "SINAPSE House / software e experiências",
+          "svg": "/si-v2/social-v9/post-house-1.svg",
+          "png": "/si-v2/social-v9/post-house-1.png",
+          "preview": "/si-v2/social-v9/post-house-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-house-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "curiosidade",
+      "name": "Born curious",
+      "category": "Marca",
+      "layout": "wear",
+      "title": "Born curious. Built different.",
+      "caption": "Curiosidade também se veste.\n\nEstudo da coleção SINAPSE SI: frente discreta, ideia nas costas. Conceito em desenvolvimento, sem anúncio de venda.",
+      "frames": [
+        {
+          "title": "Born curious. Built different.",
+          "body": "SINAPSE SI / estudo de coleção",
+          "svg": "/si-v2/social-v9/post-curiosidade-1.svg",
+          "png": "/si-v2/social-v9/post-curiosidade-1.png",
+          "preview": "/si-v2/social-v9/post-curiosidade-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-curiosidade-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "growth",
+      "name": "Crescer também é aprender",
+      "category": "Growth",
+      "layout": "growth",
+      "title": "Crescer também é aprender.",
+      "caption": "Estratégia, criação e dados precisam conversar ao longo da operação.\n\nA SINAPSE Growth conecta conteúdo, mídia, CRM e automação para e-commerce, vendas diretas e geração de leads. Conheça em sinapse.si/growth.",
+      "frames": [
+        {
+          "title": "Crescer também é aprender.",
+          "body": "Estratégia. Criação. Dados. Continuidade.",
+          "svg": "/si-v2/social-v9/post-growth-1.svg",
+          "png": "/si-v2/social-v9/post-growth-1.png",
+          "preview": "/si-v2/social-v9/post-growth-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-growth-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "junto",
+      "name": "Inteligência em comum",
+      "category": "Marca",
+      "layout": "pattern",
+      "title": "Inteligência se constrói junto.",
+      "caption": "Uma boa pergunta abre caminhos. Uma troca amplia o repertório. Um projeto coloca o aprendizado em movimento.\n\nA SINAPSE conecta pessoas, conhecimento e construção.",
+      "frames": [
+        {
+          "title": "Inteligência se constrói junto.",
+          "body": "Pessoas. Repertório. Construção.",
+          "svg": "/si-v2/social-v9/post-junto-1.svg",
+          "png": "/si-v2/social-v9/post-junto-1.png",
+          "preview": "/si-v2/social-v9/post-junto-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-junto-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "pergunta",
+      "name": "A próxima pergunta",
+      "category": "Repertório",
+      "layout": "type",
+      "title": "Uma pergunta melhor muda o caminho.",
+      "caption": "Antes de pedir uma resposta, vale voltar à pergunta. O que você sabe? O que precisa descobrir? O que mudaria a sua decisão?\n\nContexto e critério também fazem parte de trabalhar com IA.",
+      "frames": [
+        {
+          "title": "Uma pergunta melhor muda o caminho.",
+          "body": "Contexto / critério / criação",
+          "svg": "/si-v2/social-v9/post-pergunta-1.svg",
+          "png": "/si-v2/social-v9/post-pergunta-1.png",
+          "preview": "/si-v2/social-v9/post-pergunta-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-pergunta-1.webp",
+      "status": "proposed_not_published"
+    },
+    {
+      "id": "criar",
+      "name": "Humano na direção",
+      "category": "Marca",
+      "layout": "display",
+      "title": "CRIAR",
+      "caption": "Humano na direção. Inteligência em movimento.\n\nSINAPSE SI / Super Intelligence. Aprender, construir e crescer com intenção.",
+      "frames": [
+        {
+          "title": "CRIAR",
+          "body": "Humano na direção. Inteligência em movimento.",
+          "svg": "/si-v2/social-v9/post-criar-1.svg",
+          "png": "/si-v2/social-v9/post-criar-1.png",
+          "preview": "/si-v2/social-v9/post-criar-1.webp"
+        }
+      ],
+      "cover": "/si-v2/social-v9/post-criar-1.webp",
+      "status": "proposed_not_published"
+    }
+  ],
+  "highlights": [
+    {
+      "id": "comece",
+      "name": "Comece",
+      "short": "SI",
+      "cover": "/si-v2/social-v9/highlight-comece.webp",
+      "coverSvg": "/si-v2/social-v9/highlight-comece.svg",
+      "coverPng": "/si-v2/social-v9/highlight-comece.png",
+      "frames": [
+        {
+          "title": "Uma inteligência para criar.",
+          "body": "SINAPSE SI / Super Intelligence",
+          "svg": "/si-v2/social-v9/story-comece-1.svg",
+          "png": "/si-v2/social-v9/story-comece-1.png",
+          "preview": "/si-v2/social-v9/story-comece-1.webp"
+        },
+        {
+          "title": "Aprender. Construir. Crescer.",
+          "body": "School, House e Growth: três caminhos que podem se complementar.",
+          "svg": "/si-v2/social-v9/story-comece-2.svg",
+          "png": "/si-v2/social-v9/story-comece-2.png",
+          "preview": "/si-v2/social-v9/story-comece-2.webp"
+        },
+        {
+          "title": "O contexto escolhe o caminho.",
+          "body": "Uma aula, um produto ou uma operação. Comece pela necessidade real.",
+          "svg": "/si-v2/social-v9/story-comece-3.svg",
+          "png": "/si-v2/social-v9/story-comece-3.png",
+          "preview": "/si-v2/social-v9/story-comece-3.webp"
+        },
+        {
+          "title": "Qual é a sua próxima ideia?",
+          "body": "Conheça o universo SINAPSE em sinapse.si.",
+          "svg": "/si-v2/social-v9/story-comece-4.svg",
+          "png": "/si-v2/social-v9/story-comece-4.png",
+          "preview": "/si-v2/social-v9/story-comece-4.webp"
+        }
+      ]
+    },
+    {
+      "id": "school",
+      "name": "School",
+      "short": "SC",
+      "cover": "/si-v2/social-v9/highlight-school.webp",
+      "coverSvg": "/si-v2/social-v9/highlight-school.svg",
+      "coverPng": "/si-v2/social-v9/highlight-school.png",
+      "frames": [
+        {
+          "title": "Aprender para criar.",
+          "body": "Educação em inteligência artificial aplicada.",
+          "svg": "/si-v2/social-v9/story-school-1.svg",
+          "png": "/si-v2/social-v9/story-school-1.png",
+          "preview": "/si-v2/social-v9/story-school-1.webp"
+        },
+        {
+          "title": "Repertório antes da ferramenta.",
+          "body": "Entenda possibilidades, limites e contexto.",
+          "svg": "/si-v2/social-v9/story-school-2.svg",
+          "png": "/si-v2/social-v9/story-school-2.png",
+          "preview": "/si-v2/social-v9/story-school-2.webp"
+        },
+        {
+          "title": "Prática que ganha forma.",
+          "body": "Traga um problema, experimente e construa uma primeira versão.",
+          "svg": "/si-v2/social-v9/story-school-3.svg",
+          "png": "/si-v2/social-v9/story-school-3.png",
+          "preview": "/si-v2/social-v9/story-school-3.webp"
+        },
+        {
+          "title": "Continue a aprender.",
+          "body": "Conheça o percurso em sinapse.si/school.",
+          "svg": "/si-v2/social-v9/story-school-4.svg",
+          "png": "/si-v2/social-v9/story-school-4.png",
+          "preview": "/si-v2/social-v9/story-school-4.webp"
+        }
+      ]
+    },
+    {
+      "id": "house",
+      "name": "House",
+      "short": "HS",
+      "cover": "/si-v2/social-v9/highlight-house.webp",
+      "coverSvg": "/si-v2/social-v9/highlight-house.svg",
+      "coverPng": "/si-v2/social-v9/highlight-house.png",
+      "frames": [
+        {
+          "title": "Da ideia à experiência.",
+          "body": "Software, produtos e automações por projeto.",
+          "svg": "/si-v2/social-v9/story-house-1.svg",
+          "png": "/si-v2/social-v9/story-house-1.png",
+          "preview": "/si-v2/social-v9/story-house-1.webp"
+        },
+        {
+          "title": "Começa em quem vai usar.",
+          "body": "Descoberta e design para entender o problema.",
+          "svg": "/si-v2/social-v9/story-house-2.svg",
+          "png": "/si-v2/social-v9/story-house-2.png",
+          "preview": "/si-v2/social-v9/story-house-2.webp"
+        },
+        {
+          "title": "Construir. Conferir. Evoluir.",
+          "body": "Desenvolvimento e validação fazem parte do mesmo percurso.",
+          "svg": "/si-v2/social-v9/story-house-3.svg",
+          "png": "/si-v2/social-v9/story-house-3.png",
+          "preview": "/si-v2/social-v9/story-house-3.webp"
+        },
+        {
+          "title": "Vamos construir?",
+          "body": "Conheça a House em sinapse.si/house.",
+          "svg": "/si-v2/social-v9/story-house-4.svg",
+          "png": "/si-v2/social-v9/story-house-4.png",
+          "preview": "/si-v2/social-v9/story-house-4.webp"
+        }
+      ]
+    },
+    {
+      "id": "growth",
+      "name": "Growth",
+      "short": "GR",
+      "cover": "/si-v2/social-v9/highlight-growth.webp",
+      "coverSvg": "/si-v2/social-v9/highlight-growth.svg",
+      "coverPng": "/si-v2/social-v9/highlight-growth.png",
+      "frames": [
+        {
+          "title": "Crescimento com continuidade.",
+          "body": "Estratégia e operação aprendendo juntas.",
+          "svg": "/si-v2/social-v9/story-growth-1.svg",
+          "png": "/si-v2/social-v9/story-growth-1.png",
+          "preview": "/si-v2/social-v9/story-growth-1.webp"
+        },
+        {
+          "title": "Criação encontra dados.",
+          "body": "Conteúdo, mídia, CRM e automação em contexto.",
+          "svg": "/si-v2/social-v9/story-growth-2.svg",
+          "png": "/si-v2/social-v9/story-growth-2.png",
+          "preview": "/si-v2/social-v9/story-growth-2.webp"
+        },
+        {
+          "title": "Negócios com caminhos diferentes.",
+          "body": "E-commerce, vendas diretas e geração de leads.",
+          "svg": "/si-v2/social-v9/story-growth-3.svg",
+          "png": "/si-v2/social-v9/story-growth-3.png",
+          "preview": "/si-v2/social-v9/story-growth-3.webp"
+        },
+        {
+          "title": "Conheça a operação.",
+          "body": "Explore a Growth em sinapse.si/growth.",
+          "svg": "/si-v2/social-v9/story-growth-4.svg",
+          "png": "/si-v2/social-v9/story-growth-4.png",
+          "preview": "/si-v2/social-v9/story-growth-4.webp"
+        }
+      ]
+    },
+    {
+      "id": "repertorio",
+      "name": "Repertório",
+      "short": "IA",
+      "cover": "/si-v2/social-v9/highlight-repertorio.webp",
+      "coverSvg": "/si-v2/social-v9/highlight-repertorio.svg",
+      "coverPng": "/si-v2/social-v9/highlight-repertorio.png",
+      "frames": [
+        {
+          "title": "A ferramenta segue a tarefa.",
+          "body": "Contexto, critério e prática.",
+          "svg": "/si-v2/social-v9/story-repertorio-1.svg",
+          "png": "/si-v2/social-v9/story-repertorio-1.png",
+          "preview": "/si-v2/social-v9/story-repertorio-1.webp"
+        },
+        {
+          "title": "Ideias precisam de desenho.",
+          "body": "Figma / prototipação e experiência.",
+          "svg": "/si-v2/social-v9/story-repertorio-2.svg",
+          "png": "/si-v2/social-v9/story-repertorio-2.png",
+          "preview": "/si-v2/social-v9/story-repertorio-2.webp"
+        },
+        {
+          "title": "Conhecimento precisa de contexto.",
+          "body": "Obsidian / organização e conexões.",
+          "svg": "/si-v2/social-v9/story-repertorio-3.svg",
+          "png": "/si-v2/social-v9/story-repertorio-3.png",
+          "preview": "/si-v2/social-v9/story-repertorio-3.webp"
+        },
+        {
+          "title": "Dados também fazem parte.",
+          "body": "Supabase / persistência e aplicações.",
+          "svg": "/si-v2/social-v9/story-repertorio-4.svg",
+          "png": "/si-v2/social-v9/story-repertorio-4.png",
+          "preview": "/si-v2/social-v9/story-repertorio-4.webp"
+        }
+      ]
+    }
+  ],
+  "formats": {
+    "posts": [
+      1080,
+      1350
+    ],
+    "stories": [
+      1080,
+      1920
+    ],
+    "avatar": [
+      1080,
+      1080
+    ]
+  },
+  "sources": {
+    "business": "data/si/brand.ts; existing user brief",
+    "identity": "original wordmarks; selected page-8 circle and its exact negative S",
+    "platform_note": "Design exports; profile is an interactive presentation, not a live Instagram account. Official Meta docs returned HTTP 429 during lookup; no claim of complete current platform-spec verification."
+  }
+}

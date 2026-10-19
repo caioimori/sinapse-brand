@@ -1,0 +1,236 @@
+{
+  "samples": [
+    {
+      "route": "wear",
+      "width": 320,
+      "dialog": {
+        "image": "/si-v2/wear/print-09.svg",
+        "title": "Signal Hoodie",
+        "width": 271
+      },
+      "broken": [],
+      "looks": 2,
+      "overflow": false,
+      "tees": 4
+    },
+    {
+      "route": "wear",
+      "width": 390,
+      "dialog": {
+        "image": "/si-v2/wear/print-09.svg",
+        "title": "Signal Hoodie",
+        "width": 341
+      },
+      "broken": [],
+      "looks": 2,
+      "overflow": false,
+      "tees": 4
+    },
+    {
+      "route": "wear",
+      "width": 768,
+      "dialog": {
+        "image": "/si-v2/wear/print-09.svg",
+        "title": "Signal Hoodie",
+        "width": 715
+      },
+      "broken": [],
+      "looks": 2,
+      "overflow": false,
+      "tees": 4
+    },
+    {
+      "route": "wear",
+      "width": 1440,
+      "dialog": {
+        "image": "/si-v2/wear/print-09.svg",
+        "title": "Signal Hoodie",
+        "width": 1100
+      },
+      "broken": [],
+      "looks": 2,
+      "overflow": false,
+      "tees": 4
+    },
+    {
+      "route": "identity",
+      "width": 320,
+      "signature": "/si-v2/logos/snps-si-solid-dark.svg",
+      "broken": [],
+      "overflow": false,
+      "growth": "/si-v2/logos/snps-growth-solid-dark.svg"
+    },
+    {
+      "route": "identity",
+      "width": 390,
+      "signature": "/si-v2/logos/snps-si-solid-dark.svg",
+      "broken": [],
+      "overflow": false,
+      "growth": "/si-v2/logos/snps-growth-solid-dark.svg"
+    },
+    {
+      "route": "identity",
+      "width": 768,
+      "signature": "/si-v2/logos/snps-si-solid-dark.svg",
+      "broken": [],
+      "overflow": false,
+      "growth": "/si-v2/logos/snps-growth-solid-dark.svg"
+    },
+    {
+      "route": "identity",
+      "width": 1440,
+      "signature": "/si-v2/logos/snps-si-solid-dark.svg",
+      "broken": [],
+      "overflow": false,
+      "growth": "/si-v2/logos/snps-growth-solid-dark.svg"
+    },
+    {
+      "route": "typography",
+      "width": 320,
+      "broken": [],
+      "overflow": false,
+      "word": "SNPS Display: SINAPSE SCHOOL",
+      "viewBox": "0 0 2129.0642000000007 150"
+    },
+    {
+      "route": "typography",
+      "width": 390,
+      "broken": [],
+      "overflow": false,
+      "word": "SNPS Display: SINAPSE SCHOOL",
+      "viewBox": "0 0 2129.0642000000007 150"
+    },
+    {
+      "route": "typography",
+      "width": 768,
+      "broken": [],
+      "overflow": false,
+      "word": "SNPS Display: SINAPSE SCHOOL",
+      "viewBox": "0 0 2129.0642000000007 150"
+    },
+    {
+      "route": "typography",
+      "width": 1440,
+      "broken": [],
+      "overflow": false,
+      "word": "SNPS Display: SINAPSE SCHOOL",
+      "viewBox": "0 0 2129.0642000000007 150"
+    },
+    {
+      "route": "book",
+      "width": 320,
+      "broken": [],
+      "counter": "11 / 60",
+      "overflow": false,
+      "page": "Assinaturas"
+    },
+    {
+      "route": "book",
+      "width": 390,
+      "broken": [],
+      "counter": "11 / 60",
+      "overflow": false,
+      "page": "Assinaturas"
+    },
+    {
+      "route": "book",
+      "width": 768,
+      "broken": [],
+      "counter": "11 / 60",
+      "overflow": false,
+      "page": "Assinaturas"
+    },
+    {
+      "route": "book",
+      "width": 1440,
+      "broken": [],
+      "counter": "11 / 60",
+      "overflow": false,
+      "page": "Assinaturas"
+    },
+    {
+      "route": "wear-light",
+      "width": 700,
+      "looks": 2,
+      "overflow": false,
+      "theme": "light"
+    },
+    {
+      "route": "wear-light",
+      "width": 768,
+      "looks": 2,
+      "overflow": false,
+      "theme": "light"
+    },
+    {
+      "route": "wear-light",
+      "width": 1000,
+      "looks": 2,
+      "overflow": false,
+      "theme": "light"
+    },
+    {
+      "route": "home",
+      "width": 320,
+      "broken": [],
+      "overflow": false,
+      "passage": "/si-v2/passage-3d.webp"
+    },
+    {
+      "route": "home",
+      "width": 390,
+      "broken": [],
+      "overflow": false,
+      "passage": "/si-v2/passage-3d.webp"
+    },
+    {
+      "route": "home",
+      "width": 768,
+      "broken": [],
+      "overflow": false,
+      "passage": "/si-v2/passage-3d.webp"
+    },
+    {
+      "route": "home",
+      "width": 1440,
+      "broken": [],
+      "overflow": false,
+      "passage": "/si-v2/passage-3d.webp"
+    },
+    {
+      "route": "editorial-house",
+      "width": 320,
+      "broken": [],
+      "graphic": "/si-v2/applications/poster-house.webp",
+      "overflow": false
+    },
+    {
+      "route": "editorial-house",
+      "width": 390,
+      "broken": [],
+      "graphic": "/si-v2/applications/poster-house.webp",
+      "overflow": false
+    },
+    {
+      "route": "editorial-house",
+      "width": 768,
+      "broken": [],
+      "graphic": "/si-v2/applications/poster-house.webp",
+      "overflow": false
+    },
+    {
+      "route": "editorial-house",
+      "width": 1440,
+      "broken": [],
+      "graphic": "/si-v2/applications/poster-house.webp",
+      "overflow": false
+    }
+  ],
+  "final_review_start": "2026-10-17T05:01:54.889Z",
+  "final_console_errors": [],
+  "resolved_development_errors": {
+    "cause": "Book reader import changed before book-v5.json was generated. JSON subsequently created; TypeScript and book page selection passed.",
+    "count": 15,
+    "latest": "2026-10-17T04:54:13.340Z"
+  }
+}

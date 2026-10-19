@@ -1,0 +1,79 @@
+{
+  "generator": "image_gen",
+  "date": "2026-10-19",
+  "role": "Generated conceptual product photography, not manufacturing proof",
+  "files": [
+    {
+      "key": "v8_photo_1",
+      "target": "wear-v8/sheet-1.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Camiseta preta, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Camiseta branca, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Regular-fit crewneck T-shirts ONLY. Normal set-in shoulder exactly at shoulder edge, sleeves halfway upper arm, straight standard-length torso, approx52cm width/72cm length, no oversize, no boxy dropped shoulder, no crop or longline. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"If you see me in public, it’s AI.\"; back of bottom garment: exact art from bottom right, \"Superintelligence\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-1.webp",
+      "sha256": "1d656d4a9b8bb61d8553ccfe86a074fb385a7a5ce9a0caa9bb15804bc177a6a3",
+      "source_sha256": "481a1de43a075d6dc4e870d89ea69aaf3786c726ceec41d559bb76b9c02ff382"
+    },
+    {
+      "key": "v8_photo_2",
+      "target": "wear-v8/sheet-2.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Camiseta branca, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Camiseta preta, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Regular-fit crewneck T-shirts ONLY. Normal set-in shoulder exactly at shoulder edge, sleeves halfway upper arm, straight standard-length torso, approx52cm width/72cm length, no oversize, no boxy dropped shoulder, no crop or longline. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"HUMAN BY NATURE. AUGMENTED BY AI.\"; back of bottom garment: exact art from bottom right, \"Born curious. Built different.\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-2.webp",
+      "sha256": "bda9789c26757807ef3e8d7fba1e16db69d979ed0e4bb26415ad6bee7bf08f60",
+      "source_sha256": "20c4870ec27da2b08717b4314e3108927329260b11dc80e90f36fc65ca9521b0"
+    },
+    {
+      "key": "v8_photo_3",
+      "target": "wear-v8/sheet-3.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Camiseta branca, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Camiseta preta, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Regular-fit crewneck T-shirts ONLY. Normal set-in shoulder exactly at shoulder edge, sleeves halfway upper arm, straight standard-length torso, approx52cm width/72cm length, no oversize, no boxy dropped shoulder, no crop or longline. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"Artificial intelligence. Real imagination.\"; back of bottom garment: exact art from bottom right, \"Off-line. Still thinking.\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-3.webp",
+      "sha256": "6e12441eeea433519336f010244b232b47c0fd44aa9ebe00cbe67cc988849a60",
+      "source_sha256": "34efcd94db18b0b58d758e68ddd38273f588d9e2ee1a5fea528f893c683e3580"
+    },
+    {
+      "key": "v8_photo_4",
+      "target": "wear-v8/sheet-4.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Camiseta preta, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Camiseta branca, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Regular-fit crewneck T-shirts ONLY. Normal set-in shoulder exactly at shoulder edge, sleeves halfway upper arm, straight standard-length torso, approx52cm width/72cm length, no oversize, no boxy dropped shoulder, no crop or longline. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"DO NOT DISTURB. I’M PROMPTING.\"; back of bottom garment: exact art from bottom right, \"The future is a practice.\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-4.webp",
+      "sha256": "2db70c83d654fbe05fdee58e2d209f1e0e07fe89e012af069e8e271ac6dd64e0",
+      "source_sha256": "124aa0920e472e6fea4d9807dcaa80a31d185991aafd7b1aa8321393d9c98627"
+    },
+    {
+      "key": "v8_photo_5",
+      "target": "wear-v8/sheet-5.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Moletom preto, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Moletom branco, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Standard regular pullover hoodies, normal shoulders, front kangaroo pocket only, hood, no zipper, no oversized silhouette. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"Superintelligence Social Club\"; back of bottom garment: exact art from bottom right, \"If you see me in public, it’s AI.\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-5.webp",
+      "sha256": "0d6f7ef3a2e73c6783904503475ff496980dfebf82f2310fe0c2dc5ac6a98492",
+      "source_sha256": "3d9aa1237a034ad552d1a9480a6ccf8e1f63f8e83b9e0bcc771f8c4617414da7"
+    },
+    {
+      "key": "v8_photo_6",
+      "target": "wear-v8/sheet-6.webp",
+      "prompt": "Use case: product-mockup. Create a photorealistic premium apparel catalog sheet, portrait 2:3 aspect ratio, four complete garments in an exact 2-by-2 grid. Reference image is a PRINT ART BOARD, not a garment. Top row: Moletom preto, FRONT LEFT and BACK RIGHT of the SAME piece. Bottom row: Moletom branco, FRONT LEFT and BACK RIGHT of the SAME second piece. Each row exactly centered at 25% and 75% canvas height; all garments fully visible with generous space. Neutral light gray seamless studio, diffuse side light, realistic cotton weave, stitching, hems, natural restrained folds, refined Nude Project/Coinbase shop product photography. Standard regular pullover hoodies, normal shoulders, front kangaroo pocket only, hood, no zipper, no oversized silhouette. Front of EACH garment: ONLY the small 3cm circular S shown at LEFT of reference board, positioned wearer's LEFT chest (viewer right). Preserve the exact white circle with negative S on black fabric or black circle with negative S on white fabric. No front slogan, no front wordmark. Back of top garment: exact art from top right of reference, text \"Still human.\"; back of bottom garment: exact art from bottom right, \"More human. More capable.\". Preserve original typography, line breaks and little SNPS SI wordmark. Back artwork about28cm wide, upper-back centered; small SNPS SI underneath. Both views same color, same cut and size. No Portuguese instruction labels, no captions, no human/model/mannequin/hanger, no brand footer, no extra shapes or words, no watermark. The reference art must wrap naturally to fabric, not float. High photographic realism.",
+      "pixels": [
+        1024,
+        1536
+      ],
+      "file": "public/si-v2/wear-v8/sheet-6.webp",
+      "sha256": "6a69c43e7b2d4f6446d4e03aecbb99fad07eedff5c8c107cce1a1c78bac4db01",
+      "source_sha256": "8530488a43d47cb90a4a1e4de4000ca6ac36e2f7c1b906377eff4f9d03828392"
+    }
+  ]
+}

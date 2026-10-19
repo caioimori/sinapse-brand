@@ -1,0 +1,34 @@
+{
+  "samples": [
+    {
+      "family": "flow",
+      "preview": true,
+      "scroll": 305,
+      "title": "O futuro tem autoria.",
+      "width": 320
+    },
+    {
+      "family": "flow",
+      "preview": true,
+      "scroll": 375,
+      "title": "O futuro tem autoria.",
+      "width": 390
+    },
+    {
+      "family": "flow",
+      "preview": true,
+      "scroll": 753,
+      "title": "O futuro tem autoria.",
+      "width": 768
+    },
+    {
+      "family": "flow",
+      "preview": true,
+      "scroll": 1425,
+      "title": "O futuro tem autoria.",
+      "width": 1440
+    }
+  ],
+  "png": "Canvas export status observed: PNG exportado em 1080 × 1350 px.",
+  "frameRoundTrip": true
+}

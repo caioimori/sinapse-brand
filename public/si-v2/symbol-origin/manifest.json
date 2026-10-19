@@ -1,0 +1,78 @@
+{
+  "status": "source_letter_study_for_review",
+  "source_path_sha256": "644f405ed39eb5afc62d334e8e02622b410c1b62974da48bb666d87cdba2312f",
+  "files": [
+    {
+      "file": "s-original-construction-dark.svg",
+      "sha256": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab"
+    },
+    {
+      "file": "s-original-construction-light.svg",
+      "sha256": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e"
+    },
+    {
+      "file": "s-original-frost-dark.svg",
+      "sha256": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64"
+    },
+    {
+      "file": "s-original-frost-light.svg",
+      "sha256": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5"
+    },
+    {
+      "file": "s-original-glass-dark.svg",
+      "sha256": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378"
+    },
+    {
+      "file": "s-original-glass-light.svg",
+      "sha256": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78"
+    },
+    {
+      "file": "s-original-silver-dark.svg",
+      "sha256": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb"
+    },
+    {
+      "file": "s-original-silver-light.svg",
+      "sha256": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991"
+    },
+    {
+      "file": "s-original-solid-dark.svg",
+      "sha256": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b"
+    },
+    {
+      "file": "s-original-solid-light.svg",
+      "sha256": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65"
+    },
+    {
+      "file": "s-original-tight-dark.svg",
+      "sha256": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9"
+    },
+    {
+      "file": "s-original-tight-light.svg",
+      "sha256": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c"
+    },
+    {
+      "file": "source-sinapse-wordmark-dark.svg",
+      "sha256": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564"
+    },
+    {
+      "file": "source-sinapse-wordmark-light.svg",
+      "sha256": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5"
+    },
+    {
+      "file": "source-snps-lockup-dark.svg",
+      "sha256": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10"
+    },
+    {
+      "file": "source-snps-lockup-light.svg",
+      "sha256": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507"
+    },
+    {
+      "file": "origin.json",
+      "sha256": "561b3e1992064806dd097a1c29f99c008a5b93be742f6dc7ac0280180468d964"
+    },
+    {
+      "file": "SINAPSE-Origem-do-Traco.pdf",
+      "sha256": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf"
+    }
+  ]
+}

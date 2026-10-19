@@ -1,0 +1,20 @@
+{
+  "pages": 5,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "native_characters": 1838,
+  "text_bounds_errors": [],
+  "embedded_fonts": [
+    "AAAAAA+JetBrainsMono-Regular",
+    "AAAAAA+Manrope-Regular",
+    "AAAAAA+Manrope-Semibold",
+    "Helvetica"
+  ],
+  "source_path_identical": true,
+  "source_masters": [
+    "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d",
+    "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+  ]
+}

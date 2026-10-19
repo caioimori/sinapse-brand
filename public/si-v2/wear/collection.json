@@ -1,0 +1,134 @@
+[
+  {
+    "id": "01",
+    "name": "Signal Back",
+    "piece": "Camiseta preta",
+    "side": "costas",
+    "note": "SNPS grande, centralizado na parte superior das costas.",
+    "group": 1,
+    "print": "/si-v2/wear/print-01.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "02",
+    "name": "SI Essential",
+    "piece": "Camiseta branca",
+    "side": "frente",
+    "note": "SNPS SI pequeno no lado esquerdo do peito.",
+    "group": 1,
+    "print": "/si-v2/wear/print-02.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "03",
+    "name": "Super Intelligence",
+    "piece": "Camiseta preta",
+    "side": "costas",
+    "note": "Duas palavras em grande escala, duas linhas e muito espaço.",
+    "group": 2,
+    "print": "/si-v2/wear/print-03.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "04",
+    "name": "Signal White",
+    "piece": "Camiseta branca",
+    "side": "costas",
+    "note": "SNPS preto em grande escala, sem texto adicional.",
+    "group": 2,
+    "print": "/si-v2/wear/print-04.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "05",
+    "name": "School Uniform",
+    "piece": "Camiseta preta",
+    "side": "frente",
+    "note": "SNPS SCHOOL em linha única atravessando o peito.",
+    "group": 3,
+    "print": "/si-v2/wear/print-05.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "06",
+    "name": "House Uniform",
+    "piece": "Camiseta branca",
+    "side": "frente",
+    "note": "SNPS HOUSE em linha única atravessando o peito.",
+    "group": 3,
+    "print": "/si-v2/wear/print-06.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "07",
+    "name": "Growth Uniform",
+    "piece": "Camiseta preta",
+    "side": "frente",
+    "note": "SNPS GROWTH em linha única atravessando o peito.",
+    "group": 4,
+    "print": "/si-v2/wear/print-07.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "08",
+    "name": "Create Next",
+    "piece": "Camiseta branca",
+    "side": "costas",
+    "note": "Três linhas curtas, alinhamento à esquerda, uma ideia.",
+    "group": 4,
+    "print": "/si-v2/wear/print-08.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/coin-logo-tee"
+  },
+  {
+    "id": "09",
+    "name": "Signal Hoodie",
+    "piece": "Moletom preto",
+    "side": "costas",
+    "note": "SNPS grande acima da linha do bolso, costas limpas.",
+    "group": 5,
+    "print": "/si-v2/wear/print-09.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode"
+  },
+  {
+    "id": "10",
+    "name": "Intelligence Hoodie",
+    "piece": "Moletom branco",
+    "side": "costas",
+    "note": "INTELLIGENCE em uma linha larga; SNPS SI pequeno no final.",
+    "group": 5,
+    "print": "/si-v2/wear/print-10.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode"
+  },
+  {
+    "id": "11",
+    "name": "SI Hoodie",
+    "piece": "Moletom preto",
+    "side": "frente",
+    "note": "SNPS SI central no peito, uma única linha.",
+    "group": 6,
+    "print": "/si-v2/wear/print-11.svg",
+    "theme": "dark",
+    "reference": "https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode"
+  },
+  {
+    "id": "12",
+    "name": "Learn Build Grow",
+    "piece": "Moletom branco",
+    "side": "costas",
+    "note": "LEARN. BUILD. GROW. em três linhas curtas.",
+    "group": 6,
+    "print": "/si-v2/wear/print-12.svg",
+    "theme": "light",
+    "reference": "https://coinbaseshop.com/products/bitcoin-whitepaper-hoodie-light-mode"
+  }
+]

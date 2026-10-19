@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "brand_id": "sinapse-si",
+  "brand_object": "Site de marca e biblioteca editável de aplicações",
+  "corporate_relationship": {
+    "entity": "SINAPSE SI",
+    "model": "recurso da marca corporativa",
+    "status": "proposed"
+  },
+  "audience_roles": [
+    "equipe de criação",
+    "gestão",
+    "produção de conteúdo"
+  ],
+  "value_journey": {
+    "discovery": "índice e capítulos",
+    "understanding": "regras e exemplos",
+    "first_value": "editar e exportar uma peça",
+    "return_reason": "criar a próxima aplicação com consistência",
+    "evidence": [
+      "prévia local e exportações conferidas"
+    ],
+    "hypotheses": [
+      "reduzir inconsistência na produção recorrente"
+    ]
+  },
+  "platforms": [
+    "web responsiva"
+  ],
+  "icon_requirements": [
+    "legível na redução",
+    "mestra em curvas",
+    "versões claras/escuras"
+  ],
+  "semantic_tokens": [
+    {
+      "dark": {
+        "background": "#0A0A0A",
+        "foreground": "#F5F5F5"
+      },
+      "light": {
+        "background": "#F5F5F7",
+        "foreground": "#171719"
+      }
+    }
+  ],
+  "functional_voice_examples": [
+    {
+      "context": "Suporte",
+      "before": "Ocorreu uma falha inesperada. Error 502.",
+      "after": "Não foi possível concluir agora. Seus dados continuam preenchidos; tente novamente em alguns instantes."
+    }
+  ],
+  "handoff": [
+    "fontes e vetores",
+    "kit e PDF 08",
+    "sistema social 08",
+    "PR #11 e prévia local"
+  ],
+  "implementation_status": "implemented_local_preview_v8"
+}

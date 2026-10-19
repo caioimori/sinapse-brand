@@ -1,0 +1,280 @@
+{
+  "samples": [
+    {
+      "route": "studio/typography",
+      "broken": [],
+      "corner": "A diagonal entra com suavidade.",
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/editorial",
+      "broken": [],
+      "filter": "School",
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/research",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "book",
+      "broken": [],
+      "counter": "14 / 55",
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/identity",
+      "broken": [],
+      "corner": "O terminal termina reto.",
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/architecture",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/community",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 375,
+      "width": 390
+    },
+    {
+      "route": "studio/typography",
+      "broken": [],
+      "corner": "A diagonal entra com suavidade.",
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/editorial",
+      "broken": [],
+      "filter": "School",
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/research",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "book",
+      "broken": [],
+      "counter": "14 / 55",
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/identity",
+      "broken": [],
+      "corner": "O terminal termina reto.",
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/architecture",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/community",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 753,
+      "width": 768
+    },
+    {
+      "route": "studio/typography",
+      "broken": [],
+      "corner": "A diagonal entra com suavidade.",
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/editorial",
+      "broken": [],
+      "filter": "School",
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/research",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "book",
+      "broken": [],
+      "counter": "14 / 55",
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/identity",
+      "broken": [],
+      "corner": "O terminal termina reto.",
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/architecture",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/community",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 1425,
+      "width": 1440
+    },
+    {
+      "route": "studio/typography",
+      "broken": [],
+      "corner": "A diagonal entra com suavidade.",
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/editorial",
+      "broken": [],
+      "filter": "School",
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/research",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "book",
+      "broken": [],
+      "counter": "14 / 55",
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/identity",
+      "broken": [],
+      "corner": "O terminal termina reto.",
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/architecture",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/community",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 305,
+      "width": 320
+    },
+    {
+      "route": "studio/editorial",
+      "broken": [],
+      "filter": "School",
+      "overflow": [],
+      "scrollWidth": 685,
+      "width": 700
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 685,
+      "width": 700
+    },
+    {
+      "route": "studio/typography",
+      "broken": [],
+      "corner": "A diagonal entra com suavidade.",
+      "overflow": [],
+      "scrollWidth": 985,
+      "width": 1000
+    },
+    {
+      "route": "",
+      "broken": [],
+      "overflow": [],
+      "scrollWidth": 985,
+      "width": 1000
+    }
+  ],
+  "themes": [
+    "dark 320/390/1440",
+    "light 768"
+  ],
+  "newConsoleErrors": [],
+  "note": "Actions start after hydrated root; corner, filter and book state explicitly observed."
+}

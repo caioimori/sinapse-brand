@@ -1,0 +1,43 @@
+{
+  "generator": "image_gen",
+  "date": "2026-10-19",
+  "role": "Generated conceptual product photography, not manufacturing proof",
+  "files": [
+    {
+      "key": "circle-glass",
+      "target": "visual-v8/circle-glass.webp",
+      "prompt": "Use case: product-mockup. Premium SINAPSE branding material study. A single thick clear optical glass disc, the exact referenced circle with its negative horizontal S aperture cut cleanly all the way through. The S aperture is empty space, not an added metal emblem. Disc tilted 15 degrees, suspended just above a black polished surface, large in frame with ample black negative space, physical refraction, caustics, milky edge highlights, no rainbow. Macro luxury product photograph. Reference is the exact flat logo silhouette, preserve proportions, terminals, two horizontal ends and flowing S transition. Black and white only. Wide landscape 3:2 composition. No letters, no wordmark, no people, no plastic aesthetic, no decoration, no watermark. The circle silhouette is essential.",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "file": "public/si-v2/visual-v8/circle-glass.webp",
+      "sha256": "8a00cb6d72d10ec5a6433f0bb36a8819a91d895c212a1d2b7ab92fd32f55220e",
+      "source_sha256": "adf9a8d149c717cdcc58699cb9232d53139e64222420f57add34dc8acdd541d9"
+    },
+    {
+      "key": "circle-silver",
+      "target": "visual-v8/circle-silver.webp",
+      "prompt": "Use case: product-mockup. Premium SINAPSE branding material study. A single polished silver aluminum sculptural disc with the exact referenced negative horizontal S aperture cut cleanly all the way through, no extra raised emblem. Leaning on a brushed silver tabletop, soft lateral studio light, subtle black reflected gradients in machined bevel, physical surface micro scratches, generous negative space, restrained high-end product editorial. Reference is the exact flat logo silhouette, preserve proportions, terminals, two horizontal ends and flowing S transition. Black and white only. Wide landscape 3:2 composition. No letters, no wordmark, no people, no plastic aesthetic, no decoration, no watermark. The circle silhouette is essential.",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "file": "public/si-v2/visual-v8/circle-silver.webp",
+      "sha256": "0d10ddf0e7fe7b0dfe3b7f1bfda95155318a2556f4ea0703042653a4423410c5",
+      "source_sha256": "9c32d134ef2b4c9e710706a8623f632d540ed275037e1740f0c7c01a1f0ffa9f"
+    },
+    {
+      "key": "circle-paper",
+      "target": "visual-v8/circle-paper.webp",
+      "prompt": "Use case: product-mockup. Premium SINAPSE branding material study. A white thick uncoated cotton invitation with the exact referenced circular logo debossed into paper, circle softly recessed and negative S left at paper height. Cropped close on neutral black and ivory sheets, physical paper fiber, grazing daylight and softly cast shadow, editorial still life. Pure monochrome, no text. Reference is the exact flat logo silhouette, preserve proportions, terminals, two horizontal ends and flowing S transition. Black and white only. Wide landscape 3:2 composition. No letters, no wordmark, no people, no plastic aesthetic, no decoration, no watermark. The circle silhouette is essential.",
+      "pixels": [
+        1536,
+        1024
+      ],
+      "file": "public/si-v2/visual-v8/circle-paper.webp",
+      "sha256": "194465487982caea8e8977b29fb0697c13a4de646b8e6fc65a35ab0d7eb44ad6",
+      "source_sha256": "0ea06ddf1781f40f4aecba2af2ff17d01ee7a54c461c0ccac464cf5f4d53963a"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "generator": "image_gen",
+  "date": "2026-10-19",
+  "edit": "Front badge replaced with exact standalone S; photographs remain conceptual, original artwork remains exact SVG.",
+  "files": [
+    {
+      "id": 1,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-1.webp",
+      "sha256": "ec12e1023a0087c11ff1348c004154b91539cd9ffb5109c9a5e351c8f712d9c9",
+      "source_sha256": "e6b686c7b80a5a8602349c5125290dfcf00af3d9cb9466a6f9fa80d1ac489ac7",
+      "pixels": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-2.webp",
+      "sha256": "ecac179c3e92f3055c1dd9d1cd070e05c6222f36c282c4f7d0780fb437b28b79",
+      "source_sha256": "8d3cd1d5db177dd01a5a06458f5e7bc9a60e76862891ceddb8d3a68100d190ef",
+      "pixels": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-3.webp",
+      "sha256": "d115bd8c85a10e1cbbd2a4c403a965c6c204d99307bf03ce0695298f27a4859d",
+      "source_sha256": "346c1c94a77c260dd37cd33bdf980dd03ff2c3c4e2ba2cc890e30f6ea0722f7f",
+      "pixels": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-4.webp",
+      "sha256": "1c8797075b8b84ac7dc51a35969f8970bb65b58524936b163da00d3e5ac93bea",
+      "source_sha256": "cf1d487217fe0d0c12a8bfd696f75792e35fb9230cad84121724ac50085e42a7",
+      "pixels": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-5.webp",
+      "sha256": "24ca5b25858544de2155e3c2f765cd1e684ca0a65ae63eeb10de947b05d1b99f",
+      "source_sha256": "9e9c1f7f3eb8cac53c5f251e62d21f3a513bd29932fe93daf2f8d39d42d61e3b",
+      "pixels": [
+        1024,
+        1536
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "Use case: precise-object-edit. Edit ONLY the small FRONT chest logos in the first image. It is a 2x2 product sheet: two FRONT garments in LEFT column, two BACK garments in RIGHT column. Replace the circular badge on BOTH LEFT-column front chests with the standalone thin flowing S from image2. Remove the full outer circle completely; print ONLY the exact standalone S as a filled positive silhouette. White S on black garment, black S on white garment. Preserve same logo width and position on wearer's left chest. The S has two rounded horizontal ends and an upward-flowing curve, exact proportions from image2, no lightning zigzag. Keep every BACK garment totally unchanged: exact handwritten or typed phrase, exact SNPS SI wordmark, no logo added. Keep all four original garments, exact regular fit/cut, cotton texture, lighting, perspective, seams, neck/hood/cuffs, colors, shadows, background and spacing. Do not regenerate text, do not add labels, no other changes. Same portrait 2:3 canvas. Output a photorealistic clothing mockup.",
+      "file": "public/si-v2/wear-v9/sheet-6.webp",
+      "sha256": "2d2439b547dc5eda5bcad6c44a9e1dc1db2f869e1f3b5f8e1cf90c661002fe1b",
+      "source_sha256": "3fdea783bac6b1b66db74a746d374412a5d748ed0159cd6c82d99a9ab5c362d4",
+      "pixels": [
+        1024,
+        1536
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "pages": 10,
+  "native_characters": 4105,
+  "dimensions": [
+    1920,
+    1080
+  ],
+  "text_bounds_errors": [],
+  "embedded_fonts": [
+    "AAAAAA+JetBrainsMono-Regular",
+    "AAAAAA+Manrope-Regular",
+    "AAAAAA+Manrope-Semibold",
+    "Helvetica"
+  ],
+  "vector_symbols": true
+}

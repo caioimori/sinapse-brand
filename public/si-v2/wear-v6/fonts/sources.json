@@ -1,0 +1,55 @@
+[
+  {
+    "role": "Editorial",
+    "family": "cormorantgaramond",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/CormorantGaramond-Italic%5Bwght%5D.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/cormorantgaramond/OFL.txt",
+    "file": "Editorial.ttf",
+    "axes": {
+      "wght": 600
+    },
+    "sha256": "6db4749498f1c306fe23ea58bfe3429b89a9dc42b2100a504129c1037a82da2e",
+    "license_sha256": "6f5a41d57400577a50aae88475b11f292f3d7de78ee7d5113c69577331d8ad31",
+    "license_note": "SIL OFL; text whitespace normalized, legal wording preserved."
+  },
+  {
+    "role": "Hand",
+    "family": "caveat",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/Caveat%5Bwght%5D.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/caveat/OFL.txt",
+    "file": "Hand.ttf",
+    "axes": {
+      "wght": 700
+    },
+    "sha256": "0eb5d5dc1a318b8bd439e40f44163f3efcf4e6ee8f057dcd4f2362c37a53fc75",
+    "license_sha256": "163a2b400e16916ad3196296c946c526d0efce6baf22a2164269ffc62fb9f671",
+    "license_note": "SIL OFL; text whitespace normalized, legal wording preserved."
+  },
+  {
+    "role": "Condensed",
+    "family": "anton",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/Anton-Regular.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/anton/OFL.txt",
+    "file": "Condensed.ttf",
+    "axes": {},
+    "sha256": "c454fdabd15b40ca481174591dbee81f159c1d915cdaaa8d4013d5918843c1aa",
+    "license_sha256": "9267baca92b7a7ce9db6dd9e6cc32c9fe3ddf1ac96e421d5f87c5746b9089d6a",
+    "license_note": "SIL OFL; text whitespace normalized, legal wording preserved."
+  },
+  {
+    "role": "Club",
+    "family": "fraunces",
+    "font_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/Fraunces-Italic%5BSOFT%2CWONK%2Copsz%2Cwght%5D.ttf",
+    "license_source": "https://raw.githubusercontent.com/google/fonts/main/ofl/fraunces/OFL.txt",
+    "file": "Club.ttf",
+    "axes": {
+      "wght": 800,
+      "opsz": 100,
+      "SOFT": 50,
+      "WONK": 1
+    },
+    "sha256": "2fd14e5dd1a8a128b0bc44cd1f658e67576cef28bbd93360eeb82821a9306e6a",
+    "license_sha256": "6732d6cc72c5d09292ff754dc1f39d9ea14918f74e87a17afa3f00a5120c3d48",
+    "license_note": "SIL OFL; text whitespace normalized, legal wording preserved."
+  }
+]

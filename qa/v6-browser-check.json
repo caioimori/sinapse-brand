@@ -1,0 +1,305 @@
+{
+  "signatures": [
+    {
+      "main": [
+        {
+          "loaded": true,
+          "width": 238.46875
+        }
+      ],
+      "overflow": false,
+      "width": 320
+    },
+    {
+      "main": [
+        {
+          "loaded": true,
+          "width": 293.03125
+        }
+      ],
+      "overflow": false,
+      "width": 390
+    },
+    {
+      "main": [
+        {
+          "loaded": true,
+          "width": 472.59375
+        }
+      ],
+      "overflow": false,
+      "width": 768
+    },
+    {
+      "main": [
+        {
+          "loaded": true,
+          "width": 841.828125
+        }
+      ],
+      "overflow": false,
+      "width": 1440
+    }
+  ],
+  "wear": [
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 305,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 273
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 273
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 273
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 273
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 273
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 273
+        }
+      ],
+      "width": 320
+    },
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 375,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 335
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 335
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 335
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 335
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 335
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 335
+        }
+      ],
+      "width": 390
+    },
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 685,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 629
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 629
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 629
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 629
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 629
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 629
+        }
+      ],
+      "width": 700
+    },
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 753,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 697
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 697
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 697
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 697
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 697
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 697
+        }
+      ],
+      "width": 768
+    },
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 985,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 889
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 889
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 889
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 889
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 889
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 889
+        }
+      ],
+      "width": 1000
+    },
+    {
+      "broken": [],
+      "heading": "COLLECTION 03 / 12 PROPOSTASCultura de IA.Fora da tela.Oito camisetas e quatro moletons. Humor, superinteligência e imaginação em serifas expressivas, escrita gestual e letras condensadas.",
+      "looks": 6,
+      "pieces": 12,
+      "scroll": 1425,
+      "visibleImage": [
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-1.webp",
+          "w": 1240
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-2.webp",
+          "w": 1240
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-3.webp",
+          "w": 1240
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-4.webp",
+          "w": 1240
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-5.webp",
+          "w": 1240
+        },
+        {
+          "loaded": true,
+          "src": "/si-v2/wear-v6/look-6.webp",
+          "w": 1240
+        }
+      ],
+      "width": 1440
+    }
+  ],
+  "filters": {
+    "tees": 8,
+    "hoodies": 4,
+    "lastPrint": "/si-v2/wear-v6/print-12.svg"
+  },
+  "light": {
+    "scroll": 375,
+    "theme": "vanta",
+    "width": 390
+  },
+  "dialog": "Reviewed at 390px; first and last print matched download path; open/close passed",
+  "visual": "Reviewed 320/390/768/1440 and breakpoint captures",
+  "publication": false,
+  "book": {
+    "broken": [],
+    "image": "/si-v2/book-v6/page-43.webp",
+    "page": "42",
+    "pdf": "/si-v2/SINAPSE-SI-Brandbook-06.pdf"
+  }
+}

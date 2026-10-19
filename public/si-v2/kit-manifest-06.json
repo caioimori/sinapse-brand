@@ -1,0 +1,1621 @@
+{
+  "version": "6.1-proposal",
+  "publication": "local_only",
+  "files": [
+    {
+      "file": "applications/avatar-client.svg",
+      "bytes": 17936,
+      "sha256": "e0e3d4ac38d833c6531b79e24b9c7eed77fe72e69399945b8aef38dbb41520ed"
+    },
+    {
+      "file": "applications/avatar-client.webp",
+      "bytes": 9068,
+      "sha256": "5b037a7c7089f4d9334fead6dd7009ac667dd145d37c41287499a86eaedce1d2"
+    },
+    {
+      "file": "applications/avatar-si.svg",
+      "bytes": 10742,
+      "sha256": "29a08aa22a731ad27505d8d9491291c4939e28656db7436776b6b7a6515c65f2"
+    },
+    {
+      "file": "applications/avatar-si.webp",
+      "bytes": 6182,
+      "sha256": "0e95b925c2e6db926fbff582faa5e6cd7f39d950ba792ab3def43ccd1afe2c88"
+    },
+    {
+      "file": "applications/avatar-t04.svg",
+      "bytes": 7522,
+      "sha256": "2ce4b39872230f74fe84b197a00d7d86e7f76b2cae8f8066b90c28385cf7ee0a"
+    },
+    {
+      "file": "applications/avatar-t04.webp",
+      "bytes": 6874,
+      "sha256": "38376c89376631339604d1a51f2c7d0f7546c1370509def02cee0d356d81ef4e"
+    },
+    {
+      "file": "applications/card-member.svg",
+      "bytes": 12933,
+      "sha256": "27de73eba7af4b1a15c59042af7de576c05cb0c45d759a39741983c87eb37cef"
+    },
+    {
+      "file": "applications/card-member.webp",
+      "bytes": 6752,
+      "sha256": "884f5cd747a131ddc80633cb4f51ebff5eb971c6ddfc9edc50cb0b375fc5de9b"
+    },
+    {
+      "file": "applications/cover-build.svg",
+      "bytes": 50729,
+      "sha256": "53ff116cd374b89e1db64e2aa3f05f2e29f4f262c06c25cc2d1f32bd5abee1f8"
+    },
+    {
+      "file": "applications/cover-build.webp",
+      "bytes": 23260,
+      "sha256": "8b1ea55c88b379edbe0745b66027d9fc91022c30a95165fce19e126f74adcac3"
+    },
+    {
+      "file": "applications/cover-foundations.svg",
+      "bytes": 43348,
+      "sha256": "3c76e9ea6878bfe812eda6d5d448a92902961b870ab36e9c70138a780e8db1ab"
+    },
+    {
+      "file": "applications/cover-foundations.webp",
+      "bytes": 23882,
+      "sha256": "3126f820193d2e5abcc25bc2599d3a078a82be0c112661f651487a29560b3ed2"
+    },
+    {
+      "file": "applications/ooh-triptych.svg",
+      "bytes": 151793,
+      "sha256": "a0f352e4e69caa9d2a03c5ad5fa843e18c8c2188b0579b32a09ee2cab0ce9188"
+    },
+    {
+      "file": "applications/ooh-triptych.webp",
+      "bytes": 71686,
+      "sha256": "f694f2b530928b745176efb98e594f21f606ecbed00d37c02d0ef5e7e435804a"
+    },
+    {
+      "file": "applications/poster-growth.svg",
+      "bytes": 58649,
+      "sha256": "0e7a28c04b7c4aaff7b2eacb0d7c6d4d4eedeb7384e1f81dd7143ddcdc14736e"
+    },
+    {
+      "file": "applications/poster-growth.webp",
+      "bytes": 29790,
+      "sha256": "843c3d74491b5d743df6ceeaebb39cd840c381a815467314e2e465a4159e8b66"
+    },
+    {
+      "file": "applications/poster-house.svg",
+      "bytes": 36907,
+      "sha256": "8782f0a86844283b94785eeb56a7043f2332e0cf5d4520ba5faeaf5ad6bb17e3"
+    },
+    {
+      "file": "applications/poster-house.webp",
+      "bytes": 15788,
+      "sha256": "5b569606eeab3503992d357a40c97bf41bb1e21dd93615d39b2176167f528057"
+    },
+    {
+      "file": "applications/poster-manifesto.svg",
+      "bytes": 631327,
+      "sha256": "4bb7ed42dd24296ba0661d62907217e7f41d19ebbcb353eaf3c8862efa6d6009"
+    },
+    {
+      "file": "applications/poster-manifesto.webp",
+      "bytes": 61954,
+      "sha256": "ea5a549f53227236c8bcf64f96ffabebc5d80f383f9dc5544b402e3c49a90b0d"
+    },
+    {
+      "file": "applications/poster-repertoire.svg",
+      "bytes": 74120,
+      "sha256": "f791604c8b4bced3dbf6ef46fa1d6965df284dca2f7113407f850dcf65a712e9"
+    },
+    {
+      "file": "applications/poster-repertoire.webp",
+      "bytes": 31588,
+      "sha256": "b35948c9d34adba29c056de4e7cd0b55f90667df43a585ec5e55cc6ef1559b6b"
+    },
+    {
+      "file": "applications/poster-school.svg",
+      "bytes": 54126,
+      "sha256": "b21323d7cde5881459e168ba5e518b93df46af7350b0e310fb719cdaf7556353"
+    },
+    {
+      "file": "applications/poster-school.webp",
+      "bytes": 26848,
+      "sha256": "1e44edaea125344853a735d461926a35fb0166691dd06bd443fbd5ab824a1049"
+    },
+    {
+      "file": "applications/story-invite.svg",
+      "bytes": 63788,
+      "sha256": "65c4bee0edee77c95d83c871e78126129edb7a5d21e410e7a89a6a1910e01831"
+    },
+    {
+      "file": "applications/story-invite.webp",
+      "bytes": 35602,
+      "sha256": "02ea13e69f740979be57e650dbc0695999621d6deecc1f43be5931d43efd5056"
+    },
+    {
+      "file": "applications/type-alphabet.svg",
+      "bytes": 154639,
+      "sha256": "ddc6ecf78e465f4c9147ef42eb6a4fbf6f8e46b60b33243cd279553d8eca005e"
+    },
+    {
+      "file": "applications/type-alphabet.webp",
+      "bytes": 38362,
+      "sha256": "767a0c3dcd03b2c9ad56babc14533dc98cd016929a0888902aa8ffed5edd5d5b"
+    },
+    {
+      "file": "applications/type-anatomy.svg",
+      "bytes": 210121,
+      "sha256": "3f15a55dedca946389b1d8d97b63c9f9dfe037ca6f4268c1c0cf38d9f98c2e26"
+    },
+    {
+      "file": "applications/type-anatomy.webp",
+      "bytes": 45926,
+      "sha256": "294756650fa546d91f06d1630edc0459deabca4b273969fabfc7d11078c229a0"
+    },
+    {
+      "file": "applications/type-proof.svg",
+      "bytes": 63045,
+      "sha256": "e9ae159a3cdabac11f522f66a18d4e44e04fc2c9d73eef96b96ceaa312f688c3"
+    },
+    {
+      "file": "applications/type-proof.webp",
+      "bytes": 34942,
+      "sha256": "1bc1a7ae20a9f7a857b4518e3866fd4033c891c153a6a2a43813700d4e1ae6b2"
+    },
+    {
+      "file": "applications/type-review.svg",
+      "bytes": 76932,
+      "sha256": "501cfe23a9dcf38558dbae30dddca9ca815272b01664c48426b7f6972af6e236"
+    },
+    {
+      "file": "applications/type-review.webp",
+      "bytes": 29040,
+      "sha256": "97bbc9b3eaa8c28889c067bef7c19f3522244780a4f2ff3958b5d1f00fc49184"
+    },
+    {
+      "file": "asset-provenance.json",
+      "bytes": 18828,
+      "sha256": "ade9c26d242734405c00336e290f29ffbbb1e1b470ecbd9d4f09fee392e225b9"
+    },
+    {
+      "file": "book-v6/page-01.webp",
+      "bytes": 32892,
+      "sha256": "d5d3b19af27eca085ab5305a2d3f623c8070a857326abd590e80f913c12ab4ce"
+    },
+    {
+      "file": "book-v6/page-02.webp",
+      "bytes": 35176,
+      "sha256": "1584b2d2d840acc4dcf673c7d35faac8e3a6cbfb68f146628140f2faa66c51ea"
+    },
+    {
+      "file": "book-v6/page-03.webp",
+      "bytes": 27814,
+      "sha256": "bdf856cdcfff30b1df40b097fbca7c3de5ce8548acc3adae402eb45ea34db35a"
+    },
+    {
+      "file": "book-v6/page-04.webp",
+      "bytes": 48310,
+      "sha256": "75911f83e1fac371830ddea0630065dd1577f95242751775ed21e8ca98fdc5be"
+    },
+    {
+      "file": "book-v6/page-05.webp",
+      "bytes": 33886,
+      "sha256": "3f0e04507c6699371910be5aeb889f4ff4a572f84492eca186ff03a8c6e1dfbc"
+    },
+    {
+      "file": "book-v6/page-06.webp",
+      "bytes": 33906,
+      "sha256": "2276da25c1ce5532f17de9db87ab88c2e6079e60dde956b9a53c0ce646272d36"
+    },
+    {
+      "file": "book-v6/page-07.webp",
+      "bytes": 26154,
+      "sha256": "a2c9b5017a163b3996c5e6b982028018775c9791a21980140a29b5c62137c7d5"
+    },
+    {
+      "file": "book-v6/page-08.webp",
+      "bytes": 34668,
+      "sha256": "782c4d0e3ae3b79be820319bc136a94092b58da94637bc1bb3de291b0cfe5108"
+    },
+    {
+      "file": "book-v6/page-09.webp",
+      "bytes": 16238,
+      "sha256": "600b35fbb7be2fc13bf6e773099ce8a042c0668b0cb334ed4df9842e473766d1"
+    },
+    {
+      "file": "book-v6/page-10.webp",
+      "bytes": 20042,
+      "sha256": "61bb3c311b838515e9eb7f6ae32481a29800805a84321584da11aa9c393098ac"
+    },
+    {
+      "file": "book-v6/page-11.webp",
+      "bytes": 31970,
+      "sha256": "c40b3bb30e2fb1d48f2588134b55acec70d2a3fd48dce330d4d94e559de73b5e"
+    },
+    {
+      "file": "book-v6/page-12.webp",
+      "bytes": 35736,
+      "sha256": "e2de9c0b52fd25e7b30cd0d8e5235d2dee8fe2b8772f90d976942c33a0fdd867"
+    },
+    {
+      "file": "book-v6/page-13.webp",
+      "bytes": 29248,
+      "sha256": "d01133bd3a68cc179f90b582b410b1c6141757fd855e06db7fae76d78eadd8cb"
+    },
+    {
+      "file": "book-v6/page-14.webp",
+      "bytes": 19954,
+      "sha256": "01c8d5f0607629c56576bb17260d4b10b40303ae1fd9946a47c2a2be71dd57e7"
+    },
+    {
+      "file": "book-v6/page-15.webp",
+      "bytes": 39438,
+      "sha256": "76054f4440ae0ba618e8fce4898425054c808bb4f6c862b1fce082fb4eb77c5b"
+    },
+    {
+      "file": "book-v6/page-16.webp",
+      "bytes": 20548,
+      "sha256": "352150262eb0ee72e6668b3ed167d65babacf339e28c530fb0b4ca024746f787"
+    },
+    {
+      "file": "book-v6/page-17.webp",
+      "bytes": 19002,
+      "sha256": "55fcb75aca3e4cee6c43554150a774a3f0d62a3e6a14a83f2530e79e1a357ff2"
+    },
+    {
+      "file": "book-v6/page-18.webp",
+      "bytes": 27842,
+      "sha256": "4574ec20e74ae1e9635d176a7766e578738bc12f09f7548c50bd22cc13d101c1"
+    },
+    {
+      "file": "book-v6/page-19.webp",
+      "bytes": 40950,
+      "sha256": "b87a49fbeef2bc368688f5cc9fb26779ab9c81c883b40bc84e5465d308489a57"
+    },
+    {
+      "file": "book-v6/page-20.webp",
+      "bytes": 30638,
+      "sha256": "f73718454efb2c7e1bca9ac63ba5d33ba488c9a0a8cb7dc0d87fe010ae24db3b"
+    },
+    {
+      "file": "book-v6/page-21.webp",
+      "bytes": 12904,
+      "sha256": "998f273f354694e8b614658841a7daa75aac9e8e7c8cd1a57f83af9af2994748"
+    },
+    {
+      "file": "book-v6/page-22.webp",
+      "bytes": 57890,
+      "sha256": "c37cb293c72aa05881e640577ef13745d856573e339ae6342f9f1acbeae7aa00"
+    },
+    {
+      "file": "book-v6/page-23.webp",
+      "bytes": 46668,
+      "sha256": "2dae146c9e3969dbaff8ddcb906bda3f1b7cfe04361b5e27d2c9d176a823285b"
+    },
+    {
+      "file": "book-v6/page-24.webp",
+      "bytes": 20962,
+      "sha256": "bcb9529b0ff4bbca6e862737c7bab7885d08e65dfd1d665c19336dd9fa3e2895"
+    },
+    {
+      "file": "book-v6/page-25.webp",
+      "bytes": 40202,
+      "sha256": "0a7c41d781cf6b68de04d7214439fc5172cb186bc5d2242cce38d337aad199b0"
+    },
+    {
+      "file": "book-v6/page-26.webp",
+      "bytes": 28006,
+      "sha256": "12e485c8dcfdd1b5cdf87229673588bc975e3776a6107de83c525f35b4f23da9"
+    },
+    {
+      "file": "book-v6/page-27.webp",
+      "bytes": 37910,
+      "sha256": "93e6d6d01e1aebe2f0ff90b24b54d5a8a86d4bcd0aceff74a9011024f975c9fe"
+    },
+    {
+      "file": "book-v6/page-28.webp",
+      "bytes": 31750,
+      "sha256": "b97973da722528bff2a8ac4e9fffe0fd97c530cca4246cf29932a616d625f077"
+    },
+    {
+      "file": "book-v6/page-29.webp",
+      "bytes": 26986,
+      "sha256": "37aeb63baa9c9239922b16d3528adc8a8ba184a0f5c73619f90c4353023c5feb"
+    },
+    {
+      "file": "book-v6/page-30.webp",
+      "bytes": 35900,
+      "sha256": "b3aa2dfb685028cc4bbf665d55fcde703f1963c6efc2b3ae9bc520b8c7e6b2c7"
+    },
+    {
+      "file": "book-v6/page-31.webp",
+      "bytes": 37992,
+      "sha256": "03464a36c126ffd54dcf769bd0f812ebc8ba0176626887b06a9d2ed6f5c00ac6"
+    },
+    {
+      "file": "book-v6/page-32.webp",
+      "bytes": 14602,
+      "sha256": "ca95f6cabcb8edb9daf197a25e460a4c8a01656c2eb458e533858cca622b18ad"
+    },
+    {
+      "file": "book-v6/page-33.webp",
+      "bytes": 29256,
+      "sha256": "913e8875d8b9a40415df74f64103e3174b22ae12b947e453e68d41abeab1af6e"
+    },
+    {
+      "file": "book-v6/page-34.webp",
+      "bytes": 32452,
+      "sha256": "3825dc911dc54c9d6d0562765d502bd6f2b0efc4c667babeb31f1640f0c47ba8"
+    },
+    {
+      "file": "book-v6/page-35.webp",
+      "bytes": 36670,
+      "sha256": "7c92b5adda02735df44d0b0a1f23daa235dabe7f0ec3fb41b046d2347ee42eb4"
+    },
+    {
+      "file": "book-v6/page-36.webp",
+      "bytes": 35728,
+      "sha256": "b8f4ed72d097c1fbfb36cc8b97564d5c676a4a4fa7873122bb446b69f183e25b"
+    },
+    {
+      "file": "book-v6/page-37.webp",
+      "bytes": 16940,
+      "sha256": "d2fa194fdaa8e3e6125c95fab685b0970d434072855633285f8c1f24890b8e9a"
+    },
+    {
+      "file": "book-v6/page-38.webp",
+      "bytes": 28808,
+      "sha256": "17bed9e9e2d99fe1d5629107636dc9afa7dcad176da51858b1a8195ad547e39f"
+    },
+    {
+      "file": "book-v6/page-39.webp",
+      "bytes": 23896,
+      "sha256": "728f74a4f1868e3816fbe0f29592e8f5eb01ac2719b28d2080d1bab8a12a3a78"
+    },
+    {
+      "file": "book-v6/page-40.webp",
+      "bytes": 156188,
+      "sha256": "e640bc50bc3c9dc47435d372ff282d33b06ce7b9d2ad46c95a5f83350d871981"
+    },
+    {
+      "file": "book-v6/page-41.webp",
+      "bytes": 21342,
+      "sha256": "e7c21d3c5cb5acf64e9597eecde92920ff1016e6f792b95c0effa4a4d9246bb7"
+    },
+    {
+      "file": "book-v6/page-42.webp",
+      "bytes": 38998,
+      "sha256": "914eac176eba448cb2a12b9a3a01a3c92c912493929d9f80c6faa1f5572ec67f"
+    },
+    {
+      "file": "book-v6/page-43.webp",
+      "bytes": 38138,
+      "sha256": "06ce8a3e76f5acad2da968c791c52b7a6475ff17dd6de76fe1c4dff780a3742c"
+    },
+    {
+      "file": "book-v6/page-44.webp",
+      "bytes": 38964,
+      "sha256": "137da1c5acb484879c10f2ab6cd902ad27c55b9a03475eb354754c7ef4cf551d"
+    },
+    {
+      "file": "book-v6/page-45.webp",
+      "bytes": 39476,
+      "sha256": "ab764f61a823b710e5a927109287060d258cc8f2ecac56afbf5f6c2cb889f29a"
+    },
+    {
+      "file": "book-v6/page-46.webp",
+      "bytes": 36468,
+      "sha256": "e94f633696ae65187954af87795a75418f2c131416b2f354ecafc6d95717ca61"
+    },
+    {
+      "file": "book-v6/page-47.webp",
+      "bytes": 41166,
+      "sha256": "3003d2553cfefbca688451da53f92b2abcac4d1b6ae6e67ba9a7adbbb67ee52f"
+    },
+    {
+      "file": "book-v6/page-48.webp",
+      "bytes": 38632,
+      "sha256": "c8a0348f0a4345ab587b959c1add2a283e75c3a6695e6e632d5e32ccb4877f3e"
+    },
+    {
+      "file": "book-v6/page-49.webp",
+      "bytes": 41306,
+      "sha256": "b026b88e5053209b243c6d36fd66aa1d9dca753223f31457cd677b1c7958c358"
+    },
+    {
+      "file": "book-v6/page-50.webp",
+      "bytes": 14580,
+      "sha256": "76bf0b3b6d555ddbf9db569b0c46cac32a68520cedff3b08f51391711f00357c"
+    },
+    {
+      "file": "book-v6/page-51.webp",
+      "bytes": 71118,
+      "sha256": "2c6f645bf6f83914d25650d039daeca10ea211610da3459f016273e6aaef1342"
+    },
+    {
+      "file": "book-v6/page-52.webp",
+      "bytes": 70334,
+      "sha256": "ae6d301fb956455575ccd3a90c091d7484098fc06aad46b59d74b7b91ccd1386"
+    },
+    {
+      "file": "book-v6/page-53.webp",
+      "bytes": 68038,
+      "sha256": "e9f9ae3a50880c3e2c740895f7a528156630e52f4b9e3abdae1d5020a8f0c824"
+    },
+    {
+      "file": "book-v6/page-54.webp",
+      "bytes": 76526,
+      "sha256": "0fe7d66dcfbd98e3baccb33ed3d7386799f5f6cf6891f73a87b9fa64508d4e10"
+    },
+    {
+      "file": "book-v6/page-55.webp",
+      "bytes": 71874,
+      "sha256": "f8e711a709842e832791cc6908f76fd74d39abd87c80c7cf0e2d68e9a47b0ba1"
+    },
+    {
+      "file": "book-v6/page-56.webp",
+      "bytes": 70162,
+      "sha256": "1f827f9243fb62b8ca2886360378c17ff809615456e079949fe168c69fff0813"
+    },
+    {
+      "file": "book-v6/page-57.webp",
+      "bytes": 40430,
+      "sha256": "8236bdcf34d1197a39ad319b4361535c34a723c662ed8b78563100b6a8dada81"
+    },
+    {
+      "file": "book-v6/page-58.webp",
+      "bytes": 61632,
+      "sha256": "95d812cb6bc12ef5f7edf25edee77e165493d9b82093af0fe143d00e96c50cb2"
+    },
+    {
+      "file": "book-v6/page-59.webp",
+      "bytes": 38898,
+      "sha256": "61f5defed62ec2d1108441652245ab19fb382cbe294d0da71b3bdefe9854f5b6"
+    },
+    {
+      "file": "book-v6/page-60.webp",
+      "bytes": 30932,
+      "sha256": "440c7f4a0b2b7924a1baa6878014ba96b7050c0b95575807578732bf5f180a38"
+    },
+    {
+      "file": "brand-data.json",
+      "bytes": 23657,
+      "sha256": "7ec61717d8337192a0c2bcfea415b8e04ccfea96f22cc50852575f3f72953e91"
+    },
+    {
+      "file": "fonts/export.css",
+      "bytes": 296906,
+      "sha256": "2c26a5deaf3e1b0809bcec414b0448f74ceb6700047f3fa34f126cf4b32976b9"
+    },
+    {
+      "file": "fonts/jetbrainsmono-OFL.txt",
+      "bytes": 4399,
+      "sha256": "b2fe5e8987594e9ffd1d2ca52a2f5d73eb8335243893c5d6254b5ad69269591d"
+    },
+    {
+      "file": "fonts/JetBrainsMono-Regular.ttf",
+      "bytes": 115152,
+      "sha256": "1f7b594fe77b9d80660836f2a0cb018d4941fd632680d82dee7567a89b0b9d79"
+    },
+    {
+      "file": "fonts/Manrope-Regular.ttf",
+      "bytes": 97468,
+      "sha256": "2577a997876eefbb7a398698304a87962d156b8ec91e1f2750e35f2d41d82a20"
+    },
+    {
+      "file": "fonts/Manrope-Semibold.ttf",
+      "bytes": 97588,
+      "sha256": "da8fb53a326bb14764fa1da272b85e34de149b15ea531abd84f6b101578daae4"
+    },
+    {
+      "file": "fonts/Manrope.ttf",
+      "bytes": 164700,
+      "sha256": "3ae11c49db0455a3cc33e37d380f20fdb8c7f8b41dc07625c177e3d87a9d6ae6"
+    },
+    {
+      "file": "fonts/OFL.txt",
+      "bytes": 4386,
+      "sha256": "d6a309fcfb963d329a93baf9df66fa5f3c23a4be2b5f67edf24d6cafecde12ac"
+    },
+    {
+      "file": "fonts/SNPSDisplay-LICENSE.txt",
+      "bytes": 353,
+      "sha256": "8c80fed056e528bddf1bb6f640bfb5679468408e52add1937b44f28b51ed224a"
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.otf",
+      "bytes": 19872,
+      "sha256": "9a5556304227a06be583a7b6d73e5803c5ab9d02da3548a80ee75452f47dcba7"
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.ttf",
+      "bytes": 27436,
+      "sha256": "625364283c44b5d162b14c8aaf54ac75d5a62e30df32d3cae2b38f1f972a30ac"
+    },
+    {
+      "file": "fonts/SNPSDisplay-Regular.woff2",
+      "bytes": 4520,
+      "sha256": "d106edc833464e088d01a404f7cc742e21ed65c7ec68ef432406432b7ec4f6af"
+    },
+    {
+      "file": "fonts/SNPSDisplay-spec.json",
+      "bytes": 85060,
+      "sha256": "2d74c209d07e0bfd5820a484814007b87ecf388a5be0e34a86d9cb5b0004637b"
+    },
+    {
+      "file": "geometry.json",
+      "bytes": 3276,
+      "sha256": "3e85aff21f9e1e66351cb947e3489fdb7526e7cf057a8497efa722a1279558a2"
+    },
+    {
+      "file": "glass.webp",
+      "bytes": 91258,
+      "sha256": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac"
+    },
+    {
+      "file": "hero.webp",
+      "bytes": 63530,
+      "sha256": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4"
+    },
+    {
+      "file": "icons/agent.svg",
+      "bytes": 448,
+      "sha256": "5e6ad6dfd1dc4a365d4c9d0deff99a563aa4a775922b39b2ed7b9632ab27f6a1"
+    },
+    {
+      "file": "icons/code.svg",
+      "bytes": 370,
+      "sha256": "14ee63bf8f215c5b4c0a93252113f8672efd2df69353104874663f7735f25aee"
+    },
+    {
+      "file": "icons/connect.svg",
+      "bytes": 388,
+      "sha256": "1684753a48718853b25cc73276079399168954b35dd1779d2cef800fd946adcf"
+    },
+    {
+      "file": "icons/context.svg",
+      "bytes": 367,
+      "sha256": "e02697c6377600b3099c74bb4350393a256d0dd66695c1238430fd4989be9cb7"
+    },
+    {
+      "file": "icons/create.svg",
+      "bytes": 409,
+      "sha256": "caa6e8bf289da820649008f72f6a1aa2822f3680f5e33274d7e131092caa3d4b"
+    },
+    {
+      "file": "icons/data.svg",
+      "bytes": 380,
+      "sha256": "e3e2382f3d38f834890918ce5c514441468e4d0673bff20ab4230301f56f9a9c"
+    },
+    {
+      "file": "icons/flow.svg",
+      "bytes": 430,
+      "sha256": "fe533d0c9bbccb853b1c5638aa469c16ec4c5969a60e2116e2819dd124c936cb"
+    },
+    {
+      "file": "icons/growth.svg",
+      "bytes": 378,
+      "sha256": "ec7125bff84cff4f1b4d0af9f1b900371bd28dd61bb780b252727437ab7e7e15"
+    },
+    {
+      "file": "icons/house.svg",
+      "bytes": 397,
+      "sha256": "1e0a86900ab7b480a3f98dce6212c707ffdc7c8d507cb4a41a24af834c146411"
+    },
+    {
+      "file": "icons/orbit.svg",
+      "bytes": 412,
+      "sha256": "5a7532425515d8388a33ac6dadae8bdd4a8863a314166975ca2434a779c03be4"
+    },
+    {
+      "file": "icons/play.svg",
+      "bytes": 409,
+      "sha256": "6353087967967031a425a525ee5a699067e825bb2666a7e7d508bfcb4476a2e4"
+    },
+    {
+      "file": "icons/school.svg",
+      "bytes": 469,
+      "sha256": "0711f1d90a4a7a57112a5d6c8d70d186adcc5e6e5e16cd9eaa4bd9ce7bf04a5b"
+    },
+    {
+      "file": "LEIA-ME-06.md",
+      "bytes": 1479,
+      "sha256": "f1494946d01d5b8c64b6a772f2a2393c20a3deb30bd092b83dfdf2d244951827"
+    },
+    {
+      "file": "logos/sinapse-frost-dark.svg",
+      "bytes": 7729,
+      "sha256": "39dcab903d5ba54bd3e6f2955b100400f58c20562cffec6561d8fc78338d13a2"
+    },
+    {
+      "file": "logos/sinapse-frost-light.svg",
+      "bytes": 7729,
+      "sha256": "c95c5a3bfa1228d81210963cd3e2b11a6063f6c6e9f6f6030c92f622123e3210"
+    },
+    {
+      "file": "logos/sinapse-glass-dark.svg",
+      "bytes": 7729,
+      "sha256": "e7da608d512b77a826d8ff369a531bbb508cb843cc4a702f7f17c04f0b40a5ab"
+    },
+    {
+      "file": "logos/sinapse-glass-light.svg",
+      "bytes": 7729,
+      "sha256": "e7e18fd72ad1a02d02f72a327ded8c367546c56b9dee196b513037117bfaf64e"
+    },
+    {
+      "file": "logos/sinapse-growth-frost-dark.svg",
+      "bytes": 15705,
+      "sha256": "912e4fb8d25261acea80ce9a8956d0ae1942b046b612b56c4fac53bf1b30537e"
+    },
+    {
+      "file": "logos/sinapse-growth-frost-light.svg",
+      "bytes": 15705,
+      "sha256": "ee780109f3c8e82d60c811ab3056aad3ad8310730ecb51c9848f958efe1e8ae4"
+    },
+    {
+      "file": "logos/sinapse-growth-glass-dark.svg",
+      "bytes": 15705,
+      "sha256": "22ae7374ca9802a400954ea42aea0b89b3d9d489dc5930a74c61fd66c18e2825"
+    },
+    {
+      "file": "logos/sinapse-growth-glass-light.svg",
+      "bytes": 15705,
+      "sha256": "41b12fa1aae317832cbece25b35f34b1e159c087c1063d9684bf22bfbabf4659"
+    },
+    {
+      "file": "logos/sinapse-growth-silver-dark.svg",
+      "bytes": 15707,
+      "sha256": "fe8a9f0ca53bab6006a31109e6cbeb3635523a2b1091586e766b81e5d7053abd"
+    },
+    {
+      "file": "logos/sinapse-growth-silver-light.svg",
+      "bytes": 15707,
+      "sha256": "42ae4087eb8e8e685229eace329c3bd1ea94ffb9eac657a31fabcba9faf8949d"
+    },
+    {
+      "file": "logos/sinapse-growth-solid-dark.svg",
+      "bytes": 6075,
+      "sha256": "986ef7cc584296814d80122cbd36cbfe73eaaddbb0b3c3b578ae2104d19da83b"
+    },
+    {
+      "file": "logos/sinapse-growth-solid-light.svg",
+      "bytes": 6075,
+      "sha256": "2484f484709d16d6db4bf34f0d59f90334b2a1ea90209c54d587d6080756c52c"
+    },
+    {
+      "file": "logos/sinapse-house-frost-dark.svg",
+      "bytes": 13895,
+      "sha256": "f2a34106d14df5bb23136c7f6c3cd8a940c0278e99c87406e251d26ab8309d7e"
+    },
+    {
+      "file": "logos/sinapse-house-frost-light.svg",
+      "bytes": 13895,
+      "sha256": "b61afab95ff37fd72e6ce77cbb899af4cc443fc279637918fc85af889b882f2b"
+    },
+    {
+      "file": "logos/sinapse-house-glass-dark.svg",
+      "bytes": 13895,
+      "sha256": "f33364109a373fff2c30ec6bcef374c21316b0fca852ca517015c145384c6331"
+    },
+    {
+      "file": "logos/sinapse-house-glass-light.svg",
+      "bytes": 13895,
+      "sha256": "029718c04ed206517fc00b4594c915fad1e5e88bdbe97aa26214ef8cf6f6f92c"
+    },
+    {
+      "file": "logos/sinapse-house-silver-dark.svg",
+      "bytes": 13897,
+      "sha256": "069b324149caf2db84b2c95edbe959fb570d84451f8fc250fc3768592e5efc4a"
+    },
+    {
+      "file": "logos/sinapse-house-silver-light.svg",
+      "bytes": 13897,
+      "sha256": "7115323f6d4dbaf4668bfa0cfe373f106b2820bcd527684a6edad2652cd617a2"
+    },
+    {
+      "file": "logos/sinapse-house-solid-dark.svg",
+      "bytes": 5471,
+      "sha256": "89ae9463304e40d81f7578a2a77f6a6a58891b05e7b4e7ec5cd741c01c198f0f"
+    },
+    {
+      "file": "logos/sinapse-house-solid-light.svg",
+      "bytes": 5471,
+      "sha256": "09ff3ac949f8696aacdb388f94080dfa21e7e276b3930dc79a4262623254a78b"
+    },
+    {
+      "file": "logos/sinapse-school-frost-dark.svg",
+      "bytes": 14529,
+      "sha256": "3c2c45d0aedc414d8b5e31890b54933a7d54a3758f55965e2751614464677df5"
+    },
+    {
+      "file": "logos/sinapse-school-frost-light.svg",
+      "bytes": 14529,
+      "sha256": "f587cba2f664d799a15eebf80abac383358810b347b053f1c5ff50cd17881ffe"
+    },
+    {
+      "file": "logos/sinapse-school-glass-dark.svg",
+      "bytes": 14529,
+      "sha256": "c1fc09535d202a7d2d7eb59f8338f4f8db759d8c754b2fa6a3178f43efada601"
+    },
+    {
+      "file": "logos/sinapse-school-glass-light.svg",
+      "bytes": 14529,
+      "sha256": "aa0c87a4ef5e03b1d79fca819c28470c297e02def3aa5d37900f0c23e1bbbe18"
+    },
+    {
+      "file": "logos/sinapse-school-silver-dark.svg",
+      "bytes": 14531,
+      "sha256": "c37ba4838397e51e20b30d40636dc2803c026d1e7bbfdc25ccaabae03d80b181"
+    },
+    {
+      "file": "logos/sinapse-school-silver-light.svg",
+      "bytes": 14531,
+      "sha256": "f555dd9005af5da6ffaed59de85ccdb6fe69fb55c948e1e66a28508e61253afc"
+    },
+    {
+      "file": "logos/sinapse-school-solid-dark.svg",
+      "bytes": 5683,
+      "sha256": "c4259fcbaaf9b75873a5e1e6817b6e5f6b69389b3e0f2a8ae09468a4646281a9"
+    },
+    {
+      "file": "logos/sinapse-school-solid-light.svg",
+      "bytes": 5683,
+      "sha256": "65bad8a2c251d76239cdebb212f81441a62f08d33494c6251775b18575d81155"
+    },
+    {
+      "file": "logos/sinapse-si-frost-dark.svg",
+      "bytes": 9365,
+      "sha256": "807f7e2fff795b820677342998d08d857741e6e3eda6c7fe3e9451699f78c3af"
+    },
+    {
+      "file": "logos/sinapse-si-frost-light.svg",
+      "bytes": 9365,
+      "sha256": "1338dfb55f2cd5f1dba5570698b6fb3baaac27a2e388245b601cd5b40ab7affb"
+    },
+    {
+      "file": "logos/sinapse-si-glass-dark.svg",
+      "bytes": 9365,
+      "sha256": "9d36940cf7d7cdd884dfb22a17a7aa63ad870d6890e89b383306193b879a5a86"
+    },
+    {
+      "file": "logos/sinapse-si-glass-light.svg",
+      "bytes": 9365,
+      "sha256": "45fe47145932313cb487ac10ca0319ccd06efa2d894acf832ab8a07cd1c2ecb5"
+    },
+    {
+      "file": "logos/sinapse-si-silver-dark.svg",
+      "bytes": 9367,
+      "sha256": "aedc173ae5419a402026c6e2399018370a8943853c5bd2fa26844042039a801d"
+    },
+    {
+      "file": "logos/sinapse-si-silver-light.svg",
+      "bytes": 9367,
+      "sha256": "fac72bd3db34a92650a2199c78e0fb4b8bbb238b45185b5d836cf2b20bea302d"
+    },
+    {
+      "file": "logos/sinapse-si-solid-dark.svg",
+      "bytes": 3959,
+      "sha256": "4fc93f32e82f3ff02f347201fccede64d2329baf6c82d3cfec82b305a83c346a"
+    },
+    {
+      "file": "logos/sinapse-si-solid-light.svg",
+      "bytes": 3959,
+      "sha256": "e84f2fdd5f37cc39dcdbfbd24d59d78e759d689a4a8faddf5da024cb3087a38d"
+    },
+    {
+      "file": "logos/sinapse-silver-dark.svg",
+      "bytes": 7731,
+      "sha256": "a255ba9c415a6b9ea8b91380c1ba28f63fd5d3216bd6920432cf19e3e5950b2d"
+    },
+    {
+      "file": "logos/sinapse-silver-light.svg",
+      "bytes": 7731,
+      "sha256": "ecea1395d30cfe4991d591715159629e91ccca57ede505c903d8e139fdd52de1"
+    },
+    {
+      "file": "logos/sinapse-solid-dark.svg",
+      "bytes": 3417,
+      "sha256": "838ec82907398dc5153d3794f86ec457b30675593432bc32f86d7a91aa1004d3"
+    },
+    {
+      "file": "logos/sinapse-solid-light.svg",
+      "bytes": 3417,
+      "sha256": "c0c11a4e826f41bb2fa4473339f16864390c52b73f15b398f217167a48ff308c"
+    },
+    {
+      "file": "logos/snps-frost-dark.svg",
+      "bytes": 5495,
+      "sha256": "c65f56a3674dfcc4d4d6afc90d69af3063c67f655ac86cd5d9fd349ef08fee9c"
+    },
+    {
+      "file": "logos/snps-frost-light.svg",
+      "bytes": 5495,
+      "sha256": "528bd660c6bfb13823eac2a453b854b426659bd71f704fe15a52dbc7a7079539"
+    },
+    {
+      "file": "logos/snps-glass-dark.svg",
+      "bytes": 5495,
+      "sha256": "ae8fe184c052058d65af7a667269db5a069901e5552f62fda8651eb205ae2aaf"
+    },
+    {
+      "file": "logos/snps-glass-light.svg",
+      "bytes": 5495,
+      "sha256": "7a256ac8d5c5c737a605ac028fca4f38c32e6ff74c502c2f7a5d715ec23e81ed"
+    },
+    {
+      "file": "logos/snps-growth-frost-dark.svg",
+      "bytes": 13785,
+      "sha256": "aafa9d811fbb0975f54962daaeff919017325e7a9eb905bd990799d57e086385"
+    },
+    {
+      "file": "logos/snps-growth-frost-light.svg",
+      "bytes": 13785,
+      "sha256": "af4d44aa8c9ed55ff5c7068bd350d9d944b5031a0ae70623382f317293985f0d"
+    },
+    {
+      "file": "logos/snps-growth-glass-dark.svg",
+      "bytes": 13785,
+      "sha256": "04bc2d6142149952f00a55765e4d965b8e6e29564b2f10f4796c244e46e0a79a"
+    },
+    {
+      "file": "logos/snps-growth-glass-light.svg",
+      "bytes": 13785,
+      "sha256": "b78aa25c4f65319accd36ec29acf5688e80ed2f2b29b9596273f22324003008b"
+    },
+    {
+      "file": "logos/snps-growth-silver-dark.svg",
+      "bytes": 13787,
+      "sha256": "27c14a1978176eb1ac5816025042fd000578c94ac308d30d63182d75af105e6a"
+    },
+    {
+      "file": "logos/snps-growth-silver-light.svg",
+      "bytes": 13787,
+      "sha256": "4c3ba7bc29ef89eb8ad8372254827f8cc3ce103e3c6193bd741d19f2abf10da0"
+    },
+    {
+      "file": "logos/snps-growth-solid-dark.svg",
+      "bytes": 5433,
+      "sha256": "a7ca909ab5206aa0f9f2a4cf6f4725c5d0b3d2169b89537daac7cc72f85ecb56"
+    },
+    {
+      "file": "logos/snps-growth-solid-light.svg",
+      "bytes": 5433,
+      "sha256": "8390aeef3294fbdb10ff6d6fd444491fbaded6abd038772d773867426e71f257"
+    },
+    {
+      "file": "logos/snps-house-frost-dark.svg",
+      "bytes": 11975,
+      "sha256": "43f7d0fd1c800a9684c6d28d5315159cdad01a9e0a3910b4d9c143e1b65befba"
+    },
+    {
+      "file": "logos/snps-house-frost-light.svg",
+      "bytes": 11975,
+      "sha256": "e355bd5c30033616ed96d368019d25bfa4cf5e8ddadecc2782621c971252309f"
+    },
+    {
+      "file": "logos/snps-house-glass-dark.svg",
+      "bytes": 11975,
+      "sha256": "30012df7d56c5cc44a27cfad9206ee3853032597598495fb9686f514ef23346f"
+    },
+    {
+      "file": "logos/snps-house-glass-light.svg",
+      "bytes": 11975,
+      "sha256": "c73fdf24e98d15dcc590a82561fa130589db4f6a21e8a21cf0beaccc613e755d"
+    },
+    {
+      "file": "logos/snps-house-silver-dark.svg",
+      "bytes": 11977,
+      "sha256": "28a93345c83b2fb22b887b8d3a5f5a3ba28eda71a426099046d0aa23d02341bd"
+    },
+    {
+      "file": "logos/snps-house-silver-light.svg",
+      "bytes": 11977,
+      "sha256": "bf40c54b220e3b6f8a1992b2ebfb49d00221bc6925eb4c000d9ed4dbd3b2ae89"
+    },
+    {
+      "file": "logos/snps-house-solid-dark.svg",
+      "bytes": 4829,
+      "sha256": "e805e8d0553bb7ac82fb795df2cc9df269cb6d96e9605f5265ed133a0636f96d"
+    },
+    {
+      "file": "logos/snps-house-solid-light.svg",
+      "bytes": 4829,
+      "sha256": "425456a8f9938acb6b901b837e0a23d2d5b88b4a218c130681566a0e3dce5136"
+    },
+    {
+      "file": "logos/snps-school-frost-dark.svg",
+      "bytes": 12609,
+      "sha256": "7f7c5d30e4fc0244c2fc3bc63d117be9fc9530846886b714065187db50c6f454"
+    },
+    {
+      "file": "logos/snps-school-frost-light.svg",
+      "bytes": 12609,
+      "sha256": "dde82e956c19fefe0858f9d78a88a76370b9957958243cb78427f97ee1256d91"
+    },
+    {
+      "file": "logos/snps-school-glass-dark.svg",
+      "bytes": 12609,
+      "sha256": "96749d1de623440ba4914d6e8c3c98edc9846204b869ecd10f51aee904f4279f"
+    },
+    {
+      "file": "logos/snps-school-glass-light.svg",
+      "bytes": 12609,
+      "sha256": "741d0ca9cc8ea7631c64e79a8dfb29f7fc649f45c59ca56ef149c068c85fae06"
+    },
+    {
+      "file": "logos/snps-school-silver-dark.svg",
+      "bytes": 12611,
+      "sha256": "c76b5c126ab06043a28a250d4e9c4f0e62535138aac65a94d47f4e00c6b1a213"
+    },
+    {
+      "file": "logos/snps-school-silver-light.svg",
+      "bytes": 12611,
+      "sha256": "2b4c638b100b9a3730b6dfa9a1ce741fea73c52371b0dbc4ff4f6328d23667c5"
+    },
+    {
+      "file": "logos/snps-school-solid-dark.svg",
+      "bytes": 5041,
+      "sha256": "74ca64aea57318a713b9e1dde6aad58444f3521e529d4ab81832c74a497aced7"
+    },
+    {
+      "file": "logos/snps-school-solid-light.svg",
+      "bytes": 5041,
+      "sha256": "0e3ead04f314ff8e902e3e0db1ea292703dc8532e0f8564a52f0e5daa97a545d"
+    },
+    {
+      "file": "logos/snps-si-frost-dark.svg",
+      "bytes": 7443,
+      "sha256": "6cb2b3c7161a4feba1d2efeef8be3e07e5103a6c05284c2b10e8a7567473d486"
+    },
+    {
+      "file": "logos/snps-si-frost-light.svg",
+      "bytes": 7443,
+      "sha256": "0891ebc287578d443445639d117b7b58c7108b2fa9f7aa777fe7048d485a427d"
+    },
+    {
+      "file": "logos/snps-si-glass-dark.svg",
+      "bytes": 7443,
+      "sha256": "58432216fa56e2e79523016a009bc9dbbaa04f41f17f74b077fc7871a3a5de89"
+    },
+    {
+      "file": "logos/snps-si-glass-light.svg",
+      "bytes": 7443,
+      "sha256": "771390ea1cd175741c25920364658c71951fac4bc4314927a478ab0e354f5b89"
+    },
+    {
+      "file": "logos/snps-si-silver-dark.svg",
+      "bytes": 7445,
+      "sha256": "38c64d36e21bcef34308c877ead6a31b6ba30349f08b00674cd1e7044b4e4cae"
+    },
+    {
+      "file": "logos/snps-si-silver-light.svg",
+      "bytes": 7445,
+      "sha256": "e69a7bf6040a29904e837c6e58749457aeafc4b8ca40182182174f441ac74790"
+    },
+    {
+      "file": "logos/snps-si-solid-dark.svg",
+      "bytes": 3315,
+      "sha256": "a404fa97c4b18a1440c69a13eea93d10e48130a7f8ab4cbd2093868a0c6f2c3d"
+    },
+    {
+      "file": "logos/snps-si-solid-light.svg",
+      "bytes": 3315,
+      "sha256": "950a488b9f426d81607569c07d664a16b4ad4e9d3b4880594668b436699b28fa"
+    },
+    {
+      "file": "logos/snps-silver-dark.svg",
+      "bytes": 5497,
+      "sha256": "8f753ecabd5102d1b216c800e5cbd7d45b91489e4b35ec8b502d04c87eaafefe"
+    },
+    {
+      "file": "logos/snps-silver-light.svg",
+      "bytes": 5497,
+      "sha256": "23aae50745caa03a2e507c01af078683ff3db29b8d199d5d0ccccf7e2dffb330"
+    },
+    {
+      "file": "logos/snps-solid-dark.svg",
+      "bytes": 2669,
+      "sha256": "6eaaaeb8c8da5bf78339339d651a315369e01a2f2c7a09df7f7ed7c1e7041c08"
+    },
+    {
+      "file": "logos/snps-solid-light.svg",
+      "bytes": 2669,
+      "sha256": "7e7b51aceb01e6f47ae19db626d4346b09404bd3a6d3aae57f7b0856e07294d5"
+    },
+    {
+      "file": "manrope-metrics.json",
+      "bytes": 9248,
+      "sha256": "cfd195eaf7505328c9097e83613f05250219cda86b5caa1640f82fba89c8e687"
+    },
+    {
+      "file": "materials/snps-glass-transparent.png",
+      "bytes": 847683,
+      "sha256": "6c590781a3dbb08305812aa4fa8c721dc95dca19200aa232f6b792004ff73892"
+    },
+    {
+      "file": "materials/snps-glass-transparent.webp",
+      "bytes": 218076,
+      "sha256": "59e057b0484870eca77260308fa173f6595f10e122ef7afa8cf5e4f2495f4ef1"
+    },
+    {
+      "file": "materials/system.json",
+      "bytes": 3011,
+      "sha256": "cc874ede122b0eb18bfec5517037c89fd818e71e3e730127e1edab0005c512ab"
+    },
+    {
+      "file": "metal.webp",
+      "bytes": 74548,
+      "sha256": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf"
+    },
+    {
+      "file": "reference-atlas.json",
+      "bytes": 9403,
+      "sha256": "e5dbeae5e08751fe9c1b7790e059fa0e8ffdc2a331b8f6100bff1f0a3905f7e1"
+    },
+    {
+      "file": "SINAPSE-SI-Brandbook-06.pdf",
+      "bytes": 14701834,
+      "sha256": "aa380a5ded8c1dcd8052b4526baaed6820ebf8d904630aa3c0f3a3c30907c3c3"
+    },
+    {
+      "file": "stationery.webp",
+      "bytes": 420656,
+      "sha256": "50eca3db5825aef7e8b183b733e785f31fdf4d9bbdd67209b6c9c6a93378c9f1"
+    },
+    {
+      "file": "symbol-origin/manifest.json",
+      "bytes": 2768,
+      "sha256": "395641f25ea5dec95011bac3e86f0d92f11438e7ffd89a6595f95dac111a0cac"
+    },
+    {
+      "file": "symbol-origin/origin.json",
+      "bytes": 1737,
+      "sha256": "561b3e1992064806dd097a1c29f99c008a5b93be742f6dc7ac0280180468d964"
+    },
+    {
+      "file": "symbol-origin/s-original-construction-dark.svg",
+      "bytes": 950,
+      "sha256": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab"
+    },
+    {
+      "file": "symbol-origin/s-original-construction-light.svg",
+      "bytes": 950,
+      "sha256": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e"
+    },
+    {
+      "file": "symbol-origin/s-original-frost-dark.svg",
+      "bytes": 2778,
+      "sha256": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64"
+    },
+    {
+      "file": "symbol-origin/s-original-frost-light.svg",
+      "bytes": 2778,
+      "sha256": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5"
+    },
+    {
+      "file": "symbol-origin/s-original-glass-dark.svg",
+      "bytes": 2778,
+      "sha256": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378"
+    },
+    {
+      "file": "symbol-origin/s-original-glass-light.svg",
+      "bytes": 2778,
+      "sha256": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78"
+    },
+    {
+      "file": "symbol-origin/s-original-silver-dark.svg",
+      "bytes": 2779,
+      "sha256": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb"
+    },
+    {
+      "file": "symbol-origin/s-original-silver-light.svg",
+      "bytes": 2779,
+      "sha256": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991"
+    },
+    {
+      "file": "symbol-origin/s-original-solid-dark.svg",
+      "bytes": 572,
+      "sha256": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b"
+    },
+    {
+      "file": "symbol-origin/s-original-solid-light.svg",
+      "bytes": 572,
+      "sha256": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65"
+    },
+    {
+      "file": "symbol-origin/s-original-tight-dark.svg",
+      "bytes": 579,
+      "sha256": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9"
+    },
+    {
+      "file": "symbol-origin/s-original-tight-light.svg",
+      "bytes": 579,
+      "sha256": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c"
+    },
+    {
+      "file": "symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "bytes": 39408,
+      "sha256": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf"
+    },
+    {
+      "file": "symbol-origin/source-sinapse-wordmark-dark.svg",
+      "bytes": 2148,
+      "sha256": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564"
+    },
+    {
+      "file": "symbol-origin/source-sinapse-wordmark-light.svg",
+      "bytes": 2148,
+      "sha256": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5"
+    },
+    {
+      "file": "symbol-origin/source-snps-lockup-dark.svg",
+      "bytes": 1520,
+      "sha256": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10"
+    },
+    {
+      "file": "symbol-origin/source-snps-lockup-light.svg",
+      "bytes": 1520,
+      "sha256": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507"
+    },
+    {
+      "file": "templates/avatar-dark.svg",
+      "bytes": 303888,
+      "sha256": "e041ec531abeff10cc5d324272ab6d772aa781e2002c85abec56d7f30dbe47e3"
+    },
+    {
+      "file": "templates/avatar-light.svg",
+      "bytes": 303888,
+      "sha256": "0272d9650b320ae56e9f0c8eec3494a0547f7ef98d7ed1c7fdf779263ebb5ba5"
+    },
+    {
+      "file": "templates/banner-dark.svg",
+      "bytes": 309810,
+      "sha256": "0f671d5a57e61c95e7a2bb6da9a53d3749fe6108d1b043c698f1d748c57b30d2"
+    },
+    {
+      "file": "templates/banner-light.svg",
+      "bytes": 309810,
+      "sha256": "9a13cd45723c7e14a737354c55ec7926b381fc3a0f0a0eddbf0cabf2d885df1b"
+    },
+    {
+      "file": "templates/caderno-1.svg",
+      "bytes": 306497,
+      "sha256": "0d2034044ac60459cefb87ce92dbfcc8646257cd5a0a6a69317486386d2636e9"
+    },
+    {
+      "file": "templates/caderno-10.json",
+      "bytes": 1103,
+      "sha256": "27299856581b4b757e6bb5b7fc65c8d53c2beed06263c1e16900ffd93f634015"
+    },
+    {
+      "file": "templates/caderno-10.svg",
+      "bytes": 307845,
+      "sha256": "abbe71768cb7ef536f291e974b676cf68f2251363c914557c2fb95e148823edb"
+    },
+    {
+      "file": "templates/caderno-2.svg",
+      "bytes": 308596,
+      "sha256": "0e5dcc6be6923e223e4c5972b41c6314f933740f758735298ec6f5108ae1d2bb"
+    },
+    {
+      "file": "templates/caderno-3.svg",
+      "bytes": 306871,
+      "sha256": "fb0402b0cc353957bf28140ec628070506bef416a7b540752b6791e74b154962"
+    },
+    {
+      "file": "templates/caderno-4.svg",
+      "bytes": 308139,
+      "sha256": "885adcd2b22659f3a9afb52cc19e2446ad8e488c12846609a1e0b2dc548c2768"
+    },
+    {
+      "file": "templates/caderno-5.svg",
+      "bytes": 307779,
+      "sha256": "b3c8ec3b01e81e16f46f40b93fb5bdeb8a659a7beeec80227f5ab5aaa6e08752"
+    },
+    {
+      "file": "templates/caderno-6.svg",
+      "bytes": 309020,
+      "sha256": "ddd8f9ee33923315e303549e8ac6d2a99ea22dc8413a97ec67f5a522690955b4"
+    },
+    {
+      "file": "templates/caderno-7.svg",
+      "bytes": 306415,
+      "sha256": "26af82effc88bf6d9eeeef7ec48e76f42a46bcf1188284743196db91d25a930b"
+    },
+    {
+      "file": "templates/caderno-8.svg",
+      "bytes": 309095,
+      "sha256": "9a40ebf5501709c9283904e1e9f9048acc380134063e96546b18483441ccf48c"
+    },
+    {
+      "file": "templates/caderno-9.svg",
+      "bytes": 307865,
+      "sha256": "00b4b14e173d526fe80c4354eb1c0cd988957014b07d35ba1d1a93a04f21f61a"
+    },
+    {
+      "file": "templates/carousel-dark.svg",
+      "bytes": 309946,
+      "sha256": "148635af41c96c72fa33ea49b3aacafa14633a8e55cdfcae85631ab0337b92a8"
+    },
+    {
+      "file": "templates/carousel-light.svg",
+      "bytes": 309946,
+      "sha256": "4bee4877389e9ce64e54053ff0394fde12a87039cc70b1cc4a5b5c0760df8563"
+    },
+    {
+      "file": "templates/cover-dark.svg",
+      "bytes": 306568,
+      "sha256": "d69ff85a6124539a56ecbe768c7d428b1c4f25832aa1b72bba4515f598a709cd"
+    },
+    {
+      "file": "templates/cover-light.svg",
+      "bytes": 306568,
+      "sha256": "fedfac069baf6f1eb443843a55f6388717e3dfb74d493e5202b95e33de6d01e7"
+    },
+    {
+      "file": "templates/crystal-avatar.svg",
+      "bytes": 590552,
+      "sha256": "73832a6a122484ac0b3119335bb3c8183e57aee8ae71584364bc248338d11d9d"
+    },
+    {
+      "file": "templates/crystal-banner.svg",
+      "bytes": 596473,
+      "sha256": "07347db35f452f5616c8ffe1876c34b1b920b217ea56efd0af1c57c7adbb3f98"
+    },
+    {
+      "file": "templates/crystal-carousel.svg",
+      "bytes": 596600,
+      "sha256": "d0a89b7e0097e2f52d6a695fcfc8d7183623983d52773745445f7dd55b37f994"
+    },
+    {
+      "file": "templates/crystal-post.svg",
+      "bytes": 596615,
+      "sha256": "51790507284f7084930a8994d2249b1666890dc765f93966bec360cded660336"
+    },
+    {
+      "file": "templates/crystal-story.svg",
+      "bytes": 596588,
+      "sha256": "fb03b7250c630149fb7459ce4cb4dbc42904cc0d6bde783ff80355cc87edc3e0"
+    },
+    {
+      "file": "templates/display-dark.svg",
+      "bytes": 328952,
+      "sha256": "5e483b939ae01461d2f46b27a6ede7e4dbb59a8744d50b630c39cbddce193c0e"
+    },
+    {
+      "file": "templates/display-light.svg",
+      "bytes": 328952,
+      "sha256": "2cda6e85c4516416d71ef890b532e31a5a74699b1f043a7deb45d1b3997f56e5"
+    },
+    {
+      "file": "templates/flow-banner-dark.svg",
+      "bytes": 309629,
+      "sha256": "e723991d52288613907a0908b76c5718e30e074a268bb371973c37dba00b170c"
+    },
+    {
+      "file": "templates/flow-banner-light.svg",
+      "bytes": 309629,
+      "sha256": "5bb84935fed57cdacf7ecfdcd2e44a1a40f442a5e61d554d3f44b898455132da"
+    },
+    {
+      "file": "templates/flow-carousel-dark.svg",
+      "bytes": 309682,
+      "sha256": "77fa0baa5816cee5134d2fa3010f903c0a64dc080a45b488b99b3c2e848b2ee7"
+    },
+    {
+      "file": "templates/flow-carousel-light.svg",
+      "bytes": 309682,
+      "sha256": "4455eec722178570a2e0d60458ca69f7ae922579954538400e57c46f90c15855"
+    },
+    {
+      "file": "templates/flow-post-dark.svg",
+      "bytes": 309707,
+      "sha256": "dc120c729be959a9410bc00012f3862b8a19b7d8685a81206a578443f10d3142"
+    },
+    {
+      "file": "templates/flow-post-light.svg",
+      "bytes": 309707,
+      "sha256": "1f12740d90cb6e5714315ec092e888e1e52c6f27752b63239048c3d38c214e37"
+    },
+    {
+      "file": "templates/flow-story-dark.svg",
+      "bytes": 309691,
+      "sha256": "a8aff7cfc029c7e8fd6bc2559ab515d74667f51c5a79efafedb4d4e1ec33d052"
+    },
+    {
+      "file": "templates/flow-story-light.svg",
+      "bytes": 309691,
+      "sha256": "e5ab0ee87ca40f5992eaa2329619c927ac816992f654e2324793a5947fd8ee03"
+    },
+    {
+      "file": "templates/post-dark.svg",
+      "bytes": 309953,
+      "sha256": "2e0e8e9c3d50dc65e350c758600a97bad5a05de71cbb9d51271f4be1757cf390"
+    },
+    {
+      "file": "templates/post-light.svg",
+      "bytes": 309953,
+      "sha256": "672e8e3c86e77502b4bb6389f4b9c98941008781d4d8a88ff05008409b76dd50"
+    },
+    {
+      "file": "templates/sequencia-t04.json",
+      "bytes": 1257,
+      "sha256": "de8c0600626e1738aed27d771825cad042cd981452eeb31fc384a39487333a5e"
+    },
+    {
+      "file": "templates/story-dark.svg",
+      "bytes": 309934,
+      "sha256": "fc030c6498ac490a4269f2d83d4f0a8490d1175f3f23639eeb94228f42d2d78d"
+    },
+    {
+      "file": "templates/story-light.svg",
+      "bytes": 309934,
+      "sha256": "2b0b973b02f0c378466f3cc8fafdd90ebc8903b24b8ca37a9b9441267a362882"
+    },
+    {
+      "file": "templates/t04-carousel-1.svg",
+      "bytes": 309947,
+      "sha256": "f0835e1bb6be8ec06448f7329a15a3ef676cf208f74baa21df3d10d28690b652"
+    },
+    {
+      "file": "templates/t04-carousel-2.svg",
+      "bytes": 311085,
+      "sha256": "0fcacad9d96c1bf585146d86b77957bc114a6d4c61b21010020664fccc8b66b7"
+    },
+    {
+      "file": "templates/t04-carousel-3.svg",
+      "bytes": 310438,
+      "sha256": "14a91bc10b2c0a1d61a4bd59e1e5b46ef658f40deceab943b5326fca22de04e7"
+    },
+    {
+      "file": "templates/t04-carousel-4.svg",
+      "bytes": 311037,
+      "sha256": "7b864b8c912fce793b6cc8c520cf200848ff762868953c1cb7a458c735c23e27"
+    },
+    {
+      "file": "templates/t04-carousel-5.svg",
+      "bytes": 309883,
+      "sha256": "ed9e5f42d4d17e1aa76cfee0f3040ff349f3ae017738d29f332898d5ccb8b535"
+    },
+    {
+      "file": "templates/t04-carousel-6.svg",
+      "bytes": 309808,
+      "sha256": "c3ed893c3519870bc5eadd0386d5cd3e9300cb1291fc4e772d58c713220c627a"
+    },
+    {
+      "file": "templates/t04-story-1.svg",
+      "bytes": 309935,
+      "sha256": "759035ec99881cad36a3be7def4d4135f690005e2a8ec3d3d464db705ba35bf5"
+    },
+    {
+      "file": "templates/t04-story-2.svg",
+      "bytes": 311073,
+      "sha256": "94e39e4070ab966d684b247a4eae7341e5319310372f5db8b75cac6ad24298e4"
+    },
+    {
+      "file": "templates/t04-story-3.svg",
+      "bytes": 310426,
+      "sha256": "95ceaf0e2f44d1417defce7e5f4943a0bd691e4e0aada885c6859003ed26b53b"
+    },
+    {
+      "file": "templates/t04-story-4.svg",
+      "bytes": 311037,
+      "sha256": "fa049cbd11bd6a967e6a61d08c81d12e76415b9b694f76bdd671e8ed3da60417"
+    },
+    {
+      "file": "templates/t04-story-5.svg",
+      "bytes": 309883,
+      "sha256": "d50490e1d507a4e25ca95d05a67d176475492fec67ec04aaa947f003ffa244de"
+    },
+    {
+      "file": "templates/t04-story-6.svg",
+      "bytes": 309796,
+      "sha256": "b0ca02f401456b4ddafc5b11fd559433c11a727a0b2768a97e985b72b6fd281a"
+    },
+    {
+      "file": "tokens.json",
+      "bytes": 2023,
+      "sha256": "6aefee5eb2dcf2a54cf993c45ca27e49f2a0b6883420b4e50bc81e41724e2b51"
+    },
+    {
+      "file": "tools/docker.svg",
+      "bytes": 1780,
+      "sha256": "ba1fb157870b2ec02e054aed42154ac7418e25af91ec321fd328d17cad4023cd"
+    },
+    {
+      "file": "tools/figma.svg",
+      "bytes": 673,
+      "sha256": "7dcb1e43d58713e36796f10dd7a01835a612df9e215731ca5038eb7784b7c3fc"
+    },
+    {
+      "file": "tools/github.svg",
+      "bytes": 837,
+      "sha256": "c093b01c77ae9e1e22e9e2529eb37fd742bcc6181f881228e2e9ed7231213000"
+    },
+    {
+      "file": "tools/hostinger.svg",
+      "bytes": 366,
+      "sha256": "1df018b59333f30ef547197362bae3cf05c8086d181cdb88f440cfee496057b0"
+    },
+    {
+      "file": "tools/n8n.svg",
+      "bytes": 1588,
+      "sha256": "2a415d5d2dea1903450d0df1b2b76866948d12a704e13378e54ed6896830c2e9"
+    },
+    {
+      "file": "tools/obsidian.svg",
+      "bytes": 1336,
+      "sha256": "ed662a9b6d1a5d99aff7fd4d7d4fee915daa5bf714b94172cc016248010c2cb1"
+    },
+    {
+      "file": "tools/supabase.svg",
+      "bytes": 318,
+      "sha256": "b6188fe14c9cf38c387f9064004d83133ea8f73b50e1bc3b68818b3759fd3b02"
+    },
+    {
+      "file": "tools/vercel.svg",
+      "bytes": 147,
+      "sha256": "c8d69e0eabac7fab4ee8415dd9a423f791c4ba7b5fb803045f1dc2e29469734a"
+    },
+    {
+      "file": "tools/warp.svg",
+      "bytes": 323,
+      "sha256": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85"
+    },
+    {
+      "file": "wear-v7/collection.json",
+      "bytes": 5458,
+      "sha256": "7135557c745b69fc3d58330a0645c7d666f7e93b89e5479ee1ff07a87dedc9b3"
+    },
+    {
+      "file": "wear-v7/fonts/Grotesk-OFL.txt",
+      "bytes": 4402,
+      "sha256": "46ba5f18ee20ea529f21d96c0ef8637a8314c1a5cfb2aa84018bc8157cbeff41"
+    },
+    {
+      "file": "wear-v7/fonts/Grotesk.ttf",
+      "bytes": 90916,
+      "sha256": "1175d19c72b887064556347b8ad2dd3b9d5fcfecddcd7bcea6146119776eb0ca"
+    },
+    {
+      "file": "wear-v7/fonts/Hand-OFL.txt",
+      "bytes": 4384,
+      "sha256": "163a2b400e16916ad3196296c946c526d0efce6baf22a2164269ffc62fb9f671"
+    },
+    {
+      "file": "wear-v7/fonts/Hand.ttf",
+      "bytes": 266468,
+      "sha256": "0eb5d5dc1a318b8bd439e40f44163f3efcf4e6ee8f057dcd4f2362c37a53fc75"
+    },
+    {
+      "file": "wear-v7/fonts/Mono-OFL.txt",
+      "bytes": 4391,
+      "sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
+    },
+    {
+      "file": "wear-v7/fonts/Mono.ttf",
+      "bytes": 98232,
+      "sha256": "187782fad7ec4048d552b4f4fd1694ae4f61cfe430f01c9242e46fce40c3b6d2"
+    },
+    {
+      "file": "wear-v7/fonts/MonoItalic-OFL.txt",
+      "bytes": 4391,
+      "sha256": "6758f6915b482dd45950b2a974c75d95692464fd0e5441418e87b2f92f2eea27"
+    },
+    {
+      "file": "wear-v7/fonts/MonoItalic.ttf",
+      "bytes": 111904,
+      "sha256": "bcee8a56b0f7d8cc7bf1831efd7559f90c26d19f69649ce8a2caa0c1e71b7ea4"
+    },
+    {
+      "file": "wear-v7/fonts/sources.json",
+      "bytes": 2178,
+      "sha256": "ea8abccf7165bcc1cef70719509329056203824bea546e290e83347fcfcd1f9c"
+    },
+    {
+      "file": "wear-v7/look-1.webp",
+      "bytes": 138648,
+      "sha256": "f133fe56b8cbb76e20ee8994ac6a26fa14c2bfd78e21a00c7eeae3df01e8a337"
+    },
+    {
+      "file": "wear-v7/look-2.webp",
+      "bytes": 136296,
+      "sha256": "849052476a642ba6686f6381c12b6651ecbba4a043ceb30e28b1bc712d36ccc1"
+    },
+    {
+      "file": "wear-v7/look-3.webp",
+      "bytes": 139962,
+      "sha256": "4c66b2b4f7cae7de62be5c361e2b5204616bb5f36a5ca5f0feb9dba6d8f820c1"
+    },
+    {
+      "file": "wear-v7/look-4.webp",
+      "bytes": 137168,
+      "sha256": "c20e4be01b61b91137d6614a33c7663f57dfc7c555f5ea69d28044e7dd1d86fb"
+    },
+    {
+      "file": "wear-v7/look-5.webp",
+      "bytes": 154364,
+      "sha256": "9137e22f52abd3e739d40bfa021b4da4776eac3a28006004fead4c3a972253b2"
+    },
+    {
+      "file": "wear-v7/look-6.webp",
+      "bytes": 194710,
+      "sha256": "58a814e5b2018dfb8ad358a56cf577aa925377613e78b3df56fafcdab612e238"
+    },
+    {
+      "file": "wear-v7/print-01.svg",
+      "bytes": 37318,
+      "sha256": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4"
+    },
+    {
+      "file": "wear-v7/print-02.svg",
+      "bytes": 18317,
+      "sha256": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1"
+    },
+    {
+      "file": "wear-v7/print-03.svg",
+      "bytes": 10840,
+      "sha256": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6"
+    },
+    {
+      "file": "wear-v7/print-04.svg",
+      "bytes": 90267,
+      "sha256": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e"
+    },
+    {
+      "file": "wear-v7/print-05.svg",
+      "bytes": 52203,
+      "sha256": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7"
+    },
+    {
+      "file": "wear-v7/print-06.svg",
+      "bytes": 54467,
+      "sha256": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2"
+    },
+    {
+      "file": "wear-v7/print-07.svg",
+      "bytes": 20910,
+      "sha256": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a"
+    },
+    {
+      "file": "wear-v7/print-08.svg",
+      "bytes": 22891,
+      "sha256": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999"
+    },
+    {
+      "file": "wear-v7/print-09.svg",
+      "bytes": 29169,
+      "sha256": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed"
+    },
+    {
+      "file": "wear-v7/print-10.svg",
+      "bytes": 31337,
+      "sha256": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78"
+    },
+    {
+      "file": "wear-v7/print-11.svg",
+      "bytes": 26679,
+      "sha256": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726"
+    },
+    {
+      "file": "wear-v7/print-12.svg",
+      "bytes": 30358,
+      "sha256": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0"
+    },
+    {
+      "file": "wear-v7/provenance.json",
+      "bytes": 20689,
+      "sha256": "fcc7d1cd333d71eb2e56c51a03e56f0c148fd8a70f882d9e835c4aa987fd814e"
+    },
+    {
+      "file": "masters/snps-lockup.svg",
+      "bytes": 1597,
+      "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d"
+    },
+    {
+      "file": "masters/sinapse-wordmark.svg",
+      "bytes": 2300,
+      "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
+    }
+  ]
+}

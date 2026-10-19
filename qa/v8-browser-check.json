@@ -1,0 +1,15 @@
+{
+  "status": "blocked",
+  "responsive_review": "not_performed",
+  "interaction_review": "not_performed",
+  "reason": "Browser URL policy rejected observation of stale data: error document; user reported connection refused after refresh and direct /book navigation. Local server HTTP 200 does not prove browser access.",
+  "requested_widths": [
+    320,
+    390,
+    768,
+    1440
+  ],
+  "server": "127.0.0.1:3256",
+  "observed_http_status": 200,
+  "browser_workaround_performed": false
+}

@@ -32,8 +32,8 @@ const audiowide = Audiowide({
 });
 
 export const metadata: Metadata = {
-  title: "SINAPSE — Brand Source of Truth",
-  description: "Escale sua operação sem aumentar sua folha.",
+  title: "SINAPSE SI — Brand System",
+  description: "O sistema de marca da SINAPSE SI. Estratégia, identidade, movimento e aplicações para School, House e Growth.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
@@ -44,6 +44,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       className={`${sora.variable} ${inter.variable} ${jetbrainsMono.variable} ${audiowide.variable}`}
       suppressHydrationWarning
     >
+      <head><script dangerouslySetInnerHTML={{__html:"try{document.documentElement.dataset.siMode=localStorage.getItem('snps-v2-theme')==='light'?'light':'dark'}catch(e){}"}}/></head>
       <body className="grain-overlay" suppressHydrationWarning>
         <SmartScroll />
         {children}

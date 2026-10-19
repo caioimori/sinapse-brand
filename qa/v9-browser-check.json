@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-19",
+  "surface": "Existing IAB tab 3 / 127.0.0.1:3256",
+  "status": "reviewed_current_local_preview",
+  "viewports": [
+    320,
+    390,
+    600,
+    760,
+    768,
+    1000,
+    1001,
+    1440
+  ],
+  "observations": [
+    "No page horizontal overflow at recorded widths; document scrollWidth equals viewport minus scrollbar.",
+    "Social profile and feed reviewed visually in dark and light; stacked tablet composition and three-column grid.",
+    "CONSTRUIR reviewed at 320 and 1440: word scrollWidth equals clientWidth, font SNPS Display loaded.",
+    "Circle/free switch updates symbol SVGs, profile avatar PNG link and all apparel photo / front-SVG sources.",
+    "Carousel opened, all five frames traversed; last next disabled; ArrowLeft and Escape work; focus returns to opener; caption expands.",
+    "Repertorio highlight traversed through four Stories; matching PNG/SVG links; mobile controls moved above text; header sticky; next controls initially within viewport.",
+    "Wear: 12 cards, filter 8 tees / 4 hoodies; free/circle photo paths; front and back print dialog and matching SVG; regular paired photos visually reviewed.",
+    "Material tabs change glass/silver/paper image; pause updates data-motion=off; relevant animation rules pause.",
+    "Reader has 53 options; R page, profile, carousel and highlight pages reviewed; zoom opens/closes; PNG composite board fixes unsupported SVG gradient/clipping conversion.",
+    "OTF downloaded through browser, then local checksum compared to source."
+  ],
+  "limits": [
+    "OS reduced-motion preference not emulated; CSS reduced-motion rules inspected.",
+    "Profile, posts and mockups are proposed creative; Instagram and production were not modified.",
+    "Build passed; no current claim of green remote CI. Prior remote run failed due missing lint setup and incomplete Git history for secret scan."
+  ],
+  "http_check": "qa/v9-local-http-check.json / 151 routes and assets / 0 failures",
+  "focused_secret_check": "qa/v9-focused-secret-check.json / new content pattern scan / not a full audit",
+  "downloads": {
+    "OTF": "sha_matches_source",
+    "PDF_08": "sha_matches_source",
+    "Social_ZIP_08": "sha_matches_source"
+  }
+}

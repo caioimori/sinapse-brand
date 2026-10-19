@@ -1,0 +1,47 @@
+{
+  "status": "source_letter_study_for_review",
+  "selected": null,
+  "recommended": null,
+  "approach": "Exact source S, isolated for comparison; not an approved new icon.",
+  "path": "M117.08,42.66h9.38v-9.38H37.97c-2.59,0-4.69,2.1-4.69,4.69v18.76c0,2.59,2.1,4.69,4.69,4.69h4.69s69.73,0,69.73,0c2.59,0,4.69,2.1,4.69,4.69h0c0,2.59-2.1,4.69-4.69,4.69H42.66s-9.38,0-9.38,0v9.38h88.49c2.59,0,4.69-2.1,4.69-4.69v-18.76c0-2.59-2.1-4.69-4.69-4.69h-4.69s-69.73,0-69.73,0c-2.59,0-4.69-2.1-4.69-4.69h0c0-2.59,2.1-4.69,4.69-4.69h69.73Z",
+  "path_sha256": "644f405ed39eb5afc62d334e8e02622b410c1b62974da48bb666d87cdba2312f",
+  "transform": "translate(-15.87000000 7.27000000)",
+  "bounds": [
+    33.279999999999994,
+    33.279999999999994,
+    126.46,
+    80.17999999999998
+  ],
+  "metrics": {
+    "width": 93.18,
+    "height": 46.9,
+    "aspect": 1.98678,
+    "stroke": 9.38,
+    "return_radius": 4.69,
+    "terminal_radius": 0,
+    "stroke_height_ratio": 0.2
+  },
+  "sources": [
+    {
+      "file": "public/brand/logo/bone/snps-lockup.svg",
+      "sha256": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d",
+      "viewBox": "0 0 489.2 113.46"
+    },
+    {
+      "file": "public/brand/logo/bone/sinapse-wordmark.svg",
+      "sha256": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea",
+      "viewBox": "0 0 734.86 113.46"
+    }
+  ],
+  "rejected": [
+    "nexo",
+    "sintese",
+    "pulso"
+  ],
+  "limits": [
+    "Use as an isolated mark remains a design proposal.",
+    "No invented three-element symbolism.",
+    "Preserve the horizontal source proportions, including in a square or circular frame.",
+    "Material stays clipped inside the original contour."
+  ]
+}

@@ -1,177 +1,75 @@
-# SINAPSE CANON — fonte da verdade de marca (AI-first)
+# SINAPSE SI / edição 08 / vigente em 19.10.2026
 
-> **Para quem é este documento:** uma IA que vai gerar QUALQUER interface ou peça SINAPSE
-> (LP, app, dashboard, hero, proposta, contrato, deck, carrossel) lê isto ANTES de produzir.
-> É enxuto de propósito — só o que toda interface realmente usa. Sem poluição, sem demo que
-> não vira nada. Cada valor é real e validado na fonte (06/2026).
->
-> **Regra mestra:** o branding SINAPSE é sempre **congruente**. Em conflito, este documento vence.
-> Tokens-máquina: `tokens.canon.json`. CSS de fonte única: `app/globals.css`.
-> Âncora: o token set real do **hub.snps.ai** (Tailwind v4 + shadcn). Detalhe/pesquisa:
-> `../_design-system-master/` (arquivo de extração — não é a lei).
+Pedido atual: corrigir a origem da perna do R, disponibilizar o mesmo S sem círculo e refinar a formatação visual do brandbook com perfil, feed, destaques e posts. Mestres SNPS/SINAPSE e decisões anteriores preservados. Preto e branco, Dark First + Light, descritores em uma linha e espaço de uma altura de letra.
 
-**DNA em uma frase:** B&W absoluto, dark-first, premium silencioso — "terminal/IDE encontra editorial".
-Hierarquia nasce de **cinza + opacidade**, nunca de cor. Se parece template genérico, está errado.
+SNPS Display 1.300: somente R/r e formas acentuadas de R mudam. A diagonal começa na borda superior da barra do bojo, sobreposta ao traço, sem raiz arredondada. Demais curvas e avanços intactos. S sem círculo usa exatamente o contorno interno de symbol-circle/source.json como preenchimento positivo; original raster da página 8, não Bézier original. O círculo segue disponível.
 
----
+Collection 04 tem 12 peças com frente/costas, duas versões de símbolo e 12 folhas fotográficas. Fonte/data atual: data/si/wear-v9.json. Costas nativas e Caveat preservadas. Seis edições fotográficas novas em wear-v9 mudam apenas os dois símbolos de frente por folha; todos os mockups são conceituais. Conferir amostra física antes de fabricar.
 
-## 0. Variantes oficiais (núcleo + 4 superfícies)
+Edição 08: 53 páginas, 7.252 caracteres informativos nativos, zero texto fora dos limites. Navegação por capítulos, galeria de aplicações em colunas com arte completa, perfil com dois avatares, nove posts, três carrosséis de cinco telas e cinco destaques de quatro Stories. Arquivos sociais em public/si-v2/social-v9; conteúdo/captions em data/si/social-v9.json. Sem aplicação ao Instagram.
 
-Tudo abaixo é o **núcleo**. 4 superfícies herdam o núcleo e só desviam onde declarado (§11).
+A conexão da prévia foi restaurada. QA atual em docs/SINAPSE-SI-V9-QA.md e qa/v9-*.json substitui a limitação de conexão anterior. TypeScript, build de produção e 311 provas de fidelidade passaram. Não herdar inspeção de edições antigas como prova desta edição. Dev em 127.0.0.1:3256, checkout knowledge/sinapse-si-brandbook, branch feat/sinapse-si-brandbook-20261016, PR #11. Build isolado em .next-verify; preservar o servidor dev.
 
-| Variante | Tema | Fonte | Textura | Cor extra |
-|---|---|---|---|---|
-| **App/Hub** (referência) | dark-first | Sora·Inter·JetBrains | grain | só `/ads` |
-| **Institucional** (snps.ai, /growth) | dark | + Audiowide (marca) | grain+glass | — |
-| **Club** (sinapse.club) | light-first | Inter (sem Sora) | glass | cor funcional social/gamificação |
-| **Educacional** (snps.ai/educacional) | dark | Geist/Geist Mono | glass+órbitas | — |
+Geradores vigentes: build-si-v9-symbol.py; build-snps-display.py; build-si-v6-signatures.py; build-si-v9-delivery.py; consolidate-si-v9.py; package-si-v9.py; test-si-v9.py. Não executar consolidadores antigos. PDF, kit completo e kit social 08 são atuais. Recuperação anterior: bbc6e6c. Produção, DNS, Instagram e fabricação não foram autorizados nem executados.
 
 ---
 
-## 1. Tipografia
+## Histórico anterior / superado quando conflitar com a edição 08
 
-| Papel | Família | Var | Pesos | Uso |
-|---|---|---|---|---|
-| Display | **Sora** | `--font-display` | 300/400/500/600 | Headlines, hero, números |
-| Corpo/UI | **Inter** | `--font-sans` | 400/500/600 | Texto, UI, parágrafos |
-| Mono | **JetBrains Mono** | `--font-mono` | 400/500 | Eyebrow, badge, dados, eixo de chart |
-| Wordmark | **Audiowide** | `--font-wordmark` | 400 | Só marca/logo |
+# SINAPSE SI / edição 07 / vigente em 19.10.2026
 
-- **Máx 2 pesos por tela** (lei 04). Feature settings Inter: `"cv01","ss03"`. Letter-spacing global: `-0.011em`.
-- **Escala UI** (corpo/componentes): `--text-xs .75rem` · `sm .875` · `base 1` · `lg 1.125` · `xl 1.25` · `2xl 1.5` · `3xl 1.875` · `4xl 2.25` · `5xl 3rem`.
-- **Escala DISPLAY (headline de marca — salta a dead-zone):**
-  `.display-hero` `clamp(3.75rem,11vw,11rem)` (60–176px, peso 300) · `.display-xl` `clamp(2.75rem,6vw,5rem)` · `.display-lg` `clamp(3.25rem,5vw,4.5rem)`.
-- **NUNCA** headline de marca em **32–48px** (dead-zone). Faixas válidas: 11–14px OU 60–180px.
-- **Eyebrow/kicker:** mono, uppercase, `tracking .14em`, 11–13px. Delimitadores: cru · `[ colchetes ]` · `// barra dupla`.
-- Headline tracking negativo apertado (`-0.02` a `-0.035em`).
+Caio pediu menos texto, apresentação mais artística e todas as roupas com frente e costas. /book agora é uma galeria navegável com materiais, tipografia, aplicações e referências; o leitor completo fica recolhido. PDF visual com 40 páginas 1920 × 1080 e 5,639 caracteres nativos, contra 21.124 na edição 06. Fontes incorporadas e zero texto fora dos limites.
 
-## 2. Paleta de cores
+Símbolo vigente: o S circular fino existente no Idv_SNPS.pdf, página 8, escolhido por Caio. O PDF traz raster 7680 × 4321, sem Bézier. Contorno extraído e suavizado; origem explicitada em symbol-circle/source.json. Sobreposição binária: 99,478% na silhueta e 98,580% na abertura S. Os dois mestres e a fonte corporativa permanecem byte a byte. /studio/symbol e downloads mostram a seleção atual; as propostas rejeitadas continuam só no histórico.
 
-**Primitivos (rampa neutra):** `--vanta #0A0A0A` · `--bone #F5F5F0` · `--void #000000` (só máscara) ·
-`--gray-00 #FFFFFF` → `05 #FAFAFA` · `10 #F5F5F0` · `15 #EBEBE6` · `20 #D4D4D0` · `30 #A3A39F` ·
-`40 #737370` · `50 #525250` · `60 #404040` · `70 #2A2A2A` · `80 #1A1A1A` · `90 #141414` · `100 #0A0A0A`.
+Collection 04 em wear-v8: oito camisetas regulares, quatro moletons, 24 vistas em seis folhas. Frente: só S circular no peito; costas: frase + SNPS SI. Estampas de wear-v7 e Caveat preservadas byte a byte. Bricolage Grotesque e Space Mono continuam propostas. Vidro/prata/papel em visual-v8. Fotografias conceituais geradas, conferidas como arquivos locais; fabricação não autorizada.
 
-**Semânticos (light / dark — invertem):**
+Verificação vigente: TypeScript, 112 provas de fidelidade, PDF e kit CRC/SHA. Limitação: navegador bloqueou observação da aba no documento data: de erro; Caio confirmou conexão recusada após recarregar e digitar /book. Servidor Ready, escutando 127.0.0.1:3256 e HTTP 200 local. Responsividade, Dark/Light, pausa, seleção, filtros e diálogos desta revisão NÃO verificados. Não herdar aprovação visual web de edições anteriores. Não declarar prévia pronta. Build de produção não executado por RAM abaixo de 4 GiB.
 
-| Token | Light | Dark |
-|---|---|---|
-| background | `#F5F5F0` | `#0A0A0A` |
-| foreground | `#0A0A0A` | `#F5F5F0` |
-| card / popover | `#FFFFFF` | `#141414` |
-| primary | `#0A0A0A` | `#F5F5F0` |
-| primary-foreground | `#F5F5F0` | `#0A0A0A` |
-| secondary/muted/accent | `#EBEBE6` | `#1A1A1A` |
-| muted-foreground | `#525250` | `rgba(245,245,240,.55)` |
-| border / input | `rgba(10,10,10,.10)` | `rgba(245,245,240,.10)` |
-| ring | `rgba(10,10,10,.30)` | `rgba(245,245,240,.30)` |
+Fontes atuais: scripts/build-si-v8-circle.py, build-si-v8-wear.py, build-si-v8-book.py, consolidate-si-v8.py, package-si-v8.py e test-si-v8.py. Leitor data/si/book-v8.json, PDF/kit 07. O gerador PDF reutiliza só os helpers de texto/vetor da edição 06. Preservar o acervo antigo; não executar consolidadores históricos. Próximo passo: restaurar acesso da prévia e conferir 320/390/768/1440 px, breakpoints e controles. Sem produção, DNS, postagem ou fabricação.
 
-- **Preto de marca = `#0A0A0A`. NUNCA `#000`** como superfície. Off-white = `#F5F5F0`.
-- **Charts (mono):** light `#0A0A0A→#2A2A2A→#525250→#A3A39F→#D4D4D0`; dark inverte (`#F5F5F0→…→#404040`).
-- **Cor funcional (ÚNICA exceção ao B&W):** `--error #FF3A2D` · `--success #00C853` · `--warning #F59E0B` · `--info #3B82F6`. Só estado/feedback — nunca decoração.
-- **Exceção `/ads` (só nessa superfície):** `--meta #0866FF` · `--whatsapp #25D366` · `--google #4285F4` + canais traffic/engagement/awareness/app.
-
-## 3. Skeletons / templates de interface (arquétipos)
-
-Toda interface nova parte de um destes esqueletos (ordem de blocos). Referência viva:
-`../_design-system-master/extractions/03-cross-account-canonico.md` + `_ui-forensics/output/starters/`.
-
-| Arquétipo | Tema | Esqueleto (ordem de blocos) |
-|---|---|---|
-| **Landing page** | dark/light | Nav fina → Hero display assimétrico (eyebrow+display+sub+CTA) → prova/logos → seções com divisória hairline → pricing → FAQ → footer |
-| **SaaS / App (Hub)** | dark | Sidebar (8 tokens) + topbar → page header (kicker+título) → **stat-grid metálico** (`grid gap-px bg-border`) → tabelas/cards → empty states |
-| **Dashboard** | dark | Page header → linha de KPIs (stat-grid) → charts mono (recharts) → tabela densa → filtros mono |
-| **Proposta** (cliente) | dark + gold opcional | Capa display → diagnóstico → escopo → ancoragem de preço (premium primeiro) → prova → CTA único |
-| **Guia / docs** | B&W | Header numerado `[ x.x ]` → conteúdo em coluna fluida → blocos de código mono → next-section |
-| **Link-bio** | dark | Símbolo → lista de links pill → footer mínimo |
-| **Canvas/cliente** | via `[data-brand]` | Herda núcleo, troca tokens por cliente |
-
-**Regras de esqueleto (sempre):** assimetria (lei 06) · container fluido (§6) · 2+ camadas (base + grain/textura) · divisórias hairline `rgba(fg,.08–.10)` no lugar de caixas pesadas.
-
-## 4. Animações / motion
-
-- **Defaults:** duração `.15s` · easing `cubic-bezier(.4,0,.2,1)`. Tokens: `--duration-fast .15s` · `base .25s` · `slow .4s`. Easings extra: `--ease-out (0,0,.2,1)`, `--ease-pulse (.4,0,.6,1)`.
-- **Keyframes núcleo:** `fadeUp` (entrada padrão), `spin`, `pulse`. (tailwindcss-animate cobre enter/exit.)
-- **Padrões reusáveis:** reveal `fadeUp` no scroll · hover lift sutil (translateY -1/-2px) · link underline reveal · stat-grid hairline · cursor mono blink (terminal).
-- **Lei 07 (reversível):** tudo que entra, sai igual no scroll reverso. **Lei 08:** `prefers-reduced-motion` desliga tudo não-essencial (override global → `0.01ms`). Obrigatório.
-- Superfícies ricas (educacional) podem ter orbit/smoke/chat — desvio de variante, não núcleo.
-
-## 5. Botões + border radius
-
-**Radius (base 6px):** `--radius 6px` → `sm/md 4` · `lg 6` · `xl 10` · `2xl 14` · `xs .125rem` · pill `9999px`.
-Aplicação: **botão `6` (lg)** · **input `4` (md)** · **card `10` (xl)** · modal `14` (2xl) · badge/avatar pill.
-
-| Botão | Estilo |
-|---|---|
-| **Primário** | fill `--primary` (bone no dark / vanta no light), texto `--primary-foreground`, radius 6, hover `opacity .9` |
-| **Outline** | transparente, borda `--border`, hover `bg --accent` |
-| **Ghost** | transparente, texto `--muted-foreground`, hover `--accent` |
-| **CTA mono** (institucional) | `font-mono uppercase tracking-[.14em]`, borda `--foreground`, hover invertido |
-
-Estados: focus ring (§8) · disabled `opacity .5` · alvo de toque ≥ 44px no mobile.
-
-## 6. Espaçamentos + grid/layout
-
-- **Base spacing `0.25rem` (4px).** Escala = `calc(base * n)`.
-- **Container de página:** fluido — `max-width 1200px` + `--pad-x: clamp(20px,4vw,56px)`. **NUNCA `max-w-7xl` cru.**
-- **Containers nomeados:** xs 20rem → 6xl 72rem.
-- **Breakpoints:** sm 40rem · md 48rem · lg 64rem · xl 80rem · 2xl 96rem (+ guard 767px mobile).
-- **Grid:** ≥12 col, gutters ≥24px no desktop. Divisórias por **borda hairline**, não por sombra/caixa.
-- **Responsivo:** grids multi-coluna colapsam pra 1 col no mobile; zero overflow horizontal de 320px a 1920px.
-
-## 7. Logotipo + utilização
-
-- **Logo oficial = lockup vetorial "símbolo + SNPS"** (`public/brand/logo/{vanta,bone}/snps-lockup.svg`, viewBox 489.2×113.46). **NUNCA "SINAPSE" por extenso como logo.**
-- **Contraste (lei de uso):** bg claro (Bone) → logo **vanta/escuro** (`#1a1b1b`); bg escuro (Vanta) → logo **bone/branco** (`#fff`). Troca automática por tema no componente `ThemeLogo`.
-- **Símbolo isolado** (`sinapse-symbol.svg`, ratio ~1.41:1): usar em favicon, footer, app icon, espaços apertados.
-- **Sub-marcas** (lockups próprios, mesmo símbolo): `sinapse-club-lockup.svg`, `sinapse-ai-lockup.svg`.
-- **NUNCA:** recolorir fora de bone/vanta · distorcer · adicionar sombra/contorno · usar o wordmark "SINAPSE" sozinho · colocar sobre fundo de baixo contraste sem a camada certa.
-- Clear space mínimo ≈ altura do símbolo. Tamanho mínimo do lockup ≈ 16px de altura.
-
-## 8. Efeitos
-
-- **Grain (textura do núcleo):** SVG feTurbulence, `opacity .05`, blend `overlay`, fixo `inset 0`, `z 9999`. Sempre ativo (lei 03).
-- **Glass (variante Club/educacional):** `backdrop-blur 12–20px + saturate(1.4–1.8)` + inner-highlight. Não é núcleo — é desvio declarado.
-- **Sombras (discretas):** xs `0 1px 2px #0000000d` · sm · md · lg · 2xl `0 25px 50px -12px #00000040`. Doutrina: preferir borda hairline + grain a sombra pesada.
-- **Blur:** `--blur-sm 8px` · `--blur-md 12px`.
-- **Focus ring:** `outline 2px solid transparent` + `color-mix(in oklab, var(--foreground) 40%, transparent)` (destructive 20%).
-- **Frames/texturas sutis:** crosshair, HUD corners, hairline dividers, grid pattern — micro-detalhe que ativa o minimalismo (lei 11). Usar com parcimônia.
-
-## 9. Modelos harvest (documentos institucionais reutilizáveis)
-
-Catálogo de modelos prontos — a IA parte daqui, não reinventa. Caminhos reais:
-
-| Modelo | Caminho | Notas |
-|---|---|---|
-| **Contrato BLINDADO** | `Workspace/sinapse/contratos/template-contrato.astro` + `GUIA-CONTRATO-BLINDADO.md` | 14 cláusulas, 20 blindagens jurídicas. Copiar por cliente. |
-| **Proposta** | `Workspace/sinapse/contratos/_template-proposta.astro` | Premium primeiro, sem promessas. |
-| **LP de proposta** | `Workspace/sinapse/propostas/_template-lp-proposta/` (`index.template.html` + `HARVEST.md` + `brand/`) | 1 página, DS escuro, ancoragem de preço, sem checkout. |
-| **Pacote Growth (cliente)** | `Workspace/sinapse/clientes/_template-growth/` | Estrutura de entrega de cliente Growth. |
-| **Apresentação/Deck** | *(harvest pendente de consolidar — decks atuais são client-branded)* | Regra: slide = âncora da fala, minimalista, premium mono-acento. |
-
-**Regras de documento institucional:** B&W núcleo (gold só em proposta de cliente, variante), tipografia do §1, sem em-dash em peças Módulo, copy alinhada à Fonte da Verdade de Comunicação (`Workspace/sinapse/brand/fonte-da-verdade-comunicacao.md`).
-
-## 10. Outros (essenciais que faltavam)
-
-- **Iconografia:** **lucide-react**, default `size-4` (16px), stroke 2. Sem icon-font, sem mistura de bibliotecas.
-- **Charts:** **recharts**, séries mono `--chart-1..5`, tooltip `--card`/`--border`, eixo em JetBrains Mono.
-- **Estados (todo componente):** default · hover · focus-visible (ring §8) · active · disabled (`opacity .5`) · loading (skeleton shimmer `--muted`→`--accent`). Badge/status diferenciado por **opacidade/borda**, não por cor.
-- **Acessibilidade:** contraste WCAG AA mínimo (AAA na copy principal) · focus visível sempre · alvo ≥44px mobile · `prefers-reduced-motion` respeitado · `aria-label` em ícones/logos.
-- **Responsividade:** validar SEMPRE desktop (≥1280) + mobile (390) antes de "pronto"; zero overflow horizontal; grids colapsam.
-- **Tom de voz / copy:** segue `Workspace/sinapse/brand/fonte-da-verdade-comunicacao.md` (conceito-mãe "Prova, não promessa"; IA sempre pela lente de growth; sem promessa vazia). Headlines sem numeral por extenso.
-- **Componentes base (shadcn new-york):** button, card, badge, input, select, dialog, table, tabs, avatar, checkbox, dropdown-menu, popover, sheet, separator, textarea, label, form, sonner. Menos componentes, mais lei (Vignelli).
+Checkout knowledge/sinapse-si-brandbook; branch feat/sinapse-si-brandbook-20261016; PR #11. Recuperação anterior: bb713a2. O checkout source-of-truth não foi alterado.
 
 ---
 
-## 11. Desvios permitidos por variante (resumo)
+## Histórico anterior / superado quando conflitar com a edição 07
 
-- **App/Hub:** referência viva do núcleo. Exceção cromática só em `/ads`.
-- **Institucional:** wordmark Audiowide; glass + sombras Apple; gradientes cromados; hero no topo da escala display.
-- **Club:** light-first forçado; glass no lugar de grain; cor funcional liberada (social/gamificação); heading em Inter; cards com `ring-1 ring-foreground/10`.
-- **Educacional:** stack Geist/Geist Mono; motion rico (orbit/smoke/chat); glows radiais.
+# SINAPSE SI — edição 06 / Sinal contínuo
 
-> Qualquer coisa fora deste documento e dos desvios acima é **bug de congruência**, não estilo. Refaz.
+Pedido vigente: reestruturar a expressão e o brandbook com leitura profunda dos seis cases abertos por Caio, sobretudo OXA AI e Buff. Preservar SNPS e SINAPSE completos. Preto e branco, Dark First e Light Mode continuam definidos.
 
----
+## Identidade e fonte
 
-*Máquina: `tokens.canon.json` · `app/globals.css`. Pesquisa/extração: `../_design-system-master/`.*
-*v1 · 2026-06-18 · âncora hub.snps.ai · AI-first, institucional, congruente.*
+Originais em public/brand/logo, intactos. O mestre SINAPSE completo também é incorporado diretamente nas novas assinaturas, incluindo o segundo S e o I original. Não substituir os mestres por texto digitado.
+
+SNPS Display Regular 1.200: OTF, TTF e WOFF2; 196 glifos. K, J, F, W e Z foram redesenhados nesta edição. H foi preservado. S, I, N, A, P e E são curvas recuperadas. Demais letras são extensões propostas; teclas minúsculas usam formas maiúsculas. Manrope 400/600 mantém a leitura e JetBrains Mono identifica registros.
+
+Traço 9,38; altura 46,90; intervalo 16,64 no mestre. A gramática não possui um radius único: terminal aberto reto; retorno circular 4,69; ombro externo do N 9,38; retorno interno pequeno 2,54. Diagonais novas têm transições suaves e terminais cortados. OTF conserva cúbicas; TTF usa aproximação de até 0,25 unidade de fonte.
+
+Dez assinaturas em quatro materiais e dois fundos: 80 SVGs. SI, School, House e Growth ficam sempre à direita do nome na mesma altura e baseline, nunca embaixo. Usar SNPS SI como assinatura principal compacta. O intervalo entre nome e complemento é de 46,90 unidades do mestre, uma altura de letra (+41% sobre 33,28). Não deformar proporção, traço, sequência de letras ou avanço. Conferir palavras críticas e reprodução física antes de adotar extensões como arte final de fabricação.
+
+## Expressão
+
+Sinal contínuo: retorno do S e transição do N originam recortes, camadas, foco e material. Texto informativo permanece em plano estável. Os casos inspiram mecanismos; símbolos, paletas, retratos e arquivos de terceiros não integram a identidade SINAPSE.
+
+17 composições atuais de aplicações/anatomia em SVG e WebP, com Passagem fora do conjunto. Atlas interativo, pôsteres, stories, capas, perfis e cartão. Passagem foi rejeitado por Caio em 17/10 e retirado da direção atual; os arquivos permanecem recuperáveis. Collection 03 substitui 02: oito camisetas e quatro moletons, seis novos pares fotográficos e 12 novas estampas em curvas. Refinamento vigente: camisetas de corte regular; Caveat aprovada em Born Curious e Still Human, com os traços preservados. Bricolage Grotesque e Space Mono são novos testes, com licenças OFL. Assinatura das roupas somente SNPS SI, sem microtexto abaixo. Fotografias de conceito não são prova de fabricação, parceria, cliente ou local real.
+
+Estudo de origem em /studio/symbol: Nexo, Síntese SN e Pulso foram rejeitados por incongruência com o lettering. Não há símbolo selecionado ou recomendado. O S original foi extraído dos dois mestres com o atributo d intacto; sua proporção 1,987:1 e seu traço permanecem. O uso isolado é um teste construtivo, não um novo ícone aprovado. Documento de cinco páginas e kit próprio em public/si-v2/symbol-origin. Fonte: data/si/symbol-origin.json e docs/SINAPSE-ORIGEM-TRACO.md.
+
+Material comum em data/si/materials.json e lib/si/material.ts. Vidro portátil em PNG/WebP com alpha e iluminação própria. Geometria exata continua no SVG; o material web é interpretação, não o recurso nativo Apple.
+
+Logos de ferramentas mantêm suas cores no conteúdo pertinente, com escala e legenda. Collection 03 usa Nude Project como referência de atitude editorial, sem adotar modelagem oversize; Coinbase Shop orienta cultura de tecnologia. Frases de IA, escrita gestual aprovada e novos testes sem serifa/monoespaçados. Protótipo físico continua necessário.
+
+Signals 04: 12 ícones, formato 96 × 64, terminais retos e retornos controlados. Conferir redução com rótulo. Editor com 49 templates exportados, cinco famílias (Manifesto, Fluxo, Caderno, Convite, Em produção), material/fonte por quadro e PNG/SVG/JSON.
+
+## Livro e pesquisa
+
+60 páginas 1920 × 1080. Texto nativo com Manrope Regular e Semibold de nomes distintos, JetBrains e SNPS Display incorporadas. Fotografias e pranchas de material são ilustrações raster; mestres, anatomia e ícones mantêm curvas. Leitor /book, PDF e kit 06 são atuais e não contêm Passagem. Capa, página 24, campanha e pôster House foram atualizados. PDFs antigos permanecem recuperáveis, fora do kit atual. A decisão de símbolo segue aberta, sem adoção do estudo separado.
+
+199 imagens estáticas: OXA AI 25, Buff 42, Mozari 23, Cirdia 52, Centrysk 36 e Clarity 21. Dois vídeos Buff identificados, sem análise temporal. Não afirmar acesso aos editáveis ou PDFs completos dos autores. Dados e decisões em data/si/reference-atlas.json e docs/SINAPSE-SI-V4-BENCHMARK.md.
+
+## Negócio e entrega
+
+School desenvolve repertório; House constrói projetos; Growth opera crescimento para e-commerce, vendas diretas e geração de leads. SI significa Super Intelligence, sem alegação de capacidade técnica de superinteligência. Lista T04 não equivale a matrícula; condições comerciais precisam refletir a oferta vigente.
+
+Prévia 3256, branch feat/sinapse-si-brandbook-20261016, PR #11, issue #10. Sem produção, DNS, postagem ou fabricação. Revisão 03 recuperável em cfe9c41; anteriores no Git. CANON modificado no checkout principal permanece intocado.

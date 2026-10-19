@@ -1,0 +1,47 @@
+{
+  "brand": "SINAPSE SI",
+  "status": "proposta",
+  "format": "1080x1350",
+  "frames": [
+    {
+      "title": "Uma ideia que encontra um método.",
+      "body": "Comece pelo que você quer resolver. A ferramenta vem depois."
+    },
+    {
+      "title": "Defina a entrega.",
+      "body": "Descreva o que precisa existir ao final e como você vai conferir."
+    },
+    {
+      "title": "Reúna o contexto.",
+      "body": "Inclua fontes, exemplos e restrições que mudam a decisão."
+    },
+    {
+      "title": "Escolha um primeiro passo.",
+      "body": "Um recorte pequeno permite avaliar antes de ampliar."
+    },
+    {
+      "title": "Experimente com critério.",
+      "body": "Use um ambiente de teste adequado e dados autorizados."
+    },
+    {
+      "title": "Veja o resultado real.",
+      "body": "Abra o arquivo, use os controles e percorra o fluxo."
+    },
+    {
+      "title": "Revise o que importa.",
+      "body": "Compare a entrega com o objetivo e ajuste a causa do problema."
+    },
+    {
+      "title": "Registre o aprendizado.",
+      "body": "Uma decisão útil deve continuar disponível para o próximo trabalho."
+    },
+    {
+      "title": "Conecte ao seu contexto.",
+      "body": "O valor aparece quando o repertório encontra uma necessidade real."
+    },
+    {
+      "title": "Qual é o seu próximo projeto?",
+      "body": "Conheça a Sinapse School em sinapse.si/school."
+    }
+  ]
+}
