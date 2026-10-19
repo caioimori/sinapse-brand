@@ -1,5 +1,5 @@
 {
-  "version": "6.1-proposal",
+  "version": "7.0-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
@@ -215,5 +215,14 @@
       "https://nude-project.com/collections/hoodies",
       "https://coinbaseshop.com/"
     ]
+  },
+  "revision_07": {
+    "symbol": "symbol-circle/source.json",
+    "apparel": "wear-v8/provenance.json",
+    "material_photos": "visual-v8/provenance.json",
+    "fonts": "wear-v8/fonts/sources.json",
+    "book": "SINAPSE-SI-Brandbook-07.pdf",
+    "original_wordmarks": "byte-preserved",
+    "browser_review": "pending_connection"
   }
 }

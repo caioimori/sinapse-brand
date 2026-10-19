@@ -1,3 +1,21 @@
+# SINAPSE SI / edição 07 / vigente em 19.10.2026
+
+Caio pediu menos texto, apresentação mais artística e todas as roupas com frente e costas. /book agora é uma galeria navegável com materiais, tipografia, aplicações e referências; o leitor completo fica recolhido. PDF visual com 40 páginas 1920 × 1080 e 5,639 caracteres nativos, contra 21.124 na edição 06. Fontes incorporadas e zero texto fora dos limites.
+
+Símbolo vigente: o S circular fino existente no Idv_SNPS.pdf, página 8, escolhido por Caio. O PDF traz raster 7680 × 4321, sem Bézier. Contorno extraído e suavizado; origem explicitada em symbol-circle/source.json. Sobreposição binária: 99,478% na silhueta e 98,580% na abertura S. Os dois mestres e a fonte corporativa permanecem byte a byte. /studio/symbol e downloads mostram a seleção atual; as propostas rejeitadas continuam só no histórico.
+
+Collection 04 em wear-v8: oito camisetas regulares, quatro moletons, 24 vistas em seis folhas. Frente: só S circular no peito; costas: frase + SNPS SI. Estampas de wear-v7 e Caveat preservadas byte a byte. Bricolage Grotesque e Space Mono continuam propostas. Vidro/prata/papel em visual-v8. Fotografias conceituais geradas, conferidas como arquivos locais; fabricação não autorizada.
+
+Verificação vigente: TypeScript, 112 provas de fidelidade, PDF e kit CRC/SHA. Limitação: navegador bloqueou observação da aba no documento data: de erro; Caio confirmou conexão recusada após recarregar e digitar /book. Servidor Ready, escutando 127.0.0.1:3256 e HTTP 200 local. Responsividade, Dark/Light, pausa, seleção, filtros e diálogos desta revisão NÃO verificados. Não herdar aprovação visual web de edições anteriores. Não declarar prévia pronta. Build de produção não executado por RAM abaixo de 4 GiB.
+
+Fontes atuais: scripts/build-si-v8-circle.py, build-si-v8-wear.py, build-si-v8-book.py, consolidate-si-v8.py, package-si-v8.py e test-si-v8.py. Leitor data/si/book-v8.json, PDF/kit 07. O gerador PDF reutiliza só os helpers de texto/vetor da edição 06. Preservar o acervo antigo; não executar consolidadores históricos. Próximo passo: restaurar acesso da prévia e conferir 320/390/768/1440 px, breakpoints e controles. Sem produção, DNS, postagem ou fabricação.
+
+Checkout knowledge/sinapse-si-brandbook; branch feat/sinapse-si-brandbook-20261016; PR #11. Recuperação anterior: bb713a2. O checkout source-of-truth não foi alterado.
+
+---
+
+## Histórico anterior / superado quando conflitar com a edição 07
+
 # SINAPSE SI — handoff / edição 06
 
 ## Refinamento vigente — roupas / 19/10/2026

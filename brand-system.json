@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "6.1-proposal",
+  "version": "7.0-proposal",
   "stage": "art_direction_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
@@ -606,6 +606,13 @@
       "descriptorGap": 46.9,
       "previousDescriptorGap": 33.28,
       "rule": "One source cap height between immutable logo and descriptor; one horizontal baseline."
+    },
+    "symbol": {
+      "name": "S circular fino",
+      "source": "Idv_SNPS.pdf / page 8",
+      "contour": "public/si-v2/symbol-circle/source.json",
+      "status": "user-selected existing symbol",
+      "limit": "Raster contour recovery; original Bezier unavailable"
     }
   },
   "voice": {
@@ -755,18 +762,18 @@
       "ofertas e fontes factuais"
     ],
     "changed": [
-      "regular-fit tees",
-      "approved Caveat handwriting preserved",
-      "Bricolage Grotesque and Space Mono trials",
-      "SNPS SI apparel signature without micro tagline",
-      "updated six photographic concepts, book and kit"
+      "Visual edition 07",
+      "Selected page-8 thin circle S",
+      "All 12 garments with front/back views",
+      "Small front symbol; back phrases",
+      "Circle glass/silver/paper material studies"
     ],
     "rollout": [
-      "revisar edição 06",
-      "validar protótipos físicos",
-      "aplicar por canal autorizado"
+      "inspect responsive browser when connection is restored",
+      "review visual proposal",
+      "validate physical samples"
     ],
-    "recovery": "e91ce04 preserves the previous apparel revision; original logo masters unchanged."
+    "recovery": "bb713a2 preserves prior revision; original wordmark masters unchanged."
   },
   "creative_direction": {
     "name": "Sinal contínuo",
@@ -788,7 +795,7 @@
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
     "supersedes": "Proposal 1.0 rejected by Caio.",
-    "iteration": "Regular-fit tees; approved Caveat handwriting preserved; Bricolage Grotesque and Space Mono trials; SNPS SI as the only apparel signature.",
+    "iteration": "Visual brandbook; selected thin circle S; front/back apparel pairing; minimal front mark and back phrases.",
     "grammar": [
       "square open terminals",
       "4.69 circular returns",
@@ -819,12 +826,12 @@
       }
     ],
     "apparel": {
-      "collection": "03",
+      "collection": "04",
       "pieces": 12,
       "tees": 8,
       "hoodies": 4,
-      "data": "data/si/wear-v7.json",
-      "fonts": "public/si-v2/wear-v7/fonts/sources.json",
+      "data": "data/si/wear-v8.json",
+      "fonts": "public/si-v2/wear-v8/fonts/sources.json",
       "reference_urls": [
         "https://nude-project.com/collections/t-shirts",
         "https://nude-project.com/collections/hoodies",
@@ -837,7 +844,10 @@
       "new_type_trials": [
         "Bricolage Grotesque",
         "Space Mono"
-      ]
+      ],
+      "front": "Small thin circle S only",
+      "back": "Phrase and SNPS SI",
+      "photos": "six photographic sheets / 24 garment views"
     }
   }
 }

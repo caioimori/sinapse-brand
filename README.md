@@ -1,26 +1,15 @@
-# SINAPSE SI — edição 06
+# SINAPSE SI / edição 07
 
-Prévia local: http://127.0.0.1:3256/studio/wear . Livro: /book . Assinaturas: /studio/identity . Arquivos: /studio/downloads . Reutilizar servidor e aba existentes.
+Brandbook visual em /book: 40 pranchas, 5,639 caracteres informativos nativos (cerca de 73% menos texto). Capa e estudos de materiais, símbolo, assinaturas, tipografia, aplicações, referências creditadas e 12 peças sempre com frente e costas.
 
-Mestres SNPS e SINAPSE intactos. Todas as assinaturas permanecem horizontais; espaço até o descritor ampliado de 33,28 para 46,90 unidades do mestre. A fonte corporativa SNPS Display 1.200 não foi alterada neste lote.
+Prévia local pretendida: http://127.0.0.1:3256/book . Collection: /studio/wear . Símbolo: /studio/symbol . Downloads: /studio/downloads . Servidor observado respondendo HTTP 200, mas navegador recusando conexão; revisão responsiva e de interação pendente. Não declarar interface pronta.
 
-Passagem e a imagem de campanha que o continha saíram do livro e das aplicações atuais. PDF 06: 60 páginas 1920 × 1080, texto nativo e fontes incorporadas. Nenhum novo ícone foi escolhido.
+S circular fino existente da página 8 de Idv_SNPS.pdf selecionado por Caio. Contorno recuperado da imagem incorporada; Bézier original indisponível. Mestres SNPS/SINAPSE e fonte corporativa preservados. Descritores continuam horizontais, com intervalo de uma altura de letra.
 
-Collection 03: oito camisetas e quatro moletons, 12 estampas originais em curvas e seis pares fotográficos conceituais. Fontes de expressão licenciadas por OFL. Camisetas com corte regular, sem modelagem oversize. Caveat aprovada por Caio; Bricolage Grotesque e Space Mono em teste. A assinatura agora é somente SNPS SI. Nude Project orienta atitude editorial; Coinbase Shop orienta cultura de tecnologia.
+Collection 04: oito camisetas regulares, quatro moletons, seis folhas fotográficas com 24 vistas. Frente com símbolo discreto; frase e SNPS SI atrás. Caveat aprovada mantida, demais fontes em teste. Fotografias são conceitos gerados, sem prova de fabricação.
 
-Geradores atuais, nesta ordem:
+Geradores atuais: build-si-v8-circle.py → build-si-v8-wear.py → build-si-v8-book.py → consolidate-si-v8.py → package-si-v8.py. Os geradores de roupa criam as artes/pranchas; fotos geradas separadamente, com prompts e checksums em wear-v8/provenance.json e visual-v8/provenance.json. Não executar consolidadores históricos sobre a edição atual.
 
-```powershell
-python scripts/build-si-v6-signatures.py
-python scripts/build-si-v4-assets.py
-python scripts/build-si-v7-wear.py
-python scripts/build-si-v6-book.py
-python scripts/consolidate-si-v6.py
-python scripts/package-si-v6.py
-```
+Verificação: TypeScript; 112 provas de fidelidade; texto PDF dentro dos limites, fontes incorporadas; kit com CRC e SHA conferidos. Revisão visual de arquivos em docs/SINAPSE-SI-V8-QA.md. Build de produção não executado por RAM abaixo do piso de 4 GiB.
 
-O gerador de roupas cria as estampas e pranchas; os seis mockups foram gerados e revisados separadamente. Origem e prompts: public/si-v2/wear-v7/provenance.json. Não executar consolidadores ou livros históricos sobre a edição atual.
-
-Testes proporcionais pelo gate: scripts/test-si-wear-refinement.py e node node_modules/typescript/bin/tsc --noEmit. 78 verificações de fidelidade da Caveat e assinatura SNPS SI passaram, assim como TypeScript. Livro sem texto fora da página; kit com CRC e SHA conferidos. Evidências em docs/SINAPSE-SI-WEAR-REFINEMENT-QA.md e qa/v7-*.json.
-
-Build de produção deste lote não executado: RAM observada abaixo do piso de 4 GiB. Prévia local revisada, sem produção, DNS, postagem ou fabricação. PR #11 / issue #10; branch feat/sinapse-si-brandbook-20261016.
+Branch feat/sinapse-si-brandbook-20261016 / PR #11 / issue #10. Sem produção, DNS, postagem ou fabricação. Edição anterior recuperável em bb713a2. Recursos atuais: SINAPSE-SI-Brandbook-07.pdf e SINAPSE-SI-Kit-07.zip.

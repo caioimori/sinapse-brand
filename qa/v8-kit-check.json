@@ -1,0 +1,13 @@
+{
+  "files": 299,
+  "crc": "passed",
+  "sha256_readback": "passed",
+  "archive_bytes": 30229112,
+  "excluded": [
+    "rejected symbol proposals",
+    "old collections",
+    "books 02–06",
+    "standalone third-party reference photos"
+  ],
+  "reference_art": "PDF includes three small credited reference examples for analysis."
+}

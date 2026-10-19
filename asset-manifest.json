@@ -3,7 +3,7 @@
   "brand_id": "sinapse-si",
   "assets": [
     {
-      "id": "v6-applications-avatar-client.svg",
+      "id": "v8-applications-avatar-client.svg",
       "file": "public/si-v2/applications/avatar-client.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -11,7 +11,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-avatar-client.webp",
+      "id": "v8-applications-avatar-client.webp",
       "file": "public/si-v2/applications/avatar-client.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -19,7 +19,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-avatar-si.svg",
+      "id": "v8-applications-avatar-si.svg",
       "file": "public/si-v2/applications/avatar-si.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -27,7 +27,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-avatar-si.webp",
+      "id": "v8-applications-avatar-si.webp",
       "file": "public/si-v2/applications/avatar-si.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -35,7 +35,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-avatar-t04.svg",
+      "id": "v8-applications-avatar-t04.svg",
       "file": "public/si-v2/applications/avatar-t04.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -43,7 +43,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-avatar-t04.webp",
+      "id": "v8-applications-avatar-t04.webp",
       "file": "public/si-v2/applications/avatar-t04.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -51,7 +51,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-card-member.svg",
+      "id": "v8-applications-card-member.svg",
       "file": "public/si-v2/applications/card-member.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -59,7 +59,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-card-member.webp",
+      "id": "v8-applications-card-member.webp",
       "file": "public/si-v2/applications/card-member.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -67,7 +67,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-cover-build.svg",
+      "id": "v8-applications-cover-build.svg",
       "file": "public/si-v2/applications/cover-build.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -75,7 +75,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-cover-build.webp",
+      "id": "v8-applications-cover-build.webp",
       "file": "public/si-v2/applications/cover-build.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -83,7 +83,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-cover-foundations.svg",
+      "id": "v8-applications-cover-foundations.svg",
       "file": "public/si-v2/applications/cover-foundations.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -91,7 +91,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-cover-foundations.webp",
+      "id": "v8-applications-cover-foundations.webp",
       "file": "public/si-v2/applications/cover-foundations.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -99,7 +99,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-ooh-triptych.svg",
+      "id": "v8-applications-ooh-triptych.svg",
       "file": "public/si-v2/applications/ooh-triptych.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -107,7 +107,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-ooh-triptych.webp",
+      "id": "v8-applications-ooh-triptych.webp",
       "file": "public/si-v2/applications/ooh-triptych.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -115,7 +115,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-growth.svg",
+      "id": "v8-applications-poster-growth.svg",
       "file": "public/si-v2/applications/poster-growth.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -123,7 +123,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-growth.webp",
+      "id": "v8-applications-poster-growth.webp",
       "file": "public/si-v2/applications/poster-growth.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -131,7 +131,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-house.svg",
+      "id": "v8-applications-poster-house.svg",
       "file": "public/si-v2/applications/poster-house.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -139,7 +139,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-house.webp",
+      "id": "v8-applications-poster-house.webp",
       "file": "public/si-v2/applications/poster-house.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -147,7 +147,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-manifesto.svg",
+      "id": "v8-applications-poster-manifesto.svg",
       "file": "public/si-v2/applications/poster-manifesto.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -155,7 +155,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-manifesto.webp",
+      "id": "v8-applications-poster-manifesto.webp",
       "file": "public/si-v2/applications/poster-manifesto.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -163,7 +163,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-repertoire.svg",
+      "id": "v8-applications-poster-repertoire.svg",
       "file": "public/si-v2/applications/poster-repertoire.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -171,7 +171,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-repertoire.webp",
+      "id": "v8-applications-poster-repertoire.webp",
       "file": "public/si-v2/applications/poster-repertoire.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -179,7 +179,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-school.svg",
+      "id": "v8-applications-poster-school.svg",
       "file": "public/si-v2/applications/poster-school.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -187,7 +187,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-poster-school.webp",
+      "id": "v8-applications-poster-school.webp",
       "file": "public/si-v2/applications/poster-school.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -195,7 +195,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-story-invite.svg",
+      "id": "v8-applications-story-invite.svg",
       "file": "public/si-v2/applications/story-invite.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -203,7 +203,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-story-invite.webp",
+      "id": "v8-applications-story-invite.webp",
       "file": "public/si-v2/applications/story-invite.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -211,7 +211,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-alphabet.svg",
+      "id": "v8-applications-type-alphabet.svg",
       "file": "public/si-v2/applications/type-alphabet.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -219,7 +219,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-alphabet.webp",
+      "id": "v8-applications-type-alphabet.webp",
       "file": "public/si-v2/applications/type-alphabet.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -227,7 +227,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-anatomy.svg",
+      "id": "v8-applications-type-anatomy.svg",
       "file": "public/si-v2/applications/type-anatomy.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -235,7 +235,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-anatomy.webp",
+      "id": "v8-applications-type-anatomy.webp",
       "file": "public/si-v2/applications/type-anatomy.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -243,7 +243,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-proof.svg",
+      "id": "v8-applications-type-proof.svg",
       "file": "public/si-v2/applications/type-proof.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -251,7 +251,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-proof.webp",
+      "id": "v8-applications-type-proof.webp",
       "file": "public/si-v2/applications/type-proof.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -259,7 +259,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-review.svg",
+      "id": "v8-applications-type-review.svg",
       "file": "public/si-v2/applications/type-review.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -267,7 +267,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-applications-type-review.webp",
+      "id": "v8-applications-type-review.webp",
       "file": "public/si-v2/applications/type-review.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -275,487 +275,327 @@
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-01.webp",
-      "file": "public/si-v2/book-v6/page-01.webp",
+      "id": "v8-book-v8-page-01.webp",
+      "file": "public/si-v2/book-v8/page-01.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "d5d3b19af27eca085ab5305a2d3f623c8070a857326abd590e80f913c12ab4ce",
+      "sha256": "a5981b19045fb64f5d8a29d7349f742bfeade789b9fbe39c372deb9f3406c6f0",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-02.webp",
-      "file": "public/si-v2/book-v6/page-02.webp",
+      "id": "v8-book-v8-page-02.webp",
+      "file": "public/si-v2/book-v8/page-02.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "1584b2d2d840acc4dcf673c7d35faac8e3a6cbfb68f146628140f2faa66c51ea",
+      "sha256": "dc27d81c3c72a897ed9c6ddcc3f94120872aee1b48553761fc3ce1d3c175eb3a",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-03.webp",
-      "file": "public/si-v2/book-v6/page-03.webp",
+      "id": "v8-book-v8-page-03.webp",
+      "file": "public/si-v2/book-v8/page-03.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "bdf856cdcfff30b1df40b097fbca7c3de5ce8548acc3adae402eb45ea34db35a",
+      "sha256": "f2caecf53c25868010ab22442f296c369909d85b383dd531e06777dc7f41cf02",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-04.webp",
-      "file": "public/si-v2/book-v6/page-04.webp",
+      "id": "v8-book-v8-page-04.webp",
+      "file": "public/si-v2/book-v8/page-04.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "75911f83e1fac371830ddea0630065dd1577f95242751775ed21e8ca98fdc5be",
+      "sha256": "ea5fdeab7fe7ab0879a46fc1a377880ea1e589f1c94c4d92209c01833cd3c9a0",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-05.webp",
-      "file": "public/si-v2/book-v6/page-05.webp",
+      "id": "v8-book-v8-page-05.webp",
+      "file": "public/si-v2/book-v8/page-05.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "3f0e04507c6699371910be5aeb889f4ff4a572f84492eca186ff03a8c6e1dfbc",
+      "sha256": "d1736584c0f3634087249e8fbb8209a583d3c44dee6809d1a7b04d183e3dea1a",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-06.webp",
-      "file": "public/si-v2/book-v6/page-06.webp",
+      "id": "v8-book-v8-page-06.webp",
+      "file": "public/si-v2/book-v8/page-06.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "2276da25c1ce5532f17de9db87ab88c2e6079e60dde956b9a53c0ce646272d36",
+      "sha256": "f968a3f6b96ce9a330e62312ee1da895ec11efc316dc8987de1be2f20057924c",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-07.webp",
-      "file": "public/si-v2/book-v6/page-07.webp",
+      "id": "v8-book-v8-page-07.webp",
+      "file": "public/si-v2/book-v8/page-07.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "a2c9b5017a163b3996c5e6b982028018775c9791a21980140a29b5c62137c7d5",
+      "sha256": "c1ed50c9c531a56a38d6cb2cce73c48a83053be99a1aaf306bd3f3376e42cb8c",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-08.webp",
-      "file": "public/si-v2/book-v6/page-08.webp",
+      "id": "v8-book-v8-page-08.webp",
+      "file": "public/si-v2/book-v8/page-08.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "782c4d0e3ae3b79be820319bc136a94092b58da94637bc1bb3de291b0cfe5108",
+      "sha256": "11fe015b9986942ebaa41c3346b313a83f741aad96656f097f5f34599235a34b",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-09.webp",
-      "file": "public/si-v2/book-v6/page-09.webp",
+      "id": "v8-book-v8-page-09.webp",
+      "file": "public/si-v2/book-v8/page-09.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "600b35fbb7be2fc13bf6e773099ce8a042c0668b0cb334ed4df9842e473766d1",
+      "sha256": "59393e7a13647d2749956f0ee48504b5ab18f59977a03665df5c1daaff68fd78",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-10.webp",
-      "file": "public/si-v2/book-v6/page-10.webp",
+      "id": "v8-book-v8-page-10.webp",
+      "file": "public/si-v2/book-v8/page-10.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "61bb3c311b838515e9eb7f6ae32481a29800805a84321584da11aa9c393098ac",
+      "sha256": "c8afadb243fcc3befa7db8592dd95a5b91951ff1502751740da2fcfc2f9c6f68",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-11.webp",
-      "file": "public/si-v2/book-v6/page-11.webp",
+      "id": "v8-book-v8-page-11.webp",
+      "file": "public/si-v2/book-v8/page-11.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "c40b3bb30e2fb1d48f2588134b55acec70d2a3fd48dce330d4d94e559de73b5e",
+      "sha256": "60d353b762fa33a2b6271b23e462f16692126f8312d4353db1d8bd87ffb9f54f",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-12.webp",
-      "file": "public/si-v2/book-v6/page-12.webp",
+      "id": "v8-book-v8-page-12.webp",
+      "file": "public/si-v2/book-v8/page-12.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "e2de9c0b52fd25e7b30cd0d8e5235d2dee8fe2b8772f90d976942c33a0fdd867",
+      "sha256": "d50fdb8603d2be3b203a30dac5857a33994e7d7cff07a5b0114a8ef00f0fe340",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-13.webp",
-      "file": "public/si-v2/book-v6/page-13.webp",
+      "id": "v8-book-v8-page-13.webp",
+      "file": "public/si-v2/book-v8/page-13.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "d01133bd3a68cc179f90b582b410b1c6141757fd855e06db7fae76d78eadd8cb",
+      "sha256": "7f6717ec6298c989fda34bd8add2daa44e693a885a45ac0b4456da45a66ce4dd",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-14.webp",
-      "file": "public/si-v2/book-v6/page-14.webp",
+      "id": "v8-book-v8-page-14.webp",
+      "file": "public/si-v2/book-v8/page-14.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "01c8d5f0607629c56576bb17260d4b10b40303ae1fd9946a47c2a2be71dd57e7",
+      "sha256": "7001bce53869a9d1fd018f2253b47e317d986d4fe5e35bfe60621d375c630202",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-15.webp",
-      "file": "public/si-v2/book-v6/page-15.webp",
+      "id": "v8-book-v8-page-15.webp",
+      "file": "public/si-v2/book-v8/page-15.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "76054f4440ae0ba618e8fce4898425054c808bb4f6c862b1fce082fb4eb77c5b",
+      "sha256": "fcecfca74c6259af70d0417e0587eecb2f60b987dae71daae43158dca680414a",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-16.webp",
-      "file": "public/si-v2/book-v6/page-16.webp",
+      "id": "v8-book-v8-page-16.webp",
+      "file": "public/si-v2/book-v8/page-16.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "352150262eb0ee72e6668b3ed167d65babacf339e28c530fb0b4ca024746f787",
+      "sha256": "430a6e714c888be14402d48aed876680f1f49b263af892d2ebdd7fe5d521a09e",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-17.webp",
-      "file": "public/si-v2/book-v6/page-17.webp",
+      "id": "v8-book-v8-page-17.webp",
+      "file": "public/si-v2/book-v8/page-17.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "55fcb75aca3e4cee6c43554150a774a3f0d62a3e6a14a83f2530e79e1a357ff2",
+      "sha256": "d36f715a2c9a0cb8ce50f707db3633c58619b964db10d263c6f3cbd9ec5108ae",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-18.webp",
-      "file": "public/si-v2/book-v6/page-18.webp",
+      "id": "v8-book-v8-page-18.webp",
+      "file": "public/si-v2/book-v8/page-18.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "4574ec20e74ae1e9635d176a7766e578738bc12f09f7548c50bd22cc13d101c1",
+      "sha256": "2bd51a404fcbb19782eb4bb857bd95eb63c753609be78a08d6e7feca712de1c9",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-19.webp",
-      "file": "public/si-v2/book-v6/page-19.webp",
+      "id": "v8-book-v8-page-19.webp",
+      "file": "public/si-v2/book-v8/page-19.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "b87a49fbeef2bc368688f5cc9fb26779ab9c81c883b40bc84e5465d308489a57",
+      "sha256": "abb64c6a6109fae5fc81794bd48c7233b55c554ae4a2d1c0d61c8101b5eaa7cd",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-20.webp",
-      "file": "public/si-v2/book-v6/page-20.webp",
+      "id": "v8-book-v8-page-20.webp",
+      "file": "public/si-v2/book-v8/page-20.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "f73718454efb2c7e1bca9ac63ba5d33ba488c9a0a8cb7dc0d87fe010ae24db3b",
+      "sha256": "000225b8ce486b0713c31382fc02b6647acfe725854322253b7c8790973236fe",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-21.webp",
-      "file": "public/si-v2/book-v6/page-21.webp",
+      "id": "v8-book-v8-page-21.webp",
+      "file": "public/si-v2/book-v8/page-21.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "998f273f354694e8b614658841a7daa75aac9e8e7c8cd1a57f83af9af2994748",
+      "sha256": "36bd50db54a7ffca2104e643fddafa34aea89194a768ce172f0d607478ee3f2a",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-22.webp",
-      "file": "public/si-v2/book-v6/page-22.webp",
+      "id": "v8-book-v8-page-22.webp",
+      "file": "public/si-v2/book-v8/page-22.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "c37cb293c72aa05881e640577ef13745d856573e339ae6342f9f1acbeae7aa00",
+      "sha256": "804377b10d1e6cf6857444b6117f6ce1720a80f1791a659f721bcca2b78bfaab",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-23.webp",
-      "file": "public/si-v2/book-v6/page-23.webp",
+      "id": "v8-book-v8-page-23.webp",
+      "file": "public/si-v2/book-v8/page-23.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "2dae146c9e3969dbaff8ddcb906bda3f1b7cfe04361b5e27d2c9d176a823285b",
+      "sha256": "b4378039485ac2538556bb61298a5e385a205a03c17ac491a05e3fd1495a896d",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-24.webp",
-      "file": "public/si-v2/book-v6/page-24.webp",
+      "id": "v8-book-v8-page-24.webp",
+      "file": "public/si-v2/book-v8/page-24.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "bcb9529b0ff4bbca6e862737c7bab7885d08e65dfd1d665c19336dd9fa3e2895",
+      "sha256": "b5a05f50c4b2c678add5ba35bb8594328049f8423fc77adc29e516a886eb3689",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-25.webp",
-      "file": "public/si-v2/book-v6/page-25.webp",
+      "id": "v8-book-v8-page-25.webp",
+      "file": "public/si-v2/book-v8/page-25.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "0a7c41d781cf6b68de04d7214439fc5172cb186bc5d2242cce38d337aad199b0",
+      "sha256": "0b985d41fa73c7a3fe34422035ea8022e6958e7721fbe19ce05b4b7d08b79dc0",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-26.webp",
-      "file": "public/si-v2/book-v6/page-26.webp",
+      "id": "v8-book-v8-page-26.webp",
+      "file": "public/si-v2/book-v8/page-26.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "12e485c8dcfdd1b5cdf87229673588bc975e3776a6107de83c525f35b4f23da9",
+      "sha256": "b8d861237c28ab248d1550e40b5542155278b4972db701571b6e2297cfd88292",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-27.webp",
-      "file": "public/si-v2/book-v6/page-27.webp",
+      "id": "v8-book-v8-page-27.webp",
+      "file": "public/si-v2/book-v8/page-27.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "93e6d6d01e1aebe2f0ff90b24b54d5a8a86d4bcd0aceff74a9011024f975c9fe",
+      "sha256": "7b65c156490947f05e0ef8486105d1d298a002939b93d0e210a1afd9f9d6afe1",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-28.webp",
-      "file": "public/si-v2/book-v6/page-28.webp",
+      "id": "v8-book-v8-page-28.webp",
+      "file": "public/si-v2/book-v8/page-28.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "b97973da722528bff2a8ac4e9fffe0fd97c530cca4246cf29932a616d625f077",
+      "sha256": "8c5318e541334f79969afd1686565a2da215ee877db5d9e7f955f47b070a1e05",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-29.webp",
-      "file": "public/si-v2/book-v6/page-29.webp",
+      "id": "v8-book-v8-page-29.webp",
+      "file": "public/si-v2/book-v8/page-29.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "37aeb63baa9c9239922b16d3528adc8a8ba184a0f5c73619f90c4353023c5feb",
+      "sha256": "8f3f8dba446b60a579f3ce2b4afe1a25ccf429d404c678a09ee73bf40b86cdfc",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-30.webp",
-      "file": "public/si-v2/book-v6/page-30.webp",
+      "id": "v8-book-v8-page-30.webp",
+      "file": "public/si-v2/book-v8/page-30.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "b3aa2dfb685028cc4bbf665d55fcde703f1963c6efc2b3ae9bc520b8c7e6b2c7",
+      "sha256": "a285cf7529e26a71d23f8cf152d2ce5ac12407c5bb0cb903015edd2638c7a888",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-31.webp",
-      "file": "public/si-v2/book-v6/page-31.webp",
+      "id": "v8-book-v8-page-31.webp",
+      "file": "public/si-v2/book-v8/page-31.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "03464a36c126ffd54dcf769bd0f812ebc8ba0176626887b06a9d2ed6f5c00ac6",
+      "sha256": "87840a0c2a38e819eb42b3610dc394925c885bc41e655b0bdfa5ad3546eb57c1",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-32.webp",
-      "file": "public/si-v2/book-v6/page-32.webp",
+      "id": "v8-book-v8-page-32.webp",
+      "file": "public/si-v2/book-v8/page-32.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "ca95f6cabcb8edb9daf197a25e460a4c8a01656c2eb458e533858cca622b18ad",
+      "sha256": "efcdae31a4272a769625bb54eb5cea2323547a2a3b8549762e3c68767262fb79",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-33.webp",
-      "file": "public/si-v2/book-v6/page-33.webp",
+      "id": "v8-book-v8-page-33.webp",
+      "file": "public/si-v2/book-v8/page-33.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "913e8875d8b9a40415df74f64103e3174b22ae12b947e453e68d41abeab1af6e",
+      "sha256": "62d94efe853f15fc42959d678d162091a8623da506f40011eee10ba06285cec7",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-34.webp",
-      "file": "public/si-v2/book-v6/page-34.webp",
+      "id": "v8-book-v8-page-34.webp",
+      "file": "public/si-v2/book-v8/page-34.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "3825dc911dc54c9d6d0562765d502bd6f2b0efc4c667babeb31f1640f0c47ba8",
+      "sha256": "821fddbaa03815a073cc1d0a00ec76fd08b99e5c3e7a661a6d859eb8fea660c9",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-35.webp",
-      "file": "public/si-v2/book-v6/page-35.webp",
+      "id": "v8-book-v8-page-35.webp",
+      "file": "public/si-v2/book-v8/page-35.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "7c92b5adda02735df44d0b0a1f23daa235dabe7f0ec3fb41b046d2347ee42eb4",
+      "sha256": "088ee103ecccd3510c7e4c23263e66e6b9d167e0cd6f40e8fa5abade5e99f8d4",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-36.webp",
-      "file": "public/si-v2/book-v6/page-36.webp",
+      "id": "v8-book-v8-page-36.webp",
+      "file": "public/si-v2/book-v8/page-36.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "b8f4ed72d097c1fbfb36cc8b97564d5c676a4a4fa7873122bb446b69f183e25b",
+      "sha256": "7d7b62b91f232440820b238dfa3b7a8c6da86c2309eee79c8d1bf4f55cc25fbf",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-37.webp",
-      "file": "public/si-v2/book-v6/page-37.webp",
+      "id": "v8-book-v8-page-37.webp",
+      "file": "public/si-v2/book-v8/page-37.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "d2fa194fdaa8e3e6125c95fab685b0970d434072855633285f8c1f24890b8e9a",
+      "sha256": "87d3cd9ea0864808d41bb82f21bc7516329e565864f37f0d29e406c8768793cf",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-38.webp",
-      "file": "public/si-v2/book-v6/page-38.webp",
+      "id": "v8-book-v8-page-38.webp",
+      "file": "public/si-v2/book-v8/page-38.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "17bed9e9e2d99fe1d5629107636dc9afa7dcad176da51858b1a8195ad547e39f",
+      "sha256": "ee1d56460b47e00df054a94fce564a0c399646537165ad1f668a78e8da9085d0",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-39.webp",
-      "file": "public/si-v2/book-v6/page-39.webp",
+      "id": "v8-book-v8-page-39.webp",
+      "file": "public/si-v2/book-v8/page-39.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "728f74a4f1868e3816fbe0f29592e8f5eb01ac2719b28d2080d1bab8a12a3a78",
+      "sha256": "2c8853a1d3e4149c41ebee21df2b10065b6ff85c77099f0258530b49d7723a1a",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-40.webp",
-      "file": "public/si-v2/book-v6/page-40.webp",
+      "id": "v8-book-v8-page-40.webp",
+      "file": "public/si-v2/book-v8/page-40.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "e640bc50bc3c9dc47435d372ff282d33b06ce7b9d2ad46c95a5f83350d871981",
+      "sha256": "6ab031b7517383b06b764a8f289dc86f173fa2bd1b8df0f6c1ea8b82c581524d",
       "status": "proposed"
     },
     {
-      "id": "v6-book-v6-page-41.webp",
-      "file": "public/si-v2/book-v6/page-41.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "e7c21d3c5cb5acf64e9597eecde92920ff1016e6f792b95c0effa4a4d9246bb7",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-42.webp",
-      "file": "public/si-v2/book-v6/page-42.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "914eac176eba448cb2a12b9a3a01a3c92c912493929d9f80c6faa1f5572ec67f",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-43.webp",
-      "file": "public/si-v2/book-v6/page-43.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "06ce8a3e76f5acad2da968c791c52b7a6475ff17dd6de76fe1c4dff780a3742c",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-44.webp",
-      "file": "public/si-v2/book-v6/page-44.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "137da1c5acb484879c10f2ab6cd902ad27c55b9a03475eb354754c7ef4cf551d",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-45.webp",
-      "file": "public/si-v2/book-v6/page-45.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "ab764f61a823b710e5a927109287060d258cc8f2ecac56afbf5f6c2cb889f29a",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-46.webp",
-      "file": "public/si-v2/book-v6/page-46.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "e94f633696ae65187954af87795a75418f2c131416b2f354ecafc6d95717ca61",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-47.webp",
-      "file": "public/si-v2/book-v6/page-47.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "3003d2553cfefbca688451da53f92b2abcac4d1b6ae6e67ba9a7adbbb67ee52f",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-48.webp",
-      "file": "public/si-v2/book-v6/page-48.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "c8a0348f0a4345ab587b959c1add2a283e75c3a6695e6e632d5e32ccb4877f3e",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-49.webp",
-      "file": "public/si-v2/book-v6/page-49.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "b026b88e5053209b243c6d36fd66aa1d9dca753223f31457cd677b1c7958c358",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-50.webp",
-      "file": "public/si-v2/book-v6/page-50.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "76bf0b3b6d555ddbf9db569b0c46cac32a68520cedff3b08f51391711f00357c",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-51.webp",
-      "file": "public/si-v2/book-v6/page-51.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "2c6f645bf6f83914d25650d039daeca10ea211610da3459f016273e6aaef1342",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-52.webp",
-      "file": "public/si-v2/book-v6/page-52.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "ae6d301fb956455575ccd3a90c091d7484098fc06aad46b59d74b7b91ccd1386",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-53.webp",
-      "file": "public/si-v2/book-v6/page-53.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "e9f9ae3a50880c3e2c740895f7a528156630e52f4b9e3abdae1d5020a8f0c824",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-54.webp",
-      "file": "public/si-v2/book-v6/page-54.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "0fe7d66dcfbd98e3baccb33ed3d7386799f5f6cf6891f73a87b9fa64508d4e10",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-55.webp",
-      "file": "public/si-v2/book-v6/page-55.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "f8e711a709842e832791cc6908f76fd74d39abd87c80c7cf0e2d68e9a47b0ba1",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-56.webp",
-      "file": "public/si-v2/book-v6/page-56.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "1f827f9243fb62b8ca2886360378c17ff809615456e079949fe168c69fff0813",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-57.webp",
-      "file": "public/si-v2/book-v6/page-57.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "8236bdcf34d1197a39ad319b4361535c34a723c662ed8b78563100b6a8dada81",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-58.webp",
-      "file": "public/si-v2/book-v6/page-58.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "95d812cb6bc12ef5f7edf25edee77e165493d9b82093af0fe143d00e96c50cb2",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-59.webp",
-      "file": "public/si-v2/book-v6/page-59.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "61f5defed62ec2d1108441652245ab19fb382cbe294d0da71b3bdefe9854f5b6",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-book-v6-page-60.webp",
-      "file": "public/si-v2/book-v6/page-60.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "440c7f4a0b2b7924a1baa6878014ba96b7050c0b95575807578732bf5f180a38",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-glass.webp",
+      "id": "v8-glass.webp",
       "file": "public/si-v2/glass.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -763,7 +603,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-hero.webp",
+      "id": "v8-hero.webp",
       "file": "public/si-v2/hero.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -771,7 +611,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-agent.svg",
+      "id": "v8-icons-agent.svg",
       "file": "public/si-v2/icons/agent.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -779,7 +619,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-code.svg",
+      "id": "v8-icons-code.svg",
       "file": "public/si-v2/icons/code.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -787,7 +627,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-connect.svg",
+      "id": "v8-icons-connect.svg",
       "file": "public/si-v2/icons/connect.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -795,7 +635,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-context.svg",
+      "id": "v8-icons-context.svg",
       "file": "public/si-v2/icons/context.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -803,7 +643,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-create.svg",
+      "id": "v8-icons-create.svg",
       "file": "public/si-v2/icons/create.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -811,7 +651,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-data.svg",
+      "id": "v8-icons-data.svg",
       "file": "public/si-v2/icons/data.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -819,7 +659,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-flow.svg",
+      "id": "v8-icons-flow.svg",
       "file": "public/si-v2/icons/flow.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -827,7 +667,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-growth.svg",
+      "id": "v8-icons-growth.svg",
       "file": "public/si-v2/icons/growth.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -835,7 +675,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-house.svg",
+      "id": "v8-icons-house.svg",
       "file": "public/si-v2/icons/house.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -843,7 +683,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-orbit.svg",
+      "id": "v8-icons-orbit.svg",
       "file": "public/si-v2/icons/orbit.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -851,7 +691,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-play.svg",
+      "id": "v8-icons-play.svg",
       "file": "public/si-v2/icons/play.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -859,7 +699,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-icons-school.svg",
+      "id": "v8-icons-school.svg",
       "file": "public/si-v2/icons/school.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -867,7 +707,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-frost-dark.svg",
+      "id": "v8-logos-sinapse-frost-dark.svg",
       "file": "public/si-v2/logos/sinapse-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -875,7 +715,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-frost-light.svg",
+      "id": "v8-logos-sinapse-frost-light.svg",
       "file": "public/si-v2/logos/sinapse-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -883,7 +723,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-glass-dark.svg",
+      "id": "v8-logos-sinapse-glass-dark.svg",
       "file": "public/si-v2/logos/sinapse-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -891,7 +731,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-glass-light.svg",
+      "id": "v8-logos-sinapse-glass-light.svg",
       "file": "public/si-v2/logos/sinapse-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -899,7 +739,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-frost-dark.svg",
+      "id": "v8-logos-sinapse-growth-frost-dark.svg",
       "file": "public/si-v2/logos/sinapse-growth-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -907,7 +747,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-frost-light.svg",
+      "id": "v8-logos-sinapse-growth-frost-light.svg",
       "file": "public/si-v2/logos/sinapse-growth-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -915,7 +755,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-glass-dark.svg",
+      "id": "v8-logos-sinapse-growth-glass-dark.svg",
       "file": "public/si-v2/logos/sinapse-growth-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -923,7 +763,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-glass-light.svg",
+      "id": "v8-logos-sinapse-growth-glass-light.svg",
       "file": "public/si-v2/logos/sinapse-growth-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -931,7 +771,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-silver-dark.svg",
+      "id": "v8-logos-sinapse-growth-silver-dark.svg",
       "file": "public/si-v2/logos/sinapse-growth-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -939,7 +779,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-silver-light.svg",
+      "id": "v8-logos-sinapse-growth-silver-light.svg",
       "file": "public/si-v2/logos/sinapse-growth-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -947,7 +787,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-solid-dark.svg",
+      "id": "v8-logos-sinapse-growth-solid-dark.svg",
       "file": "public/si-v2/logos/sinapse-growth-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -955,7 +795,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-growth-solid-light.svg",
+      "id": "v8-logos-sinapse-growth-solid-light.svg",
       "file": "public/si-v2/logos/sinapse-growth-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -963,7 +803,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-frost-dark.svg",
+      "id": "v8-logos-sinapse-house-frost-dark.svg",
       "file": "public/si-v2/logos/sinapse-house-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -971,7 +811,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-frost-light.svg",
+      "id": "v8-logos-sinapse-house-frost-light.svg",
       "file": "public/si-v2/logos/sinapse-house-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -979,7 +819,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-glass-dark.svg",
+      "id": "v8-logos-sinapse-house-glass-dark.svg",
       "file": "public/si-v2/logos/sinapse-house-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -987,7 +827,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-glass-light.svg",
+      "id": "v8-logos-sinapse-house-glass-light.svg",
       "file": "public/si-v2/logos/sinapse-house-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -995,7 +835,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-silver-dark.svg",
+      "id": "v8-logos-sinapse-house-silver-dark.svg",
       "file": "public/si-v2/logos/sinapse-house-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1003,7 +843,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-silver-light.svg",
+      "id": "v8-logos-sinapse-house-silver-light.svg",
       "file": "public/si-v2/logos/sinapse-house-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1011,7 +851,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-solid-dark.svg",
+      "id": "v8-logos-sinapse-house-solid-dark.svg",
       "file": "public/si-v2/logos/sinapse-house-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1019,7 +859,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-house-solid-light.svg",
+      "id": "v8-logos-sinapse-house-solid-light.svg",
       "file": "public/si-v2/logos/sinapse-house-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1027,7 +867,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-frost-dark.svg",
+      "id": "v8-logos-sinapse-school-frost-dark.svg",
       "file": "public/si-v2/logos/sinapse-school-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1035,7 +875,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-frost-light.svg",
+      "id": "v8-logos-sinapse-school-frost-light.svg",
       "file": "public/si-v2/logos/sinapse-school-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1043,7 +883,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-glass-dark.svg",
+      "id": "v8-logos-sinapse-school-glass-dark.svg",
       "file": "public/si-v2/logos/sinapse-school-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1051,7 +891,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-glass-light.svg",
+      "id": "v8-logos-sinapse-school-glass-light.svg",
       "file": "public/si-v2/logos/sinapse-school-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1059,7 +899,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-silver-dark.svg",
+      "id": "v8-logos-sinapse-school-silver-dark.svg",
       "file": "public/si-v2/logos/sinapse-school-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1067,7 +907,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-silver-light.svg",
+      "id": "v8-logos-sinapse-school-silver-light.svg",
       "file": "public/si-v2/logos/sinapse-school-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1075,7 +915,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-solid-dark.svg",
+      "id": "v8-logos-sinapse-school-solid-dark.svg",
       "file": "public/si-v2/logos/sinapse-school-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1083,7 +923,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-school-solid-light.svg",
+      "id": "v8-logos-sinapse-school-solid-light.svg",
       "file": "public/si-v2/logos/sinapse-school-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1091,7 +931,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-frost-dark.svg",
+      "id": "v8-logos-sinapse-si-frost-dark.svg",
       "file": "public/si-v2/logos/sinapse-si-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1099,7 +939,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-frost-light.svg",
+      "id": "v8-logos-sinapse-si-frost-light.svg",
       "file": "public/si-v2/logos/sinapse-si-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1107,7 +947,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-glass-dark.svg",
+      "id": "v8-logos-sinapse-si-glass-dark.svg",
       "file": "public/si-v2/logos/sinapse-si-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1115,7 +955,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-glass-light.svg",
+      "id": "v8-logos-sinapse-si-glass-light.svg",
       "file": "public/si-v2/logos/sinapse-si-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1123,7 +963,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-silver-dark.svg",
+      "id": "v8-logos-sinapse-si-silver-dark.svg",
       "file": "public/si-v2/logos/sinapse-si-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1131,7 +971,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-silver-light.svg",
+      "id": "v8-logos-sinapse-si-silver-light.svg",
       "file": "public/si-v2/logos/sinapse-si-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1139,7 +979,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-solid-dark.svg",
+      "id": "v8-logos-sinapse-si-solid-dark.svg",
       "file": "public/si-v2/logos/sinapse-si-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1147,7 +987,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-si-solid-light.svg",
+      "id": "v8-logos-sinapse-si-solid-light.svg",
       "file": "public/si-v2/logos/sinapse-si-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1155,7 +995,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-silver-dark.svg",
+      "id": "v8-logos-sinapse-silver-dark.svg",
       "file": "public/si-v2/logos/sinapse-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1163,7 +1003,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-silver-light.svg",
+      "id": "v8-logos-sinapse-silver-light.svg",
       "file": "public/si-v2/logos/sinapse-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1171,7 +1011,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-solid-dark.svg",
+      "id": "v8-logos-sinapse-solid-dark.svg",
       "file": "public/si-v2/logos/sinapse-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1179,7 +1019,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-sinapse-solid-light.svg",
+      "id": "v8-logos-sinapse-solid-light.svg",
       "file": "public/si-v2/logos/sinapse-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1187,7 +1027,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-frost-dark.svg",
+      "id": "v8-logos-snps-frost-dark.svg",
       "file": "public/si-v2/logos/snps-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1195,7 +1035,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-frost-light.svg",
+      "id": "v8-logos-snps-frost-light.svg",
       "file": "public/si-v2/logos/snps-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1203,7 +1043,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-glass-dark.svg",
+      "id": "v8-logos-snps-glass-dark.svg",
       "file": "public/si-v2/logos/snps-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1211,7 +1051,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-glass-light.svg",
+      "id": "v8-logos-snps-glass-light.svg",
       "file": "public/si-v2/logos/snps-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1219,7 +1059,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-frost-dark.svg",
+      "id": "v8-logos-snps-growth-frost-dark.svg",
       "file": "public/si-v2/logos/snps-growth-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1227,7 +1067,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-frost-light.svg",
+      "id": "v8-logos-snps-growth-frost-light.svg",
       "file": "public/si-v2/logos/snps-growth-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1235,7 +1075,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-glass-dark.svg",
+      "id": "v8-logos-snps-growth-glass-dark.svg",
       "file": "public/si-v2/logos/snps-growth-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1243,7 +1083,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-glass-light.svg",
+      "id": "v8-logos-snps-growth-glass-light.svg",
       "file": "public/si-v2/logos/snps-growth-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1251,7 +1091,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-silver-dark.svg",
+      "id": "v8-logos-snps-growth-silver-dark.svg",
       "file": "public/si-v2/logos/snps-growth-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1259,7 +1099,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-silver-light.svg",
+      "id": "v8-logos-snps-growth-silver-light.svg",
       "file": "public/si-v2/logos/snps-growth-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1267,7 +1107,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-solid-dark.svg",
+      "id": "v8-logos-snps-growth-solid-dark.svg",
       "file": "public/si-v2/logos/snps-growth-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1275,7 +1115,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-growth-solid-light.svg",
+      "id": "v8-logos-snps-growth-solid-light.svg",
       "file": "public/si-v2/logos/snps-growth-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1283,7 +1123,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-frost-dark.svg",
+      "id": "v8-logos-snps-house-frost-dark.svg",
       "file": "public/si-v2/logos/snps-house-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1291,7 +1131,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-frost-light.svg",
+      "id": "v8-logos-snps-house-frost-light.svg",
       "file": "public/si-v2/logos/snps-house-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1299,7 +1139,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-glass-dark.svg",
+      "id": "v8-logos-snps-house-glass-dark.svg",
       "file": "public/si-v2/logos/snps-house-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1307,7 +1147,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-glass-light.svg",
+      "id": "v8-logos-snps-house-glass-light.svg",
       "file": "public/si-v2/logos/snps-house-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1315,7 +1155,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-silver-dark.svg",
+      "id": "v8-logos-snps-house-silver-dark.svg",
       "file": "public/si-v2/logos/snps-house-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1323,7 +1163,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-silver-light.svg",
+      "id": "v8-logos-snps-house-silver-light.svg",
       "file": "public/si-v2/logos/snps-house-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1331,7 +1171,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-solid-dark.svg",
+      "id": "v8-logos-snps-house-solid-dark.svg",
       "file": "public/si-v2/logos/snps-house-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1339,7 +1179,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-house-solid-light.svg",
+      "id": "v8-logos-snps-house-solid-light.svg",
       "file": "public/si-v2/logos/snps-house-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1347,7 +1187,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-frost-dark.svg",
+      "id": "v8-logos-snps-school-frost-dark.svg",
       "file": "public/si-v2/logos/snps-school-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1355,7 +1195,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-frost-light.svg",
+      "id": "v8-logos-snps-school-frost-light.svg",
       "file": "public/si-v2/logos/snps-school-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1363,7 +1203,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-glass-dark.svg",
+      "id": "v8-logos-snps-school-glass-dark.svg",
       "file": "public/si-v2/logos/snps-school-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1371,7 +1211,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-glass-light.svg",
+      "id": "v8-logos-snps-school-glass-light.svg",
       "file": "public/si-v2/logos/snps-school-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1379,7 +1219,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-silver-dark.svg",
+      "id": "v8-logos-snps-school-silver-dark.svg",
       "file": "public/si-v2/logos/snps-school-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1387,7 +1227,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-silver-light.svg",
+      "id": "v8-logos-snps-school-silver-light.svg",
       "file": "public/si-v2/logos/snps-school-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1395,7 +1235,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-solid-dark.svg",
+      "id": "v8-logos-snps-school-solid-dark.svg",
       "file": "public/si-v2/logos/snps-school-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1403,7 +1243,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-school-solid-light.svg",
+      "id": "v8-logos-snps-school-solid-light.svg",
       "file": "public/si-v2/logos/snps-school-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1411,7 +1251,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-frost-dark.svg",
+      "id": "v8-logos-snps-si-frost-dark.svg",
       "file": "public/si-v2/logos/snps-si-frost-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1419,7 +1259,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-frost-light.svg",
+      "id": "v8-logos-snps-si-frost-light.svg",
       "file": "public/si-v2/logos/snps-si-frost-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1427,7 +1267,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-glass-dark.svg",
+      "id": "v8-logos-snps-si-glass-dark.svg",
       "file": "public/si-v2/logos/snps-si-glass-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1435,7 +1275,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-glass-light.svg",
+      "id": "v8-logos-snps-si-glass-light.svg",
       "file": "public/si-v2/logos/snps-si-glass-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1443,7 +1283,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-silver-dark.svg",
+      "id": "v8-logos-snps-si-silver-dark.svg",
       "file": "public/si-v2/logos/snps-si-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1451,7 +1291,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-silver-light.svg",
+      "id": "v8-logos-snps-si-silver-light.svg",
       "file": "public/si-v2/logos/snps-si-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1459,7 +1299,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-solid-dark.svg",
+      "id": "v8-logos-snps-si-solid-dark.svg",
       "file": "public/si-v2/logos/snps-si-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1467,7 +1307,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-si-solid-light.svg",
+      "id": "v8-logos-snps-si-solid-light.svg",
       "file": "public/si-v2/logos/snps-si-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1475,7 +1315,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-silver-dark.svg",
+      "id": "v8-logos-snps-silver-dark.svg",
       "file": "public/si-v2/logos/snps-silver-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1483,7 +1323,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-silver-light.svg",
+      "id": "v8-logos-snps-silver-light.svg",
       "file": "public/si-v2/logos/snps-silver-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1491,7 +1331,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-solid-dark.svg",
+      "id": "v8-logos-snps-solid-dark.svg",
       "file": "public/si-v2/logos/snps-solid-dark.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1499,7 +1339,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-logos-snps-solid-light.svg",
+      "id": "v8-logos-snps-solid-light.svg",
       "file": "public/si-v2/logos/snps-solid-light.svg",
       "kind": "image",
       "role": "identity-variant",
@@ -1507,7 +1347,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-materials-snps-glass-transparent.png",
+      "id": "v8-materials-snps-glass-transparent.png",
       "file": "public/si-v2/materials/snps-glass-transparent.png",
       "kind": "image",
       "role": "brand-expression",
@@ -1515,7 +1355,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-materials-snps-glass-transparent.webp",
+      "id": "v8-materials-snps-glass-transparent.webp",
       "file": "public/si-v2/materials/snps-glass-transparent.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -1523,7 +1363,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-metal.webp",
+      "id": "v8-metal.webp",
       "file": "public/si-v2/metal.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -1531,15 +1371,15 @@
       "status": "proposed"
     },
     {
-      "id": "v6-SINAPSE-SI-Brandbook-06.pdf",
-      "file": "public/si-v2/SINAPSE-SI-Brandbook-06.pdf",
+      "id": "v8-SINAPSE-SI-Brandbook-07.pdf",
+      "file": "public/si-v2/SINAPSE-SI-Brandbook-07.pdf",
       "kind": "pdf",
       "role": "brandbook-pdf",
-      "sha256": "aa380a5ded8c1dcd8052b4526baaed6820ebf8d904630aa3c0f3a3c30907c3c3",
+      "sha256": "e238a8d2a976f11f581eb327a01dcb431b824cb0e0b20e0514759ef2e608164d",
       "status": "proposed"
     },
     {
-      "id": "v6-stationery.webp",
+      "id": "v8-stationery.webp",
       "file": "public/si-v2/stationery.webp",
       "kind": "image",
       "role": "brand-expression",
@@ -1547,143 +1387,79 @@
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-construction-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-construction-dark.svg",
+      "id": "v8-symbol-circle-frost-dark.svg",
+      "file": "public/si-v2/symbol-circle/frost-dark.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab",
+      "role": "identity-variant",
+      "sha256": "b59034b5fb968fd6cf0c70651fc9bc53c502c2f9bf293a9c4897c9d9e62bac93",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-construction-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-construction-light.svg",
+      "id": "v8-symbol-circle-frost-light.svg",
+      "file": "public/si-v2/symbol-circle/frost-light.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e",
+      "role": "identity-variant",
+      "sha256": "020153bf5a7e48b1b8e4f4c8771d8caec984ce09d44c61c700cdab6e2bed0c02",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-frost-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-frost-dark.svg",
+      "id": "v8-symbol-circle-glass-dark.svg",
+      "file": "public/si-v2/symbol-circle/glass-dark.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64",
+      "role": "identity-variant",
+      "sha256": "5ad3c89123ce698e0a2edc038345344dc5eb6b80aabf5c092263c192d0905b4e",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-frost-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-frost-light.svg",
+      "id": "v8-symbol-circle-glass-light.svg",
+      "file": "public/si-v2/symbol-circle/glass-light.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5",
+      "role": "identity-variant",
+      "sha256": "ad0a563cc7d82088a4944749156df4c4116bece875f88d03804a8a89cc4db3d6",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-glass-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-glass-dark.svg",
+      "id": "v8-symbol-circle-silver-dark.svg",
+      "file": "public/si-v2/symbol-circle/silver-dark.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378",
+      "role": "identity-variant",
+      "sha256": "67e1171836d60293406be809f5e2d853e8047a26e338da0896af8a35bbb0e237",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-glass-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-glass-light.svg",
+      "id": "v8-symbol-circle-silver-light.svg",
+      "file": "public/si-v2/symbol-circle/silver-light.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78",
+      "role": "identity-variant",
+      "sha256": "b066c833f6e848a5374d5f5198d7c6178b2e502063399a6495c0da26a9be3c7a",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-silver-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-silver-dark.svg",
+      "id": "v8-symbol-circle-solid-dark.svg",
+      "file": "public/si-v2/symbol-circle/solid-dark.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb",
+      "role": "identity-variant",
+      "sha256": "77940d93acbadc53af11394de028b360c4e8779c116e8eb9f4932c965498ab39",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-silver-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-silver-light.svg",
+      "id": "v8-symbol-circle-solid-light.svg",
+      "file": "public/si-v2/symbol-circle/solid-light.svg",
       "kind": "image",
-      "role": "brand-expression",
-      "sha256": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991",
+      "role": "identity-variant",
+      "sha256": "1434a95d349855820e727b2bc9d49568147898d62e1def02e77c44c03d439d54",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-s-original-solid-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-solid-dark.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-s-original-solid-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-solid-light.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-s-original-tight-dark.svg",
-      "file": "public/si-v2/symbol-origin/s-original-tight-dark.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-s-original-tight-light.svg",
-      "file": "public/si-v2/symbol-origin/s-original-tight-light.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-SINAPSE-Origem-do-Traco.pdf",
-      "file": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
+      "id": "v8-symbol-circle-source-page-08.pdf",
+      "file": "public/si-v2/symbol-circle/source-page-08.pdf",
       "kind": "pdf",
-      "role": "brandbook-pdf",
-      "sha256": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf",
+      "role": "identity-variant",
+      "sha256": "a8fa4551f7d89cd22c4f04632ba262f31b6770bd8d6cb6db65ea192ddf315fa6",
       "status": "proposed"
     },
     {
-      "id": "v6-symbol-origin-source-sinapse-wordmark-dark.svg",
-      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-dark.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-source-sinapse-wordmark-light.svg",
-      "file": "public/si-v2/symbol-origin/source-sinapse-wordmark-light.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-source-snps-lockup-dark.svg",
-      "file": "public/si-v2/symbol-origin/source-snps-lockup-dark.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-symbol-origin-source-snps-lockup-light.svg",
-      "file": "public/si-v2/symbol-origin/source-snps-lockup-light.svg",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-templates-avatar-dark.svg",
+      "id": "v8-templates-avatar-dark.svg",
       "file": "public/si-v2/templates/avatar-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1691,7 +1467,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-avatar-light.svg",
+      "id": "v8-templates-avatar-light.svg",
       "file": "public/si-v2/templates/avatar-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1699,7 +1475,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-banner-dark.svg",
+      "id": "v8-templates-banner-dark.svg",
       "file": "public/si-v2/templates/banner-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1707,7 +1483,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-banner-light.svg",
+      "id": "v8-templates-banner-light.svg",
       "file": "public/si-v2/templates/banner-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1715,7 +1491,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-1.svg",
+      "id": "v8-templates-caderno-1.svg",
       "file": "public/si-v2/templates/caderno-1.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1723,7 +1499,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-10.svg",
+      "id": "v8-templates-caderno-10.svg",
       "file": "public/si-v2/templates/caderno-10.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1731,7 +1507,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-2.svg",
+      "id": "v8-templates-caderno-2.svg",
       "file": "public/si-v2/templates/caderno-2.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1739,7 +1515,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-3.svg",
+      "id": "v8-templates-caderno-3.svg",
       "file": "public/si-v2/templates/caderno-3.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1747,7 +1523,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-4.svg",
+      "id": "v8-templates-caderno-4.svg",
       "file": "public/si-v2/templates/caderno-4.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1755,7 +1531,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-5.svg",
+      "id": "v8-templates-caderno-5.svg",
       "file": "public/si-v2/templates/caderno-5.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1763,7 +1539,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-6.svg",
+      "id": "v8-templates-caderno-6.svg",
       "file": "public/si-v2/templates/caderno-6.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1771,7 +1547,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-7.svg",
+      "id": "v8-templates-caderno-7.svg",
       "file": "public/si-v2/templates/caderno-7.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1779,7 +1555,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-8.svg",
+      "id": "v8-templates-caderno-8.svg",
       "file": "public/si-v2/templates/caderno-8.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1787,7 +1563,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-caderno-9.svg",
+      "id": "v8-templates-caderno-9.svg",
       "file": "public/si-v2/templates/caderno-9.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1795,7 +1571,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-carousel-dark.svg",
+      "id": "v8-templates-carousel-dark.svg",
       "file": "public/si-v2/templates/carousel-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1803,7 +1579,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-carousel-light.svg",
+      "id": "v8-templates-carousel-light.svg",
       "file": "public/si-v2/templates/carousel-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1811,7 +1587,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-cover-dark.svg",
+      "id": "v8-templates-cover-dark.svg",
       "file": "public/si-v2/templates/cover-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1819,7 +1595,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-cover-light.svg",
+      "id": "v8-templates-cover-light.svg",
       "file": "public/si-v2/templates/cover-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1827,7 +1603,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-crystal-avatar.svg",
+      "id": "v8-templates-crystal-avatar.svg",
       "file": "public/si-v2/templates/crystal-avatar.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1835,7 +1611,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-crystal-banner.svg",
+      "id": "v8-templates-crystal-banner.svg",
       "file": "public/si-v2/templates/crystal-banner.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1843,7 +1619,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-crystal-carousel.svg",
+      "id": "v8-templates-crystal-carousel.svg",
       "file": "public/si-v2/templates/crystal-carousel.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1851,7 +1627,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-crystal-post.svg",
+      "id": "v8-templates-crystal-post.svg",
       "file": "public/si-v2/templates/crystal-post.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1859,7 +1635,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-crystal-story.svg",
+      "id": "v8-templates-crystal-story.svg",
       "file": "public/si-v2/templates/crystal-story.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1867,7 +1643,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-display-dark.svg",
+      "id": "v8-templates-display-dark.svg",
       "file": "public/si-v2/templates/display-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1875,7 +1651,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-display-light.svg",
+      "id": "v8-templates-display-light.svg",
       "file": "public/si-v2/templates/display-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1883,7 +1659,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-banner-dark.svg",
+      "id": "v8-templates-flow-banner-dark.svg",
       "file": "public/si-v2/templates/flow-banner-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1891,7 +1667,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-banner-light.svg",
+      "id": "v8-templates-flow-banner-light.svg",
       "file": "public/si-v2/templates/flow-banner-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1899,7 +1675,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-carousel-dark.svg",
+      "id": "v8-templates-flow-carousel-dark.svg",
       "file": "public/si-v2/templates/flow-carousel-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1907,7 +1683,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-carousel-light.svg",
+      "id": "v8-templates-flow-carousel-light.svg",
       "file": "public/si-v2/templates/flow-carousel-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1915,7 +1691,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-post-dark.svg",
+      "id": "v8-templates-flow-post-dark.svg",
       "file": "public/si-v2/templates/flow-post-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1923,7 +1699,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-post-light.svg",
+      "id": "v8-templates-flow-post-light.svg",
       "file": "public/si-v2/templates/flow-post-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1931,7 +1707,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-story-dark.svg",
+      "id": "v8-templates-flow-story-dark.svg",
       "file": "public/si-v2/templates/flow-story-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1939,7 +1715,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-flow-story-light.svg",
+      "id": "v8-templates-flow-story-light.svg",
       "file": "public/si-v2/templates/flow-story-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1947,7 +1723,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-post-dark.svg",
+      "id": "v8-templates-post-dark.svg",
       "file": "public/si-v2/templates/post-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1955,7 +1731,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-post-light.svg",
+      "id": "v8-templates-post-light.svg",
       "file": "public/si-v2/templates/post-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1963,7 +1739,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-story-dark.svg",
+      "id": "v8-templates-story-dark.svg",
       "file": "public/si-v2/templates/story-dark.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1971,7 +1747,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-story-light.svg",
+      "id": "v8-templates-story-light.svg",
       "file": "public/si-v2/templates/story-light.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1979,7 +1755,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-1.svg",
+      "id": "v8-templates-t04-carousel-1.svg",
       "file": "public/si-v2/templates/t04-carousel-1.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1987,7 +1763,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-2.svg",
+      "id": "v8-templates-t04-carousel-2.svg",
       "file": "public/si-v2/templates/t04-carousel-2.svg",
       "kind": "image",
       "role": "social-slide",
@@ -1995,7 +1771,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-3.svg",
+      "id": "v8-templates-t04-carousel-3.svg",
       "file": "public/si-v2/templates/t04-carousel-3.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2003,7 +1779,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-4.svg",
+      "id": "v8-templates-t04-carousel-4.svg",
       "file": "public/si-v2/templates/t04-carousel-4.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2011,7 +1787,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-5.svg",
+      "id": "v8-templates-t04-carousel-5.svg",
       "file": "public/si-v2/templates/t04-carousel-5.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2019,7 +1795,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-carousel-6.svg",
+      "id": "v8-templates-t04-carousel-6.svg",
       "file": "public/si-v2/templates/t04-carousel-6.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2027,7 +1803,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-1.svg",
+      "id": "v8-templates-t04-story-1.svg",
       "file": "public/si-v2/templates/t04-story-1.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2035,7 +1811,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-2.svg",
+      "id": "v8-templates-t04-story-2.svg",
       "file": "public/si-v2/templates/t04-story-2.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2043,7 +1819,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-3.svg",
+      "id": "v8-templates-t04-story-3.svg",
       "file": "public/si-v2/templates/t04-story-3.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2051,7 +1827,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-4.svg",
+      "id": "v8-templates-t04-story-4.svg",
       "file": "public/si-v2/templates/t04-story-4.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2059,7 +1835,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-5.svg",
+      "id": "v8-templates-t04-story-5.svg",
       "file": "public/si-v2/templates/t04-story-5.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2067,7 +1843,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-templates-t04-story-6.svg",
+      "id": "v8-templates-t04-story-6.svg",
       "file": "public/si-v2/templates/t04-story-6.svg",
       "kind": "image",
       "role": "social-slide",
@@ -2075,7 +1851,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-docker.svg",
+      "id": "v8-tools-docker.svg",
       "file": "public/si-v2/tools/docker.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2083,7 +1859,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-figma.svg",
+      "id": "v8-tools-figma.svg",
       "file": "public/si-v2/tools/figma.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2091,7 +1867,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-github.svg",
+      "id": "v8-tools-github.svg",
       "file": "public/si-v2/tools/github.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2099,7 +1875,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-hostinger.svg",
+      "id": "v8-tools-hostinger.svg",
       "file": "public/si-v2/tools/hostinger.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2107,7 +1883,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-n8n.svg",
+      "id": "v8-tools-n8n.svg",
       "file": "public/si-v2/tools/n8n.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2115,7 +1891,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-obsidian.svg",
+      "id": "v8-tools-obsidian.svg",
       "file": "public/si-v2/tools/obsidian.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2123,7 +1899,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-supabase.svg",
+      "id": "v8-tools-supabase.svg",
       "file": "public/si-v2/tools/supabase.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2131,7 +1907,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-vercel.svg",
+      "id": "v8-tools-vercel.svg",
       "file": "public/si-v2/tools/vercel.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2139,7 +1915,7 @@
       "status": "proposed"
     },
     {
-      "id": "v6-tools-warp.svg",
+      "id": "v8-tools-warp.svg",
       "file": "public/si-v2/tools/warp.svg",
       "kind": "image",
       "role": "brand-expression",
@@ -2147,147 +1923,171 @@
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-look-1.webp",
-      "file": "public/si-v2/wear-v7/look-1.webp",
+      "id": "v8-visual-v8-circle-glass.webp",
+      "file": "public/si-v2/visual-v8/circle-glass.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "f133fe56b8cbb76e20ee8994ac6a26fa14c2bfd78e21a00c7eeae3df01e8a337",
+      "sha256": "8a00cb6d72d10ec5a6433f0bb36a8819a91d895c212a1d2b7ab92fd32f55220e",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-look-2.webp",
-      "file": "public/si-v2/wear-v7/look-2.webp",
+      "id": "v8-visual-v8-circle-paper.webp",
+      "file": "public/si-v2/visual-v8/circle-paper.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "849052476a642ba6686f6381c12b6651ecbba4a043ceb30e28b1bc712d36ccc1",
+      "sha256": "194465487982caea8e8977b29fb0697c13a4de646b8e6fc65a35ab0d7eb44ad6",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-look-3.webp",
-      "file": "public/si-v2/wear-v7/look-3.webp",
+      "id": "v8-visual-v8-circle-silver.webp",
+      "file": "public/si-v2/visual-v8/circle-silver.webp",
       "kind": "image",
       "role": "brand-expression",
-      "sha256": "4c66b2b4f7cae7de62be5c361e2b5204616bb5f36a5ca5f0feb9dba6d8f820c1",
+      "sha256": "0d10ddf0e7fe7b0dfe3b7f1bfda95155318a2556f4ea0703042653a4423410c5",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-look-4.webp",
-      "file": "public/si-v2/wear-v7/look-4.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "c20e4be01b61b91137d6614a33c7663f57dfc7c555f5ea69d28044e7dd1d86fb",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-wear-v7-look-5.webp",
-      "file": "public/si-v2/wear-v7/look-5.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "9137e22f52abd3e739d40bfa021b4da4776eac3a28006004fead4c3a972253b2",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-wear-v7-look-6.webp",
-      "file": "public/si-v2/wear-v7/look-6.webp",
-      "kind": "image",
-      "role": "brand-expression",
-      "sha256": "58a814e5b2018dfb8ad358a56cf577aa925377613e78b3df56fafcdab612e238",
-      "status": "proposed"
-    },
-    {
-      "id": "v6-wear-v7-print-01.svg",
-      "file": "public/si-v2/wear-v7/print-01.svg",
+      "id": "v8-wear-v8-print-01.svg",
+      "file": "public/si-v2/wear-v8/print-01.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-02.svg",
-      "file": "public/si-v2/wear-v7/print-02.svg",
+      "id": "v8-wear-v8-print-02.svg",
+      "file": "public/si-v2/wear-v8/print-02.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-03.svg",
-      "file": "public/si-v2/wear-v7/print-03.svg",
+      "id": "v8-wear-v8-print-03.svg",
+      "file": "public/si-v2/wear-v8/print-03.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-04.svg",
-      "file": "public/si-v2/wear-v7/print-04.svg",
+      "id": "v8-wear-v8-print-04.svg",
+      "file": "public/si-v2/wear-v8/print-04.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-05.svg",
-      "file": "public/si-v2/wear-v7/print-05.svg",
+      "id": "v8-wear-v8-print-05.svg",
+      "file": "public/si-v2/wear-v8/print-05.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-06.svg",
-      "file": "public/si-v2/wear-v7/print-06.svg",
+      "id": "v8-wear-v8-print-06.svg",
+      "file": "public/si-v2/wear-v8/print-06.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-07.svg",
-      "file": "public/si-v2/wear-v7/print-07.svg",
+      "id": "v8-wear-v8-print-07.svg",
+      "file": "public/si-v2/wear-v8/print-07.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-08.svg",
-      "file": "public/si-v2/wear-v7/print-08.svg",
+      "id": "v8-wear-v8-print-08.svg",
+      "file": "public/si-v2/wear-v8/print-08.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-09.svg",
-      "file": "public/si-v2/wear-v7/print-09.svg",
+      "id": "v8-wear-v8-print-09.svg",
+      "file": "public/si-v2/wear-v8/print-09.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-10.svg",
-      "file": "public/si-v2/wear-v7/print-10.svg",
+      "id": "v8-wear-v8-print-10.svg",
+      "file": "public/si-v2/wear-v8/print-10.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-11.svg",
-      "file": "public/si-v2/wear-v7/print-11.svg",
+      "id": "v8-wear-v8-print-11.svg",
+      "file": "public/si-v2/wear-v8/print-11.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726",
       "status": "proposed"
     },
     {
-      "id": "v6-wear-v7-print-12.svg",
-      "file": "public/si-v2/wear-v7/print-12.svg",
+      "id": "v8-wear-v8-print-12.svg",
+      "file": "public/si-v2/wear-v8/print-12.svg",
       "kind": "image",
       "role": "brand-expression",
       "sha256": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-1.webp",
+      "file": "public/si-v2/wear-v8/sheet-1.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "1d656d4a9b8bb61d8553ccfe86a074fb385a7a5ce9a0caa9bb15804bc177a6a3",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-2.webp",
+      "file": "public/si-v2/wear-v8/sheet-2.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "bda9789c26757807ef3e8d7fba1e16db69d979ed0e4bb26415ad6bee7bf08f60",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-3.webp",
+      "file": "public/si-v2/wear-v8/sheet-3.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "6e12441eeea433519336f010244b232b47c0fd44aa9ebe00cbe67cc988849a60",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-4.webp",
+      "file": "public/si-v2/wear-v8/sheet-4.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "2db70c83d654fbe05fdee58e2d209f1e0e07fe89e012af069e8e271ac6dd64e0",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-5.webp",
+      "file": "public/si-v2/wear-v8/sheet-5.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "0d6f7ef3a2e73c6783904503475ff496980dfebf82f2310fe0c2dc5ac6a98492",
+      "status": "proposed"
+    },
+    {
+      "id": "v8-wear-v8-sheet-6.webp",
+      "file": "public/si-v2/wear-v8/sheet-6.webp",
+      "kind": "image",
+      "role": "brand-expression",
+      "sha256": "6a69c43e7b2d4f6446d4e03aecbb99fad07eedff5c8c107cce1a1c78bac4db01",
       "status": "proposed"
     },
     {
@@ -2308,45 +2108,45 @@
     },
     {
       "id": "brandbook-site",
-      "file": "app/page.tsx",
+      "file": "app/book/page.tsx",
       "kind": "source",
       "role": "brandbook-site",
-      "sha256": "a650de4931bcf6ea2ad06e490bb2fbff5f3262ac87a3be1a4b589f767aa4b587",
-      "status": "implemented_local"
+      "sha256": "260baa40eb758da7d41a8b706a1a211d74737553e2d03b385cbd6e315c19108e",
+      "status": "implemented_local_browser_pending"
     }
   ],
   "sequences": [
     {
-      "id": "T04-v6",
+      "id": "T04-v8",
       "kind": "story",
       "minimum_frames": 6,
       "asset_ids": [
-        "v6-templates-t04-story-1.svg",
-        "v6-templates-t04-story-2.svg",
-        "v6-templates-t04-story-3.svg",
-        "v6-templates-t04-story-4.svg",
-        "v6-templates-t04-story-5.svg",
-        "v6-templates-t04-story-6.svg"
+        "v8-templates-t04-story-1.svg",
+        "v8-templates-t04-story-2.svg",
+        "v8-templates-t04-story-3.svg",
+        "v8-templates-t04-story-4.svg",
+        "v8-templates-t04-story-5.svg",
+        "v8-templates-t04-story-6.svg"
       ],
       "product_ids": [],
       "character_ids": [],
       "comparison": false
     },
     {
-      "id": "Caderno-v6",
+      "id": "Caderno-v8",
       "kind": "carousel",
       "minimum_frames": 10,
       "asset_ids": [
-        "v6-templates-caderno-1.svg",
-        "v6-templates-caderno-2.svg",
-        "v6-templates-caderno-3.svg",
-        "v6-templates-caderno-4.svg",
-        "v6-templates-caderno-5.svg",
-        "v6-templates-caderno-6.svg",
-        "v6-templates-caderno-7.svg",
-        "v6-templates-caderno-8.svg",
-        "v6-templates-caderno-9.svg",
-        "v6-templates-caderno-10.svg"
+        "v8-templates-caderno-1.svg",
+        "v8-templates-caderno-2.svg",
+        "v8-templates-caderno-3.svg",
+        "v8-templates-caderno-4.svg",
+        "v8-templates-caderno-5.svg",
+        "v8-templates-caderno-6.svg",
+        "v8-templates-caderno-7.svg",
+        "v8-templates-caderno-8.svg",
+        "v8-templates-caderno-9.svg",
+        "v8-templates-caderno-10.svg"
       ],
       "product_ids": [],
       "character_ids": [],
@@ -2357,301 +2157,277 @@
   "visual_review": {
     "status": "recorded",
     "evidence": [
-      "qa/v7-browser-check.json",
-      "qa/v6-pdf-native-check.json",
-      "qa/v6-contact-sheet.jpg",
-      "docs/SINAPSE-SI-WEAR-REFINEMENT-QA.md"
+      "qa/v8-fidelity-check.json",
+      "qa/v8-pdf-native-check.json",
+      "qa/v8-contact-sheet.jpg",
+      "docs/SINAPSE-SI-V8-QA.md"
     ],
     "asset_hashes": {
-      "v6-applications-avatar-client.svg": "e0e3d4ac38d833c6531b79e24b9c7eed77fe72e69399945b8aef38dbb41520ed",
-      "v6-applications-avatar-client.webp": "5b037a7c7089f4d9334fead6dd7009ac667dd145d37c41287499a86eaedce1d2",
-      "v6-applications-avatar-si.svg": "29a08aa22a731ad27505d8d9491291c4939e28656db7436776b6b7a6515c65f2",
-      "v6-applications-avatar-si.webp": "0e95b925c2e6db926fbff582faa5e6cd7f39d950ba792ab3def43ccd1afe2c88",
-      "v6-applications-avatar-t04.svg": "2ce4b39872230f74fe84b197a00d7d86e7f76b2cae8f8066b90c28385cf7ee0a",
-      "v6-applications-avatar-t04.webp": "38376c89376631339604d1a51f2c7d0f7546c1370509def02cee0d356d81ef4e",
-      "v6-applications-card-member.svg": "27de73eba7af4b1a15c59042af7de576c05cb0c45d759a39741983c87eb37cef",
-      "v6-applications-card-member.webp": "884f5cd747a131ddc80633cb4f51ebff5eb971c6ddfc9edc50cb0b375fc5de9b",
-      "v6-applications-cover-build.svg": "53ff116cd374b89e1db64e2aa3f05f2e29f4f262c06c25cc2d1f32bd5abee1f8",
-      "v6-applications-cover-build.webp": "8b1ea55c88b379edbe0745b66027d9fc91022c30a95165fce19e126f74adcac3",
-      "v6-applications-cover-foundations.svg": "3c76e9ea6878bfe812eda6d5d448a92902961b870ab36e9c70138a780e8db1ab",
-      "v6-applications-cover-foundations.webp": "3126f820193d2e5abcc25bc2599d3a078a82be0c112661f651487a29560b3ed2",
-      "v6-applications-ooh-triptych.svg": "a0f352e4e69caa9d2a03c5ad5fa843e18c8c2188b0579b32a09ee2cab0ce9188",
-      "v6-applications-ooh-triptych.webp": "f694f2b530928b745176efb98e594f21f606ecbed00d37c02d0ef5e7e435804a",
-      "v6-applications-poster-growth.svg": "0e7a28c04b7c4aaff7b2eacb0d7c6d4d4eedeb7384e1f81dd7143ddcdc14736e",
-      "v6-applications-poster-growth.webp": "843c3d74491b5d743df6ceeaebb39cd840c381a815467314e2e465a4159e8b66",
-      "v6-applications-poster-house.svg": "8782f0a86844283b94785eeb56a7043f2332e0cf5d4520ba5faeaf5ad6bb17e3",
-      "v6-applications-poster-house.webp": "5b569606eeab3503992d357a40c97bf41bb1e21dd93615d39b2176167f528057",
-      "v6-applications-poster-manifesto.svg": "4bb7ed42dd24296ba0661d62907217e7f41d19ebbcb353eaf3c8862efa6d6009",
-      "v6-applications-poster-manifesto.webp": "ea5a549f53227236c8bcf64f96ffabebc5d80f383f9dc5544b402e3c49a90b0d",
-      "v6-applications-poster-repertoire.svg": "f791604c8b4bced3dbf6ef46fa1d6965df284dca2f7113407f850dcf65a712e9",
-      "v6-applications-poster-repertoire.webp": "b35948c9d34adba29c056de4e7cd0b55f90667df43a585ec5e55cc6ef1559b6b",
-      "v6-applications-poster-school.svg": "b21323d7cde5881459e168ba5e518b93df46af7350b0e310fb719cdaf7556353",
-      "v6-applications-poster-school.webp": "1e44edaea125344853a735d461926a35fb0166691dd06bd443fbd5ab824a1049",
-      "v6-applications-story-invite.svg": "65c4bee0edee77c95d83c871e78126129edb7a5d21e410e7a89a6a1910e01831",
-      "v6-applications-story-invite.webp": "02ea13e69f740979be57e650dbc0695999621d6deecc1f43be5931d43efd5056",
-      "v6-applications-type-alphabet.svg": "ddc6ecf78e465f4c9147ef42eb6a4fbf6f8e46b60b33243cd279553d8eca005e",
-      "v6-applications-type-alphabet.webp": "767a0c3dcd03b2c9ad56babc14533dc98cd016929a0888902aa8ffed5edd5d5b",
-      "v6-applications-type-anatomy.svg": "3f15a55dedca946389b1d8d97b63c9f9dfe037ca6f4268c1c0cf38d9f98c2e26",
-      "v6-applications-type-anatomy.webp": "294756650fa546d91f06d1630edc0459deabca4b273969fabfc7d11078c229a0",
-      "v6-applications-type-proof.svg": "e9ae159a3cdabac11f522f66a18d4e44e04fc2c9d73eef96b96ceaa312f688c3",
-      "v6-applications-type-proof.webp": "1bc1a7ae20a9f7a857b4518e3866fd4033c891c153a6a2a43813700d4e1ae6b2",
-      "v6-applications-type-review.svg": "501cfe23a9dcf38558dbae30dddca9ca815272b01664c48426b7f6972af6e236",
-      "v6-applications-type-review.webp": "97bbc9b3eaa8c28889c067bef7c19f3522244780a4f2ff3958b5d1f00fc49184",
-      "v6-book-v6-page-01.webp": "d5d3b19af27eca085ab5305a2d3f623c8070a857326abd590e80f913c12ab4ce",
-      "v6-book-v6-page-02.webp": "1584b2d2d840acc4dcf673c7d35faac8e3a6cbfb68f146628140f2faa66c51ea",
-      "v6-book-v6-page-03.webp": "bdf856cdcfff30b1df40b097fbca7c3de5ce8548acc3adae402eb45ea34db35a",
-      "v6-book-v6-page-04.webp": "75911f83e1fac371830ddea0630065dd1577f95242751775ed21e8ca98fdc5be",
-      "v6-book-v6-page-05.webp": "3f0e04507c6699371910be5aeb889f4ff4a572f84492eca186ff03a8c6e1dfbc",
-      "v6-book-v6-page-06.webp": "2276da25c1ce5532f17de9db87ab88c2e6079e60dde956b9a53c0ce646272d36",
-      "v6-book-v6-page-07.webp": "a2c9b5017a163b3996c5e6b982028018775c9791a21980140a29b5c62137c7d5",
-      "v6-book-v6-page-08.webp": "782c4d0e3ae3b79be820319bc136a94092b58da94637bc1bb3de291b0cfe5108",
-      "v6-book-v6-page-09.webp": "600b35fbb7be2fc13bf6e773099ce8a042c0668b0cb334ed4df9842e473766d1",
-      "v6-book-v6-page-10.webp": "61bb3c311b838515e9eb7f6ae32481a29800805a84321584da11aa9c393098ac",
-      "v6-book-v6-page-11.webp": "c40b3bb30e2fb1d48f2588134b55acec70d2a3fd48dce330d4d94e559de73b5e",
-      "v6-book-v6-page-12.webp": "e2de9c0b52fd25e7b30cd0d8e5235d2dee8fe2b8772f90d976942c33a0fdd867",
-      "v6-book-v6-page-13.webp": "d01133bd3a68cc179f90b582b410b1c6141757fd855e06db7fae76d78eadd8cb",
-      "v6-book-v6-page-14.webp": "01c8d5f0607629c56576bb17260d4b10b40303ae1fd9946a47c2a2be71dd57e7",
-      "v6-book-v6-page-15.webp": "76054f4440ae0ba618e8fce4898425054c808bb4f6c862b1fce082fb4eb77c5b",
-      "v6-book-v6-page-16.webp": "352150262eb0ee72e6668b3ed167d65babacf339e28c530fb0b4ca024746f787",
-      "v6-book-v6-page-17.webp": "55fcb75aca3e4cee6c43554150a774a3f0d62a3e6a14a83f2530e79e1a357ff2",
-      "v6-book-v6-page-18.webp": "4574ec20e74ae1e9635d176a7766e578738bc12f09f7548c50bd22cc13d101c1",
-      "v6-book-v6-page-19.webp": "b87a49fbeef2bc368688f5cc9fb26779ab9c81c883b40bc84e5465d308489a57",
-      "v6-book-v6-page-20.webp": "f73718454efb2c7e1bca9ac63ba5d33ba488c9a0a8cb7dc0d87fe010ae24db3b",
-      "v6-book-v6-page-21.webp": "998f273f354694e8b614658841a7daa75aac9e8e7c8cd1a57f83af9af2994748",
-      "v6-book-v6-page-22.webp": "c37cb293c72aa05881e640577ef13745d856573e339ae6342f9f1acbeae7aa00",
-      "v6-book-v6-page-23.webp": "2dae146c9e3969dbaff8ddcb906bda3f1b7cfe04361b5e27d2c9d176a823285b",
-      "v6-book-v6-page-24.webp": "bcb9529b0ff4bbca6e862737c7bab7885d08e65dfd1d665c19336dd9fa3e2895",
-      "v6-book-v6-page-25.webp": "0a7c41d781cf6b68de04d7214439fc5172cb186bc5d2242cce38d337aad199b0",
-      "v6-book-v6-page-26.webp": "12e485c8dcfdd1b5cdf87229673588bc975e3776a6107de83c525f35b4f23da9",
-      "v6-book-v6-page-27.webp": "93e6d6d01e1aebe2f0ff90b24b54d5a8a86d4bcd0aceff74a9011024f975c9fe",
-      "v6-book-v6-page-28.webp": "b97973da722528bff2a8ac4e9fffe0fd97c530cca4246cf29932a616d625f077",
-      "v6-book-v6-page-29.webp": "37aeb63baa9c9239922b16d3528adc8a8ba184a0f5c73619f90c4353023c5feb",
-      "v6-book-v6-page-30.webp": "b3aa2dfb685028cc4bbf665d55fcde703f1963c6efc2b3ae9bc520b8c7e6b2c7",
-      "v6-book-v6-page-31.webp": "03464a36c126ffd54dcf769bd0f812ebc8ba0176626887b06a9d2ed6f5c00ac6",
-      "v6-book-v6-page-32.webp": "ca95f6cabcb8edb9daf197a25e460a4c8a01656c2eb458e533858cca622b18ad",
-      "v6-book-v6-page-33.webp": "913e8875d8b9a40415df74f64103e3174b22ae12b947e453e68d41abeab1af6e",
-      "v6-book-v6-page-34.webp": "3825dc911dc54c9d6d0562765d502bd6f2b0efc4c667babeb31f1640f0c47ba8",
-      "v6-book-v6-page-35.webp": "7c92b5adda02735df44d0b0a1f23daa235dabe7f0ec3fb41b046d2347ee42eb4",
-      "v6-book-v6-page-36.webp": "b8f4ed72d097c1fbfb36cc8b97564d5c676a4a4fa7873122bb446b69f183e25b",
-      "v6-book-v6-page-37.webp": "d2fa194fdaa8e3e6125c95fab685b0970d434072855633285f8c1f24890b8e9a",
-      "v6-book-v6-page-38.webp": "17bed9e9e2d99fe1d5629107636dc9afa7dcad176da51858b1a8195ad547e39f",
-      "v6-book-v6-page-39.webp": "728f74a4f1868e3816fbe0f29592e8f5eb01ac2719b28d2080d1bab8a12a3a78",
-      "v6-book-v6-page-40.webp": "e640bc50bc3c9dc47435d372ff282d33b06ce7b9d2ad46c95a5f83350d871981",
-      "v6-book-v6-page-41.webp": "e7c21d3c5cb5acf64e9597eecde92920ff1016e6f792b95c0effa4a4d9246bb7",
-      "v6-book-v6-page-42.webp": "914eac176eba448cb2a12b9a3a01a3c92c912493929d9f80c6faa1f5572ec67f",
-      "v6-book-v6-page-43.webp": "06ce8a3e76f5acad2da968c791c52b7a6475ff17dd6de76fe1c4dff780a3742c",
-      "v6-book-v6-page-44.webp": "137da1c5acb484879c10f2ab6cd902ad27c55b9a03475eb354754c7ef4cf551d",
-      "v6-book-v6-page-45.webp": "ab764f61a823b710e5a927109287060d258cc8f2ecac56afbf5f6c2cb889f29a",
-      "v6-book-v6-page-46.webp": "e94f633696ae65187954af87795a75418f2c131416b2f354ecafc6d95717ca61",
-      "v6-book-v6-page-47.webp": "3003d2553cfefbca688451da53f92b2abcac4d1b6ae6e67ba9a7adbbb67ee52f",
-      "v6-book-v6-page-48.webp": "c8a0348f0a4345ab587b959c1add2a283e75c3a6695e6e632d5e32ccb4877f3e",
-      "v6-book-v6-page-49.webp": "b026b88e5053209b243c6d36fd66aa1d9dca753223f31457cd677b1c7958c358",
-      "v6-book-v6-page-50.webp": "76bf0b3b6d555ddbf9db569b0c46cac32a68520cedff3b08f51391711f00357c",
-      "v6-book-v6-page-51.webp": "2c6f645bf6f83914d25650d039daeca10ea211610da3459f016273e6aaef1342",
-      "v6-book-v6-page-52.webp": "ae6d301fb956455575ccd3a90c091d7484098fc06aad46b59d74b7b91ccd1386",
-      "v6-book-v6-page-53.webp": "e9f9ae3a50880c3e2c740895f7a528156630e52f4b9e3abdae1d5020a8f0c824",
-      "v6-book-v6-page-54.webp": "0fe7d66dcfbd98e3baccb33ed3d7386799f5f6cf6891f73a87b9fa64508d4e10",
-      "v6-book-v6-page-55.webp": "f8e711a709842e832791cc6908f76fd74d39abd87c80c7cf0e2d68e9a47b0ba1",
-      "v6-book-v6-page-56.webp": "1f827f9243fb62b8ca2886360378c17ff809615456e079949fe168c69fff0813",
-      "v6-book-v6-page-57.webp": "8236bdcf34d1197a39ad319b4361535c34a723c662ed8b78563100b6a8dada81",
-      "v6-book-v6-page-58.webp": "95d812cb6bc12ef5f7edf25edee77e165493d9b82093af0fe143d00e96c50cb2",
-      "v6-book-v6-page-59.webp": "61f5defed62ec2d1108441652245ab19fb382cbe294d0da71b3bdefe9854f5b6",
-      "v6-book-v6-page-60.webp": "440c7f4a0b2b7924a1baa6878014ba96b7050c0b95575807578732bf5f180a38",
-      "v6-glass.webp": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac",
-      "v6-hero.webp": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4",
-      "v6-icons-agent.svg": "5e6ad6dfd1dc4a365d4c9d0deff99a563aa4a775922b39b2ed7b9632ab27f6a1",
-      "v6-icons-code.svg": "14ee63bf8f215c5b4c0a93252113f8672efd2df69353104874663f7735f25aee",
-      "v6-icons-connect.svg": "1684753a48718853b25cc73276079399168954b35dd1779d2cef800fd946adcf",
-      "v6-icons-context.svg": "e02697c6377600b3099c74bb4350393a256d0dd66695c1238430fd4989be9cb7",
-      "v6-icons-create.svg": "caa6e8bf289da820649008f72f6a1aa2822f3680f5e33274d7e131092caa3d4b",
-      "v6-icons-data.svg": "e3e2382f3d38f834890918ce5c514441468e4d0673bff20ab4230301f56f9a9c",
-      "v6-icons-flow.svg": "fe533d0c9bbccb853b1c5638aa469c16ec4c5969a60e2116e2819dd124c936cb",
-      "v6-icons-growth.svg": "ec7125bff84cff4f1b4d0af9f1b900371bd28dd61bb780b252727437ab7e7e15",
-      "v6-icons-house.svg": "1e0a86900ab7b480a3f98dce6212c707ffdc7c8d507cb4a41a24af834c146411",
-      "v6-icons-orbit.svg": "5a7532425515d8388a33ac6dadae8bdd4a8863a314166975ca2434a779c03be4",
-      "v6-icons-play.svg": "6353087967967031a425a525ee5a699067e825bb2666a7e7d508bfcb4476a2e4",
-      "v6-icons-school.svg": "0711f1d90a4a7a57112a5d6c8d70d186adcc5e6e5e16cd9eaa4bd9ce7bf04a5b",
-      "v6-logos-sinapse-frost-dark.svg": "39dcab903d5ba54bd3e6f2955b100400f58c20562cffec6561d8fc78338d13a2",
-      "v6-logos-sinapse-frost-light.svg": "c95c5a3bfa1228d81210963cd3e2b11a6063f6c6e9f6f6030c92f622123e3210",
-      "v6-logos-sinapse-glass-dark.svg": "e7da608d512b77a826d8ff369a531bbb508cb843cc4a702f7f17c04f0b40a5ab",
-      "v6-logos-sinapse-glass-light.svg": "e7e18fd72ad1a02d02f72a327ded8c367546c56b9dee196b513037117bfaf64e",
-      "v6-logos-sinapse-growth-frost-dark.svg": "912e4fb8d25261acea80ce9a8956d0ae1942b046b612b56c4fac53bf1b30537e",
-      "v6-logos-sinapse-growth-frost-light.svg": "ee780109f3c8e82d60c811ab3056aad3ad8310730ecb51c9848f958efe1e8ae4",
-      "v6-logos-sinapse-growth-glass-dark.svg": "22ae7374ca9802a400954ea42aea0b89b3d9d489dc5930a74c61fd66c18e2825",
-      "v6-logos-sinapse-growth-glass-light.svg": "41b12fa1aae317832cbece25b35f34b1e159c087c1063d9684bf22bfbabf4659",
-      "v6-logos-sinapse-growth-silver-dark.svg": "fe8a9f0ca53bab6006a31109e6cbeb3635523a2b1091586e766b81e5d7053abd",
-      "v6-logos-sinapse-growth-silver-light.svg": "42ae4087eb8e8e685229eace329c3bd1ea94ffb9eac657a31fabcba9faf8949d",
-      "v6-logos-sinapse-growth-solid-dark.svg": "986ef7cc584296814d80122cbd36cbfe73eaaddbb0b3c3b578ae2104d19da83b",
-      "v6-logos-sinapse-growth-solid-light.svg": "2484f484709d16d6db4bf34f0d59f90334b2a1ea90209c54d587d6080756c52c",
-      "v6-logos-sinapse-house-frost-dark.svg": "f2a34106d14df5bb23136c7f6c3cd8a940c0278e99c87406e251d26ab8309d7e",
-      "v6-logos-sinapse-house-frost-light.svg": "b61afab95ff37fd72e6ce77cbb899af4cc443fc279637918fc85af889b882f2b",
-      "v6-logos-sinapse-house-glass-dark.svg": "f33364109a373fff2c30ec6bcef374c21316b0fca852ca517015c145384c6331",
-      "v6-logos-sinapse-house-glass-light.svg": "029718c04ed206517fc00b4594c915fad1e5e88bdbe97aa26214ef8cf6f6f92c",
-      "v6-logos-sinapse-house-silver-dark.svg": "069b324149caf2db84b2c95edbe959fb570d84451f8fc250fc3768592e5efc4a",
-      "v6-logos-sinapse-house-silver-light.svg": "7115323f6d4dbaf4668bfa0cfe373f106b2820bcd527684a6edad2652cd617a2",
-      "v6-logos-sinapse-house-solid-dark.svg": "89ae9463304e40d81f7578a2a77f6a6a58891b05e7b4e7ec5cd741c01c198f0f",
-      "v6-logos-sinapse-house-solid-light.svg": "09ff3ac949f8696aacdb388f94080dfa21e7e276b3930dc79a4262623254a78b",
-      "v6-logos-sinapse-school-frost-dark.svg": "3c2c45d0aedc414d8b5e31890b54933a7d54a3758f55965e2751614464677df5",
-      "v6-logos-sinapse-school-frost-light.svg": "f587cba2f664d799a15eebf80abac383358810b347b053f1c5ff50cd17881ffe",
-      "v6-logos-sinapse-school-glass-dark.svg": "c1fc09535d202a7d2d7eb59f8338f4f8db759d8c754b2fa6a3178f43efada601",
-      "v6-logos-sinapse-school-glass-light.svg": "aa0c87a4ef5e03b1d79fca819c28470c297e02def3aa5d37900f0c23e1bbbe18",
-      "v6-logos-sinapse-school-silver-dark.svg": "c37ba4838397e51e20b30d40636dc2803c026d1e7bbfdc25ccaabae03d80b181",
-      "v6-logos-sinapse-school-silver-light.svg": "f555dd9005af5da6ffaed59de85ccdb6fe69fb55c948e1e66a28508e61253afc",
-      "v6-logos-sinapse-school-solid-dark.svg": "c4259fcbaaf9b75873a5e1e6817b6e5f6b69389b3e0f2a8ae09468a4646281a9",
-      "v6-logos-sinapse-school-solid-light.svg": "65bad8a2c251d76239cdebb212f81441a62f08d33494c6251775b18575d81155",
-      "v6-logos-sinapse-si-frost-dark.svg": "807f7e2fff795b820677342998d08d857741e6e3eda6c7fe3e9451699f78c3af",
-      "v6-logos-sinapse-si-frost-light.svg": "1338dfb55f2cd5f1dba5570698b6fb3baaac27a2e388245b601cd5b40ab7affb",
-      "v6-logos-sinapse-si-glass-dark.svg": "9d36940cf7d7cdd884dfb22a17a7aa63ad870d6890e89b383306193b879a5a86",
-      "v6-logos-sinapse-si-glass-light.svg": "45fe47145932313cb487ac10ca0319ccd06efa2d894acf832ab8a07cd1c2ecb5",
-      "v6-logos-sinapse-si-silver-dark.svg": "aedc173ae5419a402026c6e2399018370a8943853c5bd2fa26844042039a801d",
-      "v6-logos-sinapse-si-silver-light.svg": "fac72bd3db34a92650a2199c78e0fb4b8bbb238b45185b5d836cf2b20bea302d",
-      "v6-logos-sinapse-si-solid-dark.svg": "4fc93f32e82f3ff02f347201fccede64d2329baf6c82d3cfec82b305a83c346a",
-      "v6-logos-sinapse-si-solid-light.svg": "e84f2fdd5f37cc39dcdbfbd24d59d78e759d689a4a8faddf5da024cb3087a38d",
-      "v6-logos-sinapse-silver-dark.svg": "a255ba9c415a6b9ea8b91380c1ba28f63fd5d3216bd6920432cf19e3e5950b2d",
-      "v6-logos-sinapse-silver-light.svg": "ecea1395d30cfe4991d591715159629e91ccca57ede505c903d8e139fdd52de1",
-      "v6-logos-sinapse-solid-dark.svg": "838ec82907398dc5153d3794f86ec457b30675593432bc32f86d7a91aa1004d3",
-      "v6-logos-sinapse-solid-light.svg": "c0c11a4e826f41bb2fa4473339f16864390c52b73f15b398f217167a48ff308c",
-      "v6-logos-snps-frost-dark.svg": "c65f56a3674dfcc4d4d6afc90d69af3063c67f655ac86cd5d9fd349ef08fee9c",
-      "v6-logos-snps-frost-light.svg": "528bd660c6bfb13823eac2a453b854b426659bd71f704fe15a52dbc7a7079539",
-      "v6-logos-snps-glass-dark.svg": "ae8fe184c052058d65af7a667269db5a069901e5552f62fda8651eb205ae2aaf",
-      "v6-logos-snps-glass-light.svg": "7a256ac8d5c5c737a605ac028fca4f38c32e6ff74c502c2f7a5d715ec23e81ed",
-      "v6-logos-snps-growth-frost-dark.svg": "aafa9d811fbb0975f54962daaeff919017325e7a9eb905bd990799d57e086385",
-      "v6-logos-snps-growth-frost-light.svg": "af4d44aa8c9ed55ff5c7068bd350d9d944b5031a0ae70623382f317293985f0d",
-      "v6-logos-snps-growth-glass-dark.svg": "04bc2d6142149952f00a55765e4d965b8e6e29564b2f10f4796c244e46e0a79a",
-      "v6-logos-snps-growth-glass-light.svg": "b78aa25c4f65319accd36ec29acf5688e80ed2f2b29b9596273f22324003008b",
-      "v6-logos-snps-growth-silver-dark.svg": "27c14a1978176eb1ac5816025042fd000578c94ac308d30d63182d75af105e6a",
-      "v6-logos-snps-growth-silver-light.svg": "4c3ba7bc29ef89eb8ad8372254827f8cc3ce103e3c6193bd741d19f2abf10da0",
-      "v6-logos-snps-growth-solid-dark.svg": "a7ca909ab5206aa0f9f2a4cf6f4725c5d0b3d2169b89537daac7cc72f85ecb56",
-      "v6-logos-snps-growth-solid-light.svg": "8390aeef3294fbdb10ff6d6fd444491fbaded6abd038772d773867426e71f257",
-      "v6-logos-snps-house-frost-dark.svg": "43f7d0fd1c800a9684c6d28d5315159cdad01a9e0a3910b4d9c143e1b65befba",
-      "v6-logos-snps-house-frost-light.svg": "e355bd5c30033616ed96d368019d25bfa4cf5e8ddadecc2782621c971252309f",
-      "v6-logos-snps-house-glass-dark.svg": "30012df7d56c5cc44a27cfad9206ee3853032597598495fb9686f514ef23346f",
-      "v6-logos-snps-house-glass-light.svg": "c73fdf24e98d15dcc590a82561fa130589db4f6a21e8a21cf0beaccc613e755d",
-      "v6-logos-snps-house-silver-dark.svg": "28a93345c83b2fb22b887b8d3a5f5a3ba28eda71a426099046d0aa23d02341bd",
-      "v6-logos-snps-house-silver-light.svg": "bf40c54b220e3b6f8a1992b2ebfb49d00221bc6925eb4c000d9ed4dbd3b2ae89",
-      "v6-logos-snps-house-solid-dark.svg": "e805e8d0553bb7ac82fb795df2cc9df269cb6d96e9605f5265ed133a0636f96d",
-      "v6-logos-snps-house-solid-light.svg": "425456a8f9938acb6b901b837e0a23d2d5b88b4a218c130681566a0e3dce5136",
-      "v6-logos-snps-school-frost-dark.svg": "7f7c5d30e4fc0244c2fc3bc63d117be9fc9530846886b714065187db50c6f454",
-      "v6-logos-snps-school-frost-light.svg": "dde82e956c19fefe0858f9d78a88a76370b9957958243cb78427f97ee1256d91",
-      "v6-logos-snps-school-glass-dark.svg": "96749d1de623440ba4914d6e8c3c98edc9846204b869ecd10f51aee904f4279f",
-      "v6-logos-snps-school-glass-light.svg": "741d0ca9cc8ea7631c64e79a8dfb29f7fc649f45c59ca56ef149c068c85fae06",
-      "v6-logos-snps-school-silver-dark.svg": "c76b5c126ab06043a28a250d4e9c4f0e62535138aac65a94d47f4e00c6b1a213",
-      "v6-logos-snps-school-silver-light.svg": "2b4c638b100b9a3730b6dfa9a1ce741fea73c52371b0dbc4ff4f6328d23667c5",
-      "v6-logos-snps-school-solid-dark.svg": "74ca64aea57318a713b9e1dde6aad58444f3521e529d4ab81832c74a497aced7",
-      "v6-logos-snps-school-solid-light.svg": "0e3ead04f314ff8e902e3e0db1ea292703dc8532e0f8564a52f0e5daa97a545d",
-      "v6-logos-snps-si-frost-dark.svg": "6cb2b3c7161a4feba1d2efeef8be3e07e5103a6c05284c2b10e8a7567473d486",
-      "v6-logos-snps-si-frost-light.svg": "0891ebc287578d443445639d117b7b58c7108b2fa9f7aa777fe7048d485a427d",
-      "v6-logos-snps-si-glass-dark.svg": "58432216fa56e2e79523016a009bc9dbbaa04f41f17f74b077fc7871a3a5de89",
-      "v6-logos-snps-si-glass-light.svg": "771390ea1cd175741c25920364658c71951fac4bc4314927a478ab0e354f5b89",
-      "v6-logos-snps-si-silver-dark.svg": "38c64d36e21bcef34308c877ead6a31b6ba30349f08b00674cd1e7044b4e4cae",
-      "v6-logos-snps-si-silver-light.svg": "e69a7bf6040a29904e837c6e58749457aeafc4b8ca40182182174f441ac74790",
-      "v6-logos-snps-si-solid-dark.svg": "a404fa97c4b18a1440c69a13eea93d10e48130a7f8ab4cbd2093868a0c6f2c3d",
-      "v6-logos-snps-si-solid-light.svg": "950a488b9f426d81607569c07d664a16b4ad4e9d3b4880594668b436699b28fa",
-      "v6-logos-snps-silver-dark.svg": "8f753ecabd5102d1b216c800e5cbd7d45b91489e4b35ec8b502d04c87eaafefe",
-      "v6-logos-snps-silver-light.svg": "23aae50745caa03a2e507c01af078683ff3db29b8d199d5d0ccccf7e2dffb330",
-      "v6-logos-snps-solid-dark.svg": "6eaaaeb8c8da5bf78339339d651a315369e01a2f2c7a09df7f7ed7c1e7041c08",
-      "v6-logos-snps-solid-light.svg": "7e7b51aceb01e6f47ae19db626d4346b09404bd3a6d3aae57f7b0856e07294d5",
-      "v6-materials-snps-glass-transparent.png": "6c590781a3dbb08305812aa4fa8c721dc95dca19200aa232f6b792004ff73892",
-      "v6-materials-snps-glass-transparent.webp": "59e057b0484870eca77260308fa173f6595f10e122ef7afa8cf5e4f2495f4ef1",
-      "v6-metal.webp": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf",
-      "v6-SINAPSE-SI-Brandbook-06.pdf": "aa380a5ded8c1dcd8052b4526baaed6820ebf8d904630aa3c0f3a3c30907c3c3",
-      "v6-stationery.webp": "50eca3db5825aef7e8b183b733e785f31fdf4d9bbdd67209b6c9c6a93378c9f1",
-      "v6-symbol-origin-s-original-construction-dark.svg": "baea8b88d953f9f76b73d49f776dcb3e984e1b4247615bf428c99c69f3c7eeab",
-      "v6-symbol-origin-s-original-construction-light.svg": "4f64dd2706a84614e509364bb315d7366b263abdae4b7a94665965a9ee7b0d9e",
-      "v6-symbol-origin-s-original-frost-dark.svg": "ba8d75ed18f46752116596bb46ed1a54019a42b38540562339e3c9c643e85c64",
-      "v6-symbol-origin-s-original-frost-light.svg": "560fa040a730532d6b010edd013dfdeb957cec9c84da6c0d2ce073efbbd83ac5",
-      "v6-symbol-origin-s-original-glass-dark.svg": "576c40e92fd817db8ddbf5247d297a5d7dfd9b55dfee02f030120170635f4378",
-      "v6-symbol-origin-s-original-glass-light.svg": "ad6f59db5ec4c2c13c107fa2ca188d9f3101cc971d9e870202bfe8671b918a78",
-      "v6-symbol-origin-s-original-silver-dark.svg": "f9d22eae568670182fdd6434be13a5273a1d8c7409610796c6f5695a15e86fcb",
-      "v6-symbol-origin-s-original-silver-light.svg": "e38d38eb13a479d823c0c75eac2bfdd88c693ee0257ba47c36a90ac4d3236991",
-      "v6-symbol-origin-s-original-solid-dark.svg": "0528d9962e5c3f8de08eb730dfcbe7b7be34950af17d9df3dc2b167b4e550f5b",
-      "v6-symbol-origin-s-original-solid-light.svg": "244d6bd5958440fbe1c4aa029ac8da5e8b43e7ccbc6d60d4befc72753c263d65",
-      "v6-symbol-origin-s-original-tight-dark.svg": "76555ef3244f39a498c9a0d0159353c5a5ba97db5199825464e034a2568225f9",
-      "v6-symbol-origin-s-original-tight-light.svg": "a62514bebdcd209e29c83118e60c37bf4dd190be66344118f75fe8f8e28a9a5c",
-      "v6-symbol-origin-SINAPSE-Origem-do-Traco.pdf": "f2516433c838fb9e3c6cb0596b0df245038d1f33ca16e7d7259f0b99a545fdbf",
-      "v6-symbol-origin-source-sinapse-wordmark-dark.svg": "25ad2ce32670a01aff4c4aecd9d32e6601fa884e466ceb3fae5fc3362ca73564",
-      "v6-symbol-origin-source-sinapse-wordmark-light.svg": "d661d040502105b83fae436ab1045692378f21aa6e58f73416d4aca7f087efe5",
-      "v6-symbol-origin-source-snps-lockup-dark.svg": "bdf8ae298553a4a42f5f37c4108dda42f4c8c55917de9b1edab864ca90728e10",
-      "v6-symbol-origin-source-snps-lockup-light.svg": "5dd7132eb4cceaeaab92e34f9a807cad505e4d814ec7dc24f0440addf6192507",
-      "v6-templates-avatar-dark.svg": "e041ec531abeff10cc5d324272ab6d772aa781e2002c85abec56d7f30dbe47e3",
-      "v6-templates-avatar-light.svg": "0272d9650b320ae56e9f0c8eec3494a0547f7ef98d7ed1c7fdf779263ebb5ba5",
-      "v6-templates-banner-dark.svg": "0f671d5a57e61c95e7a2bb6da9a53d3749fe6108d1b043c698f1d748c57b30d2",
-      "v6-templates-banner-light.svg": "9a13cd45723c7e14a737354c55ec7926b381fc3a0f0a0eddbf0cabf2d885df1b",
-      "v6-templates-caderno-1.svg": "0d2034044ac60459cefb87ce92dbfcc8646257cd5a0a6a69317486386d2636e9",
-      "v6-templates-caderno-10.svg": "abbe71768cb7ef536f291e974b676cf68f2251363c914557c2fb95e148823edb",
-      "v6-templates-caderno-2.svg": "0e5dcc6be6923e223e4c5972b41c6314f933740f758735298ec6f5108ae1d2bb",
-      "v6-templates-caderno-3.svg": "fb0402b0cc353957bf28140ec628070506bef416a7b540752b6791e74b154962",
-      "v6-templates-caderno-4.svg": "885adcd2b22659f3a9afb52cc19e2446ad8e488c12846609a1e0b2dc548c2768",
-      "v6-templates-caderno-5.svg": "b3c8ec3b01e81e16f46f40b93fb5bdeb8a659a7beeec80227f5ab5aaa6e08752",
-      "v6-templates-caderno-6.svg": "ddd8f9ee33923315e303549e8ac6d2a99ea22dc8413a97ec67f5a522690955b4",
-      "v6-templates-caderno-7.svg": "26af82effc88bf6d9eeeef7ec48e76f42a46bcf1188284743196db91d25a930b",
-      "v6-templates-caderno-8.svg": "9a40ebf5501709c9283904e1e9f9048acc380134063e96546b18483441ccf48c",
-      "v6-templates-caderno-9.svg": "00b4b14e173d526fe80c4354eb1c0cd988957014b07d35ba1d1a93a04f21f61a",
-      "v6-templates-carousel-dark.svg": "148635af41c96c72fa33ea49b3aacafa14633a8e55cdfcae85631ab0337b92a8",
-      "v6-templates-carousel-light.svg": "4bee4877389e9ce64e54053ff0394fde12a87039cc70b1cc4a5b5c0760df8563",
-      "v6-templates-cover-dark.svg": "d69ff85a6124539a56ecbe768c7d428b1c4f25832aa1b72bba4515f598a709cd",
-      "v6-templates-cover-light.svg": "fedfac069baf6f1eb443843a55f6388717e3dfb74d493e5202b95e33de6d01e7",
-      "v6-templates-crystal-avatar.svg": "73832a6a122484ac0b3119335bb3c8183e57aee8ae71584364bc248338d11d9d",
-      "v6-templates-crystal-banner.svg": "07347db35f452f5616c8ffe1876c34b1b920b217ea56efd0af1c57c7adbb3f98",
-      "v6-templates-crystal-carousel.svg": "d0a89b7e0097e2f52d6a695fcfc8d7183623983d52773745445f7dd55b37f994",
-      "v6-templates-crystal-post.svg": "51790507284f7084930a8994d2249b1666890dc765f93966bec360cded660336",
-      "v6-templates-crystal-story.svg": "fb03b7250c630149fb7459ce4cb4dbc42904cc0d6bde783ff80355cc87edc3e0",
-      "v6-templates-display-dark.svg": "5e483b939ae01461d2f46b27a6ede7e4dbb59a8744d50b630c39cbddce193c0e",
-      "v6-templates-display-light.svg": "2cda6e85c4516416d71ef890b532e31a5a74699b1f043a7deb45d1b3997f56e5",
-      "v6-templates-flow-banner-dark.svg": "e723991d52288613907a0908b76c5718e30e074a268bb371973c37dba00b170c",
-      "v6-templates-flow-banner-light.svg": "5bb84935fed57cdacf7ecfdcd2e44a1a40f442a5e61d554d3f44b898455132da",
-      "v6-templates-flow-carousel-dark.svg": "77fa0baa5816cee5134d2fa3010f903c0a64dc080a45b488b99b3c2e848b2ee7",
-      "v6-templates-flow-carousel-light.svg": "4455eec722178570a2e0d60458ca69f7ae922579954538400e57c46f90c15855",
-      "v6-templates-flow-post-dark.svg": "dc120c729be959a9410bc00012f3862b8a19b7d8685a81206a578443f10d3142",
-      "v6-templates-flow-post-light.svg": "1f12740d90cb6e5714315ec092e888e1e52c6f27752b63239048c3d38c214e37",
-      "v6-templates-flow-story-dark.svg": "a8aff7cfc029c7e8fd6bc2559ab515d74667f51c5a79efafedb4d4e1ec33d052",
-      "v6-templates-flow-story-light.svg": "e5ab0ee87ca40f5992eaa2329619c927ac816992f654e2324793a5947fd8ee03",
-      "v6-templates-post-dark.svg": "2e0e8e9c3d50dc65e350c758600a97bad5a05de71cbb9d51271f4be1757cf390",
-      "v6-templates-post-light.svg": "672e8e3c86e77502b4bb6389f4b9c98941008781d4d8a88ff05008409b76dd50",
-      "v6-templates-story-dark.svg": "fc030c6498ac490a4269f2d83d4f0a8490d1175f3f23639eeb94228f42d2d78d",
-      "v6-templates-story-light.svg": "2b0b973b02f0c378466f3cc8fafdd90ebc8903b24b8ca37a9b9441267a362882",
-      "v6-templates-t04-carousel-1.svg": "f0835e1bb6be8ec06448f7329a15a3ef676cf208f74baa21df3d10d28690b652",
-      "v6-templates-t04-carousel-2.svg": "0fcacad9d96c1bf585146d86b77957bc114a6d4c61b21010020664fccc8b66b7",
-      "v6-templates-t04-carousel-3.svg": "14a91bc10b2c0a1d61a4bd59e1e5b46ef658f40deceab943b5326fca22de04e7",
-      "v6-templates-t04-carousel-4.svg": "7b864b8c912fce793b6cc8c520cf200848ff762868953c1cb7a458c735c23e27",
-      "v6-templates-t04-carousel-5.svg": "ed9e5f42d4d17e1aa76cfee0f3040ff349f3ae017738d29f332898d5ccb8b535",
-      "v6-templates-t04-carousel-6.svg": "c3ed893c3519870bc5eadd0386d5cd3e9300cb1291fc4e772d58c713220c627a",
-      "v6-templates-t04-story-1.svg": "759035ec99881cad36a3be7def4d4135f690005e2a8ec3d3d464db705ba35bf5",
-      "v6-templates-t04-story-2.svg": "94e39e4070ab966d684b247a4eae7341e5319310372f5db8b75cac6ad24298e4",
-      "v6-templates-t04-story-3.svg": "95ceaf0e2f44d1417defce7e5f4943a0bd691e4e0aada885c6859003ed26b53b",
-      "v6-templates-t04-story-4.svg": "fa049cbd11bd6a967e6a61d08c81d12e76415b9b694f76bdd671e8ed3da60417",
-      "v6-templates-t04-story-5.svg": "d50490e1d507a4e25ca95d05a67d176475492fec67ec04aaa947f003ffa244de",
-      "v6-templates-t04-story-6.svg": "b0ca02f401456b4ddafc5b11fd559433c11a727a0b2768a97e985b72b6fd281a",
-      "v6-tools-docker.svg": "ba1fb157870b2ec02e054aed42154ac7418e25af91ec321fd328d17cad4023cd",
-      "v6-tools-figma.svg": "7dcb1e43d58713e36796f10dd7a01835a612df9e215731ca5038eb7784b7c3fc",
-      "v6-tools-github.svg": "c093b01c77ae9e1e22e9e2529eb37fd742bcc6181f881228e2e9ed7231213000",
-      "v6-tools-hostinger.svg": "1df018b59333f30ef547197362bae3cf05c8086d181cdb88f440cfee496057b0",
-      "v6-tools-n8n.svg": "2a415d5d2dea1903450d0df1b2b76866948d12a704e13378e54ed6896830c2e9",
-      "v6-tools-obsidian.svg": "ed662a9b6d1a5d99aff7fd4d7d4fee915daa5bf714b94172cc016248010c2cb1",
-      "v6-tools-supabase.svg": "b6188fe14c9cf38c387f9064004d83133ea8f73b50e1bc3b68818b3759fd3b02",
-      "v6-tools-vercel.svg": "c8d69e0eabac7fab4ee8415dd9a423f791c4ba7b5fb803045f1dc2e29469734a",
-      "v6-tools-warp.svg": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85",
-      "v6-wear-v7-look-1.webp": "f133fe56b8cbb76e20ee8994ac6a26fa14c2bfd78e21a00c7eeae3df01e8a337",
-      "v6-wear-v7-look-2.webp": "849052476a642ba6686f6381c12b6651ecbba4a043ceb30e28b1bc712d36ccc1",
-      "v6-wear-v7-look-3.webp": "4c66b2b4f7cae7de62be5c361e2b5204616bb5f36a5ca5f0feb9dba6d8f820c1",
-      "v6-wear-v7-look-4.webp": "c20e4be01b61b91137d6614a33c7663f57dfc7c555f5ea69d28044e7dd1d86fb",
-      "v6-wear-v7-look-5.webp": "9137e22f52abd3e739d40bfa021b4da4776eac3a28006004fead4c3a972253b2",
-      "v6-wear-v7-look-6.webp": "58a814e5b2018dfb8ad358a56cf577aa925377613e78b3df56fafcdab612e238",
-      "v6-wear-v7-print-01.svg": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4",
-      "v6-wear-v7-print-02.svg": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1",
-      "v6-wear-v7-print-03.svg": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6",
-      "v6-wear-v7-print-04.svg": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e",
-      "v6-wear-v7-print-05.svg": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7",
-      "v6-wear-v7-print-06.svg": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2",
-      "v6-wear-v7-print-07.svg": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a",
-      "v6-wear-v7-print-08.svg": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999",
-      "v6-wear-v7-print-09.svg": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed",
-      "v6-wear-v7-print-10.svg": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78",
-      "v6-wear-v7-print-11.svg": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726",
-      "v6-wear-v7-print-12.svg": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0",
+      "v8-applications-avatar-client.svg": "e0e3d4ac38d833c6531b79e24b9c7eed77fe72e69399945b8aef38dbb41520ed",
+      "v8-applications-avatar-client.webp": "5b037a7c7089f4d9334fead6dd7009ac667dd145d37c41287499a86eaedce1d2",
+      "v8-applications-avatar-si.svg": "29a08aa22a731ad27505d8d9491291c4939e28656db7436776b6b7a6515c65f2",
+      "v8-applications-avatar-si.webp": "0e95b925c2e6db926fbff582faa5e6cd7f39d950ba792ab3def43ccd1afe2c88",
+      "v8-applications-avatar-t04.svg": "2ce4b39872230f74fe84b197a00d7d86e7f76b2cae8f8066b90c28385cf7ee0a",
+      "v8-applications-avatar-t04.webp": "38376c89376631339604d1a51f2c7d0f7546c1370509def02cee0d356d81ef4e",
+      "v8-applications-card-member.svg": "27de73eba7af4b1a15c59042af7de576c05cb0c45d759a39741983c87eb37cef",
+      "v8-applications-card-member.webp": "884f5cd747a131ddc80633cb4f51ebff5eb971c6ddfc9edc50cb0b375fc5de9b",
+      "v8-applications-cover-build.svg": "53ff116cd374b89e1db64e2aa3f05f2e29f4f262c06c25cc2d1f32bd5abee1f8",
+      "v8-applications-cover-build.webp": "8b1ea55c88b379edbe0745b66027d9fc91022c30a95165fce19e126f74adcac3",
+      "v8-applications-cover-foundations.svg": "3c76e9ea6878bfe812eda6d5d448a92902961b870ab36e9c70138a780e8db1ab",
+      "v8-applications-cover-foundations.webp": "3126f820193d2e5abcc25bc2599d3a078a82be0c112661f651487a29560b3ed2",
+      "v8-applications-ooh-triptych.svg": "a0f352e4e69caa9d2a03c5ad5fa843e18c8c2188b0579b32a09ee2cab0ce9188",
+      "v8-applications-ooh-triptych.webp": "f694f2b530928b745176efb98e594f21f606ecbed00d37c02d0ef5e7e435804a",
+      "v8-applications-poster-growth.svg": "0e7a28c04b7c4aaff7b2eacb0d7c6d4d4eedeb7384e1f81dd7143ddcdc14736e",
+      "v8-applications-poster-growth.webp": "843c3d74491b5d743df6ceeaebb39cd840c381a815467314e2e465a4159e8b66",
+      "v8-applications-poster-house.svg": "8782f0a86844283b94785eeb56a7043f2332e0cf5d4520ba5faeaf5ad6bb17e3",
+      "v8-applications-poster-house.webp": "5b569606eeab3503992d357a40c97bf41bb1e21dd93615d39b2176167f528057",
+      "v8-applications-poster-manifesto.svg": "4bb7ed42dd24296ba0661d62907217e7f41d19ebbcb353eaf3c8862efa6d6009",
+      "v8-applications-poster-manifesto.webp": "ea5a549f53227236c8bcf64f96ffabebc5d80f383f9dc5544b402e3c49a90b0d",
+      "v8-applications-poster-repertoire.svg": "f791604c8b4bced3dbf6ef46fa1d6965df284dca2f7113407f850dcf65a712e9",
+      "v8-applications-poster-repertoire.webp": "b35948c9d34adba29c056de4e7cd0b55f90667df43a585ec5e55cc6ef1559b6b",
+      "v8-applications-poster-school.svg": "b21323d7cde5881459e168ba5e518b93df46af7350b0e310fb719cdaf7556353",
+      "v8-applications-poster-school.webp": "1e44edaea125344853a735d461926a35fb0166691dd06bd443fbd5ab824a1049",
+      "v8-applications-story-invite.svg": "65c4bee0edee77c95d83c871e78126129edb7a5d21e410e7a89a6a1910e01831",
+      "v8-applications-story-invite.webp": "02ea13e69f740979be57e650dbc0695999621d6deecc1f43be5931d43efd5056",
+      "v8-applications-type-alphabet.svg": "ddc6ecf78e465f4c9147ef42eb6a4fbf6f8e46b60b33243cd279553d8eca005e",
+      "v8-applications-type-alphabet.webp": "767a0c3dcd03b2c9ad56babc14533dc98cd016929a0888902aa8ffed5edd5d5b",
+      "v8-applications-type-anatomy.svg": "3f15a55dedca946389b1d8d97b63c9f9dfe037ca6f4268c1c0cf38d9f98c2e26",
+      "v8-applications-type-anatomy.webp": "294756650fa546d91f06d1630edc0459deabca4b273969fabfc7d11078c229a0",
+      "v8-applications-type-proof.svg": "e9ae159a3cdabac11f522f66a18d4e44e04fc2c9d73eef96b96ceaa312f688c3",
+      "v8-applications-type-proof.webp": "1bc1a7ae20a9f7a857b4518e3866fd4033c891c153a6a2a43813700d4e1ae6b2",
+      "v8-applications-type-review.svg": "501cfe23a9dcf38558dbae30dddca9ca815272b01664c48426b7f6972af6e236",
+      "v8-applications-type-review.webp": "97bbc9b3eaa8c28889c067bef7c19f3522244780a4f2ff3958b5d1f00fc49184",
+      "v8-book-v8-page-01.webp": "a5981b19045fb64f5d8a29d7349f742bfeade789b9fbe39c372deb9f3406c6f0",
+      "v8-book-v8-page-02.webp": "dc27d81c3c72a897ed9c6ddcc3f94120872aee1b48553761fc3ce1d3c175eb3a",
+      "v8-book-v8-page-03.webp": "f2caecf53c25868010ab22442f296c369909d85b383dd531e06777dc7f41cf02",
+      "v8-book-v8-page-04.webp": "ea5fdeab7fe7ab0879a46fc1a377880ea1e589f1c94c4d92209c01833cd3c9a0",
+      "v8-book-v8-page-05.webp": "d1736584c0f3634087249e8fbb8209a583d3c44dee6809d1a7b04d183e3dea1a",
+      "v8-book-v8-page-06.webp": "f968a3f6b96ce9a330e62312ee1da895ec11efc316dc8987de1be2f20057924c",
+      "v8-book-v8-page-07.webp": "c1ed50c9c531a56a38d6cb2cce73c48a83053be99a1aaf306bd3f3376e42cb8c",
+      "v8-book-v8-page-08.webp": "11fe015b9986942ebaa41c3346b313a83f741aad96656f097f5f34599235a34b",
+      "v8-book-v8-page-09.webp": "59393e7a13647d2749956f0ee48504b5ab18f59977a03665df5c1daaff68fd78",
+      "v8-book-v8-page-10.webp": "c8afadb243fcc3befa7db8592dd95a5b91951ff1502751740da2fcfc2f9c6f68",
+      "v8-book-v8-page-11.webp": "60d353b762fa33a2b6271b23e462f16692126f8312d4353db1d8bd87ffb9f54f",
+      "v8-book-v8-page-12.webp": "d50fdb8603d2be3b203a30dac5857a33994e7d7cff07a5b0114a8ef00f0fe340",
+      "v8-book-v8-page-13.webp": "7f6717ec6298c989fda34bd8add2daa44e693a885a45ac0b4456da45a66ce4dd",
+      "v8-book-v8-page-14.webp": "7001bce53869a9d1fd018f2253b47e317d986d4fe5e35bfe60621d375c630202",
+      "v8-book-v8-page-15.webp": "fcecfca74c6259af70d0417e0587eecb2f60b987dae71daae43158dca680414a",
+      "v8-book-v8-page-16.webp": "430a6e714c888be14402d48aed876680f1f49b263af892d2ebdd7fe5d521a09e",
+      "v8-book-v8-page-17.webp": "d36f715a2c9a0cb8ce50f707db3633c58619b964db10d263c6f3cbd9ec5108ae",
+      "v8-book-v8-page-18.webp": "2bd51a404fcbb19782eb4bb857bd95eb63c753609be78a08d6e7feca712de1c9",
+      "v8-book-v8-page-19.webp": "abb64c6a6109fae5fc81794bd48c7233b55c554ae4a2d1c0d61c8101b5eaa7cd",
+      "v8-book-v8-page-20.webp": "000225b8ce486b0713c31382fc02b6647acfe725854322253b7c8790973236fe",
+      "v8-book-v8-page-21.webp": "36bd50db54a7ffca2104e643fddafa34aea89194a768ce172f0d607478ee3f2a",
+      "v8-book-v8-page-22.webp": "804377b10d1e6cf6857444b6117f6ce1720a80f1791a659f721bcca2b78bfaab",
+      "v8-book-v8-page-23.webp": "b4378039485ac2538556bb61298a5e385a205a03c17ac491a05e3fd1495a896d",
+      "v8-book-v8-page-24.webp": "b5a05f50c4b2c678add5ba35bb8594328049f8423fc77adc29e516a886eb3689",
+      "v8-book-v8-page-25.webp": "0b985d41fa73c7a3fe34422035ea8022e6958e7721fbe19ce05b4b7d08b79dc0",
+      "v8-book-v8-page-26.webp": "b8d861237c28ab248d1550e40b5542155278b4972db701571b6e2297cfd88292",
+      "v8-book-v8-page-27.webp": "7b65c156490947f05e0ef8486105d1d298a002939b93d0e210a1afd9f9d6afe1",
+      "v8-book-v8-page-28.webp": "8c5318e541334f79969afd1686565a2da215ee877db5d9e7f955f47b070a1e05",
+      "v8-book-v8-page-29.webp": "8f3f8dba446b60a579f3ce2b4afe1a25ccf429d404c678a09ee73bf40b86cdfc",
+      "v8-book-v8-page-30.webp": "a285cf7529e26a71d23f8cf152d2ce5ac12407c5bb0cb903015edd2638c7a888",
+      "v8-book-v8-page-31.webp": "87840a0c2a38e819eb42b3610dc394925c885bc41e655b0bdfa5ad3546eb57c1",
+      "v8-book-v8-page-32.webp": "efcdae31a4272a769625bb54eb5cea2323547a2a3b8549762e3c68767262fb79",
+      "v8-book-v8-page-33.webp": "62d94efe853f15fc42959d678d162091a8623da506f40011eee10ba06285cec7",
+      "v8-book-v8-page-34.webp": "821fddbaa03815a073cc1d0a00ec76fd08b99e5c3e7a661a6d859eb8fea660c9",
+      "v8-book-v8-page-35.webp": "088ee103ecccd3510c7e4c23263e66e6b9d167e0cd6f40e8fa5abade5e99f8d4",
+      "v8-book-v8-page-36.webp": "7d7b62b91f232440820b238dfa3b7a8c6da86c2309eee79c8d1bf4f55cc25fbf",
+      "v8-book-v8-page-37.webp": "87d3cd9ea0864808d41bb82f21bc7516329e565864f37f0d29e406c8768793cf",
+      "v8-book-v8-page-38.webp": "ee1d56460b47e00df054a94fce564a0c399646537165ad1f668a78e8da9085d0",
+      "v8-book-v8-page-39.webp": "2c8853a1d3e4149c41ebee21df2b10065b6ff85c77099f0258530b49d7723a1a",
+      "v8-book-v8-page-40.webp": "6ab031b7517383b06b764a8f289dc86f173fa2bd1b8df0f6c1ea8b82c581524d",
+      "v8-glass.webp": "ad9ecaaea9ee948f2977788c3e7e8d235b5f77783b6fd21f65a913bb86014eac",
+      "v8-hero.webp": "0fc686080262ac817195c353efc02281e2fd378c507cc217e6e6aaa70c8ca8c4",
+      "v8-icons-agent.svg": "5e6ad6dfd1dc4a365d4c9d0deff99a563aa4a775922b39b2ed7b9632ab27f6a1",
+      "v8-icons-code.svg": "14ee63bf8f215c5b4c0a93252113f8672efd2df69353104874663f7735f25aee",
+      "v8-icons-connect.svg": "1684753a48718853b25cc73276079399168954b35dd1779d2cef800fd946adcf",
+      "v8-icons-context.svg": "e02697c6377600b3099c74bb4350393a256d0dd66695c1238430fd4989be9cb7",
+      "v8-icons-create.svg": "caa6e8bf289da820649008f72f6a1aa2822f3680f5e33274d7e131092caa3d4b",
+      "v8-icons-data.svg": "e3e2382f3d38f834890918ce5c514441468e4d0673bff20ab4230301f56f9a9c",
+      "v8-icons-flow.svg": "fe533d0c9bbccb853b1c5638aa469c16ec4c5969a60e2116e2819dd124c936cb",
+      "v8-icons-growth.svg": "ec7125bff84cff4f1b4d0af9f1b900371bd28dd61bb780b252727437ab7e7e15",
+      "v8-icons-house.svg": "1e0a86900ab7b480a3f98dce6212c707ffdc7c8d507cb4a41a24af834c146411",
+      "v8-icons-orbit.svg": "5a7532425515d8388a33ac6dadae8bdd4a8863a314166975ca2434a779c03be4",
+      "v8-icons-play.svg": "6353087967967031a425a525ee5a699067e825bb2666a7e7d508bfcb4476a2e4",
+      "v8-icons-school.svg": "0711f1d90a4a7a57112a5d6c8d70d186adcc5e6e5e16cd9eaa4bd9ce7bf04a5b",
+      "v8-logos-sinapse-frost-dark.svg": "39dcab903d5ba54bd3e6f2955b100400f58c20562cffec6561d8fc78338d13a2",
+      "v8-logos-sinapse-frost-light.svg": "c95c5a3bfa1228d81210963cd3e2b11a6063f6c6e9f6f6030c92f622123e3210",
+      "v8-logos-sinapse-glass-dark.svg": "e7da608d512b77a826d8ff369a531bbb508cb843cc4a702f7f17c04f0b40a5ab",
+      "v8-logos-sinapse-glass-light.svg": "e7e18fd72ad1a02d02f72a327ded8c367546c56b9dee196b513037117bfaf64e",
+      "v8-logos-sinapse-growth-frost-dark.svg": "912e4fb8d25261acea80ce9a8956d0ae1942b046b612b56c4fac53bf1b30537e",
+      "v8-logos-sinapse-growth-frost-light.svg": "ee780109f3c8e82d60c811ab3056aad3ad8310730ecb51c9848f958efe1e8ae4",
+      "v8-logos-sinapse-growth-glass-dark.svg": "22ae7374ca9802a400954ea42aea0b89b3d9d489dc5930a74c61fd66c18e2825",
+      "v8-logos-sinapse-growth-glass-light.svg": "41b12fa1aae317832cbece25b35f34b1e159c087c1063d9684bf22bfbabf4659",
+      "v8-logos-sinapse-growth-silver-dark.svg": "fe8a9f0ca53bab6006a31109e6cbeb3635523a2b1091586e766b81e5d7053abd",
+      "v8-logos-sinapse-growth-silver-light.svg": "42ae4087eb8e8e685229eace329c3bd1ea94ffb9eac657a31fabcba9faf8949d",
+      "v8-logos-sinapse-growth-solid-dark.svg": "986ef7cc584296814d80122cbd36cbfe73eaaddbb0b3c3b578ae2104d19da83b",
+      "v8-logos-sinapse-growth-solid-light.svg": "2484f484709d16d6db4bf34f0d59f90334b2a1ea90209c54d587d6080756c52c",
+      "v8-logos-sinapse-house-frost-dark.svg": "f2a34106d14df5bb23136c7f6c3cd8a940c0278e99c87406e251d26ab8309d7e",
+      "v8-logos-sinapse-house-frost-light.svg": "b61afab95ff37fd72e6ce77cbb899af4cc443fc279637918fc85af889b882f2b",
+      "v8-logos-sinapse-house-glass-dark.svg": "f33364109a373fff2c30ec6bcef374c21316b0fca852ca517015c145384c6331",
+      "v8-logos-sinapse-house-glass-light.svg": "029718c04ed206517fc00b4594c915fad1e5e88bdbe97aa26214ef8cf6f6f92c",
+      "v8-logos-sinapse-house-silver-dark.svg": "069b324149caf2db84b2c95edbe959fb570d84451f8fc250fc3768592e5efc4a",
+      "v8-logos-sinapse-house-silver-light.svg": "7115323f6d4dbaf4668bfa0cfe373f106b2820bcd527684a6edad2652cd617a2",
+      "v8-logos-sinapse-house-solid-dark.svg": "89ae9463304e40d81f7578a2a77f6a6a58891b05e7b4e7ec5cd741c01c198f0f",
+      "v8-logos-sinapse-house-solid-light.svg": "09ff3ac949f8696aacdb388f94080dfa21e7e276b3930dc79a4262623254a78b",
+      "v8-logos-sinapse-school-frost-dark.svg": "3c2c45d0aedc414d8b5e31890b54933a7d54a3758f55965e2751614464677df5",
+      "v8-logos-sinapse-school-frost-light.svg": "f587cba2f664d799a15eebf80abac383358810b347b053f1c5ff50cd17881ffe",
+      "v8-logos-sinapse-school-glass-dark.svg": "c1fc09535d202a7d2d7eb59f8338f4f8db759d8c754b2fa6a3178f43efada601",
+      "v8-logos-sinapse-school-glass-light.svg": "aa0c87a4ef5e03b1d79fca819c28470c297e02def3aa5d37900f0c23e1bbbe18",
+      "v8-logos-sinapse-school-silver-dark.svg": "c37ba4838397e51e20b30d40636dc2803c026d1e7bbfdc25ccaabae03d80b181",
+      "v8-logos-sinapse-school-silver-light.svg": "f555dd9005af5da6ffaed59de85ccdb6fe69fb55c948e1e66a28508e61253afc",
+      "v8-logos-sinapse-school-solid-dark.svg": "c4259fcbaaf9b75873a5e1e6817b6e5f6b69389b3e0f2a8ae09468a4646281a9",
+      "v8-logos-sinapse-school-solid-light.svg": "65bad8a2c251d76239cdebb212f81441a62f08d33494c6251775b18575d81155",
+      "v8-logos-sinapse-si-frost-dark.svg": "807f7e2fff795b820677342998d08d857741e6e3eda6c7fe3e9451699f78c3af",
+      "v8-logos-sinapse-si-frost-light.svg": "1338dfb55f2cd5f1dba5570698b6fb3baaac27a2e388245b601cd5b40ab7affb",
+      "v8-logos-sinapse-si-glass-dark.svg": "9d36940cf7d7cdd884dfb22a17a7aa63ad870d6890e89b383306193b879a5a86",
+      "v8-logos-sinapse-si-glass-light.svg": "45fe47145932313cb487ac10ca0319ccd06efa2d894acf832ab8a07cd1c2ecb5",
+      "v8-logos-sinapse-si-silver-dark.svg": "aedc173ae5419a402026c6e2399018370a8943853c5bd2fa26844042039a801d",
+      "v8-logos-sinapse-si-silver-light.svg": "fac72bd3db34a92650a2199c78e0fb4b8bbb238b45185b5d836cf2b20bea302d",
+      "v8-logos-sinapse-si-solid-dark.svg": "4fc93f32e82f3ff02f347201fccede64d2329baf6c82d3cfec82b305a83c346a",
+      "v8-logos-sinapse-si-solid-light.svg": "e84f2fdd5f37cc39dcdbfbd24d59d78e759d689a4a8faddf5da024cb3087a38d",
+      "v8-logos-sinapse-silver-dark.svg": "a255ba9c415a6b9ea8b91380c1ba28f63fd5d3216bd6920432cf19e3e5950b2d",
+      "v8-logos-sinapse-silver-light.svg": "ecea1395d30cfe4991d591715159629e91ccca57ede505c903d8e139fdd52de1",
+      "v8-logos-sinapse-solid-dark.svg": "838ec82907398dc5153d3794f86ec457b30675593432bc32f86d7a91aa1004d3",
+      "v8-logos-sinapse-solid-light.svg": "c0c11a4e826f41bb2fa4473339f16864390c52b73f15b398f217167a48ff308c",
+      "v8-logos-snps-frost-dark.svg": "c65f56a3674dfcc4d4d6afc90d69af3063c67f655ac86cd5d9fd349ef08fee9c",
+      "v8-logos-snps-frost-light.svg": "528bd660c6bfb13823eac2a453b854b426659bd71f704fe15a52dbc7a7079539",
+      "v8-logos-snps-glass-dark.svg": "ae8fe184c052058d65af7a667269db5a069901e5552f62fda8651eb205ae2aaf",
+      "v8-logos-snps-glass-light.svg": "7a256ac8d5c5c737a605ac028fca4f38c32e6ff74c502c2f7a5d715ec23e81ed",
+      "v8-logos-snps-growth-frost-dark.svg": "aafa9d811fbb0975f54962daaeff919017325e7a9eb905bd990799d57e086385",
+      "v8-logos-snps-growth-frost-light.svg": "af4d44aa8c9ed55ff5c7068bd350d9d944b5031a0ae70623382f317293985f0d",
+      "v8-logos-snps-growth-glass-dark.svg": "04bc2d6142149952f00a55765e4d965b8e6e29564b2f10f4796c244e46e0a79a",
+      "v8-logos-snps-growth-glass-light.svg": "b78aa25c4f65319accd36ec29acf5688e80ed2f2b29b9596273f22324003008b",
+      "v8-logos-snps-growth-silver-dark.svg": "27c14a1978176eb1ac5816025042fd000578c94ac308d30d63182d75af105e6a",
+      "v8-logos-snps-growth-silver-light.svg": "4c3ba7bc29ef89eb8ad8372254827f8cc3ce103e3c6193bd741d19f2abf10da0",
+      "v8-logos-snps-growth-solid-dark.svg": "a7ca909ab5206aa0f9f2a4cf6f4725c5d0b3d2169b89537daac7cc72f85ecb56",
+      "v8-logos-snps-growth-solid-light.svg": "8390aeef3294fbdb10ff6d6fd444491fbaded6abd038772d773867426e71f257",
+      "v8-logos-snps-house-frost-dark.svg": "43f7d0fd1c800a9684c6d28d5315159cdad01a9e0a3910b4d9c143e1b65befba",
+      "v8-logos-snps-house-frost-light.svg": "e355bd5c30033616ed96d368019d25bfa4cf5e8ddadecc2782621c971252309f",
+      "v8-logos-snps-house-glass-dark.svg": "30012df7d56c5cc44a27cfad9206ee3853032597598495fb9686f514ef23346f",
+      "v8-logos-snps-house-glass-light.svg": "c73fdf24e98d15dcc590a82561fa130589db4f6a21e8a21cf0beaccc613e755d",
+      "v8-logos-snps-house-silver-dark.svg": "28a93345c83b2fb22b887b8d3a5f5a3ba28eda71a426099046d0aa23d02341bd",
+      "v8-logos-snps-house-silver-light.svg": "bf40c54b220e3b6f8a1992b2ebfb49d00221bc6925eb4c000d9ed4dbd3b2ae89",
+      "v8-logos-snps-house-solid-dark.svg": "e805e8d0553bb7ac82fb795df2cc9df269cb6d96e9605f5265ed133a0636f96d",
+      "v8-logos-snps-house-solid-light.svg": "425456a8f9938acb6b901b837e0a23d2d5b88b4a218c130681566a0e3dce5136",
+      "v8-logos-snps-school-frost-dark.svg": "7f7c5d30e4fc0244c2fc3bc63d117be9fc9530846886b714065187db50c6f454",
+      "v8-logos-snps-school-frost-light.svg": "dde82e956c19fefe0858f9d78a88a76370b9957958243cb78427f97ee1256d91",
+      "v8-logos-snps-school-glass-dark.svg": "96749d1de623440ba4914d6e8c3c98edc9846204b869ecd10f51aee904f4279f",
+      "v8-logos-snps-school-glass-light.svg": "741d0ca9cc8ea7631c64e79a8dfb29f7fc649f45c59ca56ef149c068c85fae06",
+      "v8-logos-snps-school-silver-dark.svg": "c76b5c126ab06043a28a250d4e9c4f0e62535138aac65a94d47f4e00c6b1a213",
+      "v8-logos-snps-school-silver-light.svg": "2b4c638b100b9a3730b6dfa9a1ce741fea73c52371b0dbc4ff4f6328d23667c5",
+      "v8-logos-snps-school-solid-dark.svg": "74ca64aea57318a713b9e1dde6aad58444f3521e529d4ab81832c74a497aced7",
+      "v8-logos-snps-school-solid-light.svg": "0e3ead04f314ff8e902e3e0db1ea292703dc8532e0f8564a52f0e5daa97a545d",
+      "v8-logos-snps-si-frost-dark.svg": "6cb2b3c7161a4feba1d2efeef8be3e07e5103a6c05284c2b10e8a7567473d486",
+      "v8-logos-snps-si-frost-light.svg": "0891ebc287578d443445639d117b7b58c7108b2fa9f7aa777fe7048d485a427d",
+      "v8-logos-snps-si-glass-dark.svg": "58432216fa56e2e79523016a009bc9dbbaa04f41f17f74b077fc7871a3a5de89",
+      "v8-logos-snps-si-glass-light.svg": "771390ea1cd175741c25920364658c71951fac4bc4314927a478ab0e354f5b89",
+      "v8-logos-snps-si-silver-dark.svg": "38c64d36e21bcef34308c877ead6a31b6ba30349f08b00674cd1e7044b4e4cae",
+      "v8-logos-snps-si-silver-light.svg": "e69a7bf6040a29904e837c6e58749457aeafc4b8ca40182182174f441ac74790",
+      "v8-logos-snps-si-solid-dark.svg": "a404fa97c4b18a1440c69a13eea93d10e48130a7f8ab4cbd2093868a0c6f2c3d",
+      "v8-logos-snps-si-solid-light.svg": "950a488b9f426d81607569c07d664a16b4ad4e9d3b4880594668b436699b28fa",
+      "v8-logos-snps-silver-dark.svg": "8f753ecabd5102d1b216c800e5cbd7d45b91489e4b35ec8b502d04c87eaafefe",
+      "v8-logos-snps-silver-light.svg": "23aae50745caa03a2e507c01af078683ff3db29b8d199d5d0ccccf7e2dffb330",
+      "v8-logos-snps-solid-dark.svg": "6eaaaeb8c8da5bf78339339d651a315369e01a2f2c7a09df7f7ed7c1e7041c08",
+      "v8-logos-snps-solid-light.svg": "7e7b51aceb01e6f47ae19db626d4346b09404bd3a6d3aae57f7b0856e07294d5",
+      "v8-materials-snps-glass-transparent.png": "6c590781a3dbb08305812aa4fa8c721dc95dca19200aa232f6b792004ff73892",
+      "v8-materials-snps-glass-transparent.webp": "59e057b0484870eca77260308fa173f6595f10e122ef7afa8cf5e4f2495f4ef1",
+      "v8-metal.webp": "0ab5cf6dbc1aa48fa26cec0a15340f50467c7897643f629e19caa2e32bf4c2cf",
+      "v8-SINAPSE-SI-Brandbook-07.pdf": "e238a8d2a976f11f581eb327a01dcb431b824cb0e0b20e0514759ef2e608164d",
+      "v8-stationery.webp": "50eca3db5825aef7e8b183b733e785f31fdf4d9bbdd67209b6c9c6a93378c9f1",
+      "v8-symbol-circle-frost-dark.svg": "b59034b5fb968fd6cf0c70651fc9bc53c502c2f9bf293a9c4897c9d9e62bac93",
+      "v8-symbol-circle-frost-light.svg": "020153bf5a7e48b1b8e4f4c8771d8caec984ce09d44c61c700cdab6e2bed0c02",
+      "v8-symbol-circle-glass-dark.svg": "5ad3c89123ce698e0a2edc038345344dc5eb6b80aabf5c092263c192d0905b4e",
+      "v8-symbol-circle-glass-light.svg": "ad0a563cc7d82088a4944749156df4c4116bece875f88d03804a8a89cc4db3d6",
+      "v8-symbol-circle-silver-dark.svg": "67e1171836d60293406be809f5e2d853e8047a26e338da0896af8a35bbb0e237",
+      "v8-symbol-circle-silver-light.svg": "b066c833f6e848a5374d5f5198d7c6178b2e502063399a6495c0da26a9be3c7a",
+      "v8-symbol-circle-solid-dark.svg": "77940d93acbadc53af11394de028b360c4e8779c116e8eb9f4932c965498ab39",
+      "v8-symbol-circle-solid-light.svg": "1434a95d349855820e727b2bc9d49568147898d62e1def02e77c44c03d439d54",
+      "v8-symbol-circle-source-page-08.pdf": "a8fa4551f7d89cd22c4f04632ba262f31b6770bd8d6cb6db65ea192ddf315fa6",
+      "v8-templates-avatar-dark.svg": "e041ec531abeff10cc5d324272ab6d772aa781e2002c85abec56d7f30dbe47e3",
+      "v8-templates-avatar-light.svg": "0272d9650b320ae56e9f0c8eec3494a0547f7ef98d7ed1c7fdf779263ebb5ba5",
+      "v8-templates-banner-dark.svg": "0f671d5a57e61c95e7a2bb6da9a53d3749fe6108d1b043c698f1d748c57b30d2",
+      "v8-templates-banner-light.svg": "9a13cd45723c7e14a737354c55ec7926b381fc3a0f0a0eddbf0cabf2d885df1b",
+      "v8-templates-caderno-1.svg": "0d2034044ac60459cefb87ce92dbfcc8646257cd5a0a6a69317486386d2636e9",
+      "v8-templates-caderno-10.svg": "abbe71768cb7ef536f291e974b676cf68f2251363c914557c2fb95e148823edb",
+      "v8-templates-caderno-2.svg": "0e5dcc6be6923e223e4c5972b41c6314f933740f758735298ec6f5108ae1d2bb",
+      "v8-templates-caderno-3.svg": "fb0402b0cc353957bf28140ec628070506bef416a7b540752b6791e74b154962",
+      "v8-templates-caderno-4.svg": "885adcd2b22659f3a9afb52cc19e2446ad8e488c12846609a1e0b2dc548c2768",
+      "v8-templates-caderno-5.svg": "b3c8ec3b01e81e16f46f40b93fb5bdeb8a659a7beeec80227f5ab5aaa6e08752",
+      "v8-templates-caderno-6.svg": "ddd8f9ee33923315e303549e8ac6d2a99ea22dc8413a97ec67f5a522690955b4",
+      "v8-templates-caderno-7.svg": "26af82effc88bf6d9eeeef7ec48e76f42a46bcf1188284743196db91d25a930b",
+      "v8-templates-caderno-8.svg": "9a40ebf5501709c9283904e1e9f9048acc380134063e96546b18483441ccf48c",
+      "v8-templates-caderno-9.svg": "00b4b14e173d526fe80c4354eb1c0cd988957014b07d35ba1d1a93a04f21f61a",
+      "v8-templates-carousel-dark.svg": "148635af41c96c72fa33ea49b3aacafa14633a8e55cdfcae85631ab0337b92a8",
+      "v8-templates-carousel-light.svg": "4bee4877389e9ce64e54053ff0394fde12a87039cc70b1cc4a5b5c0760df8563",
+      "v8-templates-cover-dark.svg": "d69ff85a6124539a56ecbe768c7d428b1c4f25832aa1b72bba4515f598a709cd",
+      "v8-templates-cover-light.svg": "fedfac069baf6f1eb443843a55f6388717e3dfb74d493e5202b95e33de6d01e7",
+      "v8-templates-crystal-avatar.svg": "73832a6a122484ac0b3119335bb3c8183e57aee8ae71584364bc248338d11d9d",
+      "v8-templates-crystal-banner.svg": "07347db35f452f5616c8ffe1876c34b1b920b217ea56efd0af1c57c7adbb3f98",
+      "v8-templates-crystal-carousel.svg": "d0a89b7e0097e2f52d6a695fcfc8d7183623983d52773745445f7dd55b37f994",
+      "v8-templates-crystal-post.svg": "51790507284f7084930a8994d2249b1666890dc765f93966bec360cded660336",
+      "v8-templates-crystal-story.svg": "fb03b7250c630149fb7459ce4cb4dbc42904cc0d6bde783ff80355cc87edc3e0",
+      "v8-templates-display-dark.svg": "5e483b939ae01461d2f46b27a6ede7e4dbb59a8744d50b630c39cbddce193c0e",
+      "v8-templates-display-light.svg": "2cda6e85c4516416d71ef890b532e31a5a74699b1f043a7deb45d1b3997f56e5",
+      "v8-templates-flow-banner-dark.svg": "e723991d52288613907a0908b76c5718e30e074a268bb371973c37dba00b170c",
+      "v8-templates-flow-banner-light.svg": "5bb84935fed57cdacf7ecfdcd2e44a1a40f442a5e61d554d3f44b898455132da",
+      "v8-templates-flow-carousel-dark.svg": "77fa0baa5816cee5134d2fa3010f903c0a64dc080a45b488b99b3c2e848b2ee7",
+      "v8-templates-flow-carousel-light.svg": "4455eec722178570a2e0d60458ca69f7ae922579954538400e57c46f90c15855",
+      "v8-templates-flow-post-dark.svg": "dc120c729be959a9410bc00012f3862b8a19b7d8685a81206a578443f10d3142",
+      "v8-templates-flow-post-light.svg": "1f12740d90cb6e5714315ec092e888e1e52c6f27752b63239048c3d38c214e37",
+      "v8-templates-flow-story-dark.svg": "a8aff7cfc029c7e8fd6bc2559ab515d74667f51c5a79efafedb4d4e1ec33d052",
+      "v8-templates-flow-story-light.svg": "e5ab0ee87ca40f5992eaa2329619c927ac816992f654e2324793a5947fd8ee03",
+      "v8-templates-post-dark.svg": "2e0e8e9c3d50dc65e350c758600a97bad5a05de71cbb9d51271f4be1757cf390",
+      "v8-templates-post-light.svg": "672e8e3c86e77502b4bb6389f4b9c98941008781d4d8a88ff05008409b76dd50",
+      "v8-templates-story-dark.svg": "fc030c6498ac490a4269f2d83d4f0a8490d1175f3f23639eeb94228f42d2d78d",
+      "v8-templates-story-light.svg": "2b0b973b02f0c378466f3cc8fafdd90ebc8903b24b8ca37a9b9441267a362882",
+      "v8-templates-t04-carousel-1.svg": "f0835e1bb6be8ec06448f7329a15a3ef676cf208f74baa21df3d10d28690b652",
+      "v8-templates-t04-carousel-2.svg": "0fcacad9d96c1bf585146d86b77957bc114a6d4c61b21010020664fccc8b66b7",
+      "v8-templates-t04-carousel-3.svg": "14a91bc10b2c0a1d61a4bd59e1e5b46ef658f40deceab943b5326fca22de04e7",
+      "v8-templates-t04-carousel-4.svg": "7b864b8c912fce793b6cc8c520cf200848ff762868953c1cb7a458c735c23e27",
+      "v8-templates-t04-carousel-5.svg": "ed9e5f42d4d17e1aa76cfee0f3040ff349f3ae017738d29f332898d5ccb8b535",
+      "v8-templates-t04-carousel-6.svg": "c3ed893c3519870bc5eadd0386d5cd3e9300cb1291fc4e772d58c713220c627a",
+      "v8-templates-t04-story-1.svg": "759035ec99881cad36a3be7def4d4135f690005e2a8ec3d3d464db705ba35bf5",
+      "v8-templates-t04-story-2.svg": "94e39e4070ab966d684b247a4eae7341e5319310372f5db8b75cac6ad24298e4",
+      "v8-templates-t04-story-3.svg": "95ceaf0e2f44d1417defce7e5f4943a0bd691e4e0aada885c6859003ed26b53b",
+      "v8-templates-t04-story-4.svg": "fa049cbd11bd6a967e6a61d08c81d12e76415b9b694f76bdd671e8ed3da60417",
+      "v8-templates-t04-story-5.svg": "d50490e1d507a4e25ca95d05a67d176475492fec67ec04aaa947f003ffa244de",
+      "v8-templates-t04-story-6.svg": "b0ca02f401456b4ddafc5b11fd559433c11a727a0b2768a97e985b72b6fd281a",
+      "v8-tools-docker.svg": "ba1fb157870b2ec02e054aed42154ac7418e25af91ec321fd328d17cad4023cd",
+      "v8-tools-figma.svg": "7dcb1e43d58713e36796f10dd7a01835a612df9e215731ca5038eb7784b7c3fc",
+      "v8-tools-github.svg": "c093b01c77ae9e1e22e9e2529eb37fd742bcc6181f881228e2e9ed7231213000",
+      "v8-tools-hostinger.svg": "1df018b59333f30ef547197362bae3cf05c8086d181cdb88f440cfee496057b0",
+      "v8-tools-n8n.svg": "2a415d5d2dea1903450d0df1b2b76866948d12a704e13378e54ed6896830c2e9",
+      "v8-tools-obsidian.svg": "ed662a9b6d1a5d99aff7fd4d7d4fee915daa5bf714b94172cc016248010c2cb1",
+      "v8-tools-supabase.svg": "b6188fe14c9cf38c387f9064004d83133ea8f73b50e1bc3b68818b3759fd3b02",
+      "v8-tools-vercel.svg": "c8d69e0eabac7fab4ee8415dd9a423f791c4ba7b5fb803045f1dc2e29469734a",
+      "v8-tools-warp.svg": "2b41e8b8d249aeeed69132f9b884f8a52c874e09f9731df4b39e8ae4e28c8f85",
+      "v8-visual-v8-circle-glass.webp": "8a00cb6d72d10ec5a6433f0bb36a8819a91d895c212a1d2b7ab92fd32f55220e",
+      "v8-visual-v8-circle-paper.webp": "194465487982caea8e8977b29fb0697c13a4de646b8e6fc65a35ab0d7eb44ad6",
+      "v8-visual-v8-circle-silver.webp": "0d10ddf0e7fe7b0dfe3b7f1bfda95155318a2556f4ea0703042653a4423410c5",
+      "v8-wear-v8-print-01.svg": "5f877ecb6b3d1c85be70958e35cd1185c2ed89459492a7ce7ae84c82bb619bb4",
+      "v8-wear-v8-print-02.svg": "96b049cb49a9edf2dae21378def31d949cd37c82e6d4534fbd5f88c438909cd1",
+      "v8-wear-v8-print-03.svg": "f21d09125b09ac45de4924baf8fb03996066af8d0fd5ed59e9d6f03e1ab6a0c6",
+      "v8-wear-v8-print-04.svg": "9c57cedfbbe703b16c8711f5f6fd7627a9fefcdc967a4697ec3f5be965f7459e",
+      "v8-wear-v8-print-05.svg": "1533b3e4228423ab4a5ee69c9db5b9c58d7e20302638e27074a3f00e614c31f7",
+      "v8-wear-v8-print-06.svg": "5407fdd4468a711e9ebb58241272ea63494524061e95d1266800ee75e9f642c2",
+      "v8-wear-v8-print-07.svg": "d55fc1762badba7733a5827987031e988dc26de10c24d22dd64860e08218dc3a",
+      "v8-wear-v8-print-08.svg": "177c6decb1fe79bbbd971a77d3f218ae81562e1ee6a1f7ff2991926ca0ebd999",
+      "v8-wear-v8-print-09.svg": "1f6c988306f59fbfb33e2c8607827bb663862d919208b575f5c457d8371293ed",
+      "v8-wear-v8-print-10.svg": "309031f0e9d6e27cdd176243b5f457592acea550a6808f6faf9f4a83222b6d78",
+      "v8-wear-v8-print-11.svg": "299a843e384ff9b76621167974ff5701c1bf76e8daf57f07746fc0c593bf2726",
+      "v8-wear-v8-print-12.svg": "d8d0cdfa95bc3432458781bf34055db40636c06c7c2c7e25e3d5ab2bf65f12f0",
+      "v8-wear-v8-sheet-1.webp": "1d656d4a9b8bb61d8553ccfe86a074fb385a7a5ce9a0caa9bb15804bc177a6a3",
+      "v8-wear-v8-sheet-2.webp": "bda9789c26757807ef3e8d7fba1e16db69d979ed0e4bb26415ad6bee7bf08f60",
+      "v8-wear-v8-sheet-3.webp": "6e12441eeea433519336f010244b232b47c0fd44aa9ebe00cbe67cc988849a60",
+      "v8-wear-v8-sheet-4.webp": "2db70c83d654fbe05fdee58e2d209f1e0e07fe89e012af069e8e271ac6dd64e0",
+      "v8-wear-v8-sheet-5.webp": "0d6f7ef3a2e73c6783904503475ff496980dfebf82f2310fe0c2dc5ac6a98492",
+      "v8-wear-v8-sheet-6.webp": "6a69c43e7b2d4f6446d4e03aecbb99fad07eedff5c8c107cce1a1c78bac4db01",
       "snps-lockup-master": "dd451f5b9bc8b846e30754b3da02e113b51e8943222e826ffbeb46651bbd5b9d",
       "sinapse-wordmark-master": "a50be381bff895816198ed3083a9121d32dafd59d221637861d2ad8a0c434fea"
     },
-    "scope": "Changed descriptor signatures and wear collection reviewed at 320, 390, 768 and 1440px plus affected breakpoints; dark/light, filters, SVG inspection dialog, current book pages and generated photos reviewed. Unchanged assets retain prior QA. No physical production or publication approval."
+    "scope": "New symbol, nine generated photographs and visual PDF reviewed as local files. Unchanged assets retain previous review. Responsive web and interactions NOT verified: browser URL policy / user-reported connection refused.",
+    "browser_status": "pending_connection"
   }
 }
