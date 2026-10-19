@@ -73,6 +73,11 @@
       "id": "SI-V8",
       "status": "user_direction_implemented_pending_review",
       "decision": "Keep existing thin S in a circle from Idv_SNPS.pdf page 8. Visual edition 07 replaces text-heavy presentation; 40 pages. Every apparel piece shows front and back: front simple circle mark, back phrase and SNPS SI. Regular tees and approved Caveat retained. Source PDF is raster-only; contour recovered, not native Bezier. Browser inspection remains pending due URL policy / user-reported connection refusal."
+    },
+    {
+      "id": "SI-V9",
+      "status": "user_direction_implemented_pending_review",
+      "decision": "R originates in upper edge of bowl beam; other glyphs preserved. Existing S circular remains and exact inner contour is also available standalone. All 12 garments have both versions, front/back, with back SVGs preserved. Edition 08: 53 visual pages; 9 posts with 3 five-frame carousels; 5 four-frame highlights and 2 avatars. Proposed editorial, no Instagram or production publication. Current browser evidence in docs/SINAPSE-SI-V9-QA.md supersedes the prior connection limitation."
     }
   ]
 }

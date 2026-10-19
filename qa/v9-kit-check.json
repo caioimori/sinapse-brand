@@ -1,0 +1,26 @@
+{
+  "archives": [
+    {
+      "file": "SINAPSE-SI-Kit-08.zip",
+      "files": 481,
+      "crc": "passed",
+      "sha256_readback": "passed",
+      "archive_bytes": 50892213,
+      "sha256": "ae8378529f60f1bc37bd1a4428ea60ebe9f07394d665614bf862e16f926d5069"
+    },
+    {
+      "file": "SINAPSE-SI-Social-08.zip",
+      "files": 154,
+      "crc": "passed",
+      "sha256_readback": "passed",
+      "archive_bytes": 15097506,
+      "sha256": "1365fc0e23e89f6c2acdd5072c6eeda38cd456fe32e2513c390df92af7b82b99"
+    }
+  ],
+  "excluded": [
+    "rejected symbol proposals",
+    "historical books and collections",
+    "standalone third-party reference photography"
+  ],
+  "reference_art": "The PDF contains three small credited examples for analysis; third-party reference assets are not brand assets."
+}

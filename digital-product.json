@@ -52,10 +52,10 @@
     }
   ],
   "handoff": [
-    "fontes editáveis",
-    "kit",
-    "PDF",
-    "PR e prévia"
+    "fontes e vetores",
+    "kit e PDF 08",
+    "sistema social 08",
+    "PR #11 e prévia local"
   ],
-  "implementation_status": "implemented_local_preview_v7_browser_review_pending"
+  "implementation_status": "implemented_local_preview_v8"
 }

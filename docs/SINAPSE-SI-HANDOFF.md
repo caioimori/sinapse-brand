@@ -1,3 +1,21 @@
+# SINAPSE SI / edição 08 / vigente em 19.10.2026
+
+Pedido atual: corrigir a origem da perna do R, disponibilizar o mesmo S sem círculo e refinar a formatação visual do brandbook com perfil, feed, destaques e posts. Mestres SNPS/SINAPSE e decisões anteriores preservados. Preto e branco, Dark First + Light, descritores em uma linha e espaço de uma altura de letra.
+
+SNPS Display 1.300: somente R/r e formas acentuadas de R mudam. A diagonal começa na borda superior da barra do bojo, sobreposta ao traço, sem raiz arredondada. Demais curvas e avanços intactos. S sem círculo usa exatamente o contorno interno de symbol-circle/source.json como preenchimento positivo; original raster da página 8, não Bézier original. O círculo segue disponível.
+
+Collection 04 tem 12 peças com frente/costas, duas versões de símbolo e 12 folhas fotográficas. Fonte/data atual: data/si/wear-v9.json. Costas nativas e Caveat preservadas. Seis edições fotográficas novas em wear-v9 mudam apenas os dois símbolos de frente por folha; todos os mockups são conceituais. Conferir amostra física antes de fabricar.
+
+Edição 08: 53 páginas, 7.252 caracteres informativos nativos, zero texto fora dos limites. Navegação por capítulos, galeria de aplicações em colunas com arte completa, perfil com dois avatares, nove posts, três carrosséis de cinco telas e cinco destaques de quatro Stories. Arquivos sociais em public/si-v2/social-v9; conteúdo/captions em data/si/social-v9.json. Sem aplicação ao Instagram.
+
+A conexão da prévia foi restaurada. QA atual em docs/SINAPSE-SI-V9-QA.md e qa/v9-*.json substitui a limitação de conexão anterior. TypeScript, build de produção e 311 provas de fidelidade passaram. Não herdar inspeção de edições antigas como prova desta edição. Dev em 127.0.0.1:3256, checkout knowledge/sinapse-si-brandbook, branch feat/sinapse-si-brandbook-20261016, PR #11. Build isolado em .next-verify; preservar o servidor dev.
+
+Geradores vigentes: build-si-v9-symbol.py; build-snps-display.py; build-si-v6-signatures.py; build-si-v9-delivery.py; consolidate-si-v9.py; package-si-v9.py; test-si-v9.py. Não executar consolidadores antigos. PDF, kit completo e kit social 08 são atuais. Recuperação anterior: bbc6e6c. Produção, DNS, Instagram e fabricação não foram autorizados nem executados.
+
+---
+
+## Histórico anterior / superado quando conflitar com a edição 08
+
 # SINAPSE SI / edição 07 / vigente em 19.10.2026
 
 Caio pediu menos texto, apresentação mais artística e todas as roupas com frente e costas. /book agora é uma galeria navegável com materiais, tipografia, aplicações e referências; o leitor completo fica recolhido. PDF visual com 40 páginas 1920 × 1080 e 5,639 caracteres nativos, contra 21.124 na edição 06. Fontes incorporadas e zero texto fora dos limites.

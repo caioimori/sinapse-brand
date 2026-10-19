@@ -164,7 +164,11 @@ def same_direction(d,reference):
     a=AreaPen(None);parse_path(d,a);b=AreaPen(None);parse_path(reference,b)
     return reverse(d) if a.value*b.value<0 else d
 
-glyph['R']=glyph['P']+same_direction(corners([(W/2,3*T),(W/2+17,3*T),(W,H),(W-17,H)],[2.54,9.38,0,0]),glyph['P'])
+# R revision: the diagonal starts in the upper edge of the bowl beam. Its
+# unfilleted root overlaps the full beam thickness, removing the detached knee.
+R_LEG_WIDTH=15.92
+R_LEG=poly((W/2-R_LEG_WIDTH/2,2*T),(W/2+R_LEG_WIDTH/2,2*T),(W,H),(W-R_LEG_WIDTH,H))
+glyph['R']=glyph['P']+same_direction(R_LEG,glyph['P'])
 glyph.update({'$':glyph['S']+same_direction(rect(W/2-3,-6,6,H+12),glyph['S']),
 '€':glyph['C']+same_direction(rect(-4,17,60,5)+rect(-4,27,60,5),glyph['C']),
 '<':poly((38,0),(50,0),(12,H/2),(50,H),(38,H),(0,H/2)),
@@ -203,7 +207,7 @@ def build(ttf):
         parse_path(paths[name],TransformPen(target,(SCALE,0,0,-SCALE,0,700)))
         fontglyphs[name]=pen.glyph() if ttf else pen.getCharString()
     fb.setupHorizontalMetrics(adv);fb.setupHorizontalHeader(ascent=1060,descent=-340,lineGap=0)
-    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.200','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.200','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Selective cut terminals, circular returns and softened diagonal shoulders. Master S I N A P E retained. Portuguese Latin accents included.'})
+    fb.setupNameTable({'familyName':'SNPS Display','styleName':'Regular','uniqueFontIdentifier':'SINAPSE:SNPSDisplay:1.300','fullName':'SNPS Display Regular','psName':'SNPSDisplay-Regular','version':'Version 1.300','copyright':'Copyright 2026 SINAPSE. Original display extension based on the SINAPSE logo.','description':'Wide uppercase display. Selective cut terminals, circular returns and softened diagonal shoulders. Master S I N A P E retained. Portuguese Latin accents included.'})
     fb.setupOS2(sTypoAscender=1060,sTypoDescender=-340,sTypoLineGap=0,usWinAscent=1060,usWinDescent=340,sCapHeight=700,sxHeight=700,fsType=0)
     if ttf:fb.setupGlyf(fontglyphs)
     else:fb.setupCFF('SNPSDisplay-Regular',{'FullName':'SNPS Display Regular','FamilyName':'SNPS Display','Weight':'Regular'},fontglyphs,{})
@@ -216,7 +220,7 @@ def outline(value,size=100):
         name=names.get(ch,names.get(ch.upper(),'.notdef'));gs[name].draw(TransformPen(pen,(size/1000,0,0,-size/1000,x,size*.7)));x+=adv[name][0]*size/1000
     return pen.getCommands(),max(0,x-GAP*SCALE*size/1000)
 data={'family':'SNPS Display','version':'1.000','capHeight':700,'unitsPerEm':1000,'stroke':140,'returnRadius':70,'outerShoulderRadius':140,'innerReturnRadius':round(2.54*SCALE,3),'tracking':round(GAP*SCALE,3),'sourceStroke':T,'sourceRadius':R,'sourceGap':GAP,'glyphs':len(order),'coverage':''.join(glyph),'lowercase':'Uppercase forms','masterLetters':'SINAPE','status':'Custom extension for review; master outlines preserved.','metrics':{ch:adv[names[ch]][0]/1000 for ch in glyph},'outlines':{ch:outline(ch,100)[0] for ch in glyph}}
-data.update({'version':'1.200','cornerGrammar':{'terminal':{'radius':0,'source':'I, P lower-left, S open ends, N open ends'},'return':{'radius':R,'source':'S, A, P, E circular turns and counters'},'shoulder':{'radius':T,'source':'N outer vertical-to-diagonal transitions'},'innerKnee':{'radius':2.54,'source':'N inner stem-to-horizontal return'}},'construction':'Selective per-corner radii; square terminals retained. Diagonal extensions are interpretations, not recovered original glyphs.'})
+data.update({'version':'1.300','cornerGrammar':{'terminal':{'radius':0,'source':'I, P lower-left, S open ends, N open ends'},'return':{'radius':R,'source':'S, A, P, E circular turns and counters'},'shoulder':{'radius':T,'source':'N outer vertical-to-diagonal transitions'},'innerKnee':{'radius':2.54,'source':'N inner stem-to-horizontal return'}},'construction':'Selective per-corner radii; square terminals retained. Diagonal extensions are interpretations, not recovered original glyphs.'})
 (F/'SNPSDisplay-spec.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
 (ROOT/'lib/si/display-font.ts').write_text('export const DISPLAY_METRICS:Record<string,number> = '+json.dumps(data['metrics'],ensure_ascii=False)+';\nexport const DISPLAY_PATHS:Record<string,string> = '+json.dumps(data['outlines'],ensure_ascii=False)+';\n',encoding='utf8',newline='\n')
 (F/'SNPSDisplay-LICENSE.txt').write_text('SNPS Display — SINAPSE, 2026.\nCustom lettering extension for SINAPSE brand use, including installation, editable compositions and embedding. Not a redistributed third-party font. Existing logo ownership remains with its respective rights holder.\nUppercase display design, including on lowercase keys. Newly drawn letters are a proposal for review.\n',encoding='utf8')

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "7.0-proposal",
+  "version": "8.0-proposal",
   "stage": "art_direction_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
@@ -547,7 +547,7 @@
       {
         "family": "SNPS Display",
         "file": "public/si-v2/fonts/SNPSDisplay-Regular.ttf",
-        "sha256": "625364283c44b5d162b14c8aaf54ac75d5a62e30df32d3cae2b38f1f972a30ac",
+        "sha256": "9b97636883da3bf4d8e7a8f0f265797e884dde9447cbdc274fbde411c5c36df3",
         "license_file": "public/si-v2/fonts/SNPSDisplay-LICENSE.txt"
       },
       {
@@ -612,7 +612,17 @@
       "source": "Idv_SNPS.pdf / page 8",
       "contour": "public/si-v2/symbol-circle/source.json",
       "status": "user-selected existing symbol",
-      "limit": "Raster contour recovery; original Bezier unavailable"
+      "limit": "Raster contour recovery; original Bezier unavailable",
+      "variants": [
+        "circle",
+        "free"
+      ],
+      "standalone_contour": "public/si-v2/symbol-free/source.json",
+      "standalone_rule": "Exact inner S contour from selected circle symbol, positive fill; no redraw."
+    },
+    "display_font_revision": {
+      "version": "1.300",
+      "changed": "R/r and accented R only; diagonal starts at upper edge of bowl beam, square connected root. Original master letters and advances unchanged."
     }
   },
   "voice": {
@@ -762,18 +772,18 @@
       "ofertas e fontes factuais"
     ],
     "changed": [
-      "Visual edition 07",
-      "Selected page-8 thin circle S",
-      "All 12 garments with front/back views",
-      "Small front symbol; back phrases",
-      "Circle glass/silver/paper material studies"
+      "R continuity / SNPS Display 1.300",
+      "Exact standalone S from selected circle mark",
+      "Two front-mark variants for all 12 garments",
+      "Profile, 9 posts, 5 highlights, 2 avatars",
+      "53-page visual book / responsive layout and interactive sequences"
     ],
     "rollout": [
-      "inspect responsive browser when connection is restored",
-      "review visual proposal",
-      "validate physical samples"
+      "review new editorial and applications",
+      "authorize production publication separately",
+      "validate physical garment samples"
     ],
-    "recovery": "bb713a2 preserves prior revision; original wordmark masters unchanged."
+    "recovery": "bbc6e6c preserves edition 07; original SNPS/SINAPSE masters unchanged."
   },
   "creative_direction": {
     "name": "Sinal contínuo",
@@ -795,7 +805,7 @@
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
     "supersedes": "Proposal 1.0 rejected by Caio.",
-    "iteration": "Visual brandbook; selected thin circle S; front/back apparel pairing; minimal front mark and back phrases.",
+    "iteration": "Visual edition 08; connected R; circle and standalone S; profile, feed, highlights and individual post sequences.",
     "grammar": [
       "square open terminals",
       "4.69 circular returns",
@@ -830,7 +840,7 @@
       "pieces": 12,
       "tees": 8,
       "hoodies": 4,
-      "data": "data/si/wear-v8.json",
+      "data": "data/si/wear-v9.json",
       "fonts": "public/si-v2/wear-v8/fonts/sources.json",
       "reference_urls": [
         "https://nude-project.com/collections/t-shirts",
@@ -845,9 +855,23 @@
         "Bricolage Grotesque",
         "Space Mono"
       ],
-      "front": "Small thin circle S only",
+      "front": "Small existing S, circle or standalone",
       "back": "Phrase and SNPS SI",
-      "photos": "six photographic sheets / 24 garment views"
+      "photos": "six circle sheets plus six standalone sheets / 48 garment views; generated concepts",
+      "provenance": [
+        "public/si-v2/wear-v8/provenance.json",
+        "public/si-v2/wear-v9/provenance.json"
+      ]
+    },
+    "social": {
+      "data": "data/si/social-v9.json",
+      "posts": 9,
+      "carousels": 3,
+      "carousel_frames": 5,
+      "highlights": 5,
+      "highlight_frames": 4,
+      "avatars": 2,
+      "status": "editorial proposal, not applied to Instagram"
     }
   }
 }
