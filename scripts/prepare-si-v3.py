@@ -44,7 +44,7 @@ for name in names:
         else:parts.append(f'<path d="{path}"/>')
         if len(words)>1:
             # The descriptor shares the master cap line and baseline.
-            second,sw=outline(words[1],100);gap=33.28*70/46.9
+            second,sw=outline(words[1],100);gap=json.loads((R/'data/si/signatures.json').read_text())['descriptorGap']*70/46.9
             parts.append(f'<path d="{second}" transform="translate({width+gap} 0)"/>');width+=gap+sw
         w=width+60;h=height+60;geometry='<g transform="translate(30 30)">'+''.join(parts)+'</g>'
     for theme in ['dark','light']:

@@ -1,3 +1,19 @@
+# SINAPSE SI — handoff / edição 06
+
+## Estado vigente — 19/10/2026
+
+Pedido: retirar urgentemente o grafismo entre ideia e ação, abrir o espaço entre logo e SI/School/House/Growth, criar roupas com referências Nude Project e Coinbase Shop e frases de IA. Original SNPS/SINAPSE, preto/branco e assinaturas em uma linha preservados.
+
+Implementado: 64 assinaturas de descritores atualizadas; espaço real de uma altura de letra, 46,90 unidades (+41%). Sem mudança na fonte corporativa ou nos mestres. House agora tem apenas frase e assinatura normal. Livro/leitor/kit 06 excluem o grafismo rejeitado e o OOH antigo; nenhuma opção nova de símbolo adotada.
+
+Collection 03: oito camisetas, quatro moletons, 12 SVGs nativos e seis novos pares fotográficos gerados. Frase sugerida por Caio em camiseta e moletom; Superintelligence, humor de IA e humanidade. Cormorant Garamond Italic, Caveat, Anton e Fraunces Italic com OFL; fontes de estampa, sem substituir a tipografia corporativa.
+
+TypeScript e 101 verificações geométricas passaram. PDF: 60 páginas, 21.034 caracteres nativos e zero erros de limites. Prévia inspecionada em 320/390/768/1440 px e breakpoints 700/1000; filtros 8/4, consulta de SVG, Dark/Light e páginas afetadas do leitor. Kit conferido por CRC/SHA. Build de produção não executado por RAM abaixo de 4 GiB. Evidência: SINAPSE-SI-V6-QA.md e qa/v6-*.json.
+
+Reutilizar http://127.0.0.1:3256/studio/wear . Checkout knowledge/sinapse-si-brandbook; branch feat/sinapse-si-brandbook-20261016, PR #11. Preservar CANON do checkout principal. Geradores correntes no README; consolidadores históricos reintroduzem decisões superadas. Sem produção, DNS, redes ou fabricação.
+
+## Histórico abaixo — decisões superadas quando conflitantes
+
 # SINAPSE SI — handoff / edição 05
 
 ## Atualização vigente — rejeição das três opções

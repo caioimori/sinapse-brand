@@ -48,7 +48,7 @@ def bridge(x,y,w=900,fill='url(#metal)'):
     # A passage, with two quiet rails and square terminals. Graphic, not a logo.
     return f'<g transform="translate({x} {y}) scale({w/900})" fill="none" stroke="{fill}" stroke-width="36" stroke-linecap="butt" stroke-linejoin="round"><path d="M0 170H310L500 0H900"/><path d="M0 270H350L540 100H900"/></g>'
 svg('passage',bridge(90,250),1080,800)
-svg('poster-house',logo('snps-house')+txt('Entre ideia',70,360,95,face='bold')+txt('e ação.',70,470,95,face='bold')+logo('snps',70,780,940)+footer('HOUSE / INTELIGÊNCIA QUE GANHA FORMA'))
+svg('poster-house',logo('snps-house')+txt('Entre ideia',70,360,95,face='bold')+txt('e ação.',70,470,95,face='bold')+footer('HOUSE / INTELIGÊNCIA QUE GANHA FORMA'))
 svg('poster-school',logo('sinapse-school')+txt('A próxima',70,350,100,face='bold')+txt('versão',70,465,100,face='bold')+txt('é sua.',70,580,100,face='bold')+txt('T04',60,1030,205,'url(#metal)','display',950)+txt('Aprender. Experimentar. Construir.',70,1130,30)+footer('SCHOOL / LISTA DE INTERESSE'))
 body=logo('sinapse-growth',theme='light')+txt('Crescer é',70,355,100,'#171717','bold')+txt('construir',70,470,100,'#171717','bold')+txt('continuidade.',70,585,100,'#171717','bold',940)
 for i in range(9):body+=signal(70+i*52,760+i*24,6,'#171717',.08+i*.07)

@@ -1,0 +1,53 @@
+[
+  {
+    "path": "/studio/wear",
+    "status": 200,
+    "bytes": 33204
+  },
+  {
+    "path": "/book",
+    "status": 200,
+    "bytes": 31117
+  },
+  {
+    "path": "/studio/downloads",
+    "status": 200,
+    "bytes": 87306
+  },
+  {
+    "path": "/si-v2/SINAPSE-SI-Brandbook-06.pdf",
+    "status": 200,
+    "bytes": 15583551,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/SINAPSE-SI-Kit-06.zip",
+    "status": 200,
+    "bytes": 27361135,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v6/print-01.svg",
+    "status": 200,
+    "bytes": 57273,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v6/print-12.svg",
+    "status": 200,
+    "bytes": 64042,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/wear-v6/look-6.webp",
+    "status": 200,
+    "bytes": 189072,
+    "sha256_matches_local": true
+  },
+  {
+    "path": "/si-v2/logos/snps-school-solid-dark.svg",
+    "status": 200,
+    "bytes": 5041,
+    "sha256_matches_local": true
+  }
+]

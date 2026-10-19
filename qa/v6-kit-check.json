@@ -1,0 +1,13 @@
+{
+  "files": 324,
+  "crc": "passed",
+  "sha256_readback": "passed",
+  "archive_bytes": 27361135,
+  "excluded": [
+    "Passagem",
+    "rejected symbol proposals",
+    "old apparel",
+    "books 02–05",
+    "third-party reference photos"
+  ]
+}

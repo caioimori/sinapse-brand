@@ -1,29 +1,26 @@
-# SINAPSE SI — edição 05
+# SINAPSE SI — edição 06
 
-Prévia local: http://127.0.0.1:3256/ . Estudo atual de símbolo: /studio/symbol . Brandbook: /book . Construção da fonte: /studio/typography . Referências: /studio/research . Arquivos: /studio/downloads .
+Prévia local: http://127.0.0.1:3256/studio/wear . Livro: /book . Assinaturas: /studio/identity . Arquivos: /studio/downloads . Reutilizar servidor e aba existentes.
 
-Sinal contínuo: os dois logos originais permanecem. Assinaturas sempre em uma linha, incluindo SNPS SI. A extensão SNPS Display 1.200 revê K, J, F, W e Z, preservando H e os mestres. A direção editorial deriva da análise de 199 pranchas em seis cases, principalmente OXA AI e Buff.
+Mestres SNPS e SINAPSE intactos. Todas as assinaturas permanecem horizontais; espaço até o descritor ampliado de 33,28 para 46,90 unidades do mestre. A fonte corporativa SNPS Display 1.200 não foi alterada neste lote.
 
-60 páginas 1920 × 1080; texto nativo e fontes incorporadas. 80 assinaturas, 49 templates, 18 composições de aplicação/anatomia, 12 ícones Signals 04, fonte OTF/TTF/WOFF2 e estudos fotográficos identificados. Collection 02: 12 propostas de roupas com estampas em curvas. Passagem foi rejeitado; livro/kit 05 permanecem como acervo, com aviso no leitor.
+Passagem e a imagem de campanha que o continha saíram do livro e das aplicações atuais. PDF 06: 60 páginas 1920 × 1080, texto nativo e fontes incorporadas. Nenhum novo ícone foi escolhido.
 
-Recorte vigente: as três propostas anteriores foram rejeitadas. /studio/symbol agora documenta o S original, extraído sem redesenho dos dois mestres. Uso isolado em avaliação, sem ícone novo aprovado. Cinco páginas de PDF, 16 SVGs e kit próprio. Gerar: python scripts/build-symbol-origin.py. Verificar pelo gate: python scripts/test-symbol-origin.py. Origem e limites: docs/SINAPSE-ORIGEM-TRACO.md. TypeScript, build isolado e 34 provas passaram; revisão visual web permanece pendente por bloqueio da política do navegador.
+Collection 03: oito camisetas e quatro moletons, 12 estampas originais em curvas e seis pares fotográficos conceituais. Fontes de expressão licenciadas por OFL. Nude Project orienta modelagem e linguagem tipográfica; Coinbase Shop orienta cultura de tecnologia.
 
-Fonte vigente: CANON.md, brand-system.json, components/si-v2, data/si, lib/si e public/si-v2. O endereço si-v2 permanece para preservar os links. A revisão corrente é 05.
+Geradores atuais, nesta ordem:
 
-Reutilizar o servidor 3256. Instalação: npm ci. Desenvolvimento: npm run dev -- --hostname 127.0.0.1 --port 3256.
+```powershell
+python scripts/build-si-v6-signatures.py
+python scripts/build-si-v4-assets.py
+python scripts/build-si-v6-wear.py
+python scripts/build-si-v6-book.py
+python scripts/consolidate-si-v6.py
+python scripts/package-si-v6.py
+```
 
-Gerar em ordem:
+O gerador de roupas cria as estampas e pranchas; os seis mockups foram gerados e revisados separadamente. Origem e prompts: public/si-v2/wear-v6/provenance.json. Não executar consolidadores ou livros históricos sobre a edição atual.
 
-1. python scripts/build-snps-display.py
-2. python scripts/prepare-si-v3.py
-3. node scripts/export-si-v3.mjs
-4. python scripts/build-si-v5-wear.py
-5. python scripts/build-si-v5-book.py
-6. python scripts/consolidate-si-v5.py
-7. python scripts/package-si-v5.py
+Testes proporcionais pelo gate: scripts/test-si-v6.py e node node_modules/typescript/bin/tsc --noEmit. 101 verificações e TypeScript passaram. Livro sem texto fora da página; kit com CRC e SHA conferidos. Evidências em docs/SINAPSE-SI-V6-QA.md e qa/v6-*.json.
 
-Os dois utilitários com nome v3 continuam compartilhados. Não rodar geradores históricos de book/consolidação sobre o estudo atual: o consolidator 05 reintroduz status anteriores de Passagem. Renders existentes são o fallback canônico quando as saídas locais de geração não estão disponíveis.
-
-Verificações: npm run typecheck; node scripts/test-si-artwork.mjs; python scripts/test-snps-display.py; python scripts/test-si-v5-geometry.py. Comandos de build/suíte respeitam C:/rrq/tools/gate.mjs. Build isolado: SI_BUILD_DIR=.next-verify, mínimo de 4 GiB livres de RAM e 10 GB em C:.
-
-Evidências: docs/SINAPSE-SI-V5-QA.md e qa/v5-*.json. PR #11 / issue #10. Branch de proposta, sem produção, DNS, redes ou fabricação.
+Build de produção deste lote não executado: RAM observada abaixo do piso de 4 GiB. Prévia local revisada, sem produção, DNS, postagem ou fabricação. PR #11 / issue #10; branch feat/sinapse-si-brandbook-20261016.

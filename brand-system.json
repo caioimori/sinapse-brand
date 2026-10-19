@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "brand_id": "sinapse-si",
-  "version": "5.0-proposal",
+  "version": "6.0-proposal",
   "stage": "art_direction_for_review",
   "strategy": {
     "positioning": "Ecossistema de inteligência aplicada que conecta educação, software e crescimento.",
@@ -590,7 +590,7 @@
     ],
     "display_font_spec": "public/si-v2/fonts/SNPSDisplay-spec.json",
     "icons": "Signals 04 / 12 SVGs",
-    "signature_rule": "One horizontal line; descriptor shares cap line and baseline, never below. Complete original prefix retained; word gap 33.28 source units.",
+    "signature_rule": "One horizontal line and shared cap line/baseline. Original prefix curves retained; descriptor gap 46.90 source units, equal to one cap height (previously 33.28).",
     "symbol_study": {
       "status": "source_letter_study_for_review",
       "selected": null,
@@ -599,6 +599,13 @@
       "document": "public/si-v2/symbol-origin/SINAPSE-Origem-do-Traco.pdf",
       "route": "/studio/symbol",
       "note": "All three prior proposals rejected. Verbatim source S isolated as a construction study; no approved new icon."
+    },
+    "signature_spacing": {
+      "revision": 6,
+      "sourceCapHeight": 46.9,
+      "descriptorGap": 46.9,
+      "previousDescriptorGap": 33.28,
+      "rule": "One source cap height between immutable logo and descriptor; one horizontal baseline."
     }
   },
   "voice": {
@@ -748,18 +755,17 @@
       "ofertas e fontes factuais"
     ],
     "changed": [
-      "horizontal signatures and SNPS SI",
-      "K J F W Z optical revision",
-      "passage graphic",
-      "12 minimal apparel concepts",
-      "60-page book"
+      "descriptor spacing 46.90 source units",
+      "rejected graphic removed from current book and applications",
+      "12 new apparel prints and six photographic concepts",
+      "current 60-page book and curated kit 06"
     ],
     "rollout": [
-      "revisar edição 05",
-      "validar palavras críticas e protótipos",
+      "revisar edição 06",
+      "validar protótipos físicos",
       "aplicar por canal autorizado"
     ],
-    "recovery": "fd288e8 preserves revision 04; original logo files unchanged."
+    "recovery": "05ddeea preserves the previous revision; original logo masters unchanged."
   },
   "creative_direction": {
     "name": "Sinal contínuo",
@@ -781,7 +787,7 @@
     ],
     "tool_colors": "Native tool logos in contextual applications; not a brand accent.",
     "supersedes": "Proposal 1.0 rejected by Caio.",
-    "iteration": "Horizontal signatures only, including SNPS SI; revised K J F W Z; passage replaces isolated house symbol; 12 new minimal apparel concepts.",
+    "iteration": "Remove rejected graphic from current book and applications; open descriptor spacing by 41%; Collection 03 with editorial, handwritten, condensed and expressive serif prints.",
     "grammar": [
       "square open terminals",
       "4.69 circular returns",
@@ -810,6 +816,20 @@
         "reason": "Caio rejected as incongruent with existing lettering.",
         "date": "2026-10-17"
       }
-    ]
+    ],
+    "apparel": {
+      "collection": "03",
+      "pieces": 12,
+      "tees": 8,
+      "hoodies": 4,
+      "data": "data/si/wear-v6.json",
+      "fonts": "public/si-v2/wear-v6/fonts/sources.json",
+      "reference_urls": [
+        "https://nude-project.com/collections/t-shirts",
+        "https://nude-project.com/collections/hoodies",
+        "https://coinbaseshop.com/"
+      ],
+      "exact_artwork": "SVG outlines; generated photographs are concept visualizations"
+    }
   }
 }

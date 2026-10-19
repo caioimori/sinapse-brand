@@ -1,0 +1,7 @@
+{
+  "revision": 6,
+  "sourceCapHeight": 46.9,
+  "descriptorGap": 46.9,
+  "previousDescriptorGap": 33.28,
+  "rule": "One source cap height between immutable logo and descriptor; one horizontal baseline."
+}

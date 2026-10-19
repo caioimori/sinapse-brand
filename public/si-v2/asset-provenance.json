@@ -1,5 +1,5 @@
 {
-  "version": "5.0-proposal",
+  "version": "6.0-proposal",
   "basis": "Caio 16/10/2026: dark first, light mode, SNPS and monochrome preserved, realistic Coinbase-inspired apparel, native tool colors.",
   "generator": "OpenAI image generation, six referenced image studies",
   "images": [
@@ -202,5 +202,18 @@
     "path_sha256": "644f405ed39eb5afc62d334e8e02622b410c1b62974da48bb666d87cdba2312f",
     "materials": "Existing material definitions clipped inside exact source silhouette. No generated raster.",
     "visual_limit": "Native vectors/PDF reviewed; current web UI unverified after browser-policy denial."
+  },
+  "revision_06": {
+    "apparel": "wear-v6/provenance.json",
+    "font_licenses": "wear-v6/fonts/sources.json",
+    "vector_generator": "scripts/build-si-v6-wear.py",
+    "signatures": "scripts/build-si-v6-signatures.py",
+    "descriptor_spacing": "46.90 source units; original logo paths unchanged",
+    "removed_from_current": "Passagem, old OOH with rejected graphic, Collection 02 and old PDFs",
+    "reference_urls": [
+      "https://nude-project.com/collections/t-shirts",
+      "https://nude-project.com/collections/hoodies",
+      "https://coinbaseshop.com/"
+    ]
   }
 }
